@@ -1,0 +1,9 @@
+torch>=2.0
+numpy>=1.24
+
+# Trimming.  Pure Python, so it installs with pip on Windows too.
+cutadapt>=4.0
+
+# Optional: per-nucleotide structure tracks in data/features.py.
+# Without it those tracks are zeros and a warning is printed.
+ViennaRNA>=2.6

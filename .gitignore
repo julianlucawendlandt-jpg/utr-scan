@@ -1,0 +1,8 @@
+/fastq
+*.zip
+/sratoolkit.3.4.1-win64
+__pycache__/
+bin/
+cache/
+work/
+ref/
