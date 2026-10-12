@@ -31,7 +31,12 @@ import numpy as np
 
 
 def _torch():
+    import warnings
     import torch
+    # Informational only (sparse CSR is "beta"; invariant checks are off by
+    # default); they repeat once per worker and bury real errors in the logs.
+    warnings.filterwarnings("ignore", message="Sparse CSR tensor support is in beta")
+    warnings.filterwarnings("ignore", message="Sparse invariant checks are implicitly disabled")
     return torch
 
 
@@ -135,11 +140,28 @@ def fit_torch(prob, ybin, prior_sd=1.0, init=None, max_iter=200, tol=1e-8, refre
         return (-ll + 0.5 * lam * float(bt @ bt)) / N, ll
 
     def information(p, q):
-        """A^T diag(N/q) A - Xbar^T diag(N) Xbar + lam I, chunked."""
+        """Fisher information + lam I, chunked, as a SUM OF SQUARES.
+
+        Algebraically I = A^T diag(N/q) A - Xbar^T diag(N) Xbar, but computing
+        that difference in float32 cancels catastrophically when the two
+        terms are close, and rounding can leave it indefinite (seen on real
+        data: a permuted-feature fit at 5 nt).  The same matrix is
+
+            I = sum_bins (N_t / q_b) d_b d_b^T,   d_b = a_b - q_b xbar_t(b)
+
+        (expand it: the cross terms sum to -2 N_t xbar xbar^T and the last
+        term to +N_t xbar xbar^T, because a transcript's a_b sum to xbar_t
+        and its q_b sum to 1).  A sum of outer products is positive
+        semi-definite by construction, in any precision.
+        """
         K = tp.K
         w_bin = N_t[tp.bin_tx] / torch.clamp(q, min=1e-300)
         I = torch.zeros(K, K, dtype=f64, device=device)
         pv = (tp.val * p[tp.row].to(torch.float32))
+        # xbar_t = sum_j p_j x_j per transcript, float64 (T x K is small)
+        Xbar = torch.zeros(tp.T * K, dtype=f64, device=device)
+        Xbar.index_add_(0, tp.seg[tp.row] * K + tp.col, pv.to(f64))
+        Xbar = Xbar.view(tp.T, K)
         for t0, t1 in tp.chunks:
             n0, n1 = int(tp.tx_nnz_start[t0]), int(tp.tx_nnz_start[t1])
             if n1 <= n0:
@@ -150,16 +172,30 @@ def fit_torch(prob, ybin, prior_sd=1.0, init=None, max_iter=200, tol=1e-8, refre
             idx = (tp.bin[tp.row[n0:n1]] - blo) * K + tp.col[n0:n1]
             A.index_add_(0, idx, pv[n0:n1])
             A = A.view(bhi - blo, K)
+            # centre each bin on its transcript: d_b = a_b - q_b xbar_t
+            A -= (q[blo:bhi].unsqueeze(1) * Xbar[tp.bin_tx[blo:bhi]]).to(torch.float32)
             sw = torch.sqrt(w_bin[blo:bhi]).to(torch.float32).unsqueeze(1)
             As = A * sw
             I += (As.T @ As).to(f64)
-        Xbar = torch.zeros(tp.T * K, dtype=torch.float32, device=device)
-        Xbar.index_add_(0, tp.seg[tp.row] * K + tp.col, pv)
-        Xbar = Xbar.view(tp.T, K)
-        Xs = Xbar * torch.sqrt(N_t).to(torch.float32).unsqueeze(1)
-        I -= (Xs.T @ Xs).to(f64)
         I += lam * torch.eye(K, dtype=f64, device=device)
         return I
+
+    def factor(I):
+        """Cholesky with escalating jitter.  The information matrix only sets
+        the step direction (the float64 line search decides acceptance), so a
+        diagonal nudge is always safe; it is needed only if float32 rounding
+        leaves I fractionally indefinite."""
+        L_, info_ = torch.linalg.cholesky_ex(I)
+        scale = torch.diag(I).abs().max()
+        eye = torch.eye(tp.K, dtype=f64, device=device)
+        for jitter in (1e-6, 1e-4, 1e-2, 1.0):
+            if int(info_) == 0:
+                return L_
+            L_, info_ = torch.linalg.cholesky_ex(I + jitter * scale * eye)
+        if int(info_) == 0:
+            return L_
+        # last resort: steepest ascent scaled by the diagonal
+        return torch.diag(torch.sqrt(torch.clamp(torch.diag(I), min=1e-12)))
 
     obj, ll = objective(beta)
     it, converged, L_, age, n_refresh = 0, False, None, refresh, 0
@@ -174,11 +210,7 @@ def fit_torch(prob, ybin, prior_sd=1.0, init=None, max_iter=200, tol=1e-8, refre
         grad = _spmv(torch, tp.Xt, ratio * p - N_t[tp.seg] * p) - lam * beta
         fresh = age >= refresh or L_ is None
         if fresh:
-            I = information(p, q)
-            L_, info_ = torch.linalg.cholesky_ex(I)
-            if int(info_) != 0:
-                I += 1e-6 * torch.diag(I).abs().max() * torch.eye(tp.K, dtype=f64, device=device)
-                L_ = torch.linalg.cholesky(I)
+            L_ = factor(information(p, q))
             age, n_refresh = 0, n_refresh + 1
         step = torch.cholesky_solve(grad.unsqueeze(1), L_).squeeze(1)
         t = 1.0
