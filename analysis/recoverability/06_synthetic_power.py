@@ -1,0 +1,339 @@
+"""Synthetic recoverability: power versus depth and effect size.
+
+    python -m analysis.recoverability.06_synthetic_power --dataset gse174329_eif3b \
+        [--truths A,B,C,D,E] [--depths 5,10,20,50,100,200,500] [--sizes 0,1,2]
+        [--n-sim 3] [--n-null-sim 6] [--noise multinomial|dm] [--bin 10] [--workers 4]
+
+Everything real except the counts:
+  * transcripts, sequences, lengths, structure tracks and chromosomes come
+    from the dataset's panel (the same transcripts 03 analyses)
+  * the positional component of the truth is the real data's position-only
+    fit (rep1, all chromosomes, 1 nt positional bins)
+  * per-transcript depth follows the real leader-read distribution, rescaled
+    to a target median
+  * noise: multinomial, or Dirichlet-multinomial with alpha calibrated on the
+    real replicate pair (data/synthetic.py: calibrate_concentration)
+
+Truths (planted on top of position; feature columns are the standardised
+tracks in features.py, so effect sizes are in log-occupancy units):
+
+  A  position only                                  (defines the null)
+  B  + sequence: a fixed random +/-10 nt window pattern, scaled to SD s
+  C  + structure: +s per SD of pairing ahead of the 40S (slow before a stem)
+  D  + start recognition: strong Kozak +k, weak -k at AUG start windows
+  E  C and D together
+
+Sizes are indexed (0, 1, 2) -> s in SIZE_S, k in SIZE_K.
+
+Two replicates are drawn independently from the same truth.  The analysis is
+03's (same folds, same training sets, same fitter), fitted on rep1 and scored
+on held-out chromosomes in rep1 and rep2; simulated replicates are
+exchangeable, so the second training direction would add nothing.
+
+Each dataset fits the positional model plus only the PLANTED family; truth A
+(no effect) fits all three families and so provides, for every family and
+depth, the exact null distribution of held-out Delta-LL.  "Beats the null"
+is then: Delta-LL above the 95th percentile of the truth-A values at the same
+depth and noise.  This replaces per-dataset feature permutations, which
+would cost ~100x more to approximate the same distribution.
+
+  recovered  = cross-replicate CI excludes 0  AND  beats the truth-A null
+
+Writes synthetic/power_<dataset>_<noise>.tsv (per simulation) and
+synthetic/power_curve_<dataset>_<noise>.tsv (P(recovered) per family x depth
+x size -- the input to the Step 14 summary and Figure 4).
+"""
+
+import argparse
+import importlib
+import os
+import sys
+import time
+import zlib
+
+import numpy as np
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+
+from analysis.recoverability import config as C
+from analysis.recoverability import likelihood as L
+from analysis.recoverability import splits
+from analysis.recoverability.bootstrap import delta_ll_ci
+from data.synthetic import calibrate_concentration, draw_counts
+
+EFF = importlib.import_module("analysis.recoverability.03_nested_effects")
+
+SIZE_S = (0.1, 0.25, 0.5)
+SIZE_K = (0.25, 0.5, 1.0)
+FAMILIES = {"SW": L.MODELS["SW"], "ST": L.MODELS["ST"], "AUG": L.MODELS["AUG"]}
+PLANTED = {"A": [], "B": ["SW"], "C": ["ST"], "D": ["AUG"], "E": ["ST", "AUG"]}
+
+
+def planted_components(ft, size, seed=12345):
+    """{family: (eta component over all positions, true coefficient dict)}."""
+    s, k = SIZE_S[size], SIZE_K[size]
+    rng = np.random.default_rng(seed)
+    # SW: one fixed random pattern, centred per offset, scaled so the
+    # resulting eta component has SD s across positions.
+    pat = rng.normal(0, 1, (21, 4))
+    pat -= pat.mean(1, keepdims=True)
+    sw = ft.cat["sw"]
+    flat = np.concatenate([pat.reshape(-1), [0.0]])
+    e_sw = flat[np.where(sw < 0, len(flat) - 1, sw)].sum(1)
+    scale = s / e_sw.std()
+    e_sw *= scale
+    # ST: slowdown before structure -- occupancy rises with pairing ahead.
+    e_st = s * ft.cont["paired"][:, 1]
+    # AUG: strong / adequate / weak Kozak at AUG start windows.
+    kz = ft.cat["kozak"][:, 0]
+    e_aug = np.where(kz == 0, k, np.where(kz == 2, -k, 0.0))
+    return {"SW": (e_sw, {"sw": (pat * scale).reshape(-1)}),
+            "ST": (e_st, {"paired": np.array([0.0, s]), "dG": np.zeros(2)}),
+            "AUG": (e_aug, {"kozak": np.array([k, 0.0, -k])})}
+
+
+def coef_agreement(fit, truth):
+    """Correlation of fitted vs planted coefficients over the planted blocks,
+    each centred where only contrasts are identified."""
+    a, b = [], []
+    for blk, v in truth.items():
+        if blk not in fit.slices:
+            continue
+        f = fit.coef(blk)
+        if blk == "sw":
+            f = (f.reshape(21, 4) - f.reshape(21, 4).mean(1, keepdims=True)).reshape(-1)
+        elif blk == "kozak":
+            f, v = f - f.mean(), v - v.mean()
+        a.append(f)
+        b.append(v)
+    if not a:
+        return np.nan
+    a, b = np.concatenate(a), np.concatenate(b)
+    if a.std() == 0 or b.std() == 0:
+        return np.nan
+    return float(np.corrcoef(a, b)[0, 1])
+
+
+def sign_ok(fit, fam):
+    if fam == "ST":
+        return float(fit.coef("paired")[1] > 0)
+    if fam == "AUG":
+        kz = fit.coef("kozak")
+        return float(kz[0] > kz[2])
+    return np.nan
+
+
+def analyse(ft, y, reads, species, b, truth_coefs, families, folds_used):
+    """Fit on rep1 per fold, score held-out chromosomes in rep1 and rep2."""
+    all_ok = np.minimum(reads["rep1"], reads["rep2"]) >= EFF.MIN_READS
+    res, base = {}, {}
+    for fam in families:
+        blocks = FAMILIES[fam]
+        per, coef_r, signs = {}, [], []
+        for k in folds_used:
+            tr_mask, te_mask = splits.train_test(ft.chrom, species, k)
+            te = np.nonzero(te_mask & all_ok)[0]
+            tr = np.nonzero(tr_mask & (reads["rep1"] >= EFF.MIN_READS))[0]
+            if len(te) == 0 or len(tr) == 0:
+                continue
+            if k not in base:
+                p0 = L.Problem(ft, tr, b, [])
+                f0 = L.fit(p0, p0.bin_counts(y["rep1"]), prior_sd=EFF.PRIOR_SD)
+                q0 = L.Problem(ft, te, b, [])
+                base[k] = (f0, {B: L.loglik(f0, q0, q0.bin_counts(y[B]), per_transcript=True)
+                                for B in ("rep1", "rep2")})
+            f0, ll0 = base[k]
+            pt = L.Problem(ft, tr, b, blocks)
+            f = L.fit(pt, pt.bin_counts(y["rep1"]), prior_sd=EFF.PRIOR_SD, init=f0.as_dict())
+            if fam in truth_coefs:
+                coef_r.append(coef_agreement(f, truth_coefs[fam]))
+                signs.append(sign_ok(f, fam))
+            pe = L.Problem(ft, te, b, blocks)
+            for B in ("rep1", "rep2"):
+                ll, n = L.loglik(f, pe, pe.bin_counts(y[B]), per_transcript=True)
+                dd = per.setdefault(B, [[], []])
+                dd[0].append(ll - ll0[B][0])
+                dd[1].append(n)
+        for B, (dl, nl) in per.items():
+            ci = delta_ll_ci(np.concatenate(dl), np.concatenate(nl), n_boot=300, seed=0)
+            res[(fam, ("rep1", B))] = {"dll": ci["read_weighted"], "lo": ci["rw_lo"],
+                                       "hi": ci["rw_hi"],
+                                       "coef_r": np.nanmean(coef_r) if coef_r else np.nan,
+                                       "sign_ok": np.nanmean(signs) if signs else np.nan,
+                                       "n_tx": ci["n_transcripts"]}
+    return res
+
+
+# ---------------------------------------------------------------------------
+# Worker processes: each loads the panel once and simulates many datasets.
+# ---------------------------------------------------------------------------
+_S = {}
+
+
+def _sim_init(key, b, noise, folds_arg):
+    d = C.DATASETS[key]
+    recs, meta, reps_real, reads_real, ft, y_real = EFF.prepare(key)
+    n_folds = splits.load(d["species"])["n_folds"]
+    folds_used = (list(range(n_folds)) if folds_arg == "all"
+                  else [int(x) for x in folds_arg.split(",")])
+    r0 = reps_real[0]
+    pp = L.Problem(ft, np.arange(len(recs)), 1, [])
+    fpos = L.fit(pp, pp.bin_counts(y_real[r0]), prior_sd=EFF.PRIOR_SD)
+    eta_pos = np.zeros(len(ft.seg))
+    eta_pos[pp.pos] = pp.X @ fpos.beta
+    alpha = (C.measured("synthetic_dm_alpha_" + key, {}).get("alpha")
+             if noise == "dm" else None)
+    _S.update(ft=ft, n=len(recs), eta_pos=eta_pos,
+              depth_real=reads_real[r0].astype(float), species=d["species"], b=b,
+              noise=noise, alpha=alpha, folds_used=folds_used)
+
+
+def _sim_one(task):
+    truth, size, target, sim = task
+    S = _S
+    ft = S["ft"]
+    comps = planted_components(ft, size)
+    eta = S["eta_pos"].copy()
+    truth_coefs = {}
+    for fam in PLANTED[truth]:
+        eta += comps[fam][0]
+        truth_coefs[fam] = comps[fam][1]
+    # crc32, not hash(): str hashing is randomised per process
+    rng = np.random.default_rng(zlib.crc32("{}|{}|{}|{}|{}".format(
+        truth, size, target, sim, S["noise"]).encode()))
+    depth = rng.poisson(S["depth_real"] * target / np.median(S["depth_real"]))
+    y = {}
+    for rep in ("rep1", "rep2"):
+        v = np.zeros(len(ft.seg))
+        for t in range(S["n"]):
+            a, e = ft.tx_start[t], ft.tx_start[t + 1]
+            v[a:e] = draw_counts(eta[a:e], depth[t], rng, S["alpha"])
+        y[rep] = v
+    reads = {rep: np.bincount(ft.seg, weights=y[rep], minlength=S["n"]) for rep in y}
+    families = list(FAMILIES) if truth == "A" else PLANTED[truth]
+    return task, analyse(ft, y, reads, S["species"], S["b"], truth_coefs, families,
+                         S["folds_used"])
+
+
+def power_curve_rows(rows, key, noise, b):
+    """P(recovered) per family x depth x size; null = truth-A 95th percentile."""
+    sims = {}
+    for r in rows:
+        k = (r["truth"], r["model"], int(float(r["size_index"])),
+             int(float(r["target_median_depth"])), int(float(r["seed"])), r["replicate"])
+        sims.setdefault(k, {})[r["metric"]] = float(r["value"])
+    null_vals = {}
+    for (truth, fam, _size, depth, _seed, rep), m in sims.items():
+        if truth == "A" and rep == "rep1->rep2":
+            null_vals.setdefault((fam, depth), []).append(m["dll"])
+    groups = {}
+    for (truth, fam, size, depth, _seed, rep), m in sims.items():
+        if truth == "A" or rep != "rep1->rep2" or fam not in PLANTED[truth]:
+            continue
+        q = null_vals.get((fam, depth), [])
+        thr = float(np.percentile(q, 95)) if q else np.nan
+        ok = m["lo"] > 0 and (np.isnan(thr) or m["dll"] > thr)
+        g = groups.setdefault((truth, fam, size, depth),
+                              {"ok": [], "dll": [], "coef_r": [], "sign": [],
+                               "thr": thr, "n_null": len(q)})
+        g["ok"].append(ok)
+        g["dll"].append(m["dll"])
+        g["coef_r"].append(m["coef_r"])
+        g["sign"].append(m["sign_ok"])
+    out = []
+    for (truth, fam, size, depth), g in sorted(groups.items()):
+        base = {"dataset": "synthetic:" + key, "replicate": "rep1->rep2",
+                "split": "chrom_heldout", "seed": "", "bin_width": b, "model": fam,
+                "truth": truth, "size_index": size, "effect_s": SIZE_S[size],
+                "effect_k": SIZE_K[size], "target_median_depth": depth, "noise": noise,
+                "n_sim": len(g["ok"]), "null_threshold": g["thr"],
+                "n_null_sims": g["n_null"]}
+        out += [dict(base, metric="p_recovered", value=float(np.mean(g["ok"]))),
+                dict(base, metric="mean_dll", value=float(np.mean(g["dll"]))),
+                dict(base, metric="mean_coef_corr", value=float(np.nanmean(g["coef_r"]))),
+                dict(base, metric="sign_recovery", value=float(np.nanmean(g["sign"])))]
+    return out
+
+
+def ensure_alpha(key):
+    if "synthetic_dm_alpha_" + key in C.load_manifest():
+        return
+    recs, meta, reps, reads, ft, y = EFF.prepare(key)
+    if len(reps) < 2:
+        sys.exit("--noise dm needs a dataset with two replicates")
+    pairs = [(t["counts"][reps[0]][:t["msi"] + 3], t["counts"][reps[1]][:t["msi"] + 3])
+             for t in recs]
+    alpha, obs, sim = calibrate_concentration(pairs, np.random.default_rng(0))
+    print("[synth] Dirichlet-multinomial alpha {:.2f} (dispersion ratio {:.2f}, "
+          "simulated {:.2f})".format(alpha, obs, sim), flush=True)
+    C.update_manifest("synthetic_dm_alpha_" + key,
+                      {"alpha": alpha, "observed_ratio": obs, "simulated_ratio": sim,
+                       "resolution": "1 nt, leader through main AUG"})
+
+
+def main():
+    import multiprocessing as mp
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--dataset", default="gse174329_eif3b", choices=sorted(C.DATASETS))
+    ap.add_argument("--truths", default="A,B,C,D,E")
+    ap.add_argument("--depths", default="5,10,20,50,100,200,500")
+    ap.add_argument("--sizes", default="0,1,2")
+    ap.add_argument("--n-sim", type=int, default=3)
+    ap.add_argument("--n-null-sim", type=int, default=6,
+                    help="truth-A simulations per depth (they define the null)")
+    ap.add_argument("--noise", choices=("multinomial", "dm"), default="multinomial")
+    ap.add_argument("--bin", type=int, default=10)
+    ap.add_argument("--workers", type=int, default=None,
+                    help="parallel worker processes; default sized to cores and RAM")
+    ap.add_argument("--folds", default="all",
+                    help="'all' or comma-separated fold indices (cost control; recorded)")
+    args = ap.parse_args()
+    # spawn, not fork: workers may open CUDA, which cannot survive a fork
+    args.workers = args.workers or C.default_workers()
+    C.ensure_layout()
+    t0 = time.time()
+    key = args.dataset
+    if args.noise == "dm":
+        ensure_alpha(key)
+    depths = [int(x) for x in args.depths.split(",")]
+    tasks = []
+    for truth in args.truths.split(","):
+        if truth == "A":
+            tasks += [("A", 0, dp, sim) for dp in depths for sim in range(args.n_null_sim)]
+            continue
+        for size in [int(x) for x in args.sizes.split(",")]:
+            tasks += [(truth, size, dp, sim) for dp in depths for sim in range(args.n_sim)]
+    out = C.results_path("synthetic", "power_{}_{}.tsv".format(key, args.noise))
+    rows = []
+    with mp.get_context("spawn").Pool(args.workers, initializer=_sim_init,
+                 initargs=(key, args.bin, args.noise, args.folds)) as pool:
+        for n_done, ((truth, size, target, sim), res) in enumerate(
+                pool.imap_unordered(_sim_one, tasks), 1):
+            for (fam, (A, B)), v in res.items():
+                base = {"dataset": "synthetic:" + key, "replicate": "{}->{}".format(A, B),
+                        "split": "chrom_heldout", "seed": sim, "bin_width": args.bin,
+                        "model": fam, "n_transcripts": v["n_tx"], "truth": truth,
+                        "planted": fam in PLANTED[truth], "size_index": size,
+                        "effect_s": SIZE_S[size], "effect_k": SIZE_K[size],
+                        "target_median_depth": target, "noise": args.noise,
+                        "cross_replicate": A != B}
+                for m in ("dll", "lo", "hi", "coef_r", "sign_ok"):
+                    rows.append(dict(base, metric=m, value=v[m]))
+            print("[synth] {}/{} truth {} size {} depth {} sim {} ({:.0f}s)".format(
+                n_done, len(tasks), truth, size, target, sim, time.time() - t0), flush=True)
+            if n_done % 10 == 0:
+                C.write_tsv(rows, out)              # checkpoint
+    C.write_tsv(rows, out)
+    curve = power_curve_rows(C.read_tsv(out), key, args.noise, args.bin)
+    C.write_tsv(curve, C.results_path("synthetic", "power_curve_{}_{}.tsv".format(key, args.noise)))
+    C.update_manifest("synthetic_" + key + "_" + args.noise, {
+        "truths": args.truths, "depths": args.depths, "sizes": args.sizes,
+        "SIZE_S": SIZE_S, "SIZE_K": SIZE_K, "n_sim": args.n_sim,
+        "n_null_sim": args.n_null_sim, "bin": args.bin, "folds": args.folds,
+        "null": "95th percentile of truth-A held-out dLL at the same depth",
+        "training_direction": "rep1 only, scored in rep1 and rep2"})
+    print("[synth] -> {} ({:.0f}s)".format(out, time.time() - t0))
+
+
+if __name__ == "__main__":
+    main()

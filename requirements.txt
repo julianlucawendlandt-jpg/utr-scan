@@ -1,9 +1,16 @@
-torch>=2.0
-numpy>=1.24
+# Python packages for the pipeline (pip route; conda users: environment.yml).
+# bowtie2 is NOT a Python package: bioconda on Linux/macOS, or unzip the
+# official mingw build under bin/ on Windows (see README).
+numpy>=2.2,<2.3
+scipy>=1.16,<1.17
+matplotlib>=3.10,<3.11
+scikit-learn>=1.8,<1.9
+openpyxl
+psutil
+torch>=2.5                # CUDA build used automatically when a GPU is present
 
 # Trimming.  Pure Python, so it installs with pip on Windows too.
-cutadapt>=4.0
+cutadapt>=5.0
 
-# Optional: per-nucleotide structure tracks in data/features.py.
-# Without it those tracks are zeros and a warning is printed.
-ViennaRNA>=2.6
+# Per-nucleotide structure tracks (required by the recoverability analysis).
+ViennaRNA>=2.7

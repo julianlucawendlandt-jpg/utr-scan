@@ -106,7 +106,10 @@ def align_and_count(bowtie2, fastq, out_npz, chrom_lengths, offset=0,
     """
     have_counts = up_to_date(out_npz, fastq) and _stored_offset(out_npz) == offset
     have_cov = coverage_npz is None or up_to_date(coverage_npz, fastq)
-    if have_counts and have_cov:
+    # Per-read 5' position + aligned span, for length-resolved P-site rules.
+    reads_npz = out_npz.replace("5ends.npz", "reads.npz")
+    have_reads = up_to_date(reads_npz, fastq)
+    if have_counts and have_cov and have_reads:
         print("[align] {} is up to date (offset {}), skipping".format(out_npz, offset))
         return out_npz
 
@@ -151,9 +154,9 @@ def align_and_count(bowtie2, fastq, out_npz, chrom_lengths, offset=0,
         pump.start()
 
     sam = io.TextIOWrapper(proc.stdout, encoding="utf-8", errors="replace")
-    counts, cov, stats = accumulate_tracks(
+    counts, cov, stats, reads = accumulate_tracks(
         sam, chrom_lengths, offset=offset, min_mapq=min_mapq,
-        coverage=coverage_npz is not None)
+        coverage=coverage_npz is not None, keep_reads=True)
     sam.close()
     if proc.wait() != 0:
         raise RuntimeError("bowtie2 exited with code {}".format(proc.returncode))
@@ -172,6 +175,15 @@ def align_and_count(bowtie2, fastq, out_npz, chrom_lengths, offset=0,
         np.savez_compressed(tmpc, **cov.to_npz())
         os.replace(tmpc, coverage_npz)
         print("[align] -> {}".format(coverage_npz))
+
+    tmpr = reads_npz + ".part.npz"
+    flat = {}
+    for (chrom, strand), (pos, span) in reads.items():
+        flat["{}|{}|pos".format(chrom, strand)] = pos
+        flat["{}|{}|span".format(chrom, strand)] = span
+    np.savez_compressed(tmpr, **flat, _offset=np.array(offset))
+    os.replace(tmpr, reads_npz)
+    print("[align] -> {}".format(reads_npz))
 
     tmp = out_npz + ".part.npz"
     np.savez_compressed(

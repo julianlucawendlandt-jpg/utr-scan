@@ -51,10 +51,11 @@ DATASETS = {
         # footprints and drops the tail that would multimap anyway.
         "min_length": 25,
         # Unselected 40S, two runs.  GEO calls them "human unselected 40S 1"
-        # and "2" (GSM4131410 / GSM4131411, SRX7026380 / SRX7026381); the
-        # SRX -> SRR mapping below is BY ORDER AND UNVERIFIED -- confirm on GEO
-        # before treating rep1/rep2 as meaning anything.  They are not
-        # interchangeable: median insert is 34 nt in one and 27 in the other.
+        # and "2" (GSM4131410 / GSM4131411, SRX7026380 / SRX7026381).  The
+        # SRR mapping was verified against SRA runinfo: SRR10315320 is
+        # GSM4131410 (HiSeq X Ten, 100 nt), SRR10315321 is GSM4131411 (HiSeq
+        # 2500, 101 nt).  They are not interchangeable: different
+        # instruments, and median insert is 34 nt in one and 27 in the other.
         "fractions": {
             "ssu": "SRR10315320",
             "ssu_rep2": "SRR10315321",
@@ -82,6 +83,27 @@ DATASETS = {
         # GSM4131412 / SRX7026382.  One replicate only; the selected
         # fractions were not repeated.
         "fractions": {"ssu": "SRR10315322"},
+    },
+    # Replicated eIF3B Sel-TCP-seq, HEK293T (GSE174329).  GSM5291862 and
+    # GSM5291863, resolved to runs through SRA runinfo rather than by order.
+    #
+    # The deposited reads are ALREADY adapter-trimmed (GEO: cutadapt + FASTX
+    # quality filtering): on 100k reads per run, neither the small-RNA
+    # adapter, the TruSeq/linker adapter nor the yeast RA3 occurs once, and
+    # lengths run 10-89 nt.  The adapter below is the McGlincy-Ingolia linker
+    # this protocol ligates, kept only as a guard -- it matches nothing --
+    # so the same cutadapt call still applies the quality and length filters.
+    # min_length matches the other human presets so that selected and
+    # unselected libraries are filtered identically.
+    "human-eif3b-replicated": {
+        "genome": "GRCh38",
+        "adapter": "AGATCGGAAGAGCACACGTCTGAA",
+        "poly_a": False,
+        "min_length": 25,
+        "fractions": {
+            "ssu_rep1": "SRR14510018",   # GSM5291862, eIF3B Sel-TCP-seq rep 1
+            "ssu_rep2": "SRR14510019",   # GSM5291863, eIF3B Sel-TCP-seq rep 2
+        },
     },
 }
 

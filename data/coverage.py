@@ -183,7 +183,7 @@ class CountTracks(object):
 
 
 def accumulate_tracks(lines, chrom_lengths, offset=0, min_mapq=10,
-                      coverage=False):
+                      coverage=False, keep_reads=False):
     """Stream SAM text once -> 5'-end counts, and optionally read coverage.
 
     Both tracks are built in the SAME pass.  The SAM stream is a pipe from
@@ -211,6 +211,10 @@ def accumulate_tracks(lines, chrom_lengths, offset=0, min_mapq=10,
     # bytes per assigned read, aggregated into sorted unique positions at the
     # end -- see CountTracks for why this is not a dense genome array.
     raw = defaultdict(lambda: array.array("l"))
+    # keep_reads: also the aligned reference span of every assigned read, so a
+    # length-dependent P-site rule (or the 3' end, pos5 +/- span - 1) can be
+    # derived later without re-aligning.  Same order as `raw`.
+    spans = defaultdict(lambda: array.array("H")) if keep_reads else None
     # Coverage stays dense, because a difference array has to be. It is only
     # ever asked for on the abundance fraction, which a 40S-only experiment
     # does not have, and it is allocated per chromosome on first touch so an
@@ -232,6 +236,8 @@ def accumulate_tracks(lines, chrom_lengths, offset=0, min_mapq=10,
         pos0, strand = five_prime_position(flag, pos1, cigar, offset=offset)
         if 0 <= pos0 < chrom_lengths[rname]:
             raw[(rname, strand)].append(pos0)
+            if spans is not None:
+                spans[(rname, strand)].append(min(cigar_reference_span(cigar), 65535))
             stats["assigned"] += 1
         else:
             stats["out_of_bounds"] += 1
@@ -262,6 +268,14 @@ def accumulate_tracks(lines, chrom_lengths, offset=0, min_mapq=10,
             dense = np.cumsum(v[:-1], dtype=np.int32)
             nz = np.nonzero(dense)[0]
             cov.data[k] = (nz.astype(np.int64), dense[nz])
+    if spans is not None:
+        reads = {}
+        for key, buf in raw.items():
+            pos = np.frombuffer(buf, dtype=np.int64 if buf.itemsize == 8 else np.int32).astype(np.int64)
+            sp_ = np.frombuffer(spans[key], dtype=np.uint16)
+            order = np.argsort(pos, kind="stable")
+            reads[key] = (pos[order], sp_[order].copy())
+        return counts, cov, dict(stats), reads
     return counts, cov, dict(stats)
 
 

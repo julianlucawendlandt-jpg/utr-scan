@@ -6,3 +6,10 @@ bin/
 cache/
 work/
 ref/
+/downloads
+/ref
+.bootstrap_ok
+results/**/.done/
+results/**/logs/
+*.lock
+/results
