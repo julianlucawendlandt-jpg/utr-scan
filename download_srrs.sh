@@ -48,7 +48,7 @@ THREADS=4
 # -----------------------------
 # Directories
 # -----------------------------
-BASE_DIR="$PWD/SRA_downloads"
+BASE_DIR="$PWD"
 
 SRA_DIR="$BASE_DIR/sra"
 FASTQ_DIR="$BASE_DIR/fastq"
