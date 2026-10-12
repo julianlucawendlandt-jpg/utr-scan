@@ -255,18 +255,18 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--fastq-dir", default=os.path.join(ROOT, "fastq"))
     ap.add_argument("--skip-fastq", action="store_true")
-    ap.add_argument("--min-free-gb", type=float, default=70.0,
-                    help="refuse to start with less free disk than this")
+    ap.add_argument("--margin-gb", type=float, default=None,
+                    help="working space required on top of missing downloads "
+                         "(default: 20 GB, +12 GB if the human reference is absent)")
     args = ap.parse_args()
-    free = shutil.disk_usage(ROOT).free / GB
-    log("free disk {:.0f} GB".format(free))
-    if free < args.min_free_gb:
-        sys.exit("\nOnly {:.0f} GB free; the raw data, references and intermediates need about "
-                 "{:.0f} GB.\nFree space or pass --min-free-gb to override.\n".format(
-                     free, args.min_free_gb))
+    margin = args.margin_gb
+    if margin is None:
+        margin = 20.0 + (0.0 if os.path.exists(os.path.join(REF, "GRCh38.fa")) else 12.0)
     manifest = {"fastq": {}}
     if not args.skip_fastq:
-        fetch_fastqs(args.fastq_dir, manifest)
+        fetch_fastqs(args.fastq_dir, manifest, margin)
+    else:
+        check_disk(0, margin)
     fetch_yeast()
     fetch_human(manifest)
     fetch_rrna()
