@@ -1,24 +1,25 @@
 #!/usr/bin/env bash
-# One-time setup of a Linux server: environment, data, references, self-test.
+# One-time setup of a Linux server: environment, tools, self-test.
 #
-#   bash scripts/remote/bootstrap.sh              # everything
-#   bash scripts/remote/bootstrap.sh --skip-data  # environment + tests only
+#   bash scripts/remote/bootstrap.sh
 #
-# Safe to re-run: every stage skips what is already done and verified.
+# Downloads NO data.  FASTQs and references come from download_srrs.sh
+# (repo root), run after this script with the utrscan environment active.
+#
+# Safe to re-run: every stage skips what is already done.
 #   1. Miniforge (conda + mamba) in ~/miniforge3, if no conda is present
-#   2. the `utrscan` environment from environment.yml
+#   2. the `utrscan` environment from environment.yml (includes sra-tools,
+#      parallel and pigz for download_srrs.sh)
 #   3. PyTorch: CUDA build if an NVIDIA GPU is visible, CPU build otherwise
-#   4. tool check: bowtie2, cutadapt, ViennaRNA, torch/CUDA
-#   5. FASTQs (ENA, MD5-verified) + references   -> scripts/remote/fetch_data.py
-#   6. unit tests, including the GPU-vs-CPU backend agreement test
+#   4. tool check: bowtie2, cutadapt, ViennaRNA, sra-tools, torch/CUDA
+#   5. unit tests, including the GPU-vs-CPU backend agreement test
 set -euo pipefail
 
-SKIP_DATA=0
 SKIP_TESTS=0
 for a in "$@"; do
   case "$a" in
-    --skip-data) SKIP_DATA=1 ;;
     --skip-tests) SKIP_TESTS=1 ;;
+    --skip-data) ;;   # accepted for compatibility: this script downloads nothing
     *) echo "unknown option $a"; exit 2 ;;
   esac
 done
@@ -87,19 +88,17 @@ say "checking tools"
 bowtie2-align-s --version | head -n1
 bowtie2-build-s --version | head -n1
 echo "cutadapt $(cutadapt --version)"
+for t in prefetch fasterq-dump pigz parallel; do
+  command -v "$t" >/dev/null 2>&1 || { echo "missing $t (needed by download_srrs.sh)"; exit 1; }
+done
+echo "sra-tools $(prefetch --version 2>/dev/null | grep -o '[0-9][0-9.]*' | head -n1), pigz, parallel: ok"
 python -c "import RNA; print('ViennaRNA', RNA.__version__)"
 python -c "import numpy, scipy, sklearn, matplotlib; print('numpy', numpy.__version__, 'scipy', scipy.__version__)"
 python -c "
 from analysis.recoverability import config as C
 r = C.resources(); print('[bootstrap] resources', r, '-> backend', C.backend(), 'workers', C.default_workers())"
 
-# --- 5. data ----------------------------------------------------------------
-if [ "$SKIP_DATA" = 0 ]; then
-  say "downloading and verifying data and references (~22 GB FASTQ + ~12 GB references)"
-  python scripts/remote/fetch_data.py
-fi
-
-# --- 6. tests ---------------------------------------------------------------
+# --- 5. tests ---------------------------------------------------------------
 if [ "$SKIP_TESTS" = 0 ]; then
   say "unit tests"
   python -m analysis.recoverability.tests.test_likelihood
@@ -109,4 +108,7 @@ if [ "$SKIP_TESTS" = 0 ]; then
 fi
 
 touch "$REPO/.bootstrap_ok"
-say "done.  Start the pipeline with:   bash scripts/remote/run_pipeline.sh"
+say "done.  Next:
+    conda activate $ENV_NAME
+    bash download_srrs.sh                    # FASTQs + references (skips what is present)
+    bash scripts/remote/run_pipeline.sh      # the whole analysis"

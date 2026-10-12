@@ -24,9 +24,8 @@ git clone <your repo URL> utr-scan      # or: rsync -a utr-scan/ server:utr-scan
 cd utr-scan
 ```
 
-**b + c. One-time setup.** This installs the environment, downloads and
-verifies all data, and runs the self-tests (about 30–60 minutes, mostly
-download time):
+**b. One-time setup** of the environment and tools, plus self-tests (about
+10–20 minutes). This step downloads no data.
 
 ```bash
 bash scripts/remote/bootstrap.sh
@@ -35,13 +34,25 @@ bash scripts/remote/bootstrap.sh
 It does all of this, and is safe to re-run if interrupted:
 
 - installs Miniforge (conda) if there is none, and creates the `utrscan`
-  environment from `environment.yml`;
+  environment from `environment.yml`, which includes bowtie2, cutadapt,
+  ViennaRNA, sra-tools, GNU parallel and pigz;
 - installs PyTorch, the CUDA build if a GPU is visible and the CPU build if not;
-- checks bowtie2, cutadapt and ViennaRNA;
-- downloads the 8 FASTQs from ENA (MD5-verified) and the yeast and human
-  references, the human GTF filtered to MANE Select exactly as in v1;
+- checks every tool;
 - runs the unit tests, including the GPU-vs-CPU agreement test when a GPU is
   present.
+
+**c. Download the data.** This fetches the 8 FASTQs from SRA and all
+references: yeast and human genomes, annotation (human GTF filtered to MANE
+Select, as in v1), bowtie2 indexes and rRNA sequences. Anything already
+present is skipped, so re-run it after an interruption.
+
+```bash
+conda activate utrscan
+bash download_srrs.sh
+```
+
+On a machine with fewer than 16 cores, set `THREADS=2` near the top of the
+script.
 
 **d. Run everything**
 

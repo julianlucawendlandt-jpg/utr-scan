@@ -21,5 +21,8 @@ dependencies:
   - bowtie2=2.5
   - viennarna=2.7
   - cutadapt=5
+  - sra-tools>=3       # download_srrs.sh: prefetch + fasterq-dump
+  - parallel           # download_srrs.sh: GNU parallel
+  - pigz               # download_srrs.sh: parallel gzip
   - curl
   - pip
