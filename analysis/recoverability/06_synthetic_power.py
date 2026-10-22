@@ -215,43 +215,70 @@ def _sim_one(task):
                          S["folds_used"])
 
 
+def wilson(k, n, z=1.96):
+    """Wilson score 95% interval for a binomial proportion k/n."""
+    if n == 0:
+        return np.nan, np.nan
+    p = k / n
+    den = 1 + z * z / n
+    c = (p + z * z / (2 * n)) / den
+    h = z * np.sqrt(p * (1 - p) / n + z * z / (4 * n * n)) / den
+    return float(max(0.0, c - h)), float(min(1.0, c + h))
+
+
 def power_curve_rows(rows, key, noise, b):
-    """P(recovered) per family x depth x size; null = truth-A 95th percentile."""
+    """P(recovered) per family x depth x size; null = truth-A 95th percentile.
+
+    Two directions, computed from the same simulations:
+      rep1->rep2  the study's definition of "recovered" (cross-replicate CI
+                  excludes 0 AND beats the truth-A null), unchanged;
+      rep1->rep1  the same rule applied within the simulated library (null
+                  from truth-A rep1->rep1).  This is the test a single-library
+                  dataset (yeast) can actually perform, so its power is the
+                  relevant qualifier there.  Reported as metric names with a
+                  "_within" suffix; never used for the cross-replicate status.
+    Every proportion carries a Wilson 95% interval (p_lo, p_hi).
+    """
     sims = {}
     for r in rows:
         k = (r["truth"], r["model"], int(float(r["size_index"])),
              int(float(r["target_median_depth"])), int(float(r["seed"])), r["replicate"])
         sims.setdefault(k, {})[r["metric"]] = float(r["value"])
-    null_vals = {}
-    for (truth, fam, _size, depth, _seed, rep), m in sims.items():
-        if truth == "A" and rep == "rep1->rep2":
-            null_vals.setdefault((fam, depth), []).append(m["dll"])
-    groups = {}
-    for (truth, fam, size, depth, _seed, rep), m in sims.items():
-        if truth == "A" or rep != "rep1->rep2" or fam not in PLANTED[truth]:
-            continue
-        q = null_vals.get((fam, depth), [])
-        thr = float(np.percentile(q, 95)) if q else np.nan
-        ok = m["lo"] > 0 and (np.isnan(thr) or m["dll"] > thr)
-        g = groups.setdefault((truth, fam, size, depth),
-                              {"ok": [], "dll": [], "coef_r": [], "sign": [],
-                               "thr": thr, "n_null": len(q)})
-        g["ok"].append(ok)
-        g["dll"].append(m["dll"])
-        g["coef_r"].append(m["coef_r"])
-        g["sign"].append(m["sign_ok"])
     out = []
-    for (truth, fam, size, depth), g in sorted(groups.items()):
-        base = {"dataset": "synthetic:" + key, "replicate": "rep1->rep2",
-                "split": "chrom_heldout", "seed": "", "bin_width": b, "model": fam,
-                "truth": truth, "size_index": size, "effect_s": SIZE_S[size],
-                "effect_k": SIZE_K[size], "target_median_depth": depth, "noise": noise,
-                "n_sim": len(g["ok"]), "null_threshold": g["thr"],
-                "n_null_sims": g["n_null"]}
-        out += [dict(base, metric="p_recovered", value=float(np.mean(g["ok"]))),
-                dict(base, metric="mean_dll", value=float(np.mean(g["dll"]))),
-                dict(base, metric="mean_coef_corr", value=float(np.nanmean(g["coef_r"]))),
-                dict(base, metric="sign_recovery", value=float(np.nanmean(g["sign"])))]
+    for direction, suffix in (("rep1->rep2", ""), ("rep1->rep1", "_within")):
+        null_vals = {}
+        for (truth, fam, _size, depth, _seed, rep), m in sims.items():
+            if truth == "A" and rep == direction:
+                null_vals.setdefault((fam, depth), []).append(m["dll"])
+        groups = {}
+        for (truth, fam, size, depth, _seed, rep), m in sims.items():
+            if truth == "A" or rep != direction or fam not in PLANTED[truth]:
+                continue
+            q = null_vals.get((fam, depth), [])
+            thr = float(np.percentile(q, 95)) if q else np.nan
+            ok = m["lo"] > 0 and (np.isnan(thr) or m["dll"] > thr)
+            g = groups.setdefault((truth, fam, size, depth),
+                                  {"ok": [], "dll": [], "coef_r": [], "sign": [],
+                                   "thr": thr, "n_null": len(q)})
+            g["ok"].append(ok)
+            g["dll"].append(m["dll"])
+            g["coef_r"].append(m["coef_r"])
+            g["sign"].append(m["sign_ok"])
+        for (truth, fam, size, depth), g in sorted(groups.items()):
+            n_ok, n = int(np.sum(g["ok"])), len(g["ok"])
+            lo, hi = wilson(n_ok, n)
+            base = {"dataset": "synthetic:" + key, "replicate": direction,
+                    "split": "chrom_heldout", "seed": "", "bin_width": b, "model": fam,
+                    "truth": truth, "size_index": size, "effect_s": SIZE_S[size],
+                    "effect_k": SIZE_K[size], "target_median_depth": depth, "noise": noise,
+                    "n_sim": n, "null_threshold": g["thr"], "n_null_sims": g["n_null"]}
+            out += [dict(base, metric="p_recovered" + suffix, value=n_ok / n if n else np.nan,
+                         p_lo=lo, p_hi=hi, n_recovered=n_ok),
+                    dict(base, metric="mean_dll" + suffix, value=float(np.mean(g["dll"]))),
+                    dict(base, metric="mean_coef_corr" + suffix,
+                         value=float(np.nanmean(g["coef_r"])) if np.isfinite(g["coef_r"]).any() else np.nan),
+                    dict(base, metric="sign_recovery" + suffix,
+                         value=float(np.nanmean(g["sign"])) if np.isfinite(g["sign"]).any() else np.nan)]
     return out
 
 
@@ -287,6 +314,9 @@ def main():
                     help="parallel worker processes; default sized to cores and RAM")
     ap.add_argument("--folds", default="all",
                     help="'all' or comma-separated fold indices (cost control; recorded)")
+    ap.add_argument("--tag", default="",
+                    help="suffix for the output files and manifest section, so a new run "
+                         "never overwrites a frozen one (e.g. --tag n50)")
     args = ap.parse_args()
     # spawn, not fork: workers may open CUDA, which cannot survive a fork
     args.workers = args.workers or C.default_workers()
@@ -303,7 +333,8 @@ def main():
             continue
         for size in [int(x) for x in args.sizes.split(",")]:
             tasks += [(truth, size, dp, sim) for dp in depths for sim in range(args.n_sim)]
-    out = C.results_path("synthetic", "power_{}_{}.tsv".format(key, args.noise))
+    stem = "{}_{}{}".format(key, args.noise, "_" + args.tag if args.tag else "")
+    out = C.results_path("synthetic", "power_{}.tsv".format(stem))
     rows = []
     with mp.get_context("spawn").Pool(args.workers, initializer=_sim_init,
                  initargs=(key, args.bin, args.noise, args.folds)) as pool:
@@ -325,13 +356,16 @@ def main():
                 C.write_tsv(rows, out)              # checkpoint
     C.write_tsv(rows, out)
     curve = power_curve_rows(C.read_tsv(out), key, args.noise, args.bin)
-    C.write_tsv(curve, C.results_path("synthetic", "power_curve_{}_{}.tsv".format(key, args.noise)))
-    C.update_manifest("synthetic_" + key + "_" + args.noise, {
+    C.write_tsv(curve, C.results_path("synthetic", "power_curve_{}.tsv".format(stem)))
+    C.update_manifest("synthetic_" + stem, {
         "truths": args.truths, "depths": args.depths, "sizes": args.sizes,
         "SIZE_S": SIZE_S, "SIZE_K": SIZE_K, "n_sim": args.n_sim,
         "n_null_sim": args.n_null_sim, "bin": args.bin, "folds": args.folds,
         "null": "95th percentile of truth-A held-out dLL at the same depth",
-        "training_direction": "rep1 only, scored in rep1 and rep2"})
+        "training_direction": "rep1 only, scored in rep1 and rep2",
+        "dm_alpha": C.measured("synthetic_dm_alpha_" + key, {}).get("alpha")
+        if args.noise == "dm" else None,
+        "binomial_ci": "Wilson 95%", "command": " ".join(sys.argv)})
     print("[synth] -> {} ({:.0f}s)".format(out, time.time() - t0))
 
 

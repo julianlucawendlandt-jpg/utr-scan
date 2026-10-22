@@ -17,6 +17,10 @@ import subprocess
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 VERSION = "v1"
 RESULTS = os.path.join(ROOT, "results", "recoverability", VERSION)
+# UTR_RESULTS redirects every read and write to another results tree (used to
+# smoke-test new experiments against a scratch copy of the frozen results).
+# Unset in normal runs.
+RESULTS = os.path.abspath(os.environ.get("UTR_RESULTS", RESULTS))
 PANEL_DIR = os.path.join(ROOT, "cache", "recoverability")
 FASTQ_DIR = os.path.join(ROOT, "fastq")
 

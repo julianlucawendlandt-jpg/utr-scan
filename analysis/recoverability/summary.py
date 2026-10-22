@@ -83,13 +83,19 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dataset", default="gse174329_eif3b")
     ap.add_argument("--noise", default="dm", help="synthetic noise model used for power")
+    ap.add_argument("--power-tag", default="",
+                    help="tag of the synthetic power run to read (06 --tag); default untagged")
+    ap.add_argument("--out", default=None,
+                    help="output table (default summary/recoverability_summary.tsv, the "
+                         "frozen primary summary -- pass a new path for other datasets)")
     args = ap.parse_args()
     C.ensure_layout()
     key = args.dataset
     eff = [r for r in load(C.results_path("effects", "nested_effects.tsv"))
            if r.get("panel", r["dataset"]) == key and r["metric"] == "heldout_dll_read_weighted"]
     nul = [r for r in load(C.results_path("nulls", "shuffle_nulls.tsv")) if r["dataset"] == key]
-    pw = load(C.results_path("synthetic", "power_curve_{}_{}.tsv".format(key, args.noise)))
+    pw = load(C.results_path("synthetic", "power_curve_{}_{}{}.tsv".format(
+        key, args.noise, "_" + args.power_tag if args.power_tag else "")))
     qc = [r for r in load(C.results_path("qc", "qc_summary.tsv"))
           if r["dataset"] == key and r["metric"] == "median_reads_per_leader_ge5"]
     obs_depth = float(np.median([_f(r["value"]) for r in qc])) if qc else np.nan
@@ -169,7 +175,8 @@ def main():
                          "bin_width": r["bin_width"], "model": "{}:{}".format(r["model"], r["condition"]),
                          "metric": "status", "value": "structurally_unidentifiable",
                          "n_transcripts": "", "n_reads": ""})
-    out = C.results_path("summary", "recoverability_summary.tsv")
+    out = args.out or C.results_path("summary", "recoverability_summary.tsv")
+    os.makedirs(os.path.dirname(os.path.abspath(out)), exist_ok=True)
     C.write_tsv(rows, out)
     for r in rows:
         print("{:<38} b={:<3} {}".format(r["model"], r["bin_width"], r["value"]))

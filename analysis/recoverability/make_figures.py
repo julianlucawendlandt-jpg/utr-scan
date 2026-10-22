@@ -100,7 +100,7 @@ def fig1_qc():
     ax[1].set_ylabel("unique footprints in leaders")
     ax[1].set_title("b  leader enrichment", loc="left", color=INK)
     # (c) P-site metagene after the measured rule, rep1
-    for k in keys[:3]:
+    for k in keys:            # all four datasets, yeast included
         pts = sorted((int(r["position"]), f(r["value"])) for r in mg if r["dataset"] == k
                      and r["replicate"] == "rep1" and r["metric"] == "psite_metagene_frac"
                      and r["model"] == "length_resolved")

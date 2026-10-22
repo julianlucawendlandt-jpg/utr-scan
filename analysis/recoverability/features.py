@@ -208,17 +208,26 @@ class FeatureTable(object):
         self.start_center = cat("start_center")
         self.cat = {k: cat(k) for k in CAT_LEVELS}
         self.cont = {}
+        # The (mu, sd) each continuous block was standardised with, kept so a
+        # model fitted on this table can be applied to another table (e.g.
+        # reporter leaders) on the SAME scale.  Recording them changes no
+        # feature value.
+        self.cont_stats = {}
         for k in CONT_DIMS:
             v = cat(k).astype(np.float64)
             if k == "uorf_geom":
                 # Zero away from uORF starts by construction; scale only.
                 sd = v[v != 0].std() if (v != 0).any() else 1.0
-                self.cont[k] = v / (sd if sd > 0 else 1.0)
+                sd = sd if sd > 0 else 1.0
+                self.cont[k] = v / sd
+                self.cont_stats[k] = (0.0, sd)
                 continue
             mu = np.nanmean(v, axis=0)
             v = np.where(np.isnan(v), mu, v)
             sd = v.std(axis=0)
-            self.cont[k] = (v - mu) / np.where(sd > 0, sd, 1.0)
+            sd = np.where(sd > 0, sd, 1.0)
+            self.cont[k] = (v - mu) / sd
+            self.cont_stats[k] = (mu, sd)
         self.n_eval = lens
         self.cds = cds
 
