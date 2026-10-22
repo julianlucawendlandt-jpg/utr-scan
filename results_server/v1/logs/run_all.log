@@ -1,0 +1,135 @@
+[2026-10-12 17:34:52] run_all: 24 groups, hardware {'cpus': 8, 'ram_gb': 62.792274475097656, 'gpu': True, 'gpu_mem_gb': 47.98828125}, backend torch, workers 8
+[2026-10-12 17:34:52] == align
+[2026-10-12 17:34:52] start   align_human-eif3b-replicated   log: results/recoverability/v1/logs/align_human-eif3b-replicated.log
+[2026-10-12 17:34:52] start   align_archer-yeast   log: results/recoverability/v1/logs/align_archer-yeast.log
+[2026-10-12 17:34:52] start   align_human-40s   log: results/recoverability/v1/logs/align_human-40s.log
+[2026-10-12 17:34:52] start   align_human-eif3b   log: results/recoverability/v1/logs/align_human-eif3b.log
+[2026-10-12 17:41:31] done    align_human-eif3b-replicated (6.7 min)
+[2026-10-12 17:47:24] done    align_archer-yeast (12.5 min)
+[2026-10-12 18:03:05] done    align_human-40s (28.2 min)
+[2026-10-12 18:03:05] done    align_human-eif3b (28.2 min)
+[2026-10-12 18:03:05] == inspect
+[2026-10-12 18:03:05] start   inspect   log: results/recoverability/v1/logs/inspect.log
+[2026-10-12 18:03:23] done    inspect (0.3 min)
+[2026-10-12 18:03:23] == offsets
+[2026-10-12 18:03:23] start   offsets   log: results/recoverability/v1/logs/offsets.log
+[2026-10-12 18:03:36] done    offsets (0.2 min)
+[2026-10-12 18:03:36] == annotation
+[2026-10-12 18:03:36] start   annotation_human   log: results/recoverability/v1/logs/annotation_human.log
+[2026-10-12 18:03:36] start   annotation_yeast   log: results/recoverability/v1/logs/annotation_yeast.log
+[2026-10-12 18:08:12] done    annotation_human (4.6 min)
+[2026-10-12 18:08:12] done    annotation_yeast (4.6 min)
+[2026-10-12 18:08:12] == counts
+[2026-10-12 18:08:12] start   counts_gse174329_eif3b   log: results/recoverability/v1/logs/counts_gse174329_eif3b.log
+[2026-10-12 18:08:12] start   counts_gse139131_unsel   log: results/recoverability/v1/logs/counts_gse139131_unsel.log
+[2026-10-12 18:08:12] start   counts_gse139131_eif3b   log: results/recoverability/v1/logs/counts_gse139131_eif3b.log
+[2026-10-12 18:08:12] start   counts_archer_yeast   log: results/recoverability/v1/logs/counts_archer_yeast.log
+[2026-10-12 18:08:14] done    counts_gse174329_eif3b (0.0 min)
+[2026-10-12 18:08:14] done    counts_gse139131_unsel (0.0 min)
+[2026-10-12 18:08:14] done    counts_gse139131_eif3b (0.0 min)
+[2026-10-12 18:08:14] done    counts_archer_yeast (0.0 min)
+[2026-10-12 18:08:14] == qc_tables
+[2026-10-12 18:08:14] start   qc_tables   log: results/recoverability/v1/logs/qc_tables.log
+[2026-10-12 18:08:22] done    qc_tables (0.1 min)
+[2026-10-12 18:08:22] == resolution
+[2026-10-12 18:08:22] start   resolution   log: results/recoverability/v1/logs/resolution.log
+[2026-10-12 18:09:20] done    resolution (1.0 min)
+[2026-10-12 18:09:20] == effects
+[2026-10-12 18:09:20] start   effects_gse174329_eif3b   log: results/recoverability/v1/logs/effects_gse174329_eif3b.log
+[2026-10-12 18:09:20] start   effects_gse139131_unsel   log: results/recoverability/v1/logs/effects_gse139131_unsel.log
+[2026-10-12 18:09:20] start   effects_gse139131_eif3b   log: results/recoverability/v1/logs/effects_gse139131_eif3b.log
+[2026-10-12 18:09:20] start   effects_archer_yeast   log: results/recoverability/v1/logs/effects_archer_yeast.log
+[2026-10-12 18:22:44] done    effects_gse174329_eif3b (13.4 min)
+[2026-10-12 18:22:44] done    effects_gse139131_unsel (13.4 min)
+[2026-10-12 18:22:44] done    effects_gse139131_eif3b (13.4 min)
+[2026-10-12 18:22:44] done    effects_archer_yeast (13.4 min)
+[2026-10-12 18:22:44] == nulls_P_b10
+[2026-10-12 18:22:44] start   nulls_P_b10   log: results/recoverability/v1/logs/nulls_P_b10.log
+[2026-10-12 18:43:20] done    nulls_P_b10 (20.6 min)
+[2026-10-12 18:43:20] == nulls_P_b1
+[2026-10-12 18:43:20] start   nulls_P_b1   log: results/recoverability/v1/logs/nulls_P_b1.log
+[2026-10-12 18:56:18] done    nulls_P_b1 (13.0 min)
+[2026-10-12 18:56:18] == nulls_P_b5
+[2026-10-12 18:56:18] start   nulls_P_b5   log: results/recoverability/v1/logs/nulls_P_b5.log
+[2026-10-12 18:57:12] FAILED  nulls_P_b5 (exit 1, 0.9 min) -- see results/recoverability/v1/logs/nulls_P_b5.log
+[2026-10-12 18:57:12] stopped after a failure.  Fix it, then resume with:
+    python -m analysis.recoverability.run_all --from nulls_P_b5
+[2026-10-12 19:19:04] run_all: 14 groups, hardware {'cpus': 8, 'ram_gb': 62.792274475097656, 'gpu': True, 'gpu_mem_gb': 47.98828125}, backend torch, workers 8
+[2026-10-12 19:19:04] == nulls_P_b5
+[2026-10-12 19:19:04] start   nulls_P_b5   log: results/recoverability/v1/logs/nulls_P_b5.log
+[2026-10-12 19:21:40] run_all: 24 groups, hardware {'cpus': 8, 'ram_gb': 62.792274475097656, 'gpu': True, 'gpu_mem_gb': 47.98828125}, backend torch, workers 8
+[2026-10-12 19:21:40] == align
+[2026-10-12 19:21:40] skip    align_human-eif3b-replicated (done)
+[2026-10-12 19:21:40] skip    align_archer-yeast (done)
+[2026-10-12 19:21:40] skip    align_human-40s (done)
+[2026-10-12 19:21:40] skip    align_human-eif3b (done)
+[2026-10-12 19:21:40] == inspect
+[2026-10-12 19:21:40] skip    inspect (done)
+[2026-10-12 19:21:40] == offsets
+[2026-10-12 19:21:40] skip    offsets (done)
+[2026-10-12 19:21:40] == annotation
+[2026-10-12 19:21:40] skip    annotation_human (done)
+[2026-10-12 19:21:40] skip    annotation_yeast (done)
+[2026-10-12 19:21:40] == counts
+[2026-10-12 19:21:40] skip    counts_gse174329_eif3b (done)
+[2026-10-12 19:21:40] skip    counts_gse139131_unsel (done)
+[2026-10-12 19:21:40] skip    counts_gse139131_eif3b (done)
+[2026-10-12 19:21:40] skip    counts_archer_yeast (done)
+[2026-10-12 19:21:40] == qc_tables
+[2026-10-12 19:21:40] skip    qc_tables (done)
+[2026-10-12 19:21:40] == resolution
+[2026-10-12 19:21:40] skip    resolution (done)
+[2026-10-12 19:21:40] == effects
+[2026-10-12 19:21:40] skip    effects_gse174329_eif3b (done)
+[2026-10-12 19:21:40] skip    effects_gse139131_unsel (done)
+[2026-10-12 19:21:40] skip    effects_gse139131_eif3b (done)
+[2026-10-12 19:21:40] skip    effects_archer_yeast (done)
+[2026-10-12 19:21:40] == nulls_P_b10
+[2026-10-12 19:21:40] skip    nulls_P_b10 (done)
+[2026-10-12 19:21:40] == nulls_P_b1
+[2026-10-12 19:21:40] skip    nulls_P_b1 (done)
+[2026-10-12 19:21:40] == nulls_P_b5
+[2026-10-12 19:21:40] start   nulls_P_b5   log: results/recoverability/v1/logs/nulls_P_b5.log
+[2026-10-12 19:32:36] done    nulls_P_b5 (10.9 min)
+[2026-10-12 19:32:36] == nulls_P_b20
+[2026-10-12 19:32:36] start   nulls_P_b20   log: results/recoverability/v1/logs/nulls_P_b20.log
+[2026-10-12 19:35:29] done    nulls_P_b20 (2.9 min)
+[2026-10-12 19:35:29] == nulls_Y_b1
+[2026-10-12 19:35:29] start   nulls_Y_b1   log: results/recoverability/v1/logs/nulls_Y_b1.log
+[2026-10-12 19:38:23] done    nulls_Y_b1 (2.9 min)
+[2026-10-12 19:38:23] == nulls_Y_b5
+[2026-10-12 19:38:23] start   nulls_Y_b5   log: results/recoverability/v1/logs/nulls_Y_b5.log
+[2026-10-12 19:41:20] done    nulls_Y_b5 (2.9 min)
+[2026-10-12 19:41:20] == nulls_Y_b10
+[2026-10-12 19:41:20] start   nulls_Y_b10   log: results/recoverability/v1/logs/nulls_Y_b10.log
+[2026-10-12 19:45:02] done    nulls_Y_b10 (3.7 min)
+[2026-10-12 19:45:02] == identifiability
+[2026-10-12 19:45:02] start   identifiability   log: results/recoverability/v1/logs/identifiability.log
+[2026-10-12 19:45:06] done    identifiability (0.1 min)
+[2026-10-12 19:45:06] == synthetic_P
+[2026-10-12 19:45:06] start   synthetic_P_dm   log: results/recoverability/v1/logs/synthetic_P_dm.log
+[2026-10-12 19:51:59] done    synthetic_P_dm (6.9 min)
+[2026-10-12 19:51:59] == synthetic_Y
+[2026-10-12 19:51:59] start   synthetic_Y_multinomial   log: results/recoverability/v1/logs/synthetic_Y_multinomial.log
+[2026-10-12 19:54:39] done    synthetic_Y_multinomial (2.7 min)
+[2026-10-12 19:54:39] == chain
+[2026-10-12 19:54:39] start   chain_Y   log: results/recoverability/v1/logs/chain_Y.log
+[2026-10-12 19:54:39] start   chain_P   log: results/recoverability/v1/logs/chain_P.log
+[2026-10-12 19:58:28] done    chain_Y (3.8 min)
+[2026-10-12 20:07:57] done    chain_P (13.3 min)
+[2026-10-12 20:07:57] == depth
+[2026-10-12 20:07:57] start   depth_P   log: results/recoverability/v1/logs/depth_P.log
+[2026-10-12 20:17:01] done    depth_P (9.1 min)
+[2026-10-12 20:17:01] == depth_matched
+[2026-10-12 20:17:01] start   depth_matched   log: results/recoverability/v1/logs/depth_matched.log
+[2026-10-12 20:21:18] done    depth_matched (4.3 min)
+[2026-10-12 20:21:18] == summary
+[2026-10-12 20:21:18] start   summary   log: results/recoverability/v1/logs/summary.log
+[2026-10-12 20:21:18] done    summary (0.0 min)
+[2026-10-12 20:21:18] == figures
+[2026-10-12 20:21:18] start   figures   log: results/recoverability/v1/logs/figures.log
+[2026-10-12 20:21:21] done    figures (0.1 min)
+[2026-10-12 20:21:21] == downstream
+[2026-10-12 20:21:21] start   downstream   log: results/recoverability/v1/logs/downstream.log
+[2026-10-12 20:23:25] done    downstream (2.1 min)
+[2026-10-12 20:23:25] ALL DONE in 1.0 h.  Results: results/recoverability/v1   Figures: results/recoverability/v1/figures

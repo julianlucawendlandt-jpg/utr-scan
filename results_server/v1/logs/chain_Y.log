@@ -1,0 +1,5 @@
+[chain] archer_yeast b=10 fold 0 rep rep1 (29s)
+[chain] archer_yeast b=10 fold 1 rep rep1 (69s)
+[chain] archer_yeast b=10 fold 2 rep rep1 (130s)
+[chain] archer_yeast b=10 fold 3 rep rep1 (225s)
+[chain] done

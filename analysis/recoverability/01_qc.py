@@ -135,8 +135,13 @@ def parse_align_log(preset):
     the log cannot be split on them.  Within one log the runs are processed
     in order, so the n-th cutadapt / bowtie2 report pairs with the n-th run.
     """
-    path = C.results_path("qc", "logs", "align_{}.log".format(preset))
-    if not os.path.exists(path):
+    # run_all.py writes step logs to logs/; the manual runs used qc/logs/.
+    name = "align_{}.log".format(preset)
+    cands = [os.path.join(C.RESULTS, "logs", name), os.path.join(C.RESULTS, "qc", "logs", name)]
+    path = next((p for p in cands if os.path.exists(p)), None)
+    if path is None:
+        print("[qc] WARNING: no alignment log for {} (looked in {}); raw/trimmed/unique "
+              "counts and leader enrichment will be missing".format(preset, ", ".join(cands)))
         return {}
     text = open(path, errors="replace").read()
     runs = re.findall(r"\[align\] cutadapt \| .*?< \S*?([SED]RR\d+)", text)

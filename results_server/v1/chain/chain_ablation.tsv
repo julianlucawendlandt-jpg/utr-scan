@@ -1,0 +1,91 @@
+dataset	replicate	split	seed	bin_width	model	n_transcripts	n_reads	metric	value	best_epoch	ci_lo	ci_hi	cross_replicate
+archer_yeast	rep1	fold0_train	0	10	B	1074	198745	train_dll_per_read	-0.0138641				
+archer_yeast	rep1	fold0_train	1	10	B	1074	198745	train_dll_per_read	-0.0138641				
+archer_yeast	rep1	fold0_train	2	10	B	1074	198745	train_dll_per_read	-0.0138641				
+archer_yeast	rep1	fold0_test		10	B			rate_field_corr_across_seeds	1				
+archer_yeast	rep1	fold0_train	0	10	C	1074	198745	train_dll_per_read	-0.0389932	70			
+archer_yeast	rep1	fold0_train	1	10	C	1074	198745	train_dll_per_read	-0.0271029	80			
+archer_yeast	rep1	fold0_train	2	10	C	1074	198745	train_dll_per_read	0.0772782	130			
+archer_yeast	rep1	fold0_test		10	C			rate_field_corr_across_seeds	0.204046				
+archer_yeast	rep1	fold1_train	0	10	B	862	184241	train_dll_per_read	-0.0196886				
+archer_yeast	rep1	fold1_train	1	10	B	862	184241	train_dll_per_read	-0.0196885				
+archer_yeast	rep1	fold1_train	2	10	B	862	184241	train_dll_per_read	-0.0196886				
+archer_yeast	rep1	fold1_test		10	B			rate_field_corr_across_seeds	1				
+archer_yeast	rep1	fold1_train	0	10	C	862	184241	train_dll_per_read	-0.0213086	100			
+archer_yeast	rep1	fold1_train	1	10	C	862	184241	train_dll_per_read	-0.0377961	70			
+archer_yeast	rep1	fold1_train	2	10	C	862	184241	train_dll_per_read	0.116099	210			
+archer_yeast	rep1	fold1_test		10	C			rate_field_corr_across_seeds	0.148378				
+archer_yeast	rep1	fold2_train	0	10	B	868	182341	train_dll_per_read	-0.0113417				
+archer_yeast	rep1	fold2_train	1	10	B	868	182341	train_dll_per_read	-0.0113417				
+archer_yeast	rep1	fold2_train	2	10	B	868	182341	train_dll_per_read	-0.0113417				
+archer_yeast	rep1	fold2_test		10	B			rate_field_corr_across_seeds	1				
+archer_yeast	rep1	fold2_train	0	10	C	868	182341	train_dll_per_read	0.00972609	140			
+archer_yeast	rep1	fold2_train	1	10	C	868	182341	train_dll_per_read	0.0766879	170			
+archer_yeast	rep1	fold2_train	2	10	C	868	182341	train_dll_per_read	0.0854055	150			
+archer_yeast	rep1	fold2_test		10	C			rate_field_corr_across_seeds	0.318193				
+archer_yeast	rep1	fold3_train	0	10	B	886	185049	train_dll_per_read	-0.00906421				
+archer_yeast	rep1	fold3_train	1	10	B	886	185049	train_dll_per_read	-0.0090642				
+archer_yeast	rep1	fold3_train	2	10	B	886	185049	train_dll_per_read	-0.0090642				
+archer_yeast	rep1	fold3_test		10	B			rate_field_corr_across_seeds	1				
+archer_yeast	rep1	fold3_train	0	10	C	886	185049	train_dll_per_read	-0.0291748	90			
+archer_yeast	rep1	fold3_train	1	10	C	886	185049	train_dll_per_read	-0.0355609	80			
+archer_yeast	rep1	fold3_train	2	10	C	886	185049	train_dll_per_read	-0.0282624	90			
+archer_yeast	rep1	fold3_test		10	C			rate_field_corr_across_seeds	0.952854				
+archer_yeast	rep1->rep1	chrom_heldout	0	10	B	1434	294900	heldout_dll_vs_P	0.00130636		-0.00993158	0.0125736	False
+archer_yeast	rep1->rep1	chrom_heldout	1	10	B	1434	294900	heldout_dll_vs_P	0.00130639		-0.00993157	0.0125736	False
+archer_yeast	rep1->rep1	chrom_heldout	2	10	B	1434	294900	heldout_dll_vs_P	0.00130634		-0.00993159	0.0125736	False
+archer_yeast	rep1->rep1	chrom_heldout	0	10	C	1434	294900	heldout_dll_vs_P	-0.0603646		-0.080481	-0.0408574	False
+archer_yeast	rep1->rep1	chrom_heldout	1	10	C	1434	294900	heldout_dll_vs_P	-0.0450598		-0.0676982	-0.0255246	False
+archer_yeast	rep1->rep1	chrom_heldout	2	10	C	1434	294900	heldout_dll_vs_P	-0.030297		-0.0555918	-0.0086573	False
+gse174329_eif3b	rep1	fold0_train	0	10	B	4760	734949	train_dll_per_read	-0.00103395				
+gse174329_eif3b	rep1	fold0_train	1	10	B	4760	734949	train_dll_per_read	-0.00103395				
+gse174329_eif3b	rep1	fold0_train	2	10	B	4760	734949	train_dll_per_read	-0.00103395				
+gse174329_eif3b	rep1	fold0_test		10	B			rate_field_corr_across_seeds	1				
+gse174329_eif3b	rep1	fold0_train	0	10	C	4760	734949	train_dll_per_read	0.0594015	150			
+gse174329_eif3b	rep1	fold0_train	1	10	C	4760	734949	train_dll_per_read	0.0479707	120			
+gse174329_eif3b	rep1	fold0_train	2	10	C	4760	734949	train_dll_per_read	0.0752443	170			
+gse174329_eif3b	rep1	fold0_test		10	C			rate_field_corr_across_seeds	0.863018				
+gse174329_eif3b	rep1	fold1_train	0	10	B	3862	629811	train_dll_per_read	-0.00405776				
+gse174329_eif3b	rep1	fold1_train	1	10	B	3862	629811	train_dll_per_read	-0.00405776				
+gse174329_eif3b	rep1	fold1_train	2	10	B	3862	629811	train_dll_per_read	-0.00405776				
+gse174329_eif3b	rep1	fold1_test		10	B			rate_field_corr_across_seeds	1				
+gse174329_eif3b	rep1	fold1_train	0	10	C	3862	629811	train_dll_per_read	0.0429019	110			
+gse174329_eif3b	rep1	fold1_train	1	10	C	3862	629811	train_dll_per_read	0.0461296	120			
+gse174329_eif3b	rep1	fold1_train	2	10	C	3862	629811	train_dll_per_read	0.0411027	110			
+gse174329_eif3b	rep1	fold1_test		10	C			rate_field_corr_across_seeds	0.887639				
+gse174329_eif3b	rep1	fold2_train	0	10	B	3749	639870	train_dll_per_read	-0.000497752				
+gse174329_eif3b	rep1	fold2_train	1	10	B	3749	639870	train_dll_per_read	-0.000497754				
+gse174329_eif3b	rep1	fold2_train	2	10	B	3749	639870	train_dll_per_read	-0.00049775				
+gse174329_eif3b	rep1	fold2_test		10	B			rate_field_corr_across_seeds	1				
+gse174329_eif3b	rep1	fold2_train	0	10	C	3749	639870	train_dll_per_read	0.0385129	120			
+gse174329_eif3b	rep1	fold2_train	1	10	C	3749	639870	train_dll_per_read	0.0316877	110			
+gse174329_eif3b	rep1	fold2_train	2	10	C	3749	639870	train_dll_per_read	0.0391633	110			
+gse174329_eif3b	rep1	fold2_test		10	C			rate_field_corr_across_seeds	0.868971				
+gse174329_eif3b	rep1	fold3_train	0	10	B	3792	661682	train_dll_per_read	-0.00122169				
+gse174329_eif3b	rep1	fold3_train	1	10	B	3792	661682	train_dll_per_read	-0.00122168				
+gse174329_eif3b	rep1	fold3_train	2	10	B	3792	661682	train_dll_per_read	-0.00122169				
+gse174329_eif3b	rep1	fold3_test		10	B			rate_field_corr_across_seeds	1				
+gse174329_eif3b	rep1	fold3_train	0	10	C	3792	661682	train_dll_per_read	0.0456322	130			
+gse174329_eif3b	rep1	fold3_train	1	10	C	3792	661682	train_dll_per_read	0.0509803	140			
+gse174329_eif3b	rep1	fold3_train	2	10	C	3792	661682	train_dll_per_read	0.0501862	140			
+gse174329_eif3b	rep1	fold3_test		10	C			rate_field_corr_across_seeds	0.881085				
+gse174329_eif3b	rep1	fold4_train	0	10	B	3859	655501	train_dll_per_read	-0.00294677				
+gse174329_eif3b	rep1	fold4_train	1	10	B	3859	655501	train_dll_per_read	-0.00294677				
+gse174329_eif3b	rep1	fold4_train	2	10	B	3859	655501	train_dll_per_read	-0.00294677				
+gse174329_eif3b	rep1	fold4_test		10	B			rate_field_corr_across_seeds	1				
+gse174329_eif3b	rep1	fold4_train	0	10	C	3859	655501	train_dll_per_read	0.047583	120			
+gse174329_eif3b	rep1	fold4_train	1	10	C	3859	655501	train_dll_per_read	0.0538483	130			
+gse174329_eif3b	rep1	fold4_train	2	10	C	3859	655501	train_dll_per_read	0.0359003	110			
+gse174329_eif3b	rep1	fold4_test		10	C			rate_field_corr_across_seeds	0.848897				
+gse174329_eif3b	rep1->rep1	chrom_heldout	0	10	B	5633	973682	heldout_dll_vs_P	0.000190645		-0.00284021	0.00325312	False
+gse174329_eif3b	rep1->rep2	chrom_heldout	0	10	B	5633	1.10423e+06	heldout_dll_vs_P	0.000334619		-0.00305056	0.00349993	True
+gse174329_eif3b	rep1->rep1	chrom_heldout	1	10	B	5633	973682	heldout_dll_vs_P	0.000190631		-0.00284022	0.00325311	False
+gse174329_eif3b	rep1->rep2	chrom_heldout	1	10	B	5633	1.10423e+06	heldout_dll_vs_P	0.000334603		-0.00305058	0.00349991	True
+gse174329_eif3b	rep1->rep1	chrom_heldout	2	10	B	5633	973682	heldout_dll_vs_P	0.000190641		-0.00284021	0.00325313	False
+gse174329_eif3b	rep1->rep2	chrom_heldout	2	10	B	5633	1.10423e+06	heldout_dll_vs_P	0.000334616		-0.00305056	0.00349993	True
+gse174329_eif3b	rep1->rep1	chrom_heldout	0	10	C	5633	973682	heldout_dll_vs_P	0.0151201		0.00840514	0.0240175	False
+gse174329_eif3b	rep1->rep2	chrom_heldout	0	10	C	5633	1.10423e+06	heldout_dll_vs_P	0.0185207		0.011992	0.0267457	True
+gse174329_eif3b	rep1->rep1	chrom_heldout	1	10	C	5633	973682	heldout_dll_vs_P	0.0143587		0.00820337	0.0223624	False
+gse174329_eif3b	rep1->rep2	chrom_heldout	1	10	C	5633	1.10423e+06	heldout_dll_vs_P	0.0182308		0.012245	0.025778	True
+gse174329_eif3b	rep1->rep1	chrom_heldout	2	10	C	5633	973682	heldout_dll_vs_P	0.0142166		0.00782786	0.0228294	False
+gse174329_eif3b	rep1->rep2	chrom_heldout	2	10	C	5633	1.10423e+06	heldout_dll_vs_P	0.017138		0.010722	0.0246515	True

@@ -1,0 +1,203 @@
+[align] dataset human-eif3b-replicated (GRCh38), adapter AGATCGGAAGAGCACACGTCTGAA, min length 25
+[align] 194 sequences, 3099.8 Mb
+[align] cutadapt | /root/miniconda3/envs/utrscan/bin/bowtie2-align-s -x /root/utr-scan/ref/GRCh38 -U - --no-unal -L 18 -N 0 --threads 4 < /root/utr-scan/fastq/SRR14510018_1.fastq.gz
+[WARNING] Failed to launch x86-64-v3 version, staying with default
+This is cutadapt 5.2 with Python 3.12.15
+Command line parameters: -a AGATCGGAAGAGCACACGTCTGAA -m 25 -q 20 --max-n 0 -j 2 -o - /root/utr-scan/fastq/SRR14510018_1.fastq.gz
+Processing single-end reads on 2 cores ...
+
+=== Summary ===
+
+Total reads processed:              17,135,762
+Reads with adapters:                 1,223,964 (7.1%)
+
+== Read fate breakdown ==
+Reads that were too short:           7,080,749 (41.3%)
+Reads with too many N:                   1,332 (0.0%)
+Reads written (passing filters):    10,053,681 (58.7%)
+
+Total basepairs processed:   557,987,305 bp
+Quality-trimmed:                 134,038 bp (0.0%)
+Total written (filtered):    429,510,425 bp (77.0%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGCACACGTCTGAA; Type: regular 3'; Length: 24; Trimmed: 1223964 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-24 bp: 2
+
+Bases preceding removed adapters:
+  A: 12.1%
+  C: 8.6%
+  G: 75.8%
+  T: 3.3%
+  none/other: 0.2%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	317798	267746.3	0	317798
+4	804107	66936.6	0	804107
+5	19477	16734.1	0	19477
+6	4088	4183.5	0	4088
+7	50629	1045.9	0	50629
+8	6465	261.5	0	6465
+9	2521	65.4	0	2369 152
+10	3042	16.3	1	2373 669
+11	8690	4.1	1	8253 437
+12	1808	1.0	1	1330 478
+13	306	0.3	1	0 306
+14	497	0.1	1	0 497
+15	290	0.0	1	0 290
+16	208	0.0	1	0 208
+17	206	0.0	1	0 206
+18	694	0.0	1	0 652 42
+19	594	0.0	1	0 526 68
+20	335	0.0	2	0 284 51
+21	342	0.0	2	0 249 93
+22	393	0.0	2	0 337 56
+23	386	0.0	2	0 320 66
+24	268	0.0	2	0 247 21
+25	190	0.0	2	0 172 18
+26	76	0.0	2	0 70 6
+27	44	0.0	2	0 39 5
+28	58	0.0	2	0 40 18
+29	168	0.0	2	0 152 16
+30	115	0.0	2	0 107 8
+31	46	0.0	2	0 30 16
+32	70	0.0	2	0 64 6
+33	14	0.0	2	0 11 3
+34	5	0.0	2	0 4 1
+35	1	0.0	2	0 1
+36	5	0.0	2	0 5
+38	2	0.0	2	0 2
+41	1	0.0	2	0 0 1
+42	3	0.0	2	0 3
+43	2	0.0	2	0 2
+46	1	0.0	2	0 1
+47	2	0.0	2	0 1 1
+48	1	0.0	2	0 0 1
+50	1	0.0	2	0 1
+53	1	0.0	2	0 1
+56	1	0.0	2	0 1
+57	1	0.0	2	0 1
+64	2	0.0	2	0 1 1
+65	2	0.0	2	0 1 1
+66	2	0.0	2	0 0 2
+68	2	0.0	2	0 1 1
+69	1	0.0	2	0 1
+71	1	0.0	2	0 0 1
+74	2	0.0	2	0 0 2
+10053681 reads; of these:
+  10053681 (100.00%) were unpaired; of these:
+    3019878 (30.04%) aligned 0 times
+    1939775 (19.29%) aligned exactly 1 time
+    5094028 (50.67%) aligned >1 times
+69.96% overall alignment rate
+[align] {'total': 7034000, 'filtered': 4727193, 'assigned': 2301288, 'unknown_chrom': 5519}
+[align] -> /root/utr-scan/work/human-eif3b-replicated.ssu_rep1.reads.npz
+[align] -> /root/utr-scan/work/human-eif3b-replicated.ssu_rep1.5ends.npz
+[align] cutadapt | /root/miniconda3/envs/utrscan/bin/bowtie2-align-s -x /root/utr-scan/ref/GRCh38 -U - --no-unal -L 18 -N 0 --threads 4 < /root/utr-scan/fastq/SRR14510019_1.fastq.gz
+[WARNING] Failed to launch x86-64-v3 version, staying with default
+This is cutadapt 5.2 with Python 3.12.15
+Command line parameters: -a AGATCGGAAGAGCACACGTCTGAA -m 25 -q 20 --max-n 0 -j 2 -o - /root/utr-scan/fastq/SRR14510019_1.fastq.gz
+Processing single-end reads on 2 cores ...
+
+=== Summary ===
+
+Total reads processed:              15,448,720
+Reads with adapters:                 1,003,960 (6.5%)
+
+== Read fate breakdown ==
+Reads that were too short:           5,759,325 (37.3%)
+Reads with too many N:                   1,309 (0.0%)
+Reads written (passing filters):     9,688,086 (62.7%)
+
+Total basepairs processed:   535,321,938 bp
+Quality-trimmed:                 123,455 bp (0.0%)
+Total written (filtered):    430,482,876 bp (80.4%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGCACACGTCTGAA; Type: regular 3'; Length: 24; Trimmed: 1003960 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-24 bp: 2
+
+Bases preceding removed adapters:
+  A: 13.4%
+  C: 8.6%
+  G: 74.1%
+  T: 3.7%
+  none/other: 0.3%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	273370	241386.2	0	273370
+4	642762	60346.6	0	642762
+5	17641	15086.6	0	17641
+6	4401	3771.7	0	4401
+7	45240	942.9	0	45240
+8	4639	235.7	0	4639
+9	2246	58.9	0	2099 147
+10	1913	14.7	1	1234 679
+11	4848	3.7	1	4368 480
+12	1547	0.9	1	1133 414
+13	447	0.2	1	0 447
+14	475	0.1	1	0 475
+15	368	0.0	1	0 368
+16	233	0.0	1	0 233
+17	199	0.0	1	0 199
+18	642	0.0	1	0 603 39
+19	767	0.0	1	0 697 70
+20	416	0.0	2	0 348 68
+21	346	0.0	2	0 266 80
+22	326	0.0	2	0 255 71
+23	290	0.0	2	0 251 39
+24	159	0.0	2	0 130 29
+25	131	0.0	2	0 120 11
+26	46	0.0	2	0 40 6
+27	31	0.0	2	0 25 6
+28	63	0.0	2	0 35 28
+29	118	0.0	2	0 108 10
+30	96	0.0	2	0 91 5
+31	51	0.0	2	0 39 12
+32	47	0.0	2	0 45 2
+33	27	0.0	2	0 24 3
+34	11	0.0	2	0 11
+35	1	0.0	2	0 1
+36	1	0.0	2	0 1
+37	1	0.0	2	0 0 1
+38	2	0.0	2	0 0 2
+39	14	0.0	2	0 0 14
+40	1	0.0	2	0 0 1
+42	1	0.0	2	0 1
+43	3	0.0	2	0 2 1
+44	1	0.0	2	0 0 1
+45	3	0.0	2	0 0 3
+46	12	0.0	2	0 0 12
+47	1	0.0	2	0 1
+48	3	0.0	2	0 3
+49	2	0.0	2	0 0 2
+50	1	0.0	2	0 1
+51	3	0.0	2	0 3
+53	1	0.0	2	0 1
+60	2	0.0	2	0 1 1
+62	2	0.0	2	0 2
+63	2	0.0	2	0 2
+65	2	0.0	2	0 0 2
+68	2	0.0	2	0 1 1
+69	1	0.0	2	0 1
+76	1	0.0	2	0 0 1
+77	1	0.0	2	0 0 1
+9688086 reads; of these:
+  9688086 (100.00%) were unpaired; of these:
+    2466825 (25.46%) aligned 0 times
+    2165182 (22.35%) aligned exactly 1 time
+    5056079 (52.19%) aligned >1 times
+74.54% overall alignment rate
+[align] {'total': 7221458, 'filtered': 4735184, 'assigned': 2479639, 'unknown_chrom': 6635}
+[align] -> /root/utr-scan/work/human-eif3b-replicated.ssu_rep2.reads.npz
+[align] -> /root/utr-scan/work/human-eif3b-replicated.ssu_rep2.5ends.npz

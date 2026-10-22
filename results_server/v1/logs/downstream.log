@@ -1,0 +1,18 @@
+[down] yeast 40S model SW+ST+AUG at 1 nt (held-out dLL 0.0509)
+  MeanYFP  seq          R2 0.6607  dR2 +0.0000 [+0.0000,+0.0000]
+  MeanYFP  40S          R2 0.3078  dR2 -0.3529 [-0.3774,-0.3283]
+  MeanYFP  seq+40S      R2 0.6622  dR2 +0.0015 [+0.0000,+0.0031]
+  MeanYFP  late_fusion  R2 0.6615  dR2 +0.0008 [-0.0004,+0.0020]
+  MeanYFP  residual     R2 0.6618  dR2 +0.0011 [+0.0002,+0.0020]
+  TEff     seq          R2 0.4702  dR2 +0.0000 [+0.0000,+0.0000]
+  TEff     40S          R2 0.1831  dR2 -0.2871 [-0.3173,-0.2523]
+  TEff     seq+40S      R2 0.4821  dR2 +0.0119 [+0.0070,+0.0165]
+  TEff     late_fusion  R2 0.4738  dR2 +0.0036 [+0.0005,+0.0066]
+  TEff     residual     R2 0.4788  dR2 +0.0085 [+0.0047,+0.0121]
+[down] human 40S model SW+ST+AUG at 1 nt (cross-replicate dLL 0.0255)
+  rl       seq          R2 0.5542  dR2 +0.0000 [+0.0000,+0.0000]
+  rl       40S          R2 0.2193  dR2 -0.3349 [-0.3553,-0.3123]
+  rl       seq+40S      R2 0.5720  dR2 +0.0179 [+0.0127,+0.0236]
+  rl       late_fusion  R2 0.5665  dR2 +0.0123 [+0.0081,+0.0170]
+  rl       residual     R2 0.5640  dR2 +0.0098 [+0.0056,+0.0138]
+[down] done

@@ -1,0 +1,28 @@
+[null] 20/303 fits-sets (131s)
+[null] 40/303 fits-sets (209s)
+[null] 60/303 fits-sets (318s)
+[null] 80/303 fits-sets (397s)
+[null] 100/303 fits-sets (483s)
+[null] 120/303 fits-sets (512s)
+[null] 140/303 fits-sets (532s)
+[null] 160/303 fits-sets (549s)
+[null] 180/303 fits-sets (568s)
+[null] 200/303 fits-sets (586s)
+[null] 220/303 fits-sets (596s)
+[null] 240/303 fits-sets (608s)
+[null] 260/303 fits-sets (618s)
+[null] 280/303 fits-sets (630s)
+[null] 300/303 fits-sets (640s)
+[null] AUG rep1->rep1: real 0.01340  null 0.00454 +/- 0.00042  p=0.010
+[null] AUG rep1->rep2: real 0.01287  null 0.00489 +/- 0.00038  p=0.010
+[null] AUG rep2->rep1: real 0.01332  null 0.00456 +/- 0.00042  p=0.010
+[null] AUG rep2->rep2: real 0.01294  null 0.00492 +/- 0.00038  p=0.010
+[null] ST rep1->rep1: real 0.00106  null 0.00197 +/- 0.00026  p=1.000
+[null] ST rep1->rep2: real 0.00121  null 0.00210 +/- 0.00026  p=1.000
+[null] ST rep2->rep1: real 0.00105  null 0.00202 +/- 0.00026  p=1.000
+[null] ST rep2->rep2: real 0.00118  null 0.00215 +/- 0.00026  p=1.000
+[null] SW rep1->rep1: real 0.01702  null -0.00195 +/- 0.00049  p=0.010
+[null] SW rep1->rep2: real 0.01960  null -0.00193 +/- 0.00048  p=0.010
+[null] SW rep2->rep1: real 0.01687  null -0.00179 +/- 0.00048  p=0.010
+[null] SW rep2->rep2: real 0.01965  null -0.00177 +/- 0.00049  p=0.010
+[null] -> /root/utr-scan/results/recoverability/v1/nulls/shuffle_nulls.tsv

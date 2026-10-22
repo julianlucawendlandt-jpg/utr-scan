@@ -1,0 +1,42 @@
+{
+  "species": "yeast",
+  "n_folds": 4,
+  "balanced_on": "leader reads of archer_yeast (rep1 summed)",
+  "excluded": [
+    "Mito",
+    "chrM",
+    "chrY"
+  ],
+  "folds": [
+    [
+      "III",
+      "VIII",
+      "XII"
+    ],
+    [
+      "IV",
+      "V",
+      "VI",
+      "XIII"
+    ],
+    [
+      "II",
+      "VII",
+      "XI",
+      "XIV"
+    ],
+    [
+      "I",
+      "IX",
+      "X",
+      "XV",
+      "XVI"
+    ]
+  ],
+  "fold_depth": [
+    74509.0,
+    74478.0,
+    72192.0,
+    73721.0
+  ]
+}

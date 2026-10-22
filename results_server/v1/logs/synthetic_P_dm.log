@@ -1,0 +1,424 @@
+[synth] Dirichlet-multinomial alpha 124.73 (dispersion ratio 1.43, simulated 1.43)
+[synth] 1/294 truth A size 0 depth 5 sim 0 (55s)
+[synth] 2/294 truth A size 0 depth 5 sim 2 (55s)
+[synth] 3/294 truth A size 0 depth 5 sim 1 (55s)
+[synth] 4/294 truth A size 0 depth 5 sim 4 (56s)
+[synth] 5/294 truth A size 0 depth 5 sim 5 (56s)
+[synth] 6/294 truth A size 0 depth 5 sim 3 (56s)
+[synth] 7/294 truth A size 0 depth 10 sim 0 (61s)
+[synth] 8/294 truth A size 0 depth 10 sim 1 (61s)
+[synth] 9/294 truth A size 0 depth 10 sim 2 (70s)
+[synth] 10/294 truth A size 0 depth 10 sim 4 (71s)
+[synth] 11/294 truth A size 0 depth 10 sim 3 (71s)
+[synth] 12/294 truth A size 0 depth 10 sim 5 (71s)
+[synth] 13/294 truth A size 0 depth 20 sim 1 (76s)
+[synth] 14/294 truth A size 0 depth 20 sim 0 (77s)
+[synth] 15/294 truth A size 0 depth 20 sim 3 (82s)
+[synth] 16/294 truth A size 0 depth 20 sim 2 (82s)
+[synth] 17/294 truth A size 0 depth 20 sim 4 (91s)
+[synth] 18/294 truth A size 0 depth 20 sim 5 (91s)
+[synth] 19/294 truth A size 0 depth 50 sim 0 (97s)
+[synth] 20/294 truth A size 0 depth 50 sim 1 (97s)
+[synth] 21/294 truth A size 0 depth 50 sim 2 (102s)
+[synth] 22/294 truth A size 0 depth 50 sim 3 (103s)
+[synth] 23/294 truth A size 0 depth 50 sim 4 (108s)
+[synth] 24/294 truth A size 0 depth 50 sim 5 (109s)
+[synth] 25/294 truth A size 0 depth 100 sim 1 (118s)
+[synth] 26/294 truth A size 0 depth 100 sim 0 (118s)
+[synth] 27/294 truth A size 0 depth 100 sim 2 (123s)
+[synth] 28/294 truth A size 0 depth 100 sim 3 (124s)
+[synth] 29/294 truth A size 0 depth 100 sim 4 (129s)
+[synth] 30/294 truth A size 0 depth 100 sim 5 (130s)
+[synth] 31/294 truth A size 0 depth 200 sim 0 (135s)
+[synth] 32/294 truth A size 0 depth 200 sim 1 (136s)
+[synth] 33/294 truth A size 0 depth 200 sim 2 (145s)
+[synth] 34/294 truth A size 0 depth 200 sim 3 (146s)
+[synth] 35/294 truth A size 0 depth 200 sim 4 (151s)
+[synth] 36/294 truth A size 0 depth 200 sim 5 (151s)
+[synth] 37/294 truth A size 0 depth 500 sim 0 (156s)
+[synth] 38/294 truth A size 0 depth 500 sim 1 (158s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 39/294 truth B size 0 depth 5 sim 0 (159s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 40/294 truth B size 0 depth 5 sim 1 (159s)
+[synth] 41/294 truth A size 0 depth 500 sim 2 (163s)
+[synth] 42/294 truth A size 0 depth 500 sim 3 (163s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 43/294 truth B size 0 depth 5 sim 2 (164s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 44/294 truth B size 0 depth 10 sim 0 (169s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 45/294 truth B size 0 depth 10 sim 1 (171s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 46/294 truth B size 0 depth 10 sim 2 (171s)
+[synth] 47/294 truth A size 0 depth 500 sim 4 (172s)
+[synth] 48/294 truth A size 0 depth 500 sim 5 (173s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 49/294 truth B size 0 depth 20 sim 0 (179s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 50/294 truth B size 0 depth 20 sim 2 (180s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 51/294 truth B size 0 depth 20 sim 1 (180s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 52/294 truth B size 0 depth 50 sim 0 (190s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 53/294 truth B size 0 depth 50 sim 1 (191s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 54/294 truth B size 0 depth 50 sim 2 (191s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 55/294 truth B size 0 depth 100 sim 0 (193s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 56/294 truth B size 0 depth 100 sim 1 (195s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 57/294 truth B size 0 depth 100 sim 2 (201s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 58/294 truth B size 0 depth 200 sim 0 (202s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 59/294 truth B size 0 depth 200 sim 1 (202s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 60/294 truth B size 1 depth 5 sim 0 (203s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 61/294 truth B size 1 depth 5 sim 1 (209s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 62/294 truth B size 1 depth 5 sim 2 (210s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 63/294 truth B size 0 depth 200 sim 2 (212s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 64/294 truth B size 0 depth 500 sim 0 (212s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 65/294 truth B size 0 depth 500 sim 1 (213s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 66/294 truth B size 1 depth 10 sim 0 (214s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 67/294 truth B size 0 depth 500 sim 2 (215s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 68/294 truth B size 1 depth 10 sim 1 (215s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 69/294 truth B size 1 depth 10 sim 2 (221s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 70/294 truth B size 1 depth 20 sim 0 (226s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 71/294 truth B size 1 depth 20 sim 1 (228s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 72/294 truth B size 1 depth 20 sim 2 (228s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 73/294 truth B size 1 depth 50 sim 0 (233s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 74/294 truth B size 1 depth 50 sim 1 (234s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 75/294 truth B size 1 depth 50 sim 2 (234s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 76/294 truth B size 1 depth 100 sim 0 (237s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 77/294 truth B size 1 depth 100 sim 1 (243s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 78/294 truth B size 1 depth 100 sim 2 (247s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 79/294 truth B size 1 depth 200 sim 1 (250s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 80/294 truth B size 1 depth 200 sim 0 (250s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 81/294 truth B size 2 depth 5 sim 0 (250s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 82/294 truth B size 2 depth 5 sim 1 (255s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 83/294 truth B size 1 depth 200 sim 2 (255s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 84/294 truth B size 1 depth 500 sim 0 (255s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 85/294 truth B size 1 depth 500 sim 1 (256s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 86/294 truth B size 2 depth 5 sim 2 (257s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 87/294 truth B size 1 depth 500 sim 2 (259s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 88/294 truth B size 2 depth 10 sim 0 (261s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 89/294 truth B size 2 depth 10 sim 1 (262s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 90/294 truth B size 2 depth 10 sim 2 (266s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 91/294 truth B size 2 depth 20 sim 0 (271s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 92/294 truth B size 2 depth 20 sim 1 (271s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 93/294 truth B size 2 depth 20 sim 2 (272s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 94/294 truth B size 2 depth 50 sim 0 (277s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 95/294 truth B size 2 depth 50 sim 1 (279s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 96/294 truth B size 2 depth 50 sim 2 (281s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 97/294 truth B size 2 depth 100 sim 0 (283s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 98/294 truth B size 2 depth 100 sim 1 (288s)
+[synth] 99/294 truth C size 0 depth 5 sim 0 (290s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 100/294 truth B size 2 depth 100 sim 2 (292s)
+[synth] 101/294 truth C size 0 depth 5 sim 1 (292s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 102/294 truth B size 2 depth 200 sim 0 (293s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 103/294 truth B size 2 depth 200 sim 1 (293s)
+[synth] 104/294 truth C size 0 depth 5 sim 2 (294s)
+[synth] 105/294 truth C size 0 depth 10 sim 0 (295s)
+[synth] 106/294 truth C size 0 depth 10 sim 1 (296s)
+[synth] 107/294 truth C size 0 depth 10 sim 2 (296s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 108/294 truth B size 2 depth 200 sim 2 (298s)
+[synth] 109/294 truth C size 0 depth 20 sim 0 (298s)
+[synth] 110/294 truth C size 0 depth 20 sim 1 (299s)
+[synth] 111/294 truth C size 0 depth 20 sim 2 (300s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 112/294 truth B size 2 depth 500 sim 0 (301s)
+[synth] 113/294 truth C size 0 depth 50 sim 0 (301s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 114/294 truth B size 2 depth 500 sim 1 (303s)
+[synth] 115/294 truth C size 0 depth 50 sim 1 (303s)
+[synth] 116/294 truth C size 0 depth 50 sim 2 (304s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:162: RuntimeWarning: Mean of empty slice
+  "sign_ok": np.nanmean(signs) if signs else np.nan,
+[synth] 117/294 truth B size 2 depth 500 sim 2 (304s)
+[synth] 118/294 truth C size 0 depth 100 sim 0 (305s)
+[synth] 119/294 truth C size 0 depth 100 sim 1 (305s)
+[synth] 120/294 truth C size 0 depth 100 sim 2 (307s)
+[synth] 121/294 truth C size 0 depth 200 sim 0 (307s)
+[synth] 122/294 truth C size 1 depth 5 sim 0 (307s)
+[synth] 123/294 truth C size 0 depth 200 sim 1 (308s)
+[synth] 124/294 truth C size 0 depth 200 sim 2 (309s)
+[synth] 125/294 truth C size 1 depth 5 sim 1 (309s)
+[synth] 126/294 truth C size 0 depth 500 sim 0 (309s)
+[synth] 127/294 truth C size 1 depth 5 sim 2 (309s)
+[synth] 128/294 truth C size 0 depth 500 sim 1 (310s)
+[synth] 129/294 truth C size 0 depth 500 sim 2 (310s)
+[synth] 130/294 truth C size 1 depth 10 sim 0 (311s)
+[synth] 131/294 truth C size 1 depth 10 sim 1 (312s)
+[synth] 132/294 truth C size 1 depth 10 sim 2 (312s)
+[synth] 133/294 truth C size 1 depth 20 sim 0 (313s)
+[synth] 134/294 truth C size 1 depth 20 sim 1 (313s)
+[synth] 135/294 truth C size 1 depth 20 sim 2 (313s)
+[synth] 136/294 truth C size 1 depth 50 sim 0 (315s)
+[synth] 137/294 truth C size 1 depth 50 sim 1 (316s)
+[synth] 138/294 truth C size 1 depth 50 sim 2 (316s)
+[synth] 139/294 truth C size 1 depth 100 sim 0 (317s)
+[synth] 140/294 truth C size 1 depth 100 sim 1 (317s)
+[synth] 141/294 truth C size 1 depth 100 sim 2 (319s)
+[synth] 142/294 truth C size 1 depth 200 sim 1 (319s)
+[synth] 143/294 truth C size 1 depth 200 sim 0 (319s)
+[synth] 144/294 truth C size 2 depth 5 sim 0 (319s)
+[synth] 145/294 truth C size 1 depth 200 sim 2 (321s)
+[synth] 146/294 truth C size 2 depth 5 sim 1 (321s)
+[synth] 147/294 truth C size 2 depth 5 sim 2 (321s)
+[synth] 148/294 truth C size 1 depth 500 sim 0 (321s)
+[synth] 149/294 truth C size 1 depth 500 sim 1 (321s)
+[synth] 150/294 truth C size 2 depth 10 sim 0 (322s)
+[synth] 151/294 truth C size 2 depth 10 sim 1 (323s)
+[synth] 152/294 truth C size 1 depth 500 sim 2 (323s)
+[synth] 153/294 truth C size 2 depth 10 sim 2 (324s)
+[synth] 154/294 truth C size 2 depth 20 sim 0 (325s)
+[synth] 155/294 truth C size 2 depth 20 sim 1 (325s)
+[synth] 156/294 truth C size 2 depth 20 sim 2 (325s)
+[synth] 157/294 truth C size 2 depth 50 sim 0 (327s)
+[synth] 158/294 truth C size 2 depth 50 sim 1 (327s)
+[synth] 159/294 truth C size 2 depth 50 sim 2 (328s)
+[synth] 160/294 truth C size 2 depth 100 sim 0 (328s)
+[synth] 161/294 truth C size 2 depth 100 sim 1 (330s)
+[synth] 162/294 truth C size 2 depth 200 sim 0 (331s)
+[synth] 163/294 truth C size 2 depth 100 sim 2 (331s)
+[synth] 164/294 truth C size 2 depth 200 sim 1 (331s)
+[synth] 165/294 truth D size 0 depth 5 sim 0 (331s)
+[synth] 166/294 truth C size 2 depth 200 sim 2 (332s)
+[synth] 167/294 truth D size 0 depth 5 sim 1 (333s)
+[synth] 168/294 truth D size 0 depth 5 sim 2 (333s)
+[synth] 169/294 truth C size 2 depth 500 sim 0 (333s)
+[synth] 170/294 truth C size 2 depth 500 sim 1 (334s)
+[synth] 171/294 truth D size 0 depth 10 sim 0 (334s)
+[synth] 172/294 truth C size 2 depth 500 sim 2 (334s)
+[synth] 173/294 truth D size 0 depth 10 sim 1 (334s)
+[synth] 174/294 truth D size 0 depth 10 sim 2 (335s)
+[synth] 175/294 truth D size 0 depth 20 sim 0 (336s)
+[synth] 176/294 truth D size 0 depth 20 sim 1 (336s)
+[synth] 177/294 truth D size 0 depth 20 sim 2 (336s)
+[synth] 178/294 truth D size 0 depth 50 sim 0 (337s)
+[synth] 179/294 truth D size 0 depth 50 sim 1 (338s)
+[synth] 180/294 truth D size 0 depth 50 sim 2 (338s)
+[synth] 181/294 truth D size 0 depth 100 sim 0 (338s)
+[synth] 182/294 truth D size 0 depth 100 sim 1 (339s)
+[synth] 183/294 truth D size 0 depth 100 sim 2 (340s)
+[synth] 184/294 truth D size 0 depth 200 sim 0 (340s)
+[synth] 185/294 truth D size 0 depth 200 sim 1 (341s)
+[synth] 186/294 truth D size 1 depth 5 sim 0 (341s)
+[synth] 187/294 truth D size 0 depth 200 sim 2 (341s)
+[synth] 188/294 truth D size 0 depth 500 sim 0 (342s)
+[synth] 189/294 truth D size 1 depth 5 sim 1 (342s)
+[synth] 190/294 truth D size 0 depth 500 sim 1 (342s)
+[synth] 191/294 truth D size 1 depth 5 sim 2 (342s)
+[synth] 192/294 truth D size 0 depth 500 sim 2 (342s)
+[synth] 193/294 truth D size 1 depth 10 sim 0 (343s)
+[synth] 194/294 truth D size 1 depth 10 sim 1 (343s)
+[synth] 195/294 truth D size 1 depth 10 sim 2 (344s)
+[synth] 196/294 truth D size 1 depth 20 sim 0 (345s)
+[synth] 197/294 truth D size 1 depth 20 sim 1 (345s)
+[synth] 198/294 truth D size 1 depth 20 sim 2 (345s)
+[synth] 199/294 truth D size 1 depth 50 sim 0 (346s)
+[synth] 200/294 truth D size 1 depth 50 sim 1 (346s)
+[synth] 201/294 truth D size 1 depth 50 sim 2 (347s)
+[synth] 202/294 truth D size 1 depth 100 sim 0 (348s)
+[synth] 203/294 truth D size 1 depth 100 sim 1 (348s)
+[synth] 204/294 truth D size 1 depth 100 sim 2 (349s)
+[synth] 205/294 truth D size 1 depth 200 sim 0 (349s)
+[synth] 206/294 truth D size 1 depth 200 sim 1 (350s)
+[synth] 207/294 truth D size 2 depth 5 sim 0 (350s)
+[synth] 208/294 truth D size 1 depth 200 sim 2 (350s)
+[synth] 209/294 truth D size 1 depth 500 sim 0 (351s)
+[synth] 210/294 truth D size 2 depth 5 sim 2 (351s)
+[synth] 211/294 truth D size 1 depth 500 sim 1 (351s)
+[synth] 212/294 truth D size 2 depth 5 sim 1 (351s)
+[synth] 213/294 truth D size 1 depth 500 sim 2 (352s)
+[synth] 214/294 truth D size 2 depth 10 sim 0 (352s)
+[synth] 215/294 truth D size 2 depth 10 sim 1 (353s)
+[synth] 216/294 truth D size 2 depth 10 sim 2 (353s)
+[synth] 217/294 truth D size 2 depth 20 sim 0 (354s)
+[synth] 218/294 truth D size 2 depth 20 sim 1 (355s)
+[synth] 219/294 truth D size 2 depth 20 sim 2 (355s)
+[synth] 220/294 truth D size 2 depth 50 sim 0 (355s)
+[synth] 221/294 truth D size 2 depth 50 sim 1 (356s)
+[synth] 222/294 truth D size 2 depth 50 sim 2 (356s)
+[synth] 223/294 truth D size 2 depth 100 sim 0 (357s)
+[synth] 224/294 truth D size 2 depth 100 sim 1 (357s)
+[synth] 225/294 truth D size 2 depth 100 sim 2 (358s)
+[synth] 226/294 truth D size 2 depth 200 sim 0 (359s)
+[synth] 227/294 truth D size 2 depth 200 sim 1 (359s)
+[synth] 228/294 truth D size 2 depth 200 sim 2 (360s)
+[synth] 229/294 truth D size 2 depth 500 sim 0 (360s)
+[synth] 230/294 truth E size 0 depth 5 sim 0 (360s)
+[synth] 231/294 truth D size 2 depth 500 sim 1 (361s)
+[synth] 232/294 truth D size 2 depth 500 sim 2 (361s)
+[synth] 233/294 truth E size 0 depth 5 sim 1 (361s)
+[synth] 234/294 truth E size 0 depth 5 sim 2 (362s)
+[synth] 235/294 truth E size 0 depth 10 sim 0 (363s)
+[synth] 236/294 truth E size 0 depth 10 sim 1 (364s)
+[synth] 237/294 truth E size 0 depth 10 sim 2 (364s)
+[synth] 238/294 truth E size 0 depth 20 sim 0 (366s)
+[synth] 239/294 truth E size 0 depth 20 sim 1 (366s)
+[synth] 240/294 truth E size 0 depth 20 sim 2 (367s)
+[synth] 241/294 truth E size 0 depth 50 sim 0 (369s)
+[synth] 242/294 truth E size 0 depth 50 sim 1 (369s)
+[synth] 243/294 truth E size 0 depth 50 sim 2 (370s)
+[synth] 244/294 truth E size 0 depth 100 sim 0 (371s)
+[synth] 245/294 truth E size 0 depth 100 sim 1 (372s)
+[synth] 246/294 truth E size 0 depth 100 sim 2 (374s)
+[synth] 247/294 truth E size 0 depth 200 sim 0 (374s)
+[synth] 248/294 truth E size 0 depth 200 sim 1 (374s)
+[synth] 249/294 truth E size 1 depth 5 sim 0 (375s)
+[synth] 250/294 truth E size 0 depth 200 sim 2 (376s)
+[synth] 251/294 truth E size 0 depth 500 sim 0 (377s)
+[synth] 252/294 truth E size 1 depth 5 sim 2 (377s)
+[synth] 253/294 truth E size 1 depth 5 sim 1 (377s)
+[synth] 254/294 truth E size 0 depth 500 sim 1 (378s)
+[synth] 255/294 truth E size 1 depth 10 sim 0 (379s)
+[synth] 256/294 truth E size 0 depth 500 sim 2 (379s)
+[synth] 257/294 truth E size 1 depth 10 sim 1 (379s)
+[synth] 258/294 truth E size 1 depth 10 sim 2 (381s)
+[synth] 259/294 truth E size 1 depth 20 sim 0 (382s)
+[synth] 260/294 truth E size 1 depth 20 sim 1 (383s)
+[synth] 261/294 truth E size 1 depth 20 sim 2 (383s)
+[synth] 262/294 truth E size 1 depth 50 sim 0 (385s)
+[synth] 263/294 truth E size 1 depth 50 sim 1 (386s)
+[synth] 264/294 truth E size 1 depth 50 sim 2 (386s)
+[synth] 265/294 truth E size 1 depth 100 sim 0 (387s)
+[synth] 266/294 truth E size 1 depth 100 sim 1 (389s)
+[synth] 267/294 truth E size 1 depth 100 sim 2 (390s)
+[synth] 268/294 truth E size 1 depth 200 sim 0 (391s)
+[synth] 269/294 truth E size 1 depth 200 sim 1 (391s)
+[synth] 270/294 truth E size 2 depth 5 sim 0 (392s)
+[synth] 271/294 truth E size 2 depth 5 sim 1 (393s)
+[synth] 272/294 truth E size 1 depth 200 sim 2 (393s)
+[synth] 273/294 truth E size 1 depth 500 sim 0 (394s)
+[synth] 274/294 truth E size 1 depth 500 sim 1 (394s)
+[synth] 275/294 truth E size 2 depth 5 sim 2 (394s)
+[synth] 276/294 truth E size 1 depth 500 sim 2 (395s)
+[synth] 277/294 truth E size 2 depth 10 sim 0 (396s)
+[synth] 278/294 truth E size 2 depth 10 sim 1 (396s)
+[synth] 279/294 truth E size 2 depth 10 sim 2 (398s)
+[synth] 280/294 truth E size 2 depth 20 sim 0 (399s)
+[synth] 281/294 truth E size 2 depth 20 sim 1 (399s)
+[synth] 282/294 truth E size 2 depth 20 sim 2 (400s)
+[synth] 283/294 truth E size 2 depth 50 sim 0 (402s)
+[synth] 284/294 truth E size 2 depth 50 sim 1 (402s)
+[synth] 285/294 truth E size 2 depth 50 sim 2 (403s)
+[synth] 286/294 truth E size 2 depth 100 sim 0 (404s)
+[synth] 287/294 truth E size 2 depth 100 sim 1 (405s)
+[synth] 288/294 truth E size 2 depth 100 sim 2 (407s)
+[synth] 289/294 truth E size 2 depth 200 sim 0 (407s)
+[synth] 290/294 truth E size 2 depth 200 sim 1 (408s)
+[synth] 291/294 truth E size 2 depth 200 sim 2 (409s)
+[synth] 292/294 truth E size 2 depth 500 sim 0 (410s)
+[synth] 293/294 truth E size 2 depth 500 sim 1 (411s)
+[synth] 294/294 truth E size 2 depth 500 sim 2 (412s)
+/root/utr-scan/analysis/recoverability/06_synthetic_power.py:254: RuntimeWarning: Mean of empty slice
+  dict(base, metric="sign_recovery", value=float(np.nanmean(g["sign"])))]
+[synth] -> /root/utr-scan/results/recoverability/v1/synthetic/power_gse174329_eif3b_dm.tsv (412s)

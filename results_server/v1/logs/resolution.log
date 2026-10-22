@@ -1,0 +1,15 @@
+[res] gse174329_eif3b: 4464 transcripts with >= 20 reads in both replicates
+  b= 1  pearson_mean 0.402  spearman_mean 0.567  pooled_centered_r 0.425  pooled_posadj_r 0.333  pearson_mean_ceiling 0.664  spearman_mean_ceiling 0.770  pooled_centered_r_ceiling 0.676  pooled_posadj_r_ceiling 0.627
+  b= 3  pearson_mean 0.557  spearman_mean 0.548  pooled_centered_r 0.644  pooled_posadj_r 0.522  pearson_mean_ceiling 0.749  spearman_mean_ceiling 0.748  pooled_centered_r_ceiling 0.798  pooled_posadj_r_ceiling 0.731
+  b= 5  pearson_mean 0.623  spearman_mean 0.575  pooled_centered_r 0.732  pooled_posadj_r 0.597  pearson_mean_ceiling 0.786  spearman_mean_ceiling 0.754  pooled_centered_r_ceiling 0.847  pooled_posadj_r_ceiling 0.773
+  b=10  pearson_mean 0.704  spearman_mean 0.655  pooled_centered_r 0.802  pooled_posadj_r 0.690  pearson_mean_ceiling 0.830  spearman_mean_ceiling 0.793  pooled_centered_r_ceiling 0.886  pooled_posadj_r_ceiling 0.824
+  b=20  pearson_mean 0.751  spearman_mean 0.714  pooled_centered_r 0.809  pooled_posadj_r 0.756  pearson_mean_ceiling 0.855  spearman_mean_ceiling 0.819  pooled_centered_r_ceiling 0.892  pooled_posadj_r_ceiling 0.863
+  b=50  pearson_mean 0.817  spearman_mean 0.763  pooled_centered_r 0.860  pooled_posadj_r 0.845  pearson_mean_ceiling 0.885  spearman_mean_ceiling 0.837  pooled_centered_r_ceiling 0.916  pooled_posadj_r_ceiling 0.907
+[res] gse139131_unsel: 598 transcripts with >= 20 reads in both replicates
+  b= 1  pearson_mean 0.332  spearman_mean 0.601  pooled_centered_r 0.379  pooled_posadj_r 0.256  pearson_mean_ceiling 0.651  spearman_mean_ceiling 0.786  pooled_centered_r_ceiling 0.670  pooled_posadj_r_ceiling 0.610
+  b= 3  pearson_mean 0.484  spearman_mean 0.539  pooled_centered_r 0.598  pooled_posadj_r 0.443  pearson_mean_ceiling 0.730  spearman_mean_ceiling 0.747  pooled_centered_r_ceiling 0.790  pooled_posadj_r_ceiling 0.714
+  b= 5  pearson_mean 0.564  spearman_mean 0.557  pooled_centered_r 0.709  pooled_posadj_r 0.542  pearson_mean_ceiling 0.774  spearman_mean_ceiling 0.752  pooled_centered_r_ceiling 0.851  pooled_posadj_r_ceiling 0.771
+  b=10  pearson_mean 0.671  spearman_mean 0.631  pooled_centered_r 0.806  pooled_posadj_r 0.674  pearson_mean_ceiling 0.818  spearman_mean_ceiling 0.784  pooled_centered_r_ceiling 0.894  pooled_posadj_r_ceiling 0.828
+  b=20  pearson_mean 0.696  spearman_mean 0.670  pooled_centered_r 0.800  pooled_posadj_r 0.739  pearson_mean_ceiling 0.837  spearman_mean_ceiling 0.802  pooled_centered_r_ceiling 0.890  pooled_posadj_r_ceiling 0.861
+  b=50  pearson_mean 0.726  spearman_mean 0.672  pooled_centered_r 0.813  pooled_posadj_r 0.783  pearson_mean_ceiling 0.851  spearman_mean_ceiling 0.804  pooled_centered_r_ceiling 0.902  pooled_posadj_r_ceiling 0.887
+[res] -> /root/utr-scan/results/recoverability/v1/resolution/replicate_resolution.tsv

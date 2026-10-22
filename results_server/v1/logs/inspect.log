@@ -1,0 +1,17 @@
+[inspect] gse174329_eif3b rep1 SRR14510018 <- /root/utr-scan/fastq/SRR14510018_1.fastq.gz
+  kept 0.585  rRNA 0.392  unique 0.231 of trimmed
+[inspect] gse174329_eif3b rep2 SRR14510019 <- /root/utr-scan/fastq/SRR14510019_1.fastq.gz
+  kept 0.631  rRNA 0.408  unique 0.257 of trimmed
+[inspect] gse139131_unsel rep1 SRR10315320 <- /root/utr-scan/fastq/SRR10315320_1.fastq.gz
+  kept 0.747  rRNA 0.821  unique 0.068 of trimmed
+[inspect] gse139131_unsel rep2 SRR10315321 <- /root/utr-scan/fastq/SRR10315321.fastq.gz
+  kept 0.636  rRNA 0.844  unique 0.057 of trimmed
+[inspect] gse139131_eif3b rep1 SRR10315322 <- /root/utr-scan/fastq/SRR10315322_1.fastq.gz
+  kept 0.705  rRNA 0.923  unique 0.021 of trimmed
+[inspect] archer_yeast rep1 SRR3458591 <- /root/utr-scan/fastq/SRR3458591.fastq.gz
+  kept 0.749  rRNA 0.800  unique 0.020 of trimmed
+[inspect] archer_yeast rs SRR3458592 <- /root/utr-scan/fastq/SRR3458592.fastq.gz
+  kept 0.777  rRNA 0.854  unique 0.019 of trimmed
+[inspect] archer_yeast input SRR3458593 <- /root/utr-scan/fastq/SRR3458593.fastq.gz
+  kept 0.787  rRNA 0.767  unique 0.072 of trimmed
+[inspect] -> /root/utr-scan/results/recoverability/v1/qc/read_inspection.tsv

@@ -1,0 +1,19 @@
+[null] 20/202 fits-sets (38s)
+[null] 40/202 fits-sets (53s)
+[null] 60/202 fits-sets (73s)
+[null] 80/202 fits-sets (89s)
+[null] 100/202 fits-sets (106s)
+[null] 120/202 fits-sets (117s)
+[null] 140/202 fits-sets (127s)
+[null] 160/202 fits-sets (137s)
+[null] 180/202 fits-sets (148s)
+[null] 200/202 fits-sets (158s)
+[null] AUG rep1->rep1: real 0.00950  null 0.00454 +/- 0.00065  p=0.010
+[null] AUG rep1->rep2: real 0.00999  null 0.00525 +/- 0.00060  p=0.010
+[null] AUG rep2->rep1: real 0.00945  null 0.00460 +/- 0.00062  p=0.010
+[null] AUG rep2->rep2: real 0.01009  null 0.00534 +/- 0.00058  p=0.010
+[null] ST rep1->rep1: real 0.00163  null 0.00318 +/- 0.00034  p=1.000
+[null] ST rep1->rep2: real 0.00174  null 0.00344 +/- 0.00034  p=1.000
+[null] ST rep2->rep1: real 0.00159  null 0.00327 +/- 0.00033  p=1.000
+[null] ST rep2->rep2: real 0.00168  null 0.00351 +/- 0.00034  p=1.000
+[null] -> /root/utr-scan/results/recoverability/v1/nulls/shuffle_nulls.tsv

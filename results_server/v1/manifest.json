@@ -1,0 +1,2511 @@
+{
+  "version": "v1",
+  "psite_offsets": {
+    "gse174329_eif3b": {
+      "rule": [
+        [
+          18,
+          24,
+          "3p",
+          24
+        ],
+        [
+          25,
+          29,
+          "3p",
+          24
+        ],
+        [
+          30,
+          34,
+          "3p",
+          24
+        ],
+        [
+          35,
+          39,
+          "3p",
+          24
+        ],
+        [
+          40,
+          44,
+          "3p",
+          24
+        ],
+        [
+          45,
+          49,
+          "5p",
+          22
+        ],
+        [
+          50,
+          59,
+          "3p",
+          24
+        ],
+        [
+          60,
+          69,
+          "3p",
+          24
+        ],
+        [
+          70,
+          200,
+          "3p",
+          24
+        ]
+      ],
+      "rule_measured_on": "rep1",
+      "rule_identical_across_replicates": {
+        "rep1": true,
+        "rep2": false
+      },
+      "replicates": {
+        "rep1": {
+          "rule": [
+            [
+              18,
+              24,
+              "3p",
+              24
+            ],
+            [
+              25,
+              29,
+              "3p",
+              24
+            ],
+            [
+              30,
+              34,
+              "3p",
+              24
+            ],
+            [
+              35,
+              39,
+              "3p",
+              24
+            ],
+            [
+              40,
+              44,
+              "3p",
+              24
+            ],
+            [
+              45,
+              49,
+              "5p",
+              22
+            ],
+            [
+              50,
+              59,
+              "3p",
+              24
+            ],
+            [
+              60,
+              69,
+              "3p",
+              24
+            ],
+            [
+              70,
+              200,
+              "3p",
+              24
+            ]
+          ],
+          "single_5p_offset": 25,
+          "sharpness_at_0": {
+            "single_5p_offset": 2.4193274394488613,
+            "length_resolved": 8.24655900165452
+          },
+          "length_bin_fraction": {
+            "18-24": 0.0,
+            "25-29": 0.12253746597557541,
+            "30-34": 0.113026270505908,
+            "35-39": 0.10722560583464565,
+            "40-44": 0.09822760123895835,
+            "45-49": 0.0929853195254136,
+            "50-59": 0.17846484229700932,
+            "60-69": 0.1529917159434195,
+            "70-200": 0.13454117867907014
+          },
+          "bins": [
+            {
+              "bin": "all",
+              "anchor": "5p",
+              "peak": -25,
+              "sharpness": 2.3458731446571974,
+              "genes": 8694
+            },
+            {
+              "bin": "all",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 8.865706733624085,
+              "genes": 8953
+            },
+            {
+              "bin": "18-24",
+              "anchor": "5p",
+              "peak": -70,
+              "sharpness": 0.0,
+              "genes": 0
+            },
+            {
+              "bin": "18-24",
+              "anchor": "3p",
+              "peak": -5,
+              "sharpness": 0.0,
+              "genes": 0
+            },
+            {
+              "bin": "25-29",
+              "anchor": "5p",
+              "peak": 0,
+              "sharpness": 5.010072820242418,
+              "genes": 4625
+            },
+            {
+              "bin": "25-29",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 6.178109481444507,
+              "genes": 4796
+            },
+            {
+              "bin": "30-34",
+              "anchor": "5p",
+              "peak": -7,
+              "sharpness": 5.060344942599386,
+              "genes": 4491
+            },
+            {
+              "bin": "30-34",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 5.793011376816581,
+              "genes": 4694
+            },
+            {
+              "bin": "35-39",
+              "anchor": "5p",
+              "peak": -13,
+              "sharpness": 6.468668846439705,
+              "genes": 4364
+            },
+            {
+              "bin": "35-39",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 7.886048858416712,
+              "genes": 4612
+            },
+            {
+              "bin": "40-44",
+              "anchor": "5p",
+              "peak": -17,
+              "sharpness": 7.452976419180299,
+              "genes": 4097
+            },
+            {
+              "bin": "40-44",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 8.472051085207479,
+              "genes": 4394
+            },
+            {
+              "bin": "45-49",
+              "anchor": "5p",
+              "peak": -22,
+              "sharpness": 12.359622502683978,
+              "genes": 3908
+            },
+            {
+              "bin": "45-49",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 11.479064463463843,
+              "genes": 4289
+            },
+            {
+              "bin": "50-59",
+              "anchor": "5p",
+              "peak": -27,
+              "sharpness": 7.494470335821031,
+              "genes": 5017
+            },
+            {
+              "bin": "50-59",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 8.707028865379288,
+              "genes": 5482
+            },
+            {
+              "bin": "60-69",
+              "anchor": "5p",
+              "peak": -41,
+              "sharpness": 9.235099205636708,
+              "genes": 4547
+            },
+            {
+              "bin": "60-69",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 10.014357019064374,
+              "genes": 5045
+            },
+            {
+              "bin": "70-200",
+              "anchor": "5p",
+              "peak": -47,
+              "sharpness": 7.144896931271767,
+              "genes": 4211
+            },
+            {
+              "bin": "70-200",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 8.90100702847737,
+              "genes": 4814
+            }
+          ]
+        },
+        "rep2": {
+          "rule": [
+            [
+              18,
+              24,
+              "3p",
+              24
+            ],
+            [
+              25,
+              29,
+              "5p",
+              3
+            ],
+            [
+              30,
+              34,
+              "3p",
+              24
+            ],
+            [
+              35,
+              39,
+              "3p",
+              24
+            ],
+            [
+              40,
+              44,
+              "3p",
+              24
+            ],
+            [
+              45,
+              49,
+              "5p",
+              22
+            ],
+            [
+              50,
+              59,
+              "3p",
+              24
+            ],
+            [
+              60,
+              69,
+              "3p",
+              24
+            ],
+            [
+              70,
+              200,
+              "3p",
+              24
+            ]
+          ],
+          "single_5p_offset": 22,
+          "sharpness_at_0": {
+            "single_5p_offset": 2.387856906645735,
+            "length_resolved": 7.629758997024539
+          },
+          "length_bin_fraction": {
+            "18-24": 0.0,
+            "25-29": 0.11392989060101087,
+            "30-34": 0.10806855352734814,
+            "35-39": 0.10377921947509294,
+            "40-44": 0.09519046925782342,
+            "45-49": 0.09366686037765981,
+            "50-59": 0.18661103491274333,
+            "60-69": 0.15325738948290457,
+            "70-200": 0.1454965823654169
+          },
+          "bins": [
+            {
+              "bin": "all",
+              "anchor": "5p",
+              "peak": -22,
+              "sharpness": 2.2797840263337066,
+              "genes": 9044
+            },
+            {
+              "bin": "all",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 8.061494508624136,
+              "genes": 9292
+            },
+            {
+              "bin": "18-24",
+              "anchor": "5p",
+              "peak": -70,
+              "sharpness": 0.0,
+              "genes": 0
+            },
+            {
+              "bin": "18-24",
+              "anchor": "3p",
+              "peak": -5,
+              "sharpness": 0.0,
+              "genes": 0
+            },
+            {
+              "bin": "25-29",
+              "anchor": "5p",
+              "peak": -3,
+              "sharpness": 5.474634930472346,
+              "genes": 5011
+            },
+            {
+              "bin": "25-29",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 5.347194395059516,
+              "genes": 5146
+            },
+            {
+              "bin": "30-34",
+              "anchor": "5p",
+              "peak": -7,
+              "sharpness": 4.504516912837292,
+              "genes": 4859
+            },
+            {
+              "bin": "30-34",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 5.699674790738114,
+              "genes": 5083
+            },
+            {
+              "bin": "35-39",
+              "anchor": "5p",
+              "peak": -13,
+              "sharpness": 6.563160762028789,
+              "genes": 4743
+            },
+            {
+              "bin": "35-39",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 7.448138226224201,
+              "genes": 5002
+            },
+            {
+              "bin": "40-44",
+              "anchor": "5p",
+              "peak": -17,
+              "sharpness": 6.698382255470565,
+              "genes": 4404
+            },
+            {
+              "bin": "40-44",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 7.329870748224976,
+              "genes": 4702
+            },
+            {
+              "bin": "45-49",
+              "anchor": "5p",
+              "peak": -22,
+              "sharpness": 10.807080070736511,
+              "genes": 4251
+            },
+            {
+              "bin": "45-49",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 10.446674170681128,
+              "genes": 4563
+            },
+            {
+              "bin": "50-59",
+              "anchor": "5p",
+              "peak": -26,
+              "sharpness": 6.852433657458271,
+              "genes": 5473
+            },
+            {
+              "bin": "50-59",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 8.409421093414213,
+              "genes": 5890
+            },
+            {
+              "bin": "60-69",
+              "anchor": "5p",
+              "peak": -41,
+              "sharpness": 8.14987770888736,
+              "genes": 4886
+            },
+            {
+              "bin": "60-69",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 9.33224642491693,
+              "genes": 5344
+            },
+            {
+              "bin": "70-200",
+              "anchor": "5p",
+              "peak": -46,
+              "sharpness": 6.413794326275158,
+              "genes": 4629
+            },
+            {
+              "bin": "70-200",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 7.648198582384478,
+              "genes": 5204
+            }
+          ]
+        }
+      },
+      "offset": 25,
+      "method": "per length bin, the footprint end (5'/3') with the sharper gene-normalised start-codon metagene; kept only if sharper at 0 than the best single 5' offset"
+    },
+    "gse139131_unsel": {
+      "rule": [
+        [
+          18,
+          24,
+          "3p",
+          24
+        ],
+        [
+          25,
+          29,
+          "5p",
+          0
+        ],
+        [
+          30,
+          34,
+          "5p",
+          13
+        ],
+        [
+          35,
+          39,
+          "5p",
+          13
+        ],
+        [
+          40,
+          44,
+          "3p",
+          25
+        ],
+        [
+          45,
+          49,
+          "3p",
+          24
+        ],
+        [
+          50,
+          59,
+          "3p",
+          25
+        ],
+        [
+          60,
+          69,
+          "3p",
+          24
+        ],
+        [
+          70,
+          200,
+          "5p",
+          48
+        ]
+      ],
+      "rule_measured_on": "rep1",
+      "rule_identical_across_replicates": {
+        "rep1": true,
+        "rep2": false
+      },
+      "replicates": {
+        "rep1": {
+          "rule": [
+            [
+              18,
+              24,
+              "3p",
+              24
+            ],
+            [
+              25,
+              29,
+              "5p",
+              0
+            ],
+            [
+              30,
+              34,
+              "5p",
+              13
+            ],
+            [
+              35,
+              39,
+              "5p",
+              13
+            ],
+            [
+              40,
+              44,
+              "3p",
+              25
+            ],
+            [
+              45,
+              49,
+              "3p",
+              24
+            ],
+            [
+              50,
+              59,
+              "3p",
+              25
+            ],
+            [
+              60,
+              69,
+              "3p",
+              24
+            ],
+            [
+              70,
+              200,
+              "5p",
+              48
+            ]
+          ],
+          "single_5p_offset": 0,
+          "sharpness_at_0": {
+            "single_5p_offset": 4.259660699112317,
+            "length_resolved": 8.478925731006477
+          },
+          "length_bin_fraction": {
+            "18-24": 0.0,
+            "25-29": 0.14567056196549813,
+            "30-34": 0.1667714895516437,
+            "35-39": 0.16176362130586389,
+            "40-44": 0.16596644482023423,
+            "45-49": 0.13851022822203515,
+            "50-59": 0.1379621311833635,
+            "60-69": 0.06258479678061704,
+            "70-200": 0.020770726170744352
+          },
+          "bins": [
+            {
+              "bin": "all",
+              "anchor": "5p",
+              "peak": 0,
+              "sharpness": 4.259660699112317,
+              "genes": 6453
+            },
+            {
+              "bin": "all",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 7.918510117882368,
+              "genes": 6517
+            },
+            {
+              "bin": "18-24",
+              "anchor": "5p",
+              "peak": -70,
+              "sharpness": 0.0,
+              "genes": 0
+            },
+            {
+              "bin": "18-24",
+              "anchor": "3p",
+              "peak": -5,
+              "sharpness": 0.0,
+              "genes": 0
+            },
+            {
+              "bin": "25-29",
+              "anchor": "5p",
+              "peak": 0,
+              "sharpness": 9.401189795664907,
+              "genes": 1996
+            },
+            {
+              "bin": "25-29",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 6.695624023698535,
+              "genes": 2026
+            },
+            {
+              "bin": "30-34",
+              "anchor": "5p",
+              "peak": -13,
+              "sharpness": 7.571162679707055,
+              "genes": 2320
+            },
+            {
+              "bin": "30-34",
+              "anchor": "3p",
+              "peak": 19,
+              "sharpness": 6.465760581859107,
+              "genes": 2317
+            },
+            {
+              "bin": "35-39",
+              "anchor": "5p",
+              "peak": -13,
+              "sharpness": 9.221227627728574,
+              "genes": 2581
+            },
+            {
+              "bin": "35-39",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 7.272763302457266,
+              "genes": 2600
+            },
+            {
+              "bin": "40-44",
+              "anchor": "5p",
+              "peak": -14,
+              "sharpness": 7.7054547725873945,
+              "genes": 2233
+            },
+            {
+              "bin": "40-44",
+              "anchor": "3p",
+              "peak": 25,
+              "sharpness": 8.003368634015564,
+              "genes": 2321
+            },
+            {
+              "bin": "45-49",
+              "anchor": "5p",
+              "peak": -22,
+              "sharpness": 10.953847626132054,
+              "genes": 1885
+            },
+            {
+              "bin": "45-49",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 11.496311630422769,
+              "genes": 1982
+            },
+            {
+              "bin": "50-59",
+              "anchor": "5p",
+              "peak": -27,
+              "sharpness": 8.47634029986167,
+              "genes": 2116
+            },
+            {
+              "bin": "50-59",
+              "anchor": "3p",
+              "peak": 25,
+              "sharpness": 10.103582895586195,
+              "genes": 2293
+            },
+            {
+              "bin": "60-69",
+              "anchor": "5p",
+              "peak": -40,
+              "sharpness": 11.070570208298758,
+              "genes": 1198
+            },
+            {
+              "bin": "60-69",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 12.877836475245875,
+              "genes": 1327
+            },
+            {
+              "bin": "70-200",
+              "anchor": "5p",
+              "peak": -48,
+              "sharpness": 11.96713868110668,
+              "genes": 730
+            },
+            {
+              "bin": "70-200",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 9.497038057655173,
+              "genes": 856
+            }
+          ]
+        },
+        "rep2": {
+          "rule": [
+            [
+              18,
+              24,
+              "3p",
+              24
+            ],
+            [
+              25,
+              29,
+              "5p",
+              0
+            ],
+            [
+              30,
+              34,
+              "5p",
+              12
+            ],
+            [
+              35,
+              39,
+              "5p",
+              14
+            ],
+            [
+              40,
+              44,
+              "5p",
+              18
+            ],
+            [
+              45,
+              49,
+              "5p",
+              24
+            ],
+            [
+              50,
+              59,
+              "3p",
+              24
+            ],
+            [
+              60,
+              69,
+              "5p",
+              39
+            ],
+            [
+              70,
+              200,
+              "3p",
+              24
+            ]
+          ],
+          "single_5p_offset": 12,
+          "sharpness_at_0": {
+            "single_5p_offset": 5.52597856862671,
+            "length_resolved": 10.42876139632097
+          },
+          "length_bin_fraction": {
+            "18-24": 0.0,
+            "25-29": 0.26074263656960645,
+            "30-34": 0.19028027188050683,
+            "35-39": 0.10869262398254595,
+            "40-44": 0.1417156163463959,
+            "45-49": 0.10918268020474951,
+            "50-59": 0.10680246706385835,
+            "60-69": 0.07641226818830242,
+            "70-200": 0.006171435764034573
+          },
+          "bins": [
+            {
+              "bin": "all",
+              "anchor": "5p",
+              "peak": -12,
+              "sharpness": 5.551723594813218,
+              "genes": 3977
+            },
+            {
+              "bin": "all",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 9.044895078956323,
+              "genes": 4144
+            },
+            {
+              "bin": "18-24",
+              "anchor": "5p",
+              "peak": -70,
+              "sharpness": 0.0,
+              "genes": 0
+            },
+            {
+              "bin": "18-24",
+              "anchor": "3p",
+              "peak": -5,
+              "sharpness": 0.0,
+              "genes": 0
+            },
+            {
+              "bin": "25-29",
+              "anchor": "5p",
+              "peak": 0,
+              "sharpness": 8.080357386987439,
+              "genes": 1431
+            },
+            {
+              "bin": "25-29",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 6.712481540919048,
+              "genes": 1473
+            },
+            {
+              "bin": "30-34",
+              "anchor": "5p",
+              "peak": -12,
+              "sharpness": 16.017842333409806,
+              "genes": 1384
+            },
+            {
+              "bin": "30-34",
+              "anchor": "3p",
+              "peak": 18,
+              "sharpness": 11.076920082029172,
+              "genes": 1414
+            },
+            {
+              "bin": "35-39",
+              "anchor": "5p",
+              "peak": -14,
+              "sharpness": 12.335960760762058,
+              "genes": 723
+            },
+            {
+              "bin": "35-39",
+              "anchor": "3p",
+              "peak": 22,
+              "sharpness": 11.758237335167644,
+              "genes": 762
+            },
+            {
+              "bin": "40-44",
+              "anchor": "5p",
+              "peak": -18,
+              "sharpness": 14.645485873157115,
+              "genes": 508
+            },
+            {
+              "bin": "40-44",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 11.05356955749052,
+              "genes": 571
+            },
+            {
+              "bin": "45-49",
+              "anchor": "5p",
+              "peak": -24,
+              "sharpness": 17.306029101730214,
+              "genes": 551
+            },
+            {
+              "bin": "45-49",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 16.44803393984563,
+              "genes": 604
+            },
+            {
+              "bin": "50-59",
+              "anchor": "5p",
+              "peak": -27,
+              "sharpness": 12.627342843492965,
+              "genes": 948
+            },
+            {
+              "bin": "50-59",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 12.8474348413348,
+              "genes": 1050
+            },
+            {
+              "bin": "60-69",
+              "anchor": "5p",
+              "peak": -39,
+              "sharpness": 23.209165536783786,
+              "genes": 511
+            },
+            {
+              "bin": "60-69",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 14.92702336202296,
+              "genes": 586
+            },
+            {
+              "bin": "70-200",
+              "anchor": "5p",
+              "peak": -44,
+              "sharpness": 90218253968.25398,
+              "genes": 40
+            },
+            {
+              "bin": "70-200",
+              "anchor": "3p",
+              "peak": 23,
+              "sharpness": 33.917460317460325,
+              "genes": 54
+            }
+          ]
+        }
+      },
+      "offset": 0,
+      "method": "per length bin, the footprint end (5'/3') with the sharper gene-normalised start-codon metagene; kept only if sharper at 0 than the best single 5' offset"
+    },
+    "gse139131_eif3b": {
+      "rule": [
+        [
+          18,
+          24,
+          "3p",
+          23
+        ],
+        [
+          25,
+          29,
+          "5p",
+          0
+        ],
+        [
+          30,
+          34,
+          "3p",
+          23
+        ],
+        [
+          35,
+          39,
+          "3p",
+          23
+        ],
+        [
+          40,
+          44,
+          "5p",
+          19
+        ],
+        [
+          45,
+          49,
+          "5p",
+          22
+        ],
+        [
+          50,
+          59,
+          "3p",
+          24
+        ],
+        [
+          60,
+          69,
+          "5p",
+          40
+        ],
+        [
+          70,
+          200,
+          "5p",
+          45
+        ]
+      ],
+      "rule_measured_on": "rep1",
+      "rule_identical_across_replicates": {
+        "rep1": true
+      },
+      "replicates": {
+        "rep1": {
+          "rule": [
+            [
+              18,
+              24,
+              "3p",
+              23
+            ],
+            [
+              25,
+              29,
+              "5p",
+              0
+            ],
+            [
+              30,
+              34,
+              "3p",
+              23
+            ],
+            [
+              35,
+              39,
+              "3p",
+              23
+            ],
+            [
+              40,
+              44,
+              "5p",
+              19
+            ],
+            [
+              45,
+              49,
+              "5p",
+              22
+            ],
+            [
+              50,
+              59,
+              "3p",
+              24
+            ],
+            [
+              60,
+              69,
+              "5p",
+              40
+            ],
+            [
+              70,
+              200,
+              "5p",
+              45
+            ]
+          ],
+          "single_5p_offset": 0,
+          "sharpness_at_0": {
+            "single_5p_offset": 3.9354851035083964,
+            "length_resolved": 5.895443368848616
+          },
+          "length_bin_fraction": {
+            "18-24": 0.0,
+            "25-29": 0.33755401529048223,
+            "30-34": 0.20196631227373685,
+            "35-39": 0.17424479979491028,
+            "40-44": 0.11384543968645604,
+            "45-49": 0.05800374983977365,
+            "50-59": 0.06610450451494324,
+            "60-69": 0.03934326386691183,
+            "70-200": 0.008937914732785896
+          },
+          "bins": [
+            {
+              "bin": "all",
+              "anchor": "5p",
+              "peak": 0,
+              "sharpness": 3.9354851035083964,
+              "genes": 8270
+            },
+            {
+              "bin": "all",
+              "anchor": "3p",
+              "peak": 23,
+              "sharpness": 5.630848644679856,
+              "genes": 8494
+            },
+            {
+              "bin": "18-24",
+              "anchor": "5p",
+              "peak": -70,
+              "sharpness": 0.0,
+              "genes": 0
+            },
+            {
+              "bin": "18-24",
+              "anchor": "3p",
+              "peak": -5,
+              "sharpness": 0.0,
+              "genes": 0
+            },
+            {
+              "bin": "25-29",
+              "anchor": "5p",
+              "peak": 0,
+              "sharpness": 7.265229640166888,
+              "genes": 5658
+            },
+            {
+              "bin": "25-29",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 5.587737357838237,
+              "genes": 5828
+            },
+            {
+              "bin": "30-34",
+              "anchor": "5p",
+              "peak": -8,
+              "sharpness": 3.3122674310757088,
+              "genes": 4617
+            },
+            {
+              "bin": "30-34",
+              "anchor": "3p",
+              "peak": 23,
+              "sharpness": 3.8785483303764368,
+              "genes": 4833
+            },
+            {
+              "bin": "35-39",
+              "anchor": "5p",
+              "peak": -14,
+              "sharpness": 5.5125504771850835,
+              "genes": 3915
+            },
+            {
+              "bin": "35-39",
+              "anchor": "3p",
+              "peak": 23,
+              "sharpness": 5.671887897554892,
+              "genes": 4141
+            },
+            {
+              "bin": "40-44",
+              "anchor": "5p",
+              "peak": -19,
+              "sharpness": 6.755510182909832,
+              "genes": 3755
+            },
+            {
+              "bin": "40-44",
+              "anchor": "3p",
+              "peak": 23,
+              "sharpness": 5.997902867705286,
+              "genes": 4015
+            },
+            {
+              "bin": "45-49",
+              "anchor": "5p",
+              "peak": -22,
+              "sharpness": 10.630907505824604,
+              "genes": 2866
+            },
+            {
+              "bin": "45-49",
+              "anchor": "3p",
+              "peak": 23,
+              "sharpness": 8.006372067327417,
+              "genes": 3139
+            },
+            {
+              "bin": "50-59",
+              "anchor": "5p",
+              "peak": -33,
+              "sharpness": 6.49255246683092,
+              "genes": 3047
+            },
+            {
+              "bin": "50-59",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 7.468013404500407,
+              "genes": 3357
+            },
+            {
+              "bin": "60-69",
+              "anchor": "5p",
+              "peak": -40,
+              "sharpness": 9.00737982414499,
+              "genes": 1967
+            },
+            {
+              "bin": "60-69",
+              "anchor": "3p",
+              "peak": 23,
+              "sharpness": 7.2109481988147275,
+              "genes": 2220
+            },
+            {
+              "bin": "70-200",
+              "anchor": "5p",
+              "peak": -45,
+              "sharpness": 9.29443219563756,
+              "genes": 714
+            },
+            {
+              "bin": "70-200",
+              "anchor": "3p",
+              "peak": 24,
+              "sharpness": 6.673645280779747,
+              "genes": 877
+            }
+          ]
+        }
+      },
+      "offset": 0,
+      "method": "per length bin, the footprint end (5'/3') with the sharper gene-normalised start-codon metagene; kept only if sharper at 0 than the best single 5' offset"
+    },
+    "archer_yeast": {
+      "rule": [
+        [
+          18,
+          24,
+          "5p",
+          12
+        ],
+        [
+          25,
+          29,
+          "5p",
+          12
+        ],
+        [
+          30,
+          34,
+          "5p",
+          13
+        ],
+        [
+          35,
+          39,
+          "5p",
+          13
+        ],
+        [
+          40,
+          44,
+          "5p",
+          13
+        ],
+        [
+          45,
+          49,
+          "5p",
+          29
+        ],
+        [
+          50,
+          59,
+          "5p",
+          32
+        ],
+        [
+          60,
+          69,
+          "5p",
+          38
+        ],
+        [
+          70,
+          200,
+          "5p",
+          65
+        ]
+      ],
+      "rule_measured_on": "rep1",
+      "rule_identical_across_replicates": {
+        "rep1": true
+      },
+      "replicates": {
+        "rep1": {
+          "rule": [
+            [
+              18,
+              24,
+              "5p",
+              12
+            ],
+            [
+              25,
+              29,
+              "5p",
+              12
+            ],
+            [
+              30,
+              34,
+              "5p",
+              13
+            ],
+            [
+              35,
+              39,
+              "5p",
+              13
+            ],
+            [
+              40,
+              44,
+              "5p",
+              13
+            ],
+            [
+              45,
+              49,
+              "5p",
+              29
+            ],
+            [
+              50,
+              59,
+              "5p",
+              32
+            ],
+            [
+              60,
+              69,
+              "5p",
+              38
+            ],
+            [
+              70,
+              200,
+              "5p",
+              65
+            ]
+          ],
+          "single_5p_offset": 12,
+          "sharpness_at_0": {
+            "single_5p_offset": 28.708951827937433,
+            "length_resolved": 38.85382723171979
+          },
+          "length_bin_fraction": {
+            "18-24": 0.19172816048782643,
+            "25-29": 0.17861719386176989,
+            "30-34": 0.22374745134676202,
+            "35-39": 0.12866927160595137,
+            "40-44": 0.06870601008730123,
+            "45-49": 0.05288573827303888,
+            "50-59": 0.07904833445905426,
+            "60-69": 0.039406124342715745,
+            "70-200": 0.03719171553558014
+          },
+          "bins": [
+            {
+              "bin": "all",
+              "anchor": "5p",
+              "peak": -12,
+              "sharpness": 32.938804284137674,
+              "genes": 4180
+            },
+            {
+              "bin": "all",
+              "anchor": "3p",
+              "peak": 6,
+              "sharpness": 15.421644120837492,
+              "genes": 4167
+            },
+            {
+              "bin": "18-24",
+              "anchor": "5p",
+              "peak": -12,
+              "sharpness": 71.32174684175757,
+              "genes": 2138
+            },
+            {
+              "bin": "18-24",
+              "anchor": "3p",
+              "peak": 6,
+              "sharpness": 68.8242173353558,
+              "genes": 2146
+            },
+            {
+              "bin": "25-29",
+              "anchor": "5p",
+              "peak": -12,
+              "sharpness": 67.93508377146334,
+              "genes": 2081
+            },
+            {
+              "bin": "25-29",
+              "anchor": "3p",
+              "peak": 15,
+              "sharpness": 46.92798559855875,
+              "genes": 2071
+            },
+            {
+              "bin": "30-34",
+              "anchor": "5p",
+              "peak": -13,
+              "sharpness": 43.199767512648734,
+              "genes": 2250
+            },
+            {
+              "bin": "30-34",
+              "anchor": "3p",
+              "peak": 17,
+              "sharpness": 34.97296302134613,
+              "genes": 2235
+            },
+            {
+              "bin": "35-39",
+              "anchor": "5p",
+              "peak": -13,
+              "sharpness": 43.12084891833924,
+              "genes": 1830
+            },
+            {
+              "bin": "35-39",
+              "anchor": "3p",
+              "peak": 23,
+              "sharpness": 24.353084846433823,
+              "genes": 1857
+            },
+            {
+              "bin": "40-44",
+              "anchor": "5p",
+              "peak": -13,
+              "sharpness": 35.6553229537474,
+              "genes": 1429
+            },
+            {
+              "bin": "40-44",
+              "anchor": "3p",
+              "peak": 26,
+              "sharpness": 14.648534606438087,
+              "genes": 1485
+            },
+            {
+              "bin": "45-49",
+              "anchor": "5p",
+              "peak": -29,
+              "sharpness": 30.21188862306486,
+              "genes": 1112
+            },
+            {
+              "bin": "45-49",
+              "anchor": "3p",
+              "peak": 18,
+              "sharpness": 15.799020292287823,
+              "genes": 1159
+            },
+            {
+              "bin": "50-59",
+              "anchor": "5p",
+              "peak": -32,
+              "sharpness": 24.832387229697,
+              "genes": 1412
+            },
+            {
+              "bin": "50-59",
+              "anchor": "3p",
+              "peak": 18,
+              "sharpness": 12.440389735572188,
+              "genes": 1485
+            },
+            {
+              "bin": "60-69",
+              "anchor": "5p",
+              "peak": -38,
+              "sharpness": 17.644297545573757,
+              "genes": 801
+            },
+            {
+              "bin": "60-69",
+              "anchor": "3p",
+              "peak": 5,
+              "sharpness": 7.571120993642965,
+              "genes": 901
+            },
+            {
+              "bin": "70-200",
+              "anchor": "5p",
+              "peak": -65,
+              "sharpness": 19.73830599225336,
+              "genes": 229
+            },
+            {
+              "bin": "70-200",
+              "anchor": "3p",
+              "peak": 5,
+              "sharpness": 6.44285781555341,
+              "genes": 279
+            }
+          ]
+        }
+      },
+      "offset": 12,
+      "method": "per length bin, the footprint end (5'/3') with the sharper gene-normalised start-codon metagene; kept only if sharper at 0 than the best single 5' offset"
+    }
+  },
+  "history": [
+    {
+      "section": "psite_offsets",
+      "git_commit": "a2fc2ca1e23f871999faec736b41ca8533aae54c-dirty",
+      "time": "2026-10-12T18:03:36"
+    },
+    {
+      "section": "panels",
+      "git_commit": "a2fc2ca1e23f871999faec736b41ca8533aae54c-dirty",
+      "time": "2026-10-12T18:04:15"
+    },
+    {
+      "section": "panels",
+      "git_commit": "a2fc2ca1e23f871999faec736b41ca8533aae54c-dirty",
+      "time": "2026-10-12T18:08:12"
+    },
+    {
+      "section": "panels",
+      "git_commit": "a2fc2ca1e23f871999faec736b41ca8533aae54c-dirty",
+      "time": "2026-10-12T18:08:12"
+    },
+    {
+      "section": "panels",
+      "git_commit": "a2fc2ca1e23f871999faec736b41ca8533aae54c-dirty",
+      "time": "2026-10-12T18:08:13"
+    },
+    {
+      "section": "panels",
+      "git_commit": "a2fc2ca1e23f871999faec736b41ca8533aae54c-dirty",
+      "time": "2026-10-12T18:08:14"
+    },
+    {
+      "section": "panels",
+      "git_commit": "a2fc2ca1e23f871999faec736b41ca8533aae54c-dirty",
+      "time": "2026-10-12T18:08:14"
+    },
+    {
+      "section": "effects_archer_yeast",
+      "git_commit": "a2fc2ca1e23f871999faec736b41ca8533aae54c-dirty",
+      "time": "2026-10-12T18:10:17"
+    },
+    {
+      "section": "effects_gse139131_unsel",
+      "git_commit": "a2fc2ca1e23f871999faec736b41ca8533aae54c-dirty",
+      "time": "2026-10-12T18:13:56"
+    },
+    {
+      "section": "effects_gse139131_eif3b",
+      "git_commit": "a2fc2ca1e23f871999faec736b41ca8533aae54c-dirty",
+      "time": "2026-10-12T18:15:54"
+    },
+    {
+      "section": "effects_gse174329_eif3b",
+      "git_commit": "a2fc2ca1e23f871999faec736b41ca8533aae54c-dirty",
+      "time": "2026-10-12T18:22:44"
+    },
+    {
+      "section": "nulls_gse174329_eif3b_b10",
+      "git_commit": "a2fc2ca1e23f871999faec736b41ca8533aae54c-dirty",
+      "time": "2026-10-12T18:43:20"
+    },
+    {
+      "section": "nulls_gse174329_eif3b_b1",
+      "git_commit": "a2fc2ca1e23f871999faec736b41ca8533aae54c-dirty",
+      "time": "2026-10-12T18:56:18"
+    },
+    {
+      "section": "nulls_gse174329_eif3b_b5",
+      "git_commit": "16f9f187bb292fbefd1c3ed0ce2aa88a8546cc12-dirty",
+      "time": "2026-10-12T19:32:36"
+    },
+    {
+      "section": "nulls_gse174329_eif3b_b20",
+      "git_commit": "16f9f187bb292fbefd1c3ed0ce2aa88a8546cc12-dirty",
+      "time": "2026-10-12T19:35:29"
+    },
+    {
+      "section": "nulls_archer_yeast_b1",
+      "git_commit": "16f9f187bb292fbefd1c3ed0ce2aa88a8546cc12-dirty",
+      "time": "2026-10-12T19:38:23"
+    },
+    {
+      "section": "nulls_archer_yeast_b5",
+      "git_commit": "16f9f187bb292fbefd1c3ed0ce2aa88a8546cc12-dirty",
+      "time": "2026-10-12T19:41:20"
+    },
+    {
+      "section": "nulls_archer_yeast_b10",
+      "git_commit": "16f9f187bb292fbefd1c3ed0ce2aa88a8546cc12-dirty",
+      "time": "2026-10-12T19:45:02"
+    },
+    {
+      "section": "synthetic_dm_alpha_gse174329_eif3b",
+      "git_commit": "16f9f187bb292fbefd1c3ed0ce2aa88a8546cc12-dirty",
+      "time": "2026-10-12T19:45:34"
+    },
+    {
+      "section": "synthetic_gse174329_eif3b_dm",
+      "git_commit": "16f9f187bb292fbefd1c3ed0ce2aa88a8546cc12-dirty",
+      "time": "2026-10-12T19:51:59"
+    },
+    {
+      "section": "synthetic_archer_yeast_multinomial",
+      "git_commit": "16f9f187bb292fbefd1c3ed0ce2aa88a8546cc12-dirty",
+      "time": "2026-10-12T19:54:39"
+    },
+    {
+      "section": "chain_ablation_archer_yeast",
+      "git_commit": "16f9f187bb292fbefd1c3ed0ce2aa88a8546cc12-dirty",
+      "time": "2026-10-12T19:58:27"
+    },
+    {
+      "section": "chain_ablation_gse174329_eif3b",
+      "git_commit": "16f9f187bb292fbefd1c3ed0ce2aa88a8546cc12-dirty",
+      "time": "2026-10-12T20:07:56"
+    }
+  ],
+  "panels": {
+    "annotation_yeast": {
+      "species": "yeast",
+      "n_transcripts": 2021,
+      "dropped": {
+        "no_leader_window": 4571,
+        "start_codon_not_ATG": 1
+      },
+      "intron_split_start_codons": 4,
+      "annotation": {
+        "genome": "R64-1-1 (Ensembl 115)",
+        "gtf": "Saccharomyces_cerevisiae.R64-1-1.115.gtf",
+        "index": "bowtie2 built locally from the same FASTA",
+        "transcripts": "start_codon features; leader from Input coverage"
+      },
+      "cds_extension": 30,
+      "min_leader_len": 20,
+      "structure": "ViennaRNA 2.7.2: MFE pairing of the stored sequence (leader window + main AUG + 30 nt exon-aware CDS), no genomic flank; local dG in 40-nt windows centred on each position, clipped to the stored sequence",
+      "leader_definition": "called from Input read coverage (min_gap 10, min_start_cov 2, max 300 nt, clipped at the nearest same-strand upstream CDS); genes with no call are excluded, not given a fixed window"
+    },
+    "annotation_human": {
+      "species": "human",
+      "n_transcripts": 15618,
+      "dropped": {
+        "no_leader_window": 353,
+        "leader_too_short": 3187,
+        "start_codon_not_ATG": 35
+      },
+      "intron_split_start_codons": 33,
+      "annotation": {
+        "genome": "GRCh38 primary assembly (GENCODE release 49)",
+        "gtf": "gencode.v49.annotation.gtf",
+        "index": "bowtie2 GRCh38_noalt_as (genome-idx.s3.amazonaws.com)",
+        "transcripts": "MANE Select, last 5'UTR exon"
+      },
+      "cds_extension": 30,
+      "min_leader_len": 20,
+      "structure": "ViennaRNA 2.7.2: MFE pairing of the stored sequence (leader window + main AUG + 30 nt exon-aware CDS), no genomic flank; local dG in 40-nt windows centred on each position, clipped to the stored sequence",
+      "leader_definition": "last 5'UTR exon of the MANE Select transcript"
+    },
+    "counts_archer_yeast": {
+      "dataset": "archer_yeast",
+      "psite_rule": [
+        [
+          18,
+          24,
+          "5p",
+          12
+        ],
+        [
+          25,
+          29,
+          "5p",
+          12
+        ],
+        [
+          30,
+          34,
+          "5p",
+          13
+        ],
+        [
+          35,
+          39,
+          "5p",
+          13
+        ],
+        [
+          40,
+          44,
+          "5p",
+          13
+        ],
+        [
+          45,
+          49,
+          "5p",
+          29
+        ],
+        [
+          50,
+          59,
+          "5p",
+          32
+        ],
+        [
+          60,
+          69,
+          "5p",
+          38
+        ],
+        [
+          70,
+          200,
+          "5p",
+          65
+        ]
+      ],
+      "replicates": [
+        "rep1"
+      ],
+      "unique_5ends_total": {
+        "rep1": 792085
+      },
+      "annotation": "/root/utr-scan/cache/recoverability/annotation_yeast.npz",
+      "count_tracks": {
+        "rep1": "/root/utr-scan/work/ssu.reads.npz"
+      }
+    },
+    "counts_gse139131_eif3b": {
+      "dataset": "gse139131_eif3b",
+      "psite_rule": [
+        [
+          18,
+          24,
+          "3p",
+          23
+        ],
+        [
+          25,
+          29,
+          "5p",
+          0
+        ],
+        [
+          30,
+          34,
+          "3p",
+          23
+        ],
+        [
+          35,
+          39,
+          "3p",
+          23
+        ],
+        [
+          40,
+          44,
+          "5p",
+          19
+        ],
+        [
+          45,
+          49,
+          "5p",
+          22
+        ],
+        [
+          50,
+          59,
+          "3p",
+          24
+        ],
+        [
+          60,
+          69,
+          "5p",
+          40
+        ],
+        [
+          70,
+          200,
+          "5p",
+          45
+        ]
+      ],
+      "replicates": [
+        "rep1"
+      ],
+      "unique_5ends_total": {
+        "rep1": 2761718
+      },
+      "annotation": "/root/utr-scan/cache/recoverability/annotation_human.npz",
+      "count_tracks": {
+        "rep1": "/root/utr-scan/work/human-eif3b.ssu.reads.npz"
+      }
+    },
+    "counts_gse174329_eif3b": {
+      "dataset": "gse174329_eif3b",
+      "psite_rule": [
+        [
+          18,
+          24,
+          "3p",
+          24
+        ],
+        [
+          25,
+          29,
+          "3p",
+          24
+        ],
+        [
+          30,
+          34,
+          "3p",
+          24
+        ],
+        [
+          35,
+          39,
+          "3p",
+          24
+        ],
+        [
+          40,
+          44,
+          "3p",
+          24
+        ],
+        [
+          45,
+          49,
+          "5p",
+          22
+        ],
+        [
+          50,
+          59,
+          "3p",
+          24
+        ],
+        [
+          60,
+          69,
+          "3p",
+          24
+        ],
+        [
+          70,
+          200,
+          "3p",
+          24
+        ]
+      ],
+      "replicates": [
+        "rep1",
+        "rep2"
+      ],
+      "unique_5ends_total": {
+        "rep1": 2301288,
+        "rep2": 2479639
+      },
+      "annotation": "/root/utr-scan/cache/recoverability/annotation_human.npz",
+      "count_tracks": {
+        "rep1": "/root/utr-scan/work/human-eif3b-replicated.ssu_rep1.reads.npz",
+        "rep2": "/root/utr-scan/work/human-eif3b-replicated.ssu_rep2.reads.npz"
+      }
+    },
+    "counts_gse139131_unsel": {
+      "dataset": "gse139131_unsel",
+      "psite_rule": [
+        [
+          18,
+          24,
+          "3p",
+          24
+        ],
+        [
+          25,
+          29,
+          "5p",
+          0
+        ],
+        [
+          30,
+          34,
+          "5p",
+          13
+        ],
+        [
+          35,
+          39,
+          "5p",
+          13
+        ],
+        [
+          40,
+          44,
+          "3p",
+          25
+        ],
+        [
+          45,
+          49,
+          "3p",
+          24
+        ],
+        [
+          50,
+          59,
+          "3p",
+          25
+        ],
+        [
+          60,
+          69,
+          "3p",
+          24
+        ],
+        [
+          70,
+          200,
+          "5p",
+          48
+        ]
+      ],
+      "replicates": [
+        "rep1",
+        "rep2"
+      ],
+      "unique_5ends_total": {
+        "rep1": 8040547,
+        "rep2": 2383400
+      },
+      "annotation": "/root/utr-scan/cache/recoverability/annotation_human.npz",
+      "count_tracks": {
+        "rep1": "/root/utr-scan/work/human-40s.ssu.reads.npz",
+        "rep2": "/root/utr-scan/work/human-40s.ssu_rep2.reads.npz"
+      }
+    }
+  },
+  "effects_archer_yeast": {
+    "min_reads": 10,
+    "prior_sd": 1.0,
+    "models": {
+      "P": [],
+      "S1": [
+        "nt1"
+      ],
+      "S3": [
+        "k3"
+      ],
+      "S5": [
+        "k5"
+      ],
+      "SW": [
+        "sw"
+      ],
+      "ST_paired": [
+        "paired"
+      ],
+      "ST_dG": [
+        "dG"
+      ],
+      "ST": [
+        "paired",
+        "dG"
+      ],
+      "AUG": [
+        "start",
+        "m3",
+        "p4",
+        "kozak"
+      ],
+      "UORF": [
+        "start",
+        "m3",
+        "p4",
+        "kozak",
+        "nuaug",
+        "in_uorf",
+        "uorf_geom"
+      ],
+      "SW+ST": [
+        "sw",
+        "paired",
+        "dG"
+      ],
+      "SW+AUG": [
+        "sw",
+        "start",
+        "m3",
+        "p4",
+        "kozak"
+      ],
+      "ST+AUG": [
+        "paired",
+        "dG",
+        "start",
+        "m3",
+        "p4",
+        "kozak"
+      ],
+      "SW+ST+AUG": [
+        "sw",
+        "paired",
+        "dG",
+        "start",
+        "m3",
+        "p4",
+        "kozak"
+      ]
+    },
+    "bins": [
+      1,
+      5,
+      10,
+      20
+    ],
+    "pos_max": 300,
+    "cds_extension_included": false,
+    "folds": "yeast_chromosome_folds.json",
+    "seconds": 57
+  },
+  "effects_gse139131_unsel": {
+    "min_reads": 10,
+    "prior_sd": 1.0,
+    "models": {
+      "P": [],
+      "S1": [
+        "nt1"
+      ],
+      "S3": [
+        "k3"
+      ],
+      "S5": [
+        "k5"
+      ],
+      "SW": [
+        "sw"
+      ],
+      "ST_paired": [
+        "paired"
+      ],
+      "ST_dG": [
+        "dG"
+      ],
+      "ST": [
+        "paired",
+        "dG"
+      ],
+      "AUG": [
+        "start",
+        "m3",
+        "p4",
+        "kozak"
+      ],
+      "UORF": [
+        "start",
+        "m3",
+        "p4",
+        "kozak",
+        "nuaug",
+        "in_uorf",
+        "uorf_geom"
+      ],
+      "SW+ST": [
+        "sw",
+        "paired",
+        "dG"
+      ],
+      "SW+AUG": [
+        "sw",
+        "start",
+        "m3",
+        "p4",
+        "kozak"
+      ],
+      "ST+AUG": [
+        "paired",
+        "dG",
+        "start",
+        "m3",
+        "p4",
+        "kozak"
+      ],
+      "SW+ST+AUG": [
+        "sw",
+        "paired",
+        "dG",
+        "start",
+        "m3",
+        "p4",
+        "kozak"
+      ]
+    },
+    "bins": [
+      1,
+      5,
+      10,
+      20
+    ],
+    "pos_max": 300,
+    "cds_extension_included": false,
+    "folds": "human_chromosome_folds.json",
+    "seconds": 275
+  },
+  "effects_gse139131_eif3b": {
+    "min_reads": 10,
+    "prior_sd": 1.0,
+    "models": {
+      "P": [],
+      "S1": [
+        "nt1"
+      ],
+      "S3": [
+        "k3"
+      ],
+      "S5": [
+        "k5"
+      ],
+      "SW": [
+        "sw"
+      ],
+      "ST_paired": [
+        "paired"
+      ],
+      "ST_dG": [
+        "dG"
+      ],
+      "ST": [
+        "paired",
+        "dG"
+      ],
+      "AUG": [
+        "start",
+        "m3",
+        "p4",
+        "kozak"
+      ],
+      "UORF": [
+        "start",
+        "m3",
+        "p4",
+        "kozak",
+        "nuaug",
+        "in_uorf",
+        "uorf_geom"
+      ],
+      "SW+ST": [
+        "sw",
+        "paired",
+        "dG"
+      ],
+      "SW+AUG": [
+        "sw",
+        "start",
+        "m3",
+        "p4",
+        "kozak"
+      ],
+      "ST+AUG": [
+        "paired",
+        "dG",
+        "start",
+        "m3",
+        "p4",
+        "kozak"
+      ],
+      "SW+ST+AUG": [
+        "sw",
+        "paired",
+        "dG",
+        "start",
+        "m3",
+        "p4",
+        "kozak"
+      ]
+    },
+    "bins": [
+      1,
+      5,
+      10,
+      20
+    ],
+    "pos_max": 300,
+    "cds_extension_included": false,
+    "folds": "human_chromosome_folds.json",
+    "seconds": 394
+  },
+  "effects_gse174329_eif3b": {
+    "min_reads": 10,
+    "prior_sd": 1.0,
+    "models": {
+      "P": [],
+      "S1": [
+        "nt1"
+      ],
+      "S3": [
+        "k3"
+      ],
+      "S5": [
+        "k5"
+      ],
+      "SW": [
+        "sw"
+      ],
+      "ST_paired": [
+        "paired"
+      ],
+      "ST_dG": [
+        "dG"
+      ],
+      "ST": [
+        "paired",
+        "dG"
+      ],
+      "AUG": [
+        "start",
+        "m3",
+        "p4",
+        "kozak"
+      ],
+      "UORF": [
+        "start",
+        "m3",
+        "p4",
+        "kozak",
+        "nuaug",
+        "in_uorf",
+        "uorf_geom"
+      ],
+      "SW+ST": [
+        "sw",
+        "paired",
+        "dG"
+      ],
+      "SW+AUG": [
+        "sw",
+        "start",
+        "m3",
+        "p4",
+        "kozak"
+      ],
+      "ST+AUG": [
+        "paired",
+        "dG",
+        "start",
+        "m3",
+        "p4",
+        "kozak"
+      ],
+      "SW+ST+AUG": [
+        "sw",
+        "paired",
+        "dG",
+        "start",
+        "m3",
+        "p4",
+        "kozak"
+      ]
+    },
+    "bins": [
+      1,
+      5,
+      10,
+      20
+    ],
+    "pos_max": 300,
+    "cds_extension_included": false,
+    "folds": "human_chromosome_folds.json",
+    "seconds": 804
+  },
+  "nulls_gse174329_eif3b_b10": {
+    "n_perm": 100,
+    "features": [
+      "SW",
+      "ST",
+      "AUG",
+      "S1",
+      "S3",
+      "S5",
+      "ST_paired",
+      "ST_dG",
+      "UORF"
+    ],
+    "seed": 0,
+    "workers": 8,
+    "stratum_bin": 10,
+    "start_distance_bin": 25
+  },
+  "nulls_gse174329_eif3b_b1": {
+    "n_perm": 100,
+    "features": [
+      "SW",
+      "ST",
+      "AUG",
+      "S3"
+    ],
+    "seed": 0,
+    "workers": 8,
+    "stratum_bin": 10,
+    "start_distance_bin": 25
+  },
+  "nulls_gse174329_eif3b_b5": {
+    "n_perm": 100,
+    "features": [
+      "SW",
+      "ST",
+      "AUG"
+    ],
+    "seed": 0,
+    "workers": 8,
+    "stratum_bin": 10,
+    "start_distance_bin": 25
+  },
+  "nulls_gse174329_eif3b_b20": {
+    "n_perm": 100,
+    "features": [
+      "ST",
+      "AUG"
+    ],
+    "seed": 0,
+    "workers": 8,
+    "stratum_bin": 10,
+    "start_distance_bin": 25
+  },
+  "nulls_archer_yeast_b1": {
+    "n_perm": 100,
+    "features": [
+      "SW",
+      "ST",
+      "AUG",
+      "S1",
+      "S3",
+      "S5",
+      "ST_paired",
+      "ST_dG",
+      "UORF"
+    ],
+    "seed": 0,
+    "workers": 8,
+    "stratum_bin": 10,
+    "start_distance_bin": 25
+  },
+  "nulls_archer_yeast_b5": {
+    "n_perm": 100,
+    "features": [
+      "SW",
+      "ST",
+      "AUG",
+      "S1",
+      "S3",
+      "S5",
+      "ST_paired",
+      "ST_dG",
+      "UORF"
+    ],
+    "seed": 0,
+    "workers": 8,
+    "stratum_bin": 10,
+    "start_distance_bin": 25
+  },
+  "nulls_archer_yeast_b10": {
+    "n_perm": 100,
+    "features": [
+      "SW",
+      "ST",
+      "AUG",
+      "S1",
+      "S3",
+      "S5",
+      "ST_paired",
+      "ST_dG",
+      "UORF"
+    ],
+    "seed": 0,
+    "workers": 8,
+    "stratum_bin": 10,
+    "start_distance_bin": 25
+  },
+  "synthetic_dm_alpha_gse174329_eif3b": {
+    "alpha": 124.73385354758997,
+    "observed_ratio": 1.4265992886365841,
+    "simulated_ratio": 1.427471649282474,
+    "resolution": "1 nt, leader through main AUG"
+  },
+  "synthetic_gse174329_eif3b_dm": {
+    "truths": "A,B,C,D,E",
+    "depths": "5,10,20,50,100,200,500",
+    "sizes": "0,1,2",
+    "SIZE_S": [
+      0.1,
+      0.25,
+      0.5
+    ],
+    "SIZE_K": [
+      0.25,
+      0.5,
+      1.0
+    ],
+    "n_sim": 3,
+    "n_null_sim": 6,
+    "bin": 10,
+    "folds": "all",
+    "null": "95th percentile of truth-A held-out dLL at the same depth",
+    "training_direction": "rep1 only, scored in rep1 and rep2"
+  },
+  "synthetic_archer_yeast_multinomial": {
+    "truths": "A,B,C,D,E",
+    "depths": "5,10,20,50,100,200,500",
+    "sizes": "0,1,2",
+    "SIZE_S": [
+      0.1,
+      0.25,
+      0.5
+    ],
+    "SIZE_K": [
+      0.25,
+      0.5,
+      1.0
+    ],
+    "n_sim": 3,
+    "n_null_sim": 6,
+    "bin": 10,
+    "folds": "all",
+    "null": "95th percentile of truth-A held-out dLL at the same depth",
+    "training_direction": "rep1 only, scored in rep1 and rep2"
+  },
+  "chain_ablation_archer_yeast": {
+    "bins": "10",
+    "seeds": "0,1,2",
+    "max_epochs": 400,
+    "obs_bins": 6,
+    "train_reps": "rep1",
+    "early_stopping": "15% of training transcripts, every 10 epochs, patience 50"
+  },
+  "chain_ablation_gse174329_eif3b": {
+    "bins": "10",
+    "seeds": "0,1,2",
+    "max_epochs": 400,
+    "obs_bins": 6,
+    "train_reps": "rep1",
+    "early_stopping": "15% of training transcripts, every 10 epochs, patience 50"
+  }
+}

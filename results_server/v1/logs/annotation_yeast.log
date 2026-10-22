@@ -1,0 +1,7 @@
+[panel] reading genome /root/utr-scan/ref/sacCer3.fa
+[panel] 6593 start codons (4 intron-split dropped), 2022 leader windows
+[panel] 2021 transcripts; folding with 2 processes
+[panel] folded in 38s
+[panel] -> /root/utr-scan/cache/recoverability/annotation_yeast.npz
+[panel]   dropped   4571  no_leader_window
+[panel]   dropped      1  start_codon_not_ATG

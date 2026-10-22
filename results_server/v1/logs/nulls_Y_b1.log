@@ -1,0 +1,57 @@
+[null] 20/909 fits-sets (10s)
+[null] 40/909 fits-sets (14s)
+[null] 60/909 fits-sets (18s)
+[null] 80/909 fits-sets (21s)
+[null] 100/909 fits-sets (25s)
+[null] 120/909 fits-sets (27s)
+[null] 140/909 fits-sets (28s)
+[null] 160/909 fits-sets (30s)
+[null] 180/909 fits-sets (32s)
+[null] 200/909 fits-sets (34s)
+[null] 220/909 fits-sets (36s)
+[null] 240/909 fits-sets (39s)
+[null] 260/909 fits-sets (42s)
+[null] 280/909 fits-sets (44s)
+[null] 300/909 fits-sets (47s)
+[null] 320/909 fits-sets (48s)
+[null] 340/909 fits-sets (50s)
+[null] 360/909 fits-sets (51s)
+[null] 380/909 fits-sets (53s)
+[null] 400/909 fits-sets (55s)
+[null] 420/909 fits-sets (57s)
+[null] 440/909 fits-sets (61s)
+[null] 460/909 fits-sets (63s)
+[null] 480/909 fits-sets (66s)
+[null] 500/909 fits-sets (69s)
+[W1012 19:36:40.781955330 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 1073741824 bytes (free: 583401472, total: 50865307648).
+[W1012 19:36:40.047372406 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 1073741824 bytes (free: 556138496, total: 50865307648).
+[null] 520/909 fits-sets (81s)
+[null] 540/909 fits-sets (94s)
+[null] 560/909 fits-sets (108s)
+[null] 580/909 fits-sets (120s)
+[null] 600/909 fits-sets (133s)
+[null] 620/909 fits-sets (137s)
+[null] 640/909 fits-sets (138s)
+[null] 660/909 fits-sets (140s)
+[null] 680/909 fits-sets (141s)
+[null] 700/909 fits-sets (143s)
+[null] 720/909 fits-sets (145s)
+[null] 740/909 fits-sets (146s)
+[null] 760/909 fits-sets (148s)
+[null] 780/909 fits-sets (149s)
+[null] 800/909 fits-sets (151s)
+[null] 820/909 fits-sets (155s)
+[null] 840/909 fits-sets (158s)
+[null] 860/909 fits-sets (163s)
+[null] 880/909 fits-sets (167s)
+[null] 900/909 fits-sets (171s)
+[null] AUG rep1->rep1: real 0.01605  null -0.00212 +/- 0.00493  p=0.010
+[null] S1 rep1->rep1: real 0.00511  null -0.00049 +/- 0.00182  p=0.010
+[null] S3 rep1->rep1: real 0.00056  null -0.00909 +/- 0.00718  p=0.089
+[null] S5 rep1->rep1: real -0.00730  null -0.04462 +/- 0.01251  p=0.010
+[null] ST rep1->rep1: real 0.00453  null -0.00102 +/- 0.00258  p=0.030
+[null] ST_dG rep1->rep1: real 0.00275  null -0.00011 +/- 0.00227  p=0.089
+[null] ST_paired rep1->rep1: real 0.00114  null -0.00048 +/- 0.00198  p=0.149
+[null] SW rep1->rep1: real 0.03985  null -0.00954 +/- 0.00861  p=0.010
+[null] UORF rep1->rep1: real 0.01671  null 0.01548 +/- 0.00178  p=0.198
+[null] -> /root/utr-scan/results/recoverability/v1/nulls/shuffle_nulls.tsv

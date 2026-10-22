@@ -1,0 +1,16 @@
+dataset	replicate	split	seed	bin_width	model	n_transcripts	n_reads	metric	value	target	delta_r2_vs_seq	ci_lo	ci_hi	representation_model	secondary
+akirtava_yeast		chrom_folds	0	1	seq	5179		heldout_r2	0.660706	MeanYFP	0	0	0	SW+ST+AUG	
+akirtava_yeast		chrom_folds	0	1	40S	5179		heldout_r2	0.307773	MeanYFP	-0.352933	-0.377383	-0.328325	SW+ST+AUG	
+akirtava_yeast		chrom_folds	0	1	seq+40S	5179		heldout_r2	0.662201	MeanYFP	0.00149532	1.70507e-06	0.00314316	SW+ST+AUG	
+akirtava_yeast		chrom_folds	0	1	late_fusion	5179		heldout_r2	0.661501	MeanYFP	0.000795652	-0.000358557	0.00201035	SW+ST+AUG	
+akirtava_yeast		chrom_folds	0	1	residual	5179		heldout_r2	0.661772	MeanYFP	0.00106673	0.00015858	0.002035	SW+ST+AUG	
+akirtava_yeast		chrom_folds	0	1	seq	5171		heldout_r2	0.470239	TEff	0	0	0	SW+ST+AUG	
+akirtava_yeast		chrom_folds	0	1	40S	5171		heldout_r2	0.183136	TEff	-0.287103	-0.317345	-0.252317	SW+ST+AUG	
+akirtava_yeast		chrom_folds	0	1	seq+40S	5171		heldout_r2	0.482125	TEff	0.0118864	0.00699969	0.0164644	SW+ST+AUG	
+akirtava_yeast		chrom_folds	0	1	late_fusion	5171		heldout_r2	0.473809	TEff	0.00356995	0.000469001	0.00656012	SW+ST+AUG	
+akirtava_yeast		chrom_folds	0	1	residual	5171		heldout_r2	0.478784	TEff	0.00854574	0.00467263	0.0121221	SW+ST+AUG	
+sample2019_human		random_5fold	0	1	seq	9486		heldout_r2	0.554158	rl	0	0	0	SW+ST+AUG	True
+sample2019_human		random_5fold	0	1	40S	9486		heldout_r2	0.219298	rl	-0.334859	-0.35529	-0.312341	SW+ST+AUG	True
+sample2019_human		random_5fold	0	1	seq+40S	9486		heldout_r2	0.572016	rl	0.0178584	0.012691	0.0236053	SW+ST+AUG	True
+sample2019_human		random_5fold	0	1	late_fusion	9486		heldout_r2	0.566492	rl	0.0123347	0.00812116	0.0169896	SW+ST+AUG	True
+sample2019_human		random_5fold	0	1	residual	9486		heldout_r2	0.563977	rl	0.00981944	0.00556047	0.0138306	SW+ST+AUG	True

@@ -1,0 +1,23 @@
+[effects] froze yeast folds -> /root/utr-scan/results/recoverability/v1/yeast_chromosome_folds.json
+[effects] archer_yeast: 1434 transcripts with >= 10 reads in some replicate, P = 123945 positions (2s)
+/root/utr-scan/analysis/recoverability/gpu.py:49: UserWarning: Sparse invariant checks are implicitly disabled. Memory errors (e.g. SEGFAULT) will occur when operating on a sparse tensor which violates the invariants, but checks incur performance overhead. To silence this warning, explicitly opt in or out. See `torch.sparse.check_sparse_tensor_invariants.__doc__` for guidance.  (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/Context.cpp:848.)
+  return torch.sparse_csr_tensor(
+/root/utr-scan/analysis/recoverability/gpu.py:49: UserWarning: Sparse CSR tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/SparseCsrTensorImpl.cpp:49.)
+  return torch.sparse_csr_tensor(
+[effects] fold 0 train rep1 b= 1: 1229 train tx, 205 test tx (5s)
+[effects] fold 0 train rep1 b= 5: 1229 train tx, 205 test tx (8s)
+[effects] fold 0 train rep1 b=10: 1229 train tx, 205 test tx (12s)
+[effects] fold 0 train rep1 b=20: 1229 train tx, 205 test tx (17s)
+[effects] fold 1 train rep1 b= 1: 1016 train tx, 418 test tx (19s)
+[effects] fold 1 train rep1 b= 5: 1016 train tx, 418 test tx (22s)
+[effects] fold 1 train rep1 b=10: 1016 train tx, 418 test tx (26s)
+[effects] fold 1 train rep1 b=20: 1016 train tx, 418 test tx (30s)
+[effects] fold 2 train rep1 b= 1: 1006 train tx, 428 test tx (32s)
+[effects] fold 2 train rep1 b= 5: 1006 train tx, 428 test tx (35s)
+[effects] fold 2 train rep1 b=10: 1006 train tx, 428 test tx (39s)
+[effects] fold 2 train rep1 b=20: 1006 train tx, 428 test tx (43s)
+[effects] fold 3 train rep1 b= 1: 1051 train tx, 383 test tx (46s)
+[effects] fold 3 train rep1 b= 5: 1051 train tx, 383 test tx (49s)
+[effects] fold 3 train rep1 b=10: 1051 train tx, 383 test tx (53s)
+[effects] fold 3 train rep1 b=20: 1051 train tx, 383 test tx (56s)
+[effects] -> /root/utr-scan/results/recoverability/v1/effects/nested_effects.tsv (57s)

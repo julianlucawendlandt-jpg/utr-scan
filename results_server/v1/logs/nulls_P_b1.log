@@ -1,0 +1,69 @@
+/root/utr-scan/analysis/recoverability/gpu.py:49: UserWarning: Sparse invariant checks are implicitly disabled. Memory errors (e.g. SEGFAULT) will occur when operating on a sparse tensor which violates the invariants, but checks incur performance overhead. To silence this warning, explicitly opt in or out. See `torch.sparse.check_sparse_tensor_invariants.__doc__` for guidance.  (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/Context.cpp:848.)
+  return torch.sparse_csr_tensor(
+/root/utr-scan/analysis/recoverability/gpu.py:49: UserWarning: Sparse CSR tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/SparseCsrTensorImpl.cpp:49.)
+  return torch.sparse_csr_tensor(
+/root/utr-scan/analysis/recoverability/gpu.py:49: UserWarning: Sparse invariant checks are implicitly disabled. Memory errors (e.g. SEGFAULT) will occur when operating on a sparse tensor which violates the invariants, but checks incur performance overhead. To silence this warning, explicitly opt in or out. See `torch.sparse.check_sparse_tensor_invariants.__doc__` for guidance.  (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/Context.cpp:848.)
+  return torch.sparse_csr_tensor(
+/root/utr-scan/analysis/recoverability/gpu.py:49: UserWarning: Sparse CSR tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/SparseCsrTensorImpl.cpp:49.)
+  return torch.sparse_csr_tensor(
+/root/utr-scan/analysis/recoverability/gpu.py:49: UserWarning: Sparse invariant checks are implicitly disabled. Memory errors (e.g. SEGFAULT) will occur when operating on a sparse tensor which violates the invariants, but checks incur performance overhead. To silence this warning, explicitly opt in or out. See `torch.sparse.check_sparse_tensor_invariants.__doc__` for guidance.  (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/Context.cpp:848.)
+  return torch.sparse_csr_tensor(
+/root/utr-scan/analysis/recoverability/gpu.py:49: UserWarning: Sparse CSR tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/SparseCsrTensorImpl.cpp:49.)
+  return torch.sparse_csr_tensor(
+/root/utr-scan/analysis/recoverability/gpu.py:49: UserWarning: Sparse invariant checks are implicitly disabled. Memory errors (e.g. SEGFAULT) will occur when operating on a sparse tensor which violates the invariants, but checks incur performance overhead. To silence this warning, explicitly opt in or out. See `torch.sparse.check_sparse_tensor_invariants.__doc__` for guidance.  (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/Context.cpp:848.)
+  return torch.sparse_csr_tensor(
+/root/utr-scan/analysis/recoverability/gpu.py:49: UserWarning: Sparse CSR tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/SparseCsrTensorImpl.cpp:49.)
+  return torch.sparse_csr_tensor(
+/root/utr-scan/analysis/recoverability/gpu.py:49: UserWarning: Sparse invariant checks are implicitly disabled. Memory errors (e.g. SEGFAULT) will occur when operating on a sparse tensor which violates the invariants, but checks incur performance overhead. To silence this warning, explicitly opt in or out. See `torch.sparse.check_sparse_tensor_invariants.__doc__` for guidance.  (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/Context.cpp:848.)
+  return torch.sparse_csr_tensor(
+/root/utr-scan/analysis/recoverability/gpu.py:49: UserWarning: Sparse CSR tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/SparseCsrTensorImpl.cpp:49.)
+  return torch.sparse_csr_tensor(
+/root/utr-scan/analysis/recoverability/gpu.py:49: UserWarning: Sparse invariant checks are implicitly disabled. Memory errors (e.g. SEGFAULT) will occur when operating on a sparse tensor which violates the invariants, but checks incur performance overhead. To silence this warning, explicitly opt in or out. See `torch.sparse.check_sparse_tensor_invariants.__doc__` for guidance.  (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/Context.cpp:848.)
+  return torch.sparse_csr_tensor(
+/root/utr-scan/analysis/recoverability/gpu.py:49: UserWarning: Sparse CSR tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/SparseCsrTensorImpl.cpp:49.)
+  return torch.sparse_csr_tensor(
+/root/utr-scan/analysis/recoverability/gpu.py:49: UserWarning: Sparse invariant checks are implicitly disabled. Memory errors (e.g. SEGFAULT) will occur when operating on a sparse tensor which violates the invariants, but checks incur performance overhead. To silence this warning, explicitly opt in or out. See `torch.sparse.check_sparse_tensor_invariants.__doc__` for guidance.  (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/Context.cpp:848.)
+  return torch.sparse_csr_tensor(
+/root/utr-scan/analysis/recoverability/gpu.py:49: UserWarning: Sparse CSR tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/SparseCsrTensorImpl.cpp:49.)
+  return torch.sparse_csr_tensor(
+/root/utr-scan/analysis/recoverability/gpu.py:49: UserWarning: Sparse invariant checks are implicitly disabled. Memory errors (e.g. SEGFAULT) will occur when operating on a sparse tensor which violates the invariants, but checks incur performance overhead. To silence this warning, explicitly opt in or out. See `torch.sparse.check_sparse_tensor_invariants.__doc__` for guidance.  (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/Context.cpp:848.)
+  return torch.sparse_csr_tensor(
+/root/utr-scan/analysis/recoverability/gpu.py:49: UserWarning: Sparse CSR tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/SparseCsrTensorImpl.cpp:49.)
+  return torch.sparse_csr_tensor(
+[null] 20/404 fits-sets (134s)
+[null] 40/404 fits-sets (214s)
+[null] 60/404 fits-sets (325s)
+[null] 80/404 fits-sets (404s)
+[null] 100/404 fits-sets (494s)
+[null] 120/404 fits-sets (523s)
+[null] 140/404 fits-sets (543s)
+[null] 160/404 fits-sets (564s)
+[null] 180/404 fits-sets (584s)
+[null] 200/404 fits-sets (606s)
+[null] 220/404 fits-sets (622s)
+[null] 240/404 fits-sets (639s)
+[null] 260/404 fits-sets (654s)
+[null] 280/404 fits-sets (672s)
+[null] 300/404 fits-sets (687s)
+[null] 320/404 fits-sets (703s)
+[null] 340/404 fits-sets (717s)
+[null] 360/404 fits-sets (732s)
+[null] 380/404 fits-sets (747s)
+[null] 400/404 fits-sets (762s)
+[null] AUG rep1->rep1: real 0.01248  null 0.00421 +/- 0.00035  p=0.010
+[null] AUG rep1->rep2: real 0.01190  null 0.00415 +/- 0.00032  p=0.010
+[null] AUG rep2->rep1: real 0.01242  null 0.00422 +/- 0.00035  p=0.010
+[null] AUG rep2->rep2: real 0.01192  null 0.00416 +/- 0.00032  p=0.010
+[null] S3 rep1->rep1: real 0.00894  null -0.00071 +/- 0.00020  p=0.010
+[null] S3 rep1->rep2: real 0.00968  null -0.00071 +/- 0.00018  p=0.010
+[null] S3 rep2->rep1: real 0.00896  null -0.00066 +/- 0.00018  p=0.010
+[null] S3 rep2->rep2: real 0.00981  null -0.00066 +/- 0.00016  p=0.010
+[null] ST rep1->rep1: real 0.00076  null 0.00089 +/- 0.00017  p=0.842
+[null] ST rep1->rep2: real 0.00090  null 0.00094 +/- 0.00015  p=0.614
+[null] ST rep2->rep1: real 0.00075  null 0.00091 +/- 0.00016  p=0.851
+[null] ST rep2->rep2: real 0.00089  null 0.00096 +/- 0.00015  p=0.673
+[null] SW rep1->rep1: real 0.01665  null -0.00080 +/- 0.00018  p=0.010
+[null] SW rep1->rep2: real 0.01891  null -0.00080 +/- 0.00016  p=0.010
+[null] SW rep2->rep1: real 0.01659  null -0.00074 +/- 0.00017  p=0.010
+[null] SW rep2->rep2: real 0.01909  null -0.00073 +/- 0.00016  p=0.010
+[null] -> /root/utr-scan/results/recoverability/v1/nulls/shuffle_nulls.tsv

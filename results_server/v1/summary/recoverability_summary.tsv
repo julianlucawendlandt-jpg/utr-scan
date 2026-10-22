@@ -1,0 +1,57 @@
+dataset	replicate	split	seed	bin_width	model	n_transcripts	n_reads	metric	value	cross_min_dll	cross_min_ci_lo	within_max_ci_lo	null_ok	power_at_observed_depth	observed_median_depth	power_threshold	reference_size	noise_model
+gse174329_eif3b	cross	chrom_heldout	0	1	S1	5633	1.10423e+06	status	null_pending	0.00216058	0.00158865	0.00197509		nan	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	5	S1	5633	1.10423e+06	status	null_pending	0.00886493	0.00670845	0.00826239		nan	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	10	S1	5633	1.10423e+06	status	recoverable	0.0112901	0.00837724	0.0104087	True	nan	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	20	S1	5633	1.10423e+06	status	null_pending	0.0136301	0.0103571	0.012411		nan	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	1	S3	5633	1.10423e+06	status	recoverable	0.00896122	0.00748923	0.00832796	True	nan	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	5	S3	5633	1.10423e+06	status	null_pending	0.017087	0.0148332	0.0164436		nan	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	10	S3	5633	1.10423e+06	status	recoverable	0.0186277	0.0159486	0.0178838	True	nan	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	20	S3	5633	1.10423e+06	status	null_pending	0.0198673	0.0162625	0.0184335		nan	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	1	S5	5633	1.10423e+06	status	null_pending	0.0103658	0.00765473	0.00905869		nan	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	5	S5	5633	1.10423e+06	status	null_pending	0.0111766	0.00718044	0.00904863		nan	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	10	S5	5633	1.10423e+06	status	recoverable	0.0109852	0.00676602	0.00883774	True	nan	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	20	S5	5633	1.10423e+06	status	null_pending	0.0101162	0.00510724	0.00783353		nan	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	1	SW	5633	1.10423e+06	status	recoverable	0.016591	0.0125903	0.0150865	True	1	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	5	SW	5633	1.10423e+06	status	recoverable	0.0168679	0.0127367	0.0155806	True	1	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	10	SW	5633	1.10423e+06	status	recoverable	0.0164488	0.0116346	0.0143994	True	1	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	20	SW	5633	1.10423e+06	status	null_pending	0.0154897	0.0101013	0.0136901		1	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	1	ST_paired	5633	1.10423e+06	status	null_pending	0.000673364	0.000106919	0.000297615		1	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	5	ST_paired	5633	1.10423e+06	status	null_pending	0.000974487	0.000300205	0.000470015		1	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	10	ST_paired	5633	1.10423e+06	status	recoverable	0.00114171	0.000434339	0.000568862	True	1	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	20	ST_paired	5633	1.10423e+06	status	null_pending	0.000880184	0.000237707	0.000322609		1	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	1	ST_dG	5633	1.10423e+06	status	not_recoverable_at_depth	5.87748e-07	-0.000363795	-0.000344275		1	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	5	ST_dG	5633	1.10423e+06	status	not_recoverable_at_depth	3.21955e-05	-0.000343698	-0.000304094		1	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	10	ST_dG	5633	1.10423e+06	status	not_recoverable_at_depth	0.000194454	-0.000303263	-0.000252907	False	1	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	20	ST_dG	5633	1.10423e+06	status	null_pending	0.000944685	0.000239888	0.000297563		1	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	1	ST	5633	1.10423e+06	status	not_recoverable_at_depth	0.000753408	0.000109795	0.000235203	False	1	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	5	ST	5633	1.10423e+06	status	not_recoverable_at_depth	0.00105299	0.000330896	0.000484095	False	1	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	10	ST	5633	1.10423e+06	status	not_recoverable_at_depth	0.00135962	0.000548296	0.000691977	False	1	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	20	ST	5633	1.10423e+06	status	not_recoverable_at_depth	0.00159466	0.000718869	0.000812056	False	1	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	1	AUG	5633	973682	status	recoverable	0.0118999	0.0101496	0.0107192	True	1	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	5	AUG	5633	973682	status	recoverable	0.0128746	0.0109769	0.0114816	True	1	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	10	AUG	5633	973682	status	recoverable	0.0108148	0.00864791	0.00879713	True	1	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	20	AUG	5633	1.10423e+06	status	recoverable	0.00944557	0.00697135	0.00766152	True	1	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	1	UORF	5633	973682	status	null_pending	0.0138403	0.0116891	0.0125501		nan	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	5	UORF	5633	973682	status	null_pending	0.0148986	0.0126419	0.01331		nan	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	10	UORF	5633	973682	status	recoverable	0.0129977	0.0105469	0.0106432	True	nan	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	20	UORF	5633	1.10423e+06	status	null_pending	0.0116909	0.00898248	0.00953762		nan	38.5	0.8	1	dm
+gse174329_eif3b	cross	chrom_heldout	0	1	SW+ST	5633		combined_min_cross_dll	0.0171857		0.0129629							
+gse174329_eif3b	cross	chrom_heldout	0	5	SW+ST	5633		combined_min_cross_dll	0.0176506		0.0133952							
+gse174329_eif3b	cross	chrom_heldout	0	10	SW+ST	5633		combined_min_cross_dll	0.017174		0.0122659							
+gse174329_eif3b	cross	chrom_heldout	0	20	SW+ST	5633		combined_min_cross_dll	0.0150859		0.00952269							
+gse174329_eif3b	cross	chrom_heldout	0	1	SW+AUG	5633		combined_min_cross_dll	0.024893		0.0206406							
+gse174329_eif3b	cross	chrom_heldout	0	5	SW+AUG	5633		combined_min_cross_dll	0.024014		0.019934							
+gse174329_eif3b	cross	chrom_heldout	0	10	SW+AUG	5633		combined_min_cross_dll	0.0199803		0.015603							
+gse174329_eif3b	cross	chrom_heldout	0	20	SW+AUG	5633		combined_min_cross_dll	0.0200655		0.0150417							
+gse174329_eif3b	cross	chrom_heldout	0	1	ST+AUG	5633		combined_min_cross_dll	0.0128285		0.0110159							
+gse174329_eif3b	cross	chrom_heldout	0	5	ST+AUG	5633		combined_min_cross_dll	0.0141193		0.0121376							
+gse174329_eif3b	cross	chrom_heldout	0	10	ST+AUG	5633		combined_min_cross_dll	0.0121067		0.00977523							
+gse174329_eif3b	cross	chrom_heldout	0	20	ST+AUG	5633		combined_min_cross_dll	0.0108149		0.00825197							
+gse174329_eif3b	cross	chrom_heldout	0	1	SW+ST+AUG	5633		combined_min_cross_dll	0.0254727		0.0211146							
+gse174329_eif3b	cross	chrom_heldout	0	5	SW+ST+AUG	5633		combined_min_cross_dll	0.0247816		0.0204538							
+gse174329_eif3b	cross	chrom_heldout	0	10	SW+ST+AUG	5633		combined_min_cross_dll	0.0205396		0.0160655							
+gse174329_eif3b	cross	chrom_heldout	0	20	SW+ST+AUG	5633		combined_min_cross_dll	0.0200863		0.0149528							
+theory				1	E1_commit_vs_drop:occupancy_only			status	structurally_unidentifiable									
+theory				1	E1_commit_vs_drop:occupancy+80S_rho_unknown			status	structurally_unidentifiable									
+theory					E3_reinit_vs_direct:main_AUG_output_only			status	structurally_unidentifiable									
+theory				1	E4_global_loading:conditional_multinomial			status	structurally_unidentifiable									

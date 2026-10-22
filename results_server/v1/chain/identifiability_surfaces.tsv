@@ -1,0 +1,1120 @@
+dataset	replicate	split	seed	bin_width	model	n_transcripts	n_reads	metric	value	x_name	x	y_name	y	exp_ll_occupancy	exp_ll_occupancy_80S	condition	commit_main
+					E1_commit_vs_drop					share_logit	-3			-1864.95	-673.714		
+					E1_commit_vs_drop					share_logit	-2.8			-1864.95	-610.115		
+					E1_commit_vs_drop					share_logit	-2.6			-1864.95	-548.437		
+					E1_commit_vs_drop					share_logit	-2.4			-1864.95	-489.01		
+					E1_commit_vs_drop					share_logit	-2.2			-1864.95	-432.199		
+					E1_commit_vs_drop					share_logit	-2			-1864.95	-378.397		
+					E1_commit_vs_drop					share_logit	-1.8			-1864.95	-328.014		
+					E1_commit_vs_drop					share_logit	-1.6			-1864.95	-281.466		
+					E1_commit_vs_drop					share_logit	-1.4			-1864.95	-239.146		
+					E1_commit_vs_drop					share_logit	-1.2			-1864.95	-201.401		
+					E1_commit_vs_drop					share_logit	-1			-1864.95	-168.501		
+					E1_commit_vs_drop					share_logit	-0.8			-1864.95	-140.609		
+					E1_commit_vs_drop					share_logit	-0.6			-1864.95	-117.751		
+					E1_commit_vs_drop					share_logit	-0.4			-1864.95	-99.7989		
+					E1_commit_vs_drop					share_logit	-0.2			-1864.95	-86.4708		
+					E1_commit_vs_drop					share_logit	0			-1864.95	-77.3397		
+					E1_commit_vs_drop					share_logit	0.2			-1864.95	-71.865		
+					E1_commit_vs_drop					share_logit	0.4			-1864.95	-69.4336		
+					E1_commit_vs_drop					share_logit	0.6			-1864.95	-69.4077		
+					E1_commit_vs_drop					share_logit	0.8			-1864.95	-71.1698		
+					E1_commit_vs_drop					share_logit	1			-1864.95	-74.1598		
+					E1_commit_vs_drop					share_logit	1.2			-1864.95	-77.8996		
+					E1_commit_vs_drop					share_logit	1.4			-1864.95	-82.0049		
+					E1_commit_vs_drop					share_logit	1.6			-1864.95	-86.1849		
+					E1_commit_vs_drop					share_logit	1.8			-1864.95	-90.2342		
+					E1_commit_vs_drop					share_logit	2			-1864.95	-94.0195		
+					E1_commit_vs_drop					share_logit	2.2			-1864.95	-97.4644		
+					E1_commit_vs_drop					share_logit	2.4			-1864.95	-100.536		
+					E1_commit_vs_drop					share_logit	2.6			-1864.95	-103.229		
+					E1_commit_vs_drop					share_logit	2.8			-1864.95	-105.562		
+					E1_commit_vs_drop					share_logit	3			-1864.95	-107.56		
+					E1_commit_vs_drop					share_logit	3.2			-1864.95	-109.258		
+					E1_commit_vs_drop					share_logit	3.4			-1864.95	-110.691		
+					E1_commit_vs_drop					share_logit	3.6			-1864.95	-111.893		
+					E1_commit_vs_drop					share_logit	3.8			-1864.95	-112.898		
+					E1_commit_vs_drop					share_logit	4			-1864.95	-113.734		
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	-3	-2058		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	-2.72222	-2054.26		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	-2.44444	-2050.65		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	-2.16667	-2047.31		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	-1.88889	-2044.43		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	-1.61111	-2042.17		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	-1.33333	-2040.72		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	-1.05556	-2040.27		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	-0.777778	-2040.95		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	-0.5	-2042.87		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	-0.222222	-2046.05		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	0.0555556	-2050.42		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	0.333333	-2055.79		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	0.611111	-2061.9		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	0.888889	-2068.42		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	1.16667	-2075		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	1.44444	-2081.33		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	1.72222	-2087.18		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	2	-2092.38		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	-3	-2038.02		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	-2.72222	-2034.26		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	-2.44444	-2030.61		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	-2.16667	-2027.22		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	-1.88889	-2024.24		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	-1.61111	-2021.86		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	-1.33333	-2020.27		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	-1.05556	-2019.63		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	-0.777778	-2020.1		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	-0.5	-2021.78		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	-0.222222	-2024.71		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	0.0555556	-2028.8		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	0.333333	-2033.9		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	0.611111	-2039.75		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	0.888889	-2046.02		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	1.16667	-2052.38		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	1.44444	-2058.52		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	1.72222	-2064.21		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	2	-2069.28		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	-3	-2021.23		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	-2.72222	-2017.45		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	-2.44444	-2013.75		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	-2.16667	-2010.27		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	-1.88889	-2007.19		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	-1.61111	-2004.68		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	-1.33333	-2002.91		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	-1.05556	-2002.07		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	-0.777778	-2002.3		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	-0.5	-2003.71		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	-0.222222	-2006.34		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	0.0555556	-2010.12		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	0.333333	-2014.92		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	0.611111	-2020.47		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	0.888889	-2026.46		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	1.16667	-2032.57		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	1.44444	-2038.49		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	1.72222	-2043.99		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	2	-2048.91		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	-3	-2007.82		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	-2.72222	-2004		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	-2.44444	-2000.23		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	-2.16667	-1996.67		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	-1.88889	-1993.46		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	-1.61111	-1990.8		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	-1.33333	-1988.84		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	-1.05556	-1987.77		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	-0.777778	-1987.73		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	-0.5	-1988.84		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	-0.222222	-1991.15		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	0.0555556	-1994.6		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	0.333333	-1999.05		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	0.611111	-2004.27		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	0.888889	-2009.95		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	1.16667	-2015.79		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	1.44444	-2021.47		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	1.72222	-2026.77		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	2	-2031.51		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	-3	-1997.82		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	-2.72222	-1993.94		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	-2.44444	-1990.1		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	-2.16667	-1986.43		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	-1.88889	-1983.1		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	-1.61111	-1980.27		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	-1.33333	-1978.1		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	-1.05556	-1976.79		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	-0.777778	-1976.47		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	-0.5	-1977.26		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	-0.222222	-1979.21		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	0.0555556	-1982.3		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	0.333333	-1986.38		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	0.611111	-1991.25		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	0.888889	-1996.61		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	1.16667	-2002.14		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	1.44444	-2007.57		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	1.72222	-2012.64		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	2	-2017.2		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	-3	-1991.07		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	-2.72222	-1987.13		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	-2.44444	-1983.21		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	-2.16667	-1979.44		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	-1.88889	-1975.97		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	-1.61111	-1972.97		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	-1.33333	-1970.59		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	-1.05556	-1969.02		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	-0.777778	-1968.4		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	-0.5	-1968.86		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	-0.222222	-1970.45		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	0.0555556	-1973.16		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	0.333333	-1976.86		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	0.611111	-1981.36		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	0.888889	-1986.37		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	1.16667	-1991.6		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	1.44444	-1996.75		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	1.72222	-2001.59		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	2	-2005.96		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	-3	-1987.28		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	-2.72222	-1983.28		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	-2.44444	-1979.28		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	-2.16667	-1975.4		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	-1.88889	-1971.79		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	-1.61111	-1968.61		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	-1.33333	-1966.02		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	-1.05556	-1964.19		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	-0.777778	-1963.27		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	-0.5	-1963.4		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	-0.222222	-1964.63		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	0.0555556	-1966.95		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	0.333333	-1970.27		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	0.611111	-1974.39		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	0.888889	-1979.05		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	1.16667	-1983.96		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	1.44444	-1988.83		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	1.72222	-1993.44		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	2	-1997.61		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	-3	-1985.99		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	-2.72222	-1981.94		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	-2.44444	-1977.85		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	-2.16667	-1973.87		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	-1.88889	-1970.12		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	-1.61111	-1966.77		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	-1.33333	-1963.97		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	-1.05556	-1961.89		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	-0.777778	-1960.69		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	-0.5	-1960.48		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	-0.222222	-1961.35		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	0.0555556	-1963.3		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	0.333333	-1966.24		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	0.611111	-1970		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	0.888889	-1974.31		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	1.16667	-1978.91		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	1.44444	-1983.51		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	1.72222	-1987.88		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	2	-1991.86		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	-3	-1986.69		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	-2.72222	-1982.57		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	-2.44444	-1978.41		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	-2.16667	-1974.33		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	-1.88889	-1970.45		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	-1.61111	-1966.94		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	-1.33333	-1963.94		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	-1.05556	-1961.62		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	-0.777778	-1960.14		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	-0.5	-1959.62		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	-0.222222	-1960.16		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	0.0555556	-1961.75		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	0.333333	-1964.33		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	0.611111	-1967.73		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	0.888889	-1971.72		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	1.16667	-1976.02		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	1.44444	-1980.36		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	1.72222	-1984.51		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	2	-1988.3		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	-3	-1988.8		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	-2.72222	-1984.63		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	-2.44444	-1980.4		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	-2.16667	-1976.22		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	-1.88889	-1972.22		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	-1.61111	-1968.56		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	-1.33333	-1965.38		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	-1.05556	-1962.84		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	-0.777778	-1961.11		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	-0.5	-1960.31		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	-0.222222	-1960.53		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	0.0555556	-1961.79		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	0.333333	-1964.04		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	0.611111	-1967.12		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	0.888889	-1970.8		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	1.16667	-1974.82		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	1.44444	-1978.92		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	1.72222	-1982.86		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	2	-1986.48		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	-3	-1991.8		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	-2.72222	-1987.59		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	-2.44444	-1983.29		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	-2.16667	-1979.03		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	-1.88889	-1974.92		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	-1.61111	-1971.13		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	-1.33333	-1967.78		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	-1.05556	-1965.05		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	-0.777778	-1963.09		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	-0.5	-1962.03		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	-0.222222	-1961.97		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	0.0555556	-1962.94		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	0.333333	-1964.88		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	0.611111	-1967.67		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	0.888889	-1971.07		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	1.16667	-1974.85		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	1.44444	-1978.72		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	1.72222	-1982.47		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	2	-1985.94		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	-3	-1995.26		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	-2.72222	-1991		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	-2.44444	-1986.64		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	-2.16667	-1982.3		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	-1.88889	-1978.11		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	-1.61111	-1974.19		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	-1.33333	-1970.7		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	-1.05556	-1967.8		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	-0.777778	-1965.64		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	-0.5	-1964.35		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	-0.222222	-1964.04		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	0.0555556	-1964.75		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	0.333333	-1966.43		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	0.611111	-1968.96		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	0.888889	-1972.12		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	1.16667	-1975.67		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	1.44444	-1979.35		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	1.72222	-1982.94		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	2	-1986.26		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	-3	-1998.81		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	-2.72222	-1994.51		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	-2.44444	-1990.11		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	-2.16667	-1985.7		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	-1.88889	-1981.43		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	-1.61111	-1977.41		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	-1.33333	-1973.8		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	-1.05556	-1970.75		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	-0.777778	-1968.41		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	-0.5	-1966.93		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	-0.222222	-1966.41		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	0.0555556	-1966.89		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	0.333333	-1968.35		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	0.611111	-1970.65		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	0.888889	-1973.6		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	1.16667	-1976.96		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	1.44444	-1980.47		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	1.72222	-1983.91		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	2	-1987.12		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	-3	-2002.22		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	-2.72222	-1997.89		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	-2.44444	-1993.44		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	-2.16667	-1988.98		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	-1.88889	-1984.64		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	-1.61111	-1980.54		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	-1.33333	-1976.82		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	-1.05556	-1973.64		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	-0.777778	-1971.16		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	-0.5	-1969.52		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	-0.222222	-1968.82		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	0.0555556	-1969.11		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	0.333333	-1970.37		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	0.611111	-1972.48		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	0.888889	-1975.25		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	1.16667	-1978.45		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	1.44444	-1981.82		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	1.72222	-1985.14		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	2	-1988.24		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	-3	-2005.33		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	-2.72222	-2000.98		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	-2.44444	-1996.49		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	-2.16667	-1991.99		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	-1.88889	-1987.59		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	-1.61111	-1983.42		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	-1.33333	-1979.61		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	-1.05556	-1976.33		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	-0.777778	-1973.73		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	-0.5	-1971.95		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	-0.222222	-1971.09		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	0.0555556	-1971.23		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	0.333333	-1972.33		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	0.611111	-1974.28		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	0.888889	-1976.9		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	1.16667	-1979.96		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	1.44444	-1983.21		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	1.72222	-1986.43		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	2	-1989.44		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	-3	-2008.08		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	-2.72222	-2003.7		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	-2.44444	-1999.19		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	-2.16667	-1994.65		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	-1.88889	-1990.2		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	-1.61111	-1985.97		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	-1.33333	-1982.1		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	-1.05556	-1978.73		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	-0.777778	-1976.03		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	-0.5	-1974.13		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	-0.222222	-1973.15		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	0.0555556	-1973.15		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	0.333333	-1974.12		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	0.611111	-1975.94		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	0.888889	-1978.44		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	1.16667	-1981.39		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	1.44444	-1984.54		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	1.72222	-1987.67		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	2	-1990.61		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	-3	-2010.44		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	-2.72222	-2006.04		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	-2.44444	-2001.51		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	-2.16667	-1996.94		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	-1.88889	-1992.45		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	-1.61111	-1988.17		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	-1.33333	-1984.24		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	-1.05556	-1980.8		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	-0.777778	-1978.02		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	-0.5	-1976.03		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	-0.222222	-1974.95		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	0.0555556	-1974.84		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	0.333333	-1975.7		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	0.611111	-1977.41		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	0.888889	-1979.81		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	1.16667	-1982.67		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	1.44444	-1985.73		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	1.72222	-1988.8		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	2	-1991.68		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	-3	-2012.42		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	-2.72222	-2008.01		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	-2.44444	-2003.46		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	-2.16667	-1998.87		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	-1.88889	-1994.35		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	-1.61111	-1990.03		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	-1.33333	-1986.04		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	-1.05556	-1982.55		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	-0.777778	-1979.7		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	-0.5	-1977.63		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	-0.222222	-1976.47		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	0.0555556	-1976.28		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	0.333333	-1977.05		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	0.611111	-1978.68		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	0.888889	-1980.99		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	1.16667	-1983.77		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	1.44444	-1986.78		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	1.72222	-1989.78		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	2	-1992.62		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	-3	-2014.06		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	-2.72222	-2009.64		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	-2.44444	-2005.07		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	-2.16667	-2000.46		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	-1.88889	-1995.91		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	-1.61111	-1991.56		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	-1.33333	-1987.54		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	-1.05556	-1984		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	-0.777778	-1981.1		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	-0.5	-1978.97		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	-0.222222	-1977.75		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	0.0555556	-1977.48		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	0.333333	-1978.18		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	0.611111	-1979.74		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	0.888889	-1981.99		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	1.16667	-1984.71		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	1.44444	-1987.66		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	1.72222	-1990.62		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	2	-1993.42		window_ends_AUG+2	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	-3	-2179.67		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	-2.72222	-2176.38		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	-2.44444	-2173.15		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	-2.16667	-2170.13		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	-1.88889	-2167.48		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	-1.61111	-2165.36		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	-1.33333	-2163.95		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	-1.05556	-2163.42		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	-0.777778	-2163.92		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	-0.5	-2165.53		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	-0.222222	-2168.3		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	0.0555556	-2172.15		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	0.333333	-2176.93		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	0.611111	-2182.39		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	0.888889	-2188.24		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	1.16667	-2194.16		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	1.44444	-2199.87		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	1.72222	-2205.16		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-3	blur_logit	2	-2209.86		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	-3	-2157.17		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	-2.72222	-2153.84		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	-2.44444	-2150.58		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	-2.16667	-2147.5		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	-1.88889	-2144.77		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	-1.61111	-2142.55		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	-1.33333	-2141.01		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	-1.05556	-2140.33		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	-0.777778	-2140.63		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	-0.5	-2142.04		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	-0.222222	-2144.57		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	0.0555556	-2148.17		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	0.333333	-2152.7		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	0.611111	-2157.93		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	0.888889	-2163.56		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	1.16667	-2169.28		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	1.44444	-2174.82		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	1.72222	-2179.95		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.75	blur_logit	2	-2184.53		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	-3	-2138.3		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	-2.72222	-2134.94		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	-2.44444	-2131.62		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	-2.16667	-2128.48		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	-1.88889	-2125.66		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	-1.61111	-2123.33		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	-1.33333	-2121.64		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	-1.05556	-2120.78		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	-0.777778	-2120.88		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	-0.5	-2122.04		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	-0.222222	-2124.31		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	0.0555556	-2127.64		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	0.333333	-2131.9		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	0.611111	-2136.85		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	0.888889	-2142.23		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	1.16667	-2147.73		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	1.44444	-2153.07		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	1.72222	-2158.03		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.5	blur_logit	2	-2162.48		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	-3	-2123.23		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	-2.72222	-2119.82		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	-2.44444	-2116.45		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	-2.16667	-2113.23		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	-1.88889	-2110.3		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	-1.61111	-2107.84		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	-1.33333	-2106		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	-1.05556	-2104.94		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	-0.777778	-2104.81		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	-0.5	-2105.71		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	-0.222222	-2107.7		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	0.0555556	-2110.73		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	0.333333	-2114.68		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	0.611111	-2119.35		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	0.888889	-2124.45		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	1.16667	-2129.7		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	1.44444	-2134.83		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	1.72222	-2139.61		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2.25	blur_logit	2	-2143.9		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	-3	-2111.93		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	-2.72222	-2108.47		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	-2.44444	-2105.03		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	-2.16667	-2101.73		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	-1.88889	-2098.7		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	-1.61111	-2096.1		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	-1.33333	-2094.09		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	-1.05556	-2092.82		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	-0.777778	-2092.45		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	-0.5	-2093.07		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	-0.222222	-2094.76		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	0.0555556	-2097.47		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	0.333333	-2101.11		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	0.611111	-2105.46		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	0.888889	-2110.27		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	1.16667	-2115.26		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	1.44444	-2120.15		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	1.72222	-2124.74		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-2	blur_logit	2	-2128.87		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	-3	-2104.22		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	-2.72222	-2100.71		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	-2.44444	-2097.2		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	-2.16667	-2093.81		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	-1.88889	-2090.66		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	-1.61111	-2087.92		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	-1.33333	-2085.73		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	-1.05556	-2084.25		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	-0.777778	-2083.63		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	-0.5	-2083.97		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	-0.222222	-2085.35		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	0.0555556	-2087.74		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	0.333333	-2091.04		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	0.611111	-2095.07		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	0.888889	-2099.58		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	1.16667	-2104.3		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	1.44444	-2108.95		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	1.72222	-2113.34		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.75	blur_logit	2	-2117.3		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	-3	-2099.73		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	-2.72222	-2096.17		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	-2.44444	-2092.59		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	-2.16667	-2089.1		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	-1.88889	-2085.85		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	-1.61111	-2082.96		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	-1.33333	-2080.59		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	-1.05556	-2078.9		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	-0.777778	-2078.03		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	-0.5	-2078.09		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	-0.222222	-2079.16		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	0.0555556	-2081.22		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	0.333333	-2084.19		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	0.611111	-2087.9		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	0.888889	-2092.11		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	1.16667	-2096.55		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	1.44444	-2100.97		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	1.72222	-2105.15		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.5	blur_logit	2	-2108.94		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	-3	-2097.96		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	-2.72222	-2094.35		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	-2.44444	-2090.7		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	-2.16667	-2087.12		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	-1.88889	-2083.76		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	-1.61111	-2080.73		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	-1.33333	-2078.19		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	-1.05556	-2076.29		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	-0.777778	-2075.18		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	-0.5	-2074.97		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	-0.222222	-2075.74		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	0.0555556	-2077.48		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	0.333333	-2080.14		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	0.611111	-2083.53		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	0.888889	-2087.45		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	1.16667	-2091.62		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	1.44444	-2095.81		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	1.72222	-2099.79		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1.25	blur_logit	2	-2103.41		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	-3	-2098.32		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	-2.72222	-2094.66		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	-2.44444	-2090.94		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	-2.16667	-2087.29		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	-1.88889	-2083.81		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	-1.61111	-2080.66		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	-1.33333	-2077.96		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	-1.05556	-2075.87		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	-0.777778	-2074.53		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	-0.5	-2074.06		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	-0.222222	-2074.54		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	0.0555556	-2075.99		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	0.333333	-2078.34		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	0.611111	-2081.44		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	0.888889	-2085.08		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	1.16667	-2089.01		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	1.44444	-2092.97		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	1.72222	-2096.76		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-1	blur_logit	2	-2100.23		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	-3	-2100.22		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	-2.72222	-2096.51		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	-2.44444	-2092.73		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	-2.16667	-2089		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	-1.88889	-2085.43		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	-1.61111	-2082.15		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	-1.33333	-2079.3		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	-1.05556	-2077.03		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	-0.777778	-2075.48		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	-0.5	-2074.78		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	-0.222222	-2075.01		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	0.0555556	-2076.19		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	0.333333	-2078.26		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	0.611111	-2081.09		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	0.888889	-2084.47		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	1.16667	-2088.17		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	1.44444	-2091.93		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	1.72222	-2095.55		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.75	blur_logit	2	-2098.87		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	-3	-2103.08		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	-2.72222	-2099.32		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	-2.44444	-2095.49		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	-2.16667	-2091.69		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	-1.88889	-2088.03		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	-1.61111	-2084.65		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	-1.33333	-2081.67		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	-1.05556	-2079.24		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	-0.777778	-2077.51		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	-0.5	-2076.59		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	-0.222222	-2076.59		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	0.0555556	-2077.53		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	0.333333	-2079.35		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	0.611111	-2081.94		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	0.888889	-2085.1		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	1.16667	-2088.58		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	1.44444	-2092.16		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	1.72222	-2095.62		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.5	blur_logit	2	-2098.82		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	-3	-2106.43		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	-2.72222	-2102.64		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	-2.44444	-2098.76		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	-2.16667	-2094.9		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	-1.88889	-2091.17		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	-1.61111	-2087.68		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	-1.33333	-2084.59		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	-1.05556	-2082.02		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	-0.777778	-2080.13		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	-0.5	-2079.03		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	-0.222222	-2078.83		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	0.0555556	-2079.55		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	0.333333	-2081.16		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	0.611111	-2083.54		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	0.888889	-2086.5		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	1.16667	-2089.8		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	1.44444	-2093.22		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	1.72222	-2096.54		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	-0.25	blur_logit	2	-2099.62		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	-3	-2109.92		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	-2.72222	-2106.1		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	-2.44444	-2102.18		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	-2.16667	-2098.26		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	-1.88889	-2094.46		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	-1.61111	-2090.9		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	-1.33333	-2087.7		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	-1.05556	-2085.02		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	-0.777778	-2082.99		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	-0.5	-2081.73		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	-0.222222	-2081.36		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	0.0555556	-2081.9		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	0.333333	-2083.32		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	0.611111	-2085.52		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	0.888889	-2088.3		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	1.16667	-2091.45		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	1.44444	-2094.73		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	1.72222	-2097.94		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0	blur_logit	2	-2100.91		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	-3	-2113.28		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	-2.72222	-2109.43		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	-2.44444	-2105.48		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	-2.16667	-2101.52		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	-1.88889	-2097.66		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	-1.61111	-2094.03		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	-1.33333	-2090.75		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	-1.05556	-2087.97		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	-0.777778	-2085.82		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	-0.5	-2084.43		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	-0.222222	-2083.91		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	0.0555556	-2084.29		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	0.333333	-2085.56		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	0.611111	-2087.6		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	0.888889	-2090.24		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	1.16667	-2093.26		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	1.44444	-2096.42		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	1.72222	-2099.53		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.25	blur_logit	2	-2102.43		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	-3	-2116.36		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	-2.72222	-2112.49		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	-2.44444	-2108.51		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	-2.16667	-2104.51		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	-1.88889	-2100.61		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	-1.61111	-2096.92		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	-1.33333	-2093.57		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	-1.05556	-2090.7		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	-0.777778	-2088.45		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	-0.5	-2086.96		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	-0.222222	-2086.31		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	0.0555556	-2086.57		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	0.333333	-2087.71		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	0.611111	-2089.62		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	0.888889	-2092.14		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	1.16667	-2095.05		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	1.44444	-2098.12		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	1.72222	-2101.14		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.5	blur_logit	2	-2103.97		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	-3	-2119.09		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	-2.72222	-2115.2		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	-2.44444	-2111.19		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	-2.16667	-2107.16		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	-1.88889	-2103.22		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	-1.61111	-2099.49		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	-1.33333	-2096.08		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	-1.05556	-2093.14		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	-0.777778	-2090.81		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	-0.5	-2089.22		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	-0.222222	-2088.48		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	0.0555556	-2088.63		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	0.333333	-2089.66		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	0.611111	-2091.47		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	0.888889	-2093.89		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	1.16667	-2096.71		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	1.44444	-2099.69		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	1.72222	-2102.65		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	0.75	blur_logit	2	-2105.42		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	-3	-2121.43		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	-2.72222	-2117.52		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	-2.44444	-2113.49		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	-2.16667	-2109.44		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	-1.88889	-2105.47		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	-1.61111	-2101.7		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	-1.33333	-2098.24		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	-1.05556	-2095.25		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	-0.777778	-2092.85		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	-0.5	-2091.19		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	-0.222222	-2090.37		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	0.0555556	-2090.43		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	0.333333	-2091.37		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	0.611111	-2093.1		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	0.888889	-2095.44		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	1.16667	-2098.18		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	1.44444	-2101.1		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	1.72222	-2104		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1	blur_logit	2	-2106.73		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	-3	-2123.39		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	-2.72222	-2119.47		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	-2.44444	-2115.43		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	-2.16667	-2111.36		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	-1.88889	-2107.37		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	-1.61111	-2103.56		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	-1.33333	-2100.07		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	-1.05556	-2097.03		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	-0.777778	-2094.58		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	-0.5	-2092.86		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	-0.222222	-2091.97		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	0.0555556	-2091.96		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	0.333333	-2092.83		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	0.611111	-2094.49		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	0.888889	-2096.76		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	1.16667	-2099.44		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	1.44444	-2102.31		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	1.72222	-2105.17		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.25	blur_logit	2	-2107.86		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	-3	-2125.02		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	-2.72222	-2121.09		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	-2.44444	-2117.04		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	-2.16667	-2112.95		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	-1.88889	-2108.93		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	-1.61111	-2105.1		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	-1.33333	-2101.58		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	-1.05556	-2098.5		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	-0.777778	-2096.01		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	-0.5	-2094.24		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	-0.222222	-2093.3		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	0.0555556	-2093.24		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	0.333333	-2094.05		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	0.611111	-2095.65		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	0.888889	-2097.87		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	1.16667	-2100.51		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	1.44444	-2103.34		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	1.72222	-2106.16		30_CDS_states	
+					E2_blur_vs_leak					leak_logit	1.5	blur_logit	2	-2108.81		30_CDS_states	
+					E3_reinit_vs_direct					uorf_commit_logit	3	reinit_logit	-3	-2135.87		occupancy	0.615742
+					E3_reinit_vs_direct					uorf_commit_logit	3	reinit_logit	-2.66667	-2135.86		occupancy	0.616023
+					E3_reinit_vs_direct					uorf_commit_logit	3	reinit_logit	-2.33333	-2135.86		occupancy	0.616398
+					E3_reinit_vs_direct					uorf_commit_logit	3	reinit_logit	-2	-2135.86		occupancy	0.616892
+					E3_reinit_vs_direct					uorf_commit_logit	3	reinit_logit	-1.66667	-2135.86		occupancy	0.617527
+					E3_reinit_vs_direct					uorf_commit_logit	3	reinit_logit	-1.33333	-2135.86		occupancy	0.618323
+					E3_reinit_vs_direct					uorf_commit_logit	3	reinit_logit	-1	-2135.86		occupancy	0.619289
+					E3_reinit_vs_direct					uorf_commit_logit	3	reinit_logit	-0.666667	-2135.86		occupancy	0.620414
+					E3_reinit_vs_direct					uorf_commit_logit	3	reinit_logit	-0.333333	-2135.86		occupancy	0.621666
+					E3_reinit_vs_direct					uorf_commit_logit	3	reinit_logit	0	-2135.86		occupancy	0.622988
+					E3_reinit_vs_direct					uorf_commit_logit	3	reinit_logit	0.333333	-2135.86		occupancy	0.62431
+					E3_reinit_vs_direct					uorf_commit_logit	3	reinit_logit	0.666667	-2135.86		occupancy	0.625562
+					E3_reinit_vs_direct					uorf_commit_logit	3	reinit_logit	1	-2135.86		occupancy	0.626687
+					E3_reinit_vs_direct					uorf_commit_logit	3	reinit_logit	1.33333	-2135.86		occupancy	0.627653
+					E3_reinit_vs_direct					uorf_commit_logit	3	reinit_logit	1.66667	-2135.86		occupancy	0.62845
+					E3_reinit_vs_direct					uorf_commit_logit	3	reinit_logit	2	-2135.87		occupancy	0.629085
+					E3_reinit_vs_direct					uorf_commit_logit	3	reinit_logit	2.33333	-2135.87		occupancy	0.629578
+					E3_reinit_vs_direct					uorf_commit_logit	3	reinit_logit	2.66667	-2135.87		occupancy	0.629953
+					E3_reinit_vs_direct					uorf_commit_logit	3	reinit_logit	3	-2135.87		occupancy	0.630234
+					E3_reinit_vs_direct					uorf_commit_logit	3.33333	reinit_logit	-3	-2135.65		occupancy	0.610138
+					E3_reinit_vs_direct					uorf_commit_logit	3.33333	reinit_logit	-2.66667	-2135.65		occupancy	0.610526
+					E3_reinit_vs_direct					uorf_commit_logit	3.33333	reinit_logit	-2.33333	-2135.65		occupancy	0.611045
+					E3_reinit_vs_direct					uorf_commit_logit	3.33333	reinit_logit	-2	-2135.65		occupancy	0.611727
+					E3_reinit_vs_direct					uorf_commit_logit	3.33333	reinit_logit	-1.66667	-2135.65		occupancy	0.612604
+					E3_reinit_vs_direct					uorf_commit_logit	3.33333	reinit_logit	-1.33333	-2135.64		occupancy	0.613705
+					E3_reinit_vs_direct					uorf_commit_logit	3.33333	reinit_logit	-1	-2135.64		occupancy	0.61504
+					E3_reinit_vs_direct					uorf_commit_logit	3.33333	reinit_logit	-0.666667	-2135.64		occupancy	0.616596
+					E3_reinit_vs_direct					uorf_commit_logit	3.33333	reinit_logit	-0.333333	-2135.64		occupancy	0.618326
+					E3_reinit_vs_direct					uorf_commit_logit	3.33333	reinit_logit	0	-2135.64		occupancy	0.620153
+					E3_reinit_vs_direct					uorf_commit_logit	3.33333	reinit_logit	0.333333	-2135.64		occupancy	0.621981
+					E3_reinit_vs_direct					uorf_commit_logit	3.33333	reinit_logit	0.666667	-2135.64		occupancy	0.623711
+					E3_reinit_vs_direct					uorf_commit_logit	3.33333	reinit_logit	1	-2135.64		occupancy	0.625267
+					E3_reinit_vs_direct					uorf_commit_logit	3.33333	reinit_logit	1.33333	-2135.65		occupancy	0.626602
+					E3_reinit_vs_direct					uorf_commit_logit	3.33333	reinit_logit	1.66667	-2135.65		occupancy	0.627702
+					E3_reinit_vs_direct					uorf_commit_logit	3.33333	reinit_logit	2	-2135.65		occupancy	0.62858
+					E3_reinit_vs_direct					uorf_commit_logit	3.33333	reinit_logit	2.33333	-2135.65		occupancy	0.629262
+					E3_reinit_vs_direct					uorf_commit_logit	3.33333	reinit_logit	2.66667	-2135.66		occupancy	0.62978
+					E3_reinit_vs_direct					uorf_commit_logit	3.33333	reinit_logit	3	-2135.66		occupancy	0.630169
+					E3_reinit_vs_direct					uorf_commit_logit	3.66667	reinit_logit	-3	-2135.37		occupancy	0.602494
+					E3_reinit_vs_direct					uorf_commit_logit	3.66667	reinit_logit	-2.66667	-2135.37		occupancy	0.603029
+					E3_reinit_vs_direct					uorf_commit_logit	3.66667	reinit_logit	-2.33333	-2135.37		occupancy	0.603743
+					E3_reinit_vs_direct					uorf_commit_logit	3.66667	reinit_logit	-2	-2135.36		occupancy	0.604681
+					E3_reinit_vs_direct					uorf_commit_logit	3.66667	reinit_logit	-1.66667	-2135.36		occupancy	0.60589
+					E3_reinit_vs_direct					uorf_commit_logit	3.66667	reinit_logit	-1.33333	-2135.35		occupancy	0.607406
+					E3_reinit_vs_direct					uorf_commit_logit	3.66667	reinit_logit	-1	-2135.35		occupancy	0.609245
+					E3_reinit_vs_direct					uorf_commit_logit	3.66667	reinit_logit	-0.666667	-2135.35		occupancy	0.611388
+					E3_reinit_vs_direct					uorf_commit_logit	3.66667	reinit_logit	-0.333333	-2135.34		occupancy	0.61377
+					E3_reinit_vs_direct					uorf_commit_logit	3.66667	reinit_logit	0	-2135.34		occupancy	0.616287
+					E3_reinit_vs_direct					uorf_commit_logit	3.66667	reinit_logit	0.333333	-2135.35		occupancy	0.618803
+					E3_reinit_vs_direct					uorf_commit_logit	3.66667	reinit_logit	0.666667	-2135.35		occupancy	0.621186
+					E3_reinit_vs_direct					uorf_commit_logit	3.66667	reinit_logit	1	-2135.35		occupancy	0.623329
+					E3_reinit_vs_direct					uorf_commit_logit	3.66667	reinit_logit	1.33333	-2135.36		occupancy	0.625167
+					E3_reinit_vs_direct					uorf_commit_logit	3.66667	reinit_logit	1.66667	-2135.36		occupancy	0.626683
+					E3_reinit_vs_direct					uorf_commit_logit	3.66667	reinit_logit	2	-2135.37		occupancy	0.627892
+					E3_reinit_vs_direct					uorf_commit_logit	3.66667	reinit_logit	2.33333	-2135.37		occupancy	0.628831
+					E3_reinit_vs_direct					uorf_commit_logit	3.66667	reinit_logit	2.66667	-2135.38		occupancy	0.629545
+					E3_reinit_vs_direct					uorf_commit_logit	3.66667	reinit_logit	3	-2135.38		occupancy	0.63008
+					E3_reinit_vs_direct					uorf_commit_logit	4	reinit_logit	-3	-2135.01		occupancy	0.592157
+					E3_reinit_vs_direct					uorf_commit_logit	4	reinit_logit	-2.66667	-2135.01		occupancy	0.59289
+					E3_reinit_vs_direct					uorf_commit_logit	4	reinit_logit	-2.33333	-2135		occupancy	0.593868
+					E3_reinit_vs_direct					uorf_commit_logit	4	reinit_logit	-2	-2135		occupancy	0.595155
+					E3_reinit_vs_direct					uorf_commit_logit	4	reinit_logit	-1.66667	-2134.99		occupancy	0.596811
+					E3_reinit_vs_direct					uorf_commit_logit	4	reinit_logit	-1.33333	-2134.98		occupancy	0.598889
+					E3_reinit_vs_direct					uorf_commit_logit	4	reinit_logit	-1	-2134.97		occupancy	0.601408
+					E3_reinit_vs_direct					uorf_commit_logit	4	reinit_logit	-0.666667	-2134.96		occupancy	0.604344
+					E3_reinit_vs_direct					uorf_commit_logit	4	reinit_logit	-0.333333	-2134.96		occupancy	0.60761
+					E3_reinit_vs_direct					uorf_commit_logit	4	reinit_logit	0	-2134.96		occupancy	0.611058
+					E3_reinit_vs_direct					uorf_commit_logit	4	reinit_logit	0.333333	-2134.96		occupancy	0.614507
+					E3_reinit_vs_direct					uorf_commit_logit	4	reinit_logit	0.666667	-2134.97		occupancy	0.617772
+					E3_reinit_vs_direct					uorf_commit_logit	4	reinit_logit	1	-2134.98		occupancy	0.620708
+					E3_reinit_vs_direct					uorf_commit_logit	4	reinit_logit	1.33333	-2134.98		occupancy	0.623228
+					E3_reinit_vs_direct					uorf_commit_logit	4	reinit_logit	1.66667	-2134.99		occupancy	0.625305
+					E3_reinit_vs_direct					uorf_commit_logit	4	reinit_logit	2	-2135		occupancy	0.626962
+					E3_reinit_vs_direct					uorf_commit_logit	4	reinit_logit	2.33333	-2135.01		occupancy	0.628248
+					E3_reinit_vs_direct					uorf_commit_logit	4	reinit_logit	2.66667	-2135.02		occupancy	0.629227
+					E3_reinit_vs_direct					uorf_commit_logit	4	reinit_logit	3	-2135.02		occupancy	0.62996
+					E3_reinit_vs_direct					uorf_commit_logit	4.33333	reinit_logit	-3	-2134.58		occupancy	0.57834
+					E3_reinit_vs_direct					uorf_commit_logit	4.33333	reinit_logit	-2.66667	-2134.57		occupancy	0.579338
+					E3_reinit_vs_direct					uorf_commit_logit	4.33333	reinit_logit	-2.33333	-2134.55		occupancy	0.58067
+					E3_reinit_vs_direct					uorf_commit_logit	4.33333	reinit_logit	-2	-2134.54		occupancy	0.582421
+					E3_reinit_vs_direct					uorf_commit_logit	4.33333	reinit_logit	-1.66667	-2134.52		occupancy	0.584676
+					E3_reinit_vs_direct					uorf_commit_logit	4.33333	reinit_logit	-1.33333	-2134.51		occupancy	0.587504
+					E3_reinit_vs_direct					uorf_commit_logit	4.33333	reinit_logit	-1	-2134.49		occupancy	0.590934
+					E3_reinit_vs_direct					uorf_commit_logit	4.33333	reinit_logit	-0.666667	-2134.48		occupancy	0.59493
+					E3_reinit_vs_direct					uorf_commit_logit	4.33333	reinit_logit	-0.333333	-2134.47		occupancy	0.599375
+					E3_reinit_vs_direct					uorf_commit_logit	4.33333	reinit_logit	0	-2134.46		occupancy	0.60407
+					E3_reinit_vs_direct					uorf_commit_logit	4.33333	reinit_logit	0.333333	-2134.47		occupancy	0.608764
+					E3_reinit_vs_direct					uorf_commit_logit	4.33333	reinit_logit	0.666667	-2134.48		occupancy	0.613209
+					E3_reinit_vs_direct					uorf_commit_logit	4.33333	reinit_logit	1	-2134.49		occupancy	0.617206
+					E3_reinit_vs_direct					uorf_commit_logit	4.33333	reinit_logit	1.33333	-2134.51		occupancy	0.620636
+					E3_reinit_vs_direct					uorf_commit_logit	4.33333	reinit_logit	1.66667	-2134.53		occupancy	0.623463
+					E3_reinit_vs_direct					uorf_commit_logit	4.33333	reinit_logit	2	-2134.55		occupancy	0.625718
+					E3_reinit_vs_direct					uorf_commit_logit	4.33333	reinit_logit	2.33333	-2134.56		occupancy	0.62747
+					E3_reinit_vs_direct					uorf_commit_logit	4.33333	reinit_logit	2.66667	-2134.57		occupancy	0.628802
+					E3_reinit_vs_direct					uorf_commit_logit	4.33333	reinit_logit	3	-2134.58		occupancy	0.629799
+					E3_reinit_vs_direct					uorf_commit_logit	4.66667	reinit_logit	-3	-2134.07		occupancy	0.560157
+					E3_reinit_vs_direct					uorf_commit_logit	4.66667	reinit_logit	-2.66667	-2134.05		occupancy	0.561503
+					E3_reinit_vs_direct					uorf_commit_logit	4.66667	reinit_logit	-2.33333	-2134.03		occupancy	0.5633
+					E3_reinit_vs_direct					uorf_commit_logit	4.66667	reinit_logit	-2	-2134.01		occupancy	0.565663
+					E3_reinit_vs_direct					uorf_commit_logit	4.66667	reinit_logit	-1.66667	-2133.97		occupancy	0.568706
+					E3_reinit_vs_direct					uorf_commit_logit	4.66667	reinit_logit	-1.33333	-2133.94		occupancy	0.572521
+					E3_reinit_vs_direct					uorf_commit_logit	4.66667	reinit_logit	-1	-2133.91		occupancy	0.577149
+					E3_reinit_vs_direct					uorf_commit_logit	4.66667	reinit_logit	-0.666667	-2133.88		occupancy	0.582541
+					E3_reinit_vs_direct					uorf_commit_logit	4.66667	reinit_logit	-0.333333	-2133.86		occupancy	0.588539
+					E3_reinit_vs_direct					uorf_commit_logit	4.66667	reinit_logit	0	-2133.85		occupancy	0.594872
+					E3_reinit_vs_direct					uorf_commit_logit	4.66667	reinit_logit	0.333333	-2133.86		occupancy	0.601206
+					E3_reinit_vs_direct					uorf_commit_logit	4.66667	reinit_logit	0.666667	-2133.88		occupancy	0.607203
+					E3_reinit_vs_direct					uorf_commit_logit	4.66667	reinit_logit	1	-2133.91		occupancy	0.612596
+					E3_reinit_vs_direct					uorf_commit_logit	4.66667	reinit_logit	1.33333	-2133.94		occupancy	0.617224
+					E3_reinit_vs_direct					uorf_commit_logit	4.66667	reinit_logit	1.66667	-2133.97		occupancy	0.621039
+					E3_reinit_vs_direct					uorf_commit_logit	4.66667	reinit_logit	2	-2134		occupancy	0.624082
+					E3_reinit_vs_direct					uorf_commit_logit	4.66667	reinit_logit	2.33333	-2134.03		occupancy	0.626445
+					E3_reinit_vs_direct					uorf_commit_logit	4.66667	reinit_logit	2.66667	-2134.05		occupancy	0.628242
+					E3_reinit_vs_direct					uorf_commit_logit	4.66667	reinit_logit	3	-2134.06		occupancy	0.629588
+					E3_reinit_vs_direct					uorf_commit_logit	5	reinit_logit	-3	-2133.56		occupancy	0.536711
+					E3_reinit_vs_direct					uorf_commit_logit	5	reinit_logit	-2.66667	-2133.53		occupancy	0.538506
+					E3_reinit_vs_direct					uorf_commit_logit	5	reinit_logit	-2.33333	-2133.49		occupancy	0.540903
+					E3_reinit_vs_direct					uorf_commit_logit	5	reinit_logit	-2	-2133.44		occupancy	0.544054
+					E3_reinit_vs_direct					uorf_commit_logit	5	reinit_logit	-1.66667	-2133.38		occupancy	0.548112
+					E3_reinit_vs_direct					uorf_commit_logit	5	reinit_logit	-1.33333	-2133.31		occupancy	0.553201
+					E3_reinit_vs_direct					uorf_commit_logit	5	reinit_logit	-1	-2133.25		occupancy	0.559374
+					E3_reinit_vs_direct					uorf_commit_logit	5	reinit_logit	-0.666667	-2133.19		occupancy	0.566566
+					E3_reinit_vs_direct					uorf_commit_logit	5	reinit_logit	-0.333333	-2133.16		occupancy	0.574565
+					E3_reinit_vs_direct					uorf_commit_logit	5	reinit_logit	0	-2133.15		occupancy	0.583013
+					E3_reinit_vs_direct					uorf_commit_logit	5	reinit_logit	0.333333	-2133.16		occupancy	0.591461
+					E3_reinit_vs_direct					uorf_commit_logit	5	reinit_logit	0.666667	-2133.2		occupancy	0.59946
+					E3_reinit_vs_direct					uorf_commit_logit	5	reinit_logit	1	-2133.25		occupancy	0.606652
+					E3_reinit_vs_direct					uorf_commit_logit	5	reinit_logit	1.33333	-2133.31		occupancy	0.612825
+					E3_reinit_vs_direct					uorf_commit_logit	5	reinit_logit	1.66667	-2133.36		occupancy	0.617914
+					E3_reinit_vs_direct					uorf_commit_logit	5	reinit_logit	2	-2133.41		occupancy	0.621972
+					E3_reinit_vs_direct					uorf_commit_logit	5	reinit_logit	2.33333	-2133.46		occupancy	0.625123
+					E3_reinit_vs_direct					uorf_commit_logit	5	reinit_logit	2.66667	-2133.49		occupancy	0.62752
+					E3_reinit_vs_direct					uorf_commit_logit	5	reinit_logit	3	-2133.52		occupancy	0.629315
+					E3_reinit_vs_direct					uorf_commit_logit	5.33333	reinit_logit	-3	-2133.19		occupancy	0.50726
+					E3_reinit_vs_direct					uorf_commit_logit	5.33333	reinit_logit	-2.66667	-2133.13		occupancy	0.509619
+					E3_reinit_vs_direct					uorf_commit_logit	5.33333	reinit_logit	-2.33333	-2133.05		occupancy	0.51277
+					E3_reinit_vs_direct					uorf_commit_logit	5.33333	reinit_logit	-2	-2132.95		occupancy	0.516912
+					E3_reinit_vs_direct					uorf_commit_logit	5.33333	reinit_logit	-1.66667	-2132.84		occupancy	0.522246
+					E3_reinit_vs_direct					uorf_commit_logit	5.33333	reinit_logit	-1.33333	-2132.71		occupancy	0.528934
+					E3_reinit_vs_direct					uorf_commit_logit	5.33333	reinit_logit	-1	-2132.59		occupancy	0.537047
+					E3_reinit_vs_direct					uorf_commit_logit	5.33333	reinit_logit	-0.666667	-2132.49		occupancy	0.5465
+					E3_reinit_vs_direct					uorf_commit_logit	5.33333	reinit_logit	-0.333333	-2132.42		occupancy	0.557014
+					E3_reinit_vs_direct					uorf_commit_logit	5.33333	reinit_logit	0	-2132.4		occupancy	0.568117
+					E3_reinit_vs_direct					uorf_commit_logit	5.33333	reinit_logit	0.333333	-2132.43		occupancy	0.57922
+					E3_reinit_vs_direct					uorf_commit_logit	5.33333	reinit_logit	0.666667	-2132.49		occupancy	0.589733
+					E3_reinit_vs_direct					uorf_commit_logit	5.33333	reinit_logit	1	-2132.58		occupancy	0.599186
+					E3_reinit_vs_direct					uorf_commit_logit	5.33333	reinit_logit	1.33333	-2132.68		occupancy	0.607299
+					E3_reinit_vs_direct					uorf_commit_logit	5.33333	reinit_logit	1.66667	-2132.78		occupancy	0.613988
+					E3_reinit_vs_direct					uorf_commit_logit	5.33333	reinit_logit	2	-2132.87		occupancy	0.619321
+					E3_reinit_vs_direct					uorf_commit_logit	5.33333	reinit_logit	2.33333	-2132.95		occupancy	0.623463
+					E3_reinit_vs_direct					uorf_commit_logit	5.33333	reinit_logit	2.66667	-2133.01		occupancy	0.626614
+					E3_reinit_vs_direct					uorf_commit_logit	5.33333	reinit_logit	3	-2133.06		occupancy	0.628973
+					E3_reinit_vs_direct					uorf_commit_logit	5.66667	reinit_logit	-3	-2133.23		occupancy	0.471462
+					E3_reinit_vs_direct					uorf_commit_logit	5.66667	reinit_logit	-2.66667	-2133.11		occupancy	0.474507
+					E3_reinit_vs_direct					uorf_commit_logit	5.66667	reinit_logit	-2.33333	-2132.96		occupancy	0.478573
+					E3_reinit_vs_direct					uorf_commit_logit	5.66667	reinit_logit	-2	-2132.77		occupancy	0.483919
+					E3_reinit_vs_direct					uorf_commit_logit	5.66667	reinit_logit	-1.66667	-2132.56		occupancy	0.490804
+					E3_reinit_vs_direct					uorf_commit_logit	5.66667	reinit_logit	-1.33333	-2132.33		occupancy	0.499436
+					E3_reinit_vs_direct					uorf_commit_logit	5.66667	reinit_logit	-1	-2132.11		occupancy	0.509908
+					E3_reinit_vs_direct					uorf_commit_logit	5.66667	reinit_logit	-0.666667	-2131.92		occupancy	0.522109
+					E3_reinit_vs_direct					uorf_commit_logit	5.66667	reinit_logit	-0.333333	-2131.8		occupancy	0.535679
+					E3_reinit_vs_direct					uorf_commit_logit	5.66667	reinit_logit	0	-2131.76		occupancy	0.550009
+					E3_reinit_vs_direct					uorf_commit_logit	5.66667	reinit_logit	0.333333	-2131.8		occupancy	0.56434
+					E3_reinit_vs_direct					uorf_commit_logit	5.66667	reinit_logit	0.666667	-2131.91		occupancy	0.57791
+					E3_reinit_vs_direct					uorf_commit_logit	5.66667	reinit_logit	1	-2132.07		occupancy	0.590111
+					E3_reinit_vs_direct					uorf_commit_logit	5.66667	reinit_logit	1.33333	-2132.24		occupancy	0.600583
+					E3_reinit_vs_direct					uorf_commit_logit	5.66667	reinit_logit	1.66667	-2132.41		occupancy	0.609215
+					E3_reinit_vs_direct					uorf_commit_logit	5.66667	reinit_logit	2	-2132.57		occupancy	0.6161
+					E3_reinit_vs_direct					uorf_commit_logit	5.66667	reinit_logit	2.33333	-2132.69		occupancy	0.621446
+					E3_reinit_vs_direct					uorf_commit_logit	5.66667	reinit_logit	2.66667	-2132.8		occupancy	0.625512
+					E3_reinit_vs_direct					uorf_commit_logit	5.66667	reinit_logit	3	-2132.88		occupancy	0.628557
+					E3_reinit_vs_direct					uorf_commit_logit	6	reinit_logit	-3	-2134.16		occupancy	0.429644
+					E3_reinit_vs_direct					uorf_commit_logit	6	reinit_logit	-2.66667	-2133.93		occupancy	0.43349
+					E3_reinit_vs_direct					uorf_commit_logit	6	reinit_logit	-2.33333	-2133.65		occupancy	0.438626
+					E3_reinit_vs_direct					uorf_commit_logit	6	reinit_logit	-2	-2133.31		occupancy	0.445379
+					E3_reinit_vs_direct					uorf_commit_logit	6	reinit_logit	-1.66667	-2132.92		occupancy	0.454075
+					E3_reinit_vs_direct					uorf_commit_logit	6	reinit_logit	-1.33333	-2132.5		occupancy	0.464979
+					E3_reinit_vs_direct					uorf_commit_logit	6	reinit_logit	-1	-2132.1		occupancy	0.478205
+					E3_reinit_vs_direct					uorf_commit_logit	6	reinit_logit	-0.666667	-2131.76		occupancy	0.493617
+					E3_reinit_vs_direct					uorf_commit_logit	6	reinit_logit	-0.333333	-2131.54		occupancy	0.510757
+					E3_reinit_vs_direct					uorf_commit_logit	6	reinit_logit	0	-2131.46		occupancy	0.528858
+					E3_reinit_vs_direct					uorf_commit_logit	6	reinit_logit	0.333333	-2131.53		occupancy	0.546959
+					E3_reinit_vs_direct					uorf_commit_logit	6	reinit_logit	0.666667	-2131.72		occupancy	0.564099
+					E3_reinit_vs_direct					uorf_commit_logit	6	reinit_logit	1	-2131.99		occupancy	0.57951
+					E3_reinit_vs_direct					uorf_commit_logit	6	reinit_logit	1.33333	-2132.28		occupancy	0.592737
+					E3_reinit_vs_direct					uorf_commit_logit	6	reinit_logit	1.66667	-2132.56		occupancy	0.60364
+					E3_reinit_vs_direct					uorf_commit_logit	6	reinit_logit	2	-2132.81		occupancy	0.612336
+					E3_reinit_vs_direct					uorf_commit_logit	6	reinit_logit	2.33333	-2133.01		occupancy	0.619089
+					E3_reinit_vs_direct					uorf_commit_logit	6	reinit_logit	2.66667	-2133.18		occupancy	0.624225
+					E3_reinit_vs_direct					uorf_commit_logit	6	reinit_logit	3	-2133.31		occupancy	0.628071
+					E3_reinit_vs_direct					uorf_commit_logit	6.33333	reinit_logit	-3	-2136.71		occupancy	0.383004
+					E3_reinit_vs_direct					uorf_commit_logit	6.33333	reinit_logit	-2.66667	-2136.29		occupancy	0.387744
+					E3_reinit_vs_direct					uorf_commit_logit	6.33333	reinit_logit	-2.33333	-2135.77		occupancy	0.394074
+					E3_reinit_vs_direct					uorf_commit_logit	6.33333	reinit_logit	-2	-2135.15		occupancy	0.402395
+					E3_reinit_vs_direct					uorf_commit_logit	6.33333	reinit_logit	-1.66667	-2134.45		occupancy	0.413111
+					E3_reinit_vs_direct					uorf_commit_logit	6.33333	reinit_logit	-1.33333	-2133.71		occupancy	0.426548
+					E3_reinit_vs_direct					uorf_commit_logit	6.33333	reinit_logit	-1	-2133		occupancy	0.442847
+					E3_reinit_vs_direct					uorf_commit_logit	6.33333	reinit_logit	-0.666667	-2132.42		occupancy	0.461839
+					E3_reinit_vs_direct					uorf_commit_logit	6.33333	reinit_logit	-0.333333	-2132.04		occupancy	0.482961
+					E3_reinit_vs_direct					uorf_commit_logit	6.33333	reinit_logit	0	-2131.91		occupancy	0.505267
+					E3_reinit_vs_direct					uorf_commit_logit	6.33333	reinit_logit	0.333333	-2132.03		occupancy	0.527573
+					E3_reinit_vs_direct					uorf_commit_logit	6.33333	reinit_logit	0.666667	-2132.33		occupancy	0.548695
+					E3_reinit_vs_direct					uorf_commit_logit	6.33333	reinit_logit	1	-2132.75		occupancy	0.567687
+					E3_reinit_vs_direct					uorf_commit_logit	6.33333	reinit_logit	1.33333	-2133.21		occupancy	0.583986
+					E3_reinit_vs_direct					uorf_commit_logit	6.33333	reinit_logit	1.66667	-2133.66		occupancy	0.597423
+					E3_reinit_vs_direct					uorf_commit_logit	6.33333	reinit_logit	2	-2134.05		occupancy	0.608139
+					E3_reinit_vs_direct					uorf_commit_logit	6.33333	reinit_logit	2.33333	-2134.37		occupancy	0.61646
+					E3_reinit_vs_direct					uorf_commit_logit	6.33333	reinit_logit	2.66667	-2134.63		occupancy	0.62279
+					E3_reinit_vs_direct					uorf_commit_logit	6.33333	reinit_logit	3	-2134.83		occupancy	0.627529
+					E3_reinit_vs_direct					uorf_commit_logit	6.66667	reinit_logit	-3	-2141.92		occupancy	0.333598
+					E3_reinit_vs_direct					uorf_commit_logit	6.66667	reinit_logit	-2.66667	-2141.18		occupancy	0.339283
+					E3_reinit_vs_direct					uorf_commit_logit	6.66667	reinit_logit	-2.33333	-2140.25		occupancy	0.346877
+					E3_reinit_vs_direct					uorf_commit_logit	6.66667	reinit_logit	-2	-2139.15		occupancy	0.35686
+					E3_reinit_vs_direct					uorf_commit_logit	6.66667	reinit_logit	-1.66667	-2137.92		occupancy	0.369716
+					E3_reinit_vs_direct					uorf_commit_logit	6.66667	reinit_logit	-1.33333	-2136.64		occupancy	0.385837
+					E3_reinit_vs_direct					uorf_commit_logit	6.66667	reinit_logit	-1	-2135.44		occupancy	0.405391
+					E3_reinit_vs_direct					uorf_commit_logit	6.66667	reinit_logit	-0.666667	-2134.47		occupancy	0.428175
+					E3_reinit_vs_direct					uorf_commit_logit	6.66667	reinit_logit	-0.333333	-2133.84		occupancy	0.453515
+					E3_reinit_vs_direct					uorf_commit_logit	6.66667	reinit_logit	0	-2133.63		occupancy	0.480276
+					E3_reinit_vs_direct					uorf_commit_logit	6.66667	reinit_logit	0.333333	-2133.81		occupancy	0.507037
+					E3_reinit_vs_direct					uorf_commit_logit	6.66667	reinit_logit	0.666667	-2134.28		occupancy	0.532377
+					E3_reinit_vs_direct					uorf_commit_logit	6.66667	reinit_logit	1	-2134.92		occupancy	0.555162
+					E3_reinit_vs_direct					uorf_commit_logit	6.66667	reinit_logit	1.33333	-2135.62		occupancy	0.574716
+					E3_reinit_vs_direct					uorf_commit_logit	6.66667	reinit_logit	1.66667	-2136.28		occupancy	0.590836
+					E3_reinit_vs_direct					uorf_commit_logit	6.66667	reinit_logit	2	-2136.87		occupancy	0.603692
+					E3_reinit_vs_direct					uorf_commit_logit	6.66667	reinit_logit	2.33333	-2137.35		occupancy	0.613675
+					E3_reinit_vs_direct					uorf_commit_logit	6.66667	reinit_logit	2.66667	-2137.73		occupancy	0.621269
+					E3_reinit_vs_direct					uorf_commit_logit	6.66667	reinit_logit	3	-2138.03		occupancy	0.626955
+					E3_reinit_vs_direct					uorf_commit_logit	7	reinit_logit	-3	-2151.09		occupancy	0.284034
+					E3_reinit_vs_direct					uorf_commit_logit	7	reinit_logit	-2.66667	-2149.79		occupancy	0.290669
+					E3_reinit_vs_direct					uorf_commit_logit	7	reinit_logit	-2.33333	-2148.18		occupancy	0.299531
+					E3_reinit_vs_direct					uorf_commit_logit	7	reinit_logit	-2	-2146.29		occupancy	0.311181
+					E3_reinit_vs_direct					uorf_commit_logit	7	reinit_logit	-1.66667	-2144.21		occupancy	0.326184
+					E3_reinit_vs_direct					uorf_commit_logit	7	reinit_logit	-1.33333	-2142.08		occupancy	0.344996
+					E3_reinit_vs_direct					uorf_commit_logit	7	reinit_logit	-1	-2140.11		occupancy	0.367816
+					E3_reinit_vs_direct					uorf_commit_logit	7	reinit_logit	-0.666667	-2138.55		occupancy	0.394405
+					E3_reinit_vs_direct					uorf_commit_logit	7	reinit_logit	-0.333333	-2137.57		occupancy	0.423977
+					E3_reinit_vs_direct					uorf_commit_logit	7	reinit_logit	0	-2137.24		occupancy	0.455206
+					E3_reinit_vs_direct					uorf_commit_logit	7	reinit_logit	0.333333	-2137.5		occupancy	0.486436
+					E3_reinit_vs_direct					uorf_commit_logit	7	reinit_logit	0.666667	-2138.2		occupancy	0.516008
+					E3_reinit_vs_direct					uorf_commit_logit	7	reinit_logit	1	-2139.13		occupancy	0.542597
+					E3_reinit_vs_direct					uorf_commit_logit	7	reinit_logit	1.33333	-2140.14		occupancy	0.565416
+					E3_reinit_vs_direct					uorf_commit_logit	7	reinit_logit	1.66667	-2141.08		occupancy	0.584229
+					E3_reinit_vs_direct					uorf_commit_logit	7	reinit_logit	2	-2141.9		occupancy	0.599231
+					E3_reinit_vs_direct					uorf_commit_logit	7	reinit_logit	2.33333	-2142.58		occupancy	0.610882
+					E3_reinit_vs_direct					uorf_commit_logit	7	reinit_logit	2.66667	-2143.11		occupancy	0.619744
+					E3_reinit_vs_direct					uorf_commit_logit	7	reinit_logit	3	-2143.53		occupancy	0.626379
+					E3_reinit_vs_direct					uorf_commit_logit	7.33333	reinit_logit	-3	-2165.61		occupancy	0.236957
+					E3_reinit_vs_direct					uorf_commit_logit	7.33333	reinit_logit	-2.66667	-2163.38		occupancy	0.244494
+					E3_reinit_vs_direct					uorf_commit_logit	7.33333	reinit_logit	-2.33333	-2160.68		occupancy	0.25456
+					E3_reinit_vs_direct					uorf_commit_logit	7.33333	reinit_logit	-2	-2157.56		occupancy	0.267794
+					E3_reinit_vs_direct					uorf_commit_logit	7.33333	reinit_logit	-1.66667	-2154.16		occupancy	0.284836
+					E3_reinit_vs_direct					uorf_commit_logit	7.33333	reinit_logit	-1.33333	-2150.76		occupancy	0.306205
+					E3_reinit_vs_direct					uorf_commit_logit	7.33333	reinit_logit	-1	-2147.69		occupancy	0.332125
+					E3_reinit_vs_direct					uorf_commit_logit	7.33333	reinit_logit	-0.666667	-2145.31		occupancy	0.362329
+					E3_reinit_vs_direct					uorf_commit_logit	7.33333	reinit_logit	-0.333333	-2143.85		occupancy	0.39592
+					E3_reinit_vs_direct					uorf_commit_logit	7.33333	reinit_logit	0	-2143.37		occupancy	0.431394
+					E3_reinit_vs_direct					uorf_commit_logit	7.33333	reinit_logit	0.333333	-2143.74		occupancy	0.466868
+					E3_reinit_vs_direct					uorf_commit_logit	7.33333	reinit_logit	0.666667	-2144.71		occupancy	0.500459
+					E3_reinit_vs_direct					uorf_commit_logit	7.33333	reinit_logit	1	-2145.99		occupancy	0.530663
+					E3_reinit_vs_direct					uorf_commit_logit	7.33333	reinit_logit	1.33333	-2147.35		occupancy	0.556583
+					E3_reinit_vs_direct					uorf_commit_logit	7.33333	reinit_logit	1.66667	-2148.62		occupancy	0.577953
+					E3_reinit_vs_direct					uorf_commit_logit	7.33333	reinit_logit	2	-2149.72		occupancy	0.594994
+					E3_reinit_vs_direct					uorf_commit_logit	7.33333	reinit_logit	2.33333	-2150.63		occupancy	0.608228
+					E3_reinit_vs_direct					uorf_commit_logit	7.33333	reinit_logit	2.66667	-2151.34		occupancy	0.618295
+					E3_reinit_vs_direct					uorf_commit_logit	7.33333	reinit_logit	3	-2151.88		occupancy	0.625832
+					E3_reinit_vs_direct					uorf_commit_logit	7.66667	reinit_logit	-3	-2186.67		occupancy	0.194505
+					E3_reinit_vs_direct					uorf_commit_logit	7.66667	reinit_logit	-2.66667	-2183.02		occupancy	0.202855
+					E3_reinit_vs_direct					uorf_commit_logit	7.66667	reinit_logit	-2.33333	-2178.64		occupancy	0.214008
+					E3_reinit_vs_direct					uorf_commit_logit	7.66667	reinit_logit	-2	-2173.68		occupancy	0.22867
+					E3_reinit_vs_direct					uorf_commit_logit	7.66667	reinit_logit	-1.66667	-2168.39		occupancy	0.24755
+					E3_reinit_vs_direct					uorf_commit_logit	7.66667	reinit_logit	-1.33333	-2163.22		occupancy	0.271225
+					E3_reinit_vs_direct					uorf_commit_logit	7.66667	reinit_logit	-1	-2158.68		occupancy	0.299942
+					E3_reinit_vs_direct					uorf_commit_logit	7.66667	reinit_logit	-0.666667	-2155.24		occupancy	0.333405
+					E3_reinit_vs_direct					uorf_commit_logit	7.66667	reinit_logit	-0.333333	-2153.18		occupancy	0.37062
+					E3_reinit_vs_direct					uorf_commit_logit	7.66667	reinit_logit	0	-2152.51		occupancy	0.409922
+					E3_reinit_vs_direct					uorf_commit_logit	7.66667	reinit_logit	0.333333	-2153		occupancy	0.449224
+					E3_reinit_vs_direct					uorf_commit_logit	7.66667	reinit_logit	0.666667	-2154.28		occupancy	0.486439
+					E3_reinit_vs_direct					uorf_commit_logit	7.66667	reinit_logit	1	-2155.96		occupancy	0.519901
+					E3_reinit_vs_direct					uorf_commit_logit	7.66667	reinit_logit	1.33333	-2157.71		occupancy	0.548618
+					E3_reinit_vs_direct					uorf_commit_logit	7.66667	reinit_logit	1.66667	-2159.33		occupancy	0.572294
+					E3_reinit_vs_direct					uorf_commit_logit	7.66667	reinit_logit	2	-2160.73		occupancy	0.591174
+					E3_reinit_vs_direct					uorf_commit_logit	7.66667	reinit_logit	2.33333	-2161.87		occupancy	0.605836
+					E3_reinit_vs_direct					uorf_commit_logit	7.66667	reinit_logit	2.66667	-2162.76		occupancy	0.616988
+					E3_reinit_vs_direct					uorf_commit_logit	7.66667	reinit_logit	3	-2163.45		occupancy	0.625338
+					E3_reinit_vs_direct					uorf_commit_logit	8	reinit_logit	-3	-2215.01		occupancy	0.157982
+					E3_reinit_vs_direct					uorf_commit_logit	8	reinit_logit	-2.66667	-2209.24		occupancy	0.167032
+					E3_reinit_vs_direct					uorf_commit_logit	8	reinit_logit	-2.33333	-2202.47		occupancy	0.179119
+					E3_reinit_vs_direct					uorf_commit_logit	8	reinit_logit	-2	-2194.94		occupancy	0.195009
+					E3_reinit_vs_direct					uorf_commit_logit	8	reinit_logit	-1.66667	-2187.11		occupancy	0.215471
+					E3_reinit_vs_direct					uorf_commit_logit	8	reinit_logit	-1.33333	-2179.65		occupancy	0.24113
+					E3_reinit_vs_direct					uorf_commit_logit	8	reinit_logit	-1	-2173.28		occupancy	0.272253
+					E3_reinit_vs_direct					uorf_commit_logit	8	reinit_logit	-0.666667	-2168.57		occupancy	0.30852
+					E3_reinit_vs_direct					uorf_commit_logit	8	reinit_logit	-0.333333	-2165.82		occupancy	0.348853
+					E3_reinit_vs_direct					uorf_commit_logit	8	reinit_logit	0	-2164.95		occupancy	0.391448
+					E3_reinit_vs_direct					uorf_commit_logit	8	reinit_logit	0.333333	-2165.57		occupancy	0.434043
+					E3_reinit_vs_direct					uorf_commit_logit	8	reinit_logit	0.666667	-2167.18		occupancy	0.474376
+					E3_reinit_vs_direct					uorf_commit_logit	8	reinit_logit	1	-2169.25		occupancy	0.510642
+					E3_reinit_vs_direct					uorf_commit_logit	8	reinit_logit	1.33333	-2171.39		occupancy	0.541766
+					E3_reinit_vs_direct					uorf_commit_logit	8	reinit_logit	1.66667	-2173.37		occupancy	0.567424
+					E3_reinit_vs_direct					uorf_commit_logit	8	reinit_logit	2	-2175.06		occupancy	0.587887
+					E3_reinit_vs_direct					uorf_commit_logit	8	reinit_logit	2.33333	-2176.43		occupancy	0.603777
+					E3_reinit_vs_direct					uorf_commit_logit	8	reinit_logit	2.66667	-2177.5		occupancy	0.615864
+					E3_reinit_vs_direct					uorf_commit_logit	8	reinit_logit	3	-2178.32		occupancy	0.624914
+					E3_reinit_vs_direct					uorf_commit_logit	8.33333	reinit_logit	-3	-2250.61		occupancy	0.127807
+					E3_reinit_vs_direct					uorf_commit_logit	8.33333	reinit_logit	-2.66667	-2241.91		occupancy	0.137435
+					E3_reinit_vs_direct					uorf_commit_logit	8.33333	reinit_logit	-2.33333	-2231.89		occupancy	0.150294
+					E3_reinit_vs_direct					uorf_commit_logit	8.33333	reinit_logit	-2	-2221.02		occupancy	0.167199
+					E3_reinit_vs_direct					uorf_commit_logit	8.33333	reinit_logit	-1.66667	-2210.03		occupancy	0.188969
+					E3_reinit_vs_direct					uorf_commit_logit	8.33333	reinit_logit	-1.33333	-2199.84		occupancy	0.216266
+					E3_reinit_vs_direct					uorf_commit_logit	8.33333	reinit_logit	-1	-2191.36		occupancy	0.249378
+					E3_reinit_vs_direct					uorf_commit_logit	8.33333	reinit_logit	-0.666667	-2185.26		occupancy	0.28796
+					E3_reinit_vs_direct					uorf_commit_logit	8.33333	reinit_logit	-0.333333	-2181.78		occupancy	0.33087
+					E3_reinit_vs_direct					uorf_commit_logit	8.33333	reinit_logit	0	-2180.69		occupancy	0.376185
+					E3_reinit_vs_direct					uorf_commit_logit	8.33333	reinit_logit	0.333333	-2181.45		occupancy	0.421501
+					E3_reinit_vs_direct					uorf_commit_logit	8.33333	reinit_logit	0.666667	-2183.37		occupancy	0.46441
+					E3_reinit_vs_direct					uorf_commit_logit	8.33333	reinit_logit	1	-2185.82		occupancy	0.502993
+					E3_reinit_vs_direct					uorf_commit_logit	8.33333	reinit_logit	1.33333	-2188.34		occupancy	0.536104
+					E3_reinit_vs_direct					uorf_commit_logit	8.33333	reinit_logit	1.66667	-2190.65		occupancy	0.563402
+					E3_reinit_vs_direct					uorf_commit_logit	8.33333	reinit_logit	2	-2192.6		occupancy	0.585171
+					E3_reinit_vs_direct					uorf_commit_logit	8.33333	reinit_logit	2.33333	-2194.19		occupancy	0.602076
+					E3_reinit_vs_direct					uorf_commit_logit	8.33333	reinit_logit	2.66667	-2195.43		occupancy	0.614935
+					E3_reinit_vs_direct					uorf_commit_logit	8.33333	reinit_logit	3	-2196.37		occupancy	0.624563
+					E3_reinit_vs_direct					uorf_commit_logit	8.66667	reinit_logit	-3	-2292.65		occupancy	0.103702
+					E3_reinit_vs_direct					uorf_commit_logit	8.66667	reinit_logit	-2.66667	-2280.1		occupancy	0.113792
+					E3_reinit_vs_direct					uorf_commit_logit	8.66667	reinit_logit	-2.33333	-2266.01		occupancy	0.127267
+					E3_reinit_vs_direct					uorf_commit_logit	8.66667	reinit_logit	-2	-2251.11		occupancy	0.144983
+					E3_reinit_vs_direct					uorf_commit_logit	8.66667	reinit_logit	-1.66667	-2236.46		occupancy	0.167797
+					E3_reinit_vs_direct					uorf_commit_logit	8.66667	reinit_logit	-1.33333	-2223.25		occupancy	0.196404
+					E3_reinit_vs_direct					uorf_commit_logit	8.66667	reinit_logit	-1	-2212.55		occupancy	0.231103
+					E3_reinit_vs_direct					uorf_commit_logit	8.66667	reinit_logit	-0.666667	-2205.04		occupancy	0.271536
+					E3_reinit_vs_direct					uorf_commit_logit	8.66667	reinit_logit	-0.333333	-2200.83		occupancy	0.316504
+					E3_reinit_vs_direct					uorf_commit_logit	8.66667	reinit_logit	0	-2199.54		occupancy	0.363993
+					E3_reinit_vs_direct					uorf_commit_logit	8.66667	reinit_logit	0.333333	-2200.42		occupancy	0.411481
+					E3_reinit_vs_direct					uorf_commit_logit	8.66667	reinit_logit	0.666667	-2202.63		occupancy	0.456449
+					E3_reinit_vs_direct					uorf_commit_logit	8.66667	reinit_logit	1	-2205.42		occupancy	0.496882
+					E3_reinit_vs_direct					uorf_commit_logit	8.66667	reinit_logit	1.33333	-2208.27		occupancy	0.531582
+					E3_reinit_vs_direct					uorf_commit_logit	8.66667	reinit_logit	1.66667	-2210.86		occupancy	0.560188
+					E3_reinit_vs_direct					uorf_commit_logit	8.66667	reinit_logit	2	-2213.06		occupancy	0.583002
+					E3_reinit_vs_direct					uorf_commit_logit	8.66667	reinit_logit	2.33333	-2214.83		occupancy	0.600718
+					E3_reinit_vs_direct					uorf_commit_logit	8.66667	reinit_logit	2.66667	-2216.21		occupancy	0.614193
+					E3_reinit_vs_direct					uorf_commit_logit	8.66667	reinit_logit	3	-2217.26		occupancy	0.624283
+					E3_reinit_vs_direct					uorf_commit_logit	9	reinit_logit	-3	-2339.61		occupancy	0.0849573
+					E3_reinit_vs_direct					uorf_commit_logit	9	reinit_logit	-2.66667	-2322.36		occupancy	0.0954061
+					E3_reinit_vs_direct					uorf_commit_logit	9	reinit_logit	-2.33333	-2303.48		occupancy	0.109361
+					E3_reinit_vs_direct					uorf_commit_logit	9	reinit_logit	-2	-2284.08		occupancy	0.127708
+					E3_reinit_vs_direct					uorf_commit_logit	9	reinit_logit	-1.66667	-2265.51		occupancy	0.151333
+					E3_reinit_vs_direct					uorf_commit_logit	9	reinit_logit	-1.33333	-2249.21		occupancy	0.180958
+					E3_reinit_vs_direct					uorf_commit_logit	9	reinit_logit	-1	-2236.32		occupancy	0.216892
+					E3_reinit_vs_direct					uorf_commit_logit	9	reinit_logit	-0.666667	-2227.46		occupancy	0.258764
+					E3_reinit_vs_direct					uorf_commit_logit	9	reinit_logit	-0.333333	-2222.6		occupancy	0.305332
+					E3_reinit_vs_direct					uorf_commit_logit	9	reinit_logit	0	-2221.13		occupancy	0.354511
+					E3_reinit_vs_direct					uorf_commit_logit	9	reinit_logit	0.333333	-2222.11		occupancy	0.40369
+					E3_reinit_vs_direct					uorf_commit_logit	9	reinit_logit	0.666667	-2224.56		occupancy	0.450258
+					E3_reinit_vs_direct					uorf_commit_logit	9	reinit_logit	1	-2227.64		occupancy	0.49213
+					E3_reinit_vs_direct					uorf_commit_logit	9	reinit_logit	1.33333	-2230.77		occupancy	0.528065
+					E3_reinit_vs_direct					uorf_commit_logit	9	reinit_logit	1.66667	-2233.61		occupancy	0.557689
+					E3_reinit_vs_direct					uorf_commit_logit	9	reinit_logit	2	-2236		occupancy	0.581315
+					E3_reinit_vs_direct					uorf_commit_logit	9	reinit_logit	2.33333	-2237.93		occupancy	0.599661
+					E3_reinit_vs_direct					uorf_commit_logit	9	reinit_logit	2.66667	-2239.42		occupancy	0.613616
+					E3_reinit_vs_direct					uorf_commit_logit	9	reinit_logit	3	-2240.56		occupancy	0.624065

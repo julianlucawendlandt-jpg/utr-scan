@@ -1,0 +1,61 @@
+[qc] gse174329_eif3b rep1: single 5' offset 25 (sharpness 2.42) vs length-resolved (sharpness 8.25)
+       18-24  nt  0.0%  3p anchor, offset 24
+       25-29  nt  12.3%  3p anchor, offset 24
+       30-34  nt  11.3%  3p anchor, offset 24
+       35-39  nt  10.7%  3p anchor, offset 24
+       40-44  nt  9.8%  3p anchor, offset 24
+       45-49  nt  9.3%  5p anchor, offset 22
+       50-59  nt  17.8%  3p anchor, offset 24
+       60-69  nt  15.3%  3p anchor, offset 24
+       70-200 nt  13.5%  3p anchor, offset 24
+[qc] gse174329_eif3b rep2: single 5' offset 22 (sharpness 2.39) vs length-resolved (sharpness 7.63)
+       18-24  nt  0.0%  3p anchor, offset 24
+       25-29  nt  11.4%  5p anchor, offset 3
+       30-34  nt  10.8%  3p anchor, offset 24
+       35-39  nt  10.4%  3p anchor, offset 24
+       40-44  nt  9.5%  3p anchor, offset 24
+       45-49  nt  9.4%  5p anchor, offset 22
+       50-59  nt  18.7%  3p anchor, offset 24
+       60-69  nt  15.3%  3p anchor, offset 24
+       70-200 nt  14.5%  3p anchor, offset 24
+[qc] gse139131_unsel rep1: single 5' offset 0 (sharpness 4.26) vs length-resolved (sharpness 8.48)
+       18-24  nt  0.0%  3p anchor, offset 24
+       25-29  nt  14.6%  5p anchor, offset 0
+       30-34  nt  16.7%  5p anchor, offset 13
+       35-39  nt  16.2%  5p anchor, offset 13
+       40-44  nt  16.6%  3p anchor, offset 25
+       45-49  nt  13.9%  3p anchor, offset 24
+       50-59  nt  13.8%  3p anchor, offset 25
+       60-69  nt  6.3%  3p anchor, offset 24
+       70-200 nt  2.1%  5p anchor, offset 48
+[qc] gse139131_unsel rep2: single 5' offset 12 (sharpness 5.53) vs length-resolved (sharpness 10.43)
+       18-24  nt  0.0%  3p anchor, offset 24
+       25-29  nt  26.1%  5p anchor, offset 0
+       30-34  nt  19.0%  5p anchor, offset 12
+       35-39  nt  10.9%  5p anchor, offset 14
+       40-44  nt  14.2%  5p anchor, offset 18
+       45-49  nt  10.9%  5p anchor, offset 24
+       50-59  nt  10.7%  3p anchor, offset 24
+       60-69  nt  7.6%  5p anchor, offset 39
+       70-200 nt  0.6%  3p anchor, offset 24
+[qc] gse139131_eif3b rep1: single 5' offset 0 (sharpness 3.94) vs length-resolved (sharpness 5.90)
+       18-24  nt  0.0%  3p anchor, offset 23
+       25-29  nt  33.8%  5p anchor, offset 0
+       30-34  nt  20.2%  3p anchor, offset 23
+       35-39  nt  17.4%  3p anchor, offset 23
+       40-44  nt  11.4%  5p anchor, offset 19
+       45-49  nt  5.8%  5p anchor, offset 22
+       50-59  nt  6.6%  3p anchor, offset 24
+       60-69  nt  3.9%  5p anchor, offset 40
+       70-200 nt  0.9%  5p anchor, offset 45
+[qc] archer_yeast rep1: single 5' offset 12 (sharpness 28.71) vs length-resolved (sharpness 38.85)
+       18-24  nt  19.2%  5p anchor, offset 12
+       25-29  nt  17.9%  5p anchor, offset 12
+       30-34  nt  22.4%  5p anchor, offset 13
+       35-39  nt  12.9%  5p anchor, offset 13
+       40-44  nt  6.9%  5p anchor, offset 13
+       45-49  nt  5.3%  5p anchor, offset 29
+       50-59  nt  7.9%  5p anchor, offset 32
+       60-69  nt  3.9%  5p anchor, offset 38
+       70-200 nt  3.7%  5p anchor, offset 65
+[qc] P-site rules -> manifest

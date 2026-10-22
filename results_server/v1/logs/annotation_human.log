@@ -1,0 +1,8 @@
+[panel] reading genome /root/utr-scan/ref/GRCh38.fa
+[panel] 19193 start codons (33 intron-split dropped), 18873 leader windows
+[panel] 15618 transcripts; folding with 6 processes
+[panel] folded in 264s
+[panel] -> /root/utr-scan/cache/recoverability/annotation_human.npz
+[panel]   dropped   3187  leader_too_short
+[panel]   dropped    353  no_leader_window
+[panel]   dropped     35  start_codon_not_ATG
