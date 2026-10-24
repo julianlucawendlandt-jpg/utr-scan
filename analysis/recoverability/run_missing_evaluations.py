@@ -160,6 +160,8 @@ def main():
     env.setdefault("OMP_NUM_THREADS", "1")
     env.setdefault("OPENBLAS_NUM_THREADS", "1")
     env.setdefault("MKL_NUM_THREADS", "1")
+    # workers share one GPU; less fragmentation, no effect on any number
+    env.setdefault("PYTORCH_CUDA_ALLOC_CONF", "expandable_segments:True")
     env["PYTHONPATH"] = C.ROOT + os.pathsep + env.get("PYTHONPATH", "")
     for name, cmds, null_spec in steps:
         marker = os.path.join(DONE, name)

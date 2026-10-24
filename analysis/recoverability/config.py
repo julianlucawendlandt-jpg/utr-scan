@@ -200,11 +200,13 @@ def resources():
             "gpu_mem_gb": gpu_memory_gb() if gpu else 0.0}
 
 
-def default_workers(gb_per_worker=1.6, gpu_gb_per_worker=2.0):
+def default_workers(gb_per_worker=1.6, gpu_gb_per_worker=5.0):
     """Parallel analysis workers: one per core, capped by RAM (each human
     worker holds the panel, ~1-1.5 GB) and, when the GPU backend is in use,
-    by GPU memory (each worker opens its own CUDA context plus chunk
-    buffers, ~1.5-2 GB).  UTR_WORKERS overrides."""
+    by GPU memory (each worker opens its own CUDA context plus the panel's
+    device tensors and chunk buffers; up to ~6 GB was seen for the
+    unselected human panel at 1 nt before the in-place centring in gpu.py,
+    ~4 GB after).  UTR_WORKERS overrides."""
     if os.environ.get("UTR_WORKERS"):
         return max(1, int(os.environ["UTR_WORKERS"]))
     r = resources()

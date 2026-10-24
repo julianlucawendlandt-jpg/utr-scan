@@ -26,8 +26,16 @@ laptop run the same code.
 """
 
 import os
+import random
+import time
 
 import numpy as np
+
+# float64 elements per slice when centring a chunk (16M = 128 MB)
+CENTRE_SLICE_ELEMS = 16 * 2 ** 20
+# CUDA out-of-memory retries (other workers' fits finish and free memory)
+# before one fit falls back to the CPU backend
+OOM_RETRIES = 6
 
 
 def _torch():
@@ -113,7 +121,35 @@ def _spmv(torch, A, v):
 
 def fit_torch(prob, ybin, prior_sd=1.0, init=None, max_iter=200, tol=1e-8, refresh=4,
               device=None):
-    """Torch twin of likelihood._fit_scipy.  Returns a likelihood.Fit."""
+    """Torch twin of likelihood._fit_scipy.  Returns a likelihood.Fit.
+
+    Several worker processes share one GPU.  A fit that hits CUDA out of
+    memory frees its cache, waits for the others and retries unchanged (same
+    chunks, so the same numbers); only after OOM_RETRIES does that one fit
+    run on the CPU backend, recorded in info["backend"].
+    """
+    torch = _torch()
+    for attempt in range(OOM_RETRIES + 1):
+        try:
+            return _fit_torch(prob, ybin, prior_sd, init, max_iter, tol, refresh, device)
+        except torch.OutOfMemoryError:
+            prob._torch = None
+            torch.cuda.empty_cache()
+            if attempt == OOM_RETRIES:
+                break
+            time.sleep(random.uniform(5, 30) * (attempt + 1))
+        finally:
+            # hand reserved-but-idle memory back so other workers can use it
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
+    from analysis.recoverability.likelihood import _fit_scipy
+    f = _fit_scipy(prob, ybin, prior_sd=prior_sd, init=init, max_iter=max_iter,
+                   tol=tol, refresh=refresh)
+    f.info["backend"] = "scipy (cuda OOM fallback)"
+    return f
+
+
+def _fit_torch(prob, ybin, prior_sd, init, max_iter, tol, refresh, device):
     torch = _torch()
     from analysis.recoverability.likelihood import Fit
     device = device or ("cuda" if torch.cuda.is_available() else "cpu")
@@ -172,11 +208,18 @@ def fit_torch(prob, ybin, prior_sd=1.0, init=None, max_iter=200, tol=1e-8, refre
             idx = (tp.bin[tp.row[n0:n1]] - blo) * K + tp.col[n0:n1]
             A.index_add_(0, idx, pv[n0:n1])
             A = A.view(bhi - blo, K)
-            # centre each bin on its transcript: d_b = a_b - q_b xbar_t
-            A -= (q[blo:bhi].unsqueeze(1) * Xbar[tp.bin_tx[blo:bhi]]).to(torch.float32)
-            sw = torch.sqrt(w_bin[blo:bhi]).to(torch.float32).unsqueeze(1)
-            As = A * sw
-            I += (As.T @ As).to(f64)
+            # centre each bin on its transcript: d_b = a_b - q_b xbar_t.
+            # In row slices, so the float64 temporary is a slice, not twice
+            # the whole chunk (8 workers x that temporary exhausted a 48 GB
+            # card); elementwise the result is identical.
+            step_rows = max(1, CENTRE_SLICE_ELEMS // K)
+            for r0 in range(0, bhi - blo, step_rows):
+                r1 = min(r0 + step_rows, bhi - blo)
+                A[r0:r1] -= (q[blo + r0:blo + r1].unsqueeze(1)
+                             * Xbar[tp.bin_tx[blo + r0:blo + r1]]).to(torch.float32)
+            A.mul_(torch.sqrt(w_bin[blo:bhi]).to(torch.float32).unsqueeze(1))
+            I += (A.T @ A).to(f64)
+            del A, idx
         I += lam * torch.eye(K, dtype=f64, device=device)
         return I
 
