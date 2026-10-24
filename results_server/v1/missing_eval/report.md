@@ -129,18 +129,18 @@ Generated from the result files; see run_missing_evaluations.py for commands.
 
 | family | bin | dLL [95% CI] | null p | status | optimistic power |
 |---|---|---|---|---|---|
-| SW | 1 | +0.0398 [+0.0051, +0.0687] | 0.00990099 | dataset_specific_support | 0.1 |
-| SW | 5 | +0.0312 [+0.0127, +0.0513] | 0.00990099 | dataset_specific_support | 0.1 |
-| SW | 10 | +0.0134 [-0.0052, +0.0310] | 0.00990099 | no_within_library_support | 0.1 |
-| SW | 20 | +0.0018 [-0.0211, +0.0249] | nan | no_within_library_support | 0.1 |
+| SW | 1 | +0.0398 [+0.0051, +0.0687] | 0.00990099 | dataset_specific_support | 0 |
+| SW | 5 | +0.0312 [+0.0127, +0.0513] | 0.00990099 | dataset_specific_support | 0 |
+| SW | 10 | +0.0134 [-0.0052, +0.0310] | 0.00990099 | no_within_library_support | 0 |
+| SW | 20 | +0.0018 [-0.0211, +0.0249] | nan | no_within_library_support | 0 |
 | ST | 1 | +0.0045 [-0.0005, +0.0096] | 0.029703 | no_within_library_support | 1 |
 | ST | 5 | +0.0025 [-0.0015, +0.0068] | 0.0891089 | no_within_library_support | 1 |
 | ST | 10 | +0.0021 [-0.0014, +0.0059] | 0.178218 | no_within_library_support | 1 |
 | ST | 20 | -0.0011 [-0.0041, +0.0018] | 0.782178 | no_within_library_support | 1 |
-| AUG | 1 | +0.0161 [+0.0009, +0.0293] | 0.00990099 | dataset_specific_support | 1 |
-| AUG | 5 | +0.0148 [+0.0000, +0.0279] | 0.00990099 | dataset_specific_support | 1 |
-| AUG | 10 | +0.0172 [-0.0037, +0.0343] | 0.00990099 | no_within_library_support | 1 |
-| AUG | 20 | +0.0080 [-0.0126, +0.0260] | 0.00990099 | no_within_library_support | 1 |
+| AUG | 1 | +0.0161 [+0.0009, +0.0293] | 0.00990099 | dataset_specific_support | 0 |
+| AUG | 5 | +0.0148 [+0.0000, +0.0279] | 0.00990099 | dataset_specific_support | 0 |
+| AUG | 10 | +0.0172 [-0.0037, +0.0343] | 0.00990099 | no_within_library_support | 0 |
+| AUG | 20 | +0.0080 [-0.0126, +0.0260] | 0.00990099 | no_within_library_support | 0 |
 | UORF | 1 | +0.0167 [+0.0017, +0.0299] | 0.19802 | fails_position_matched_null | nan |
 | UORF | 5 | +0.0148 [+0.0003, +0.0279] | 0.217822 | fails_position_matched_null | nan |
 | UORF | 10 | +0.0161 [-0.0014, +0.0309] | 0.475248 | no_within_library_support | nan |

@@ -153,6 +153,42 @@
       "exit": 0,
       "minutes": 0.0,
       "finished": "2026-10-24T11:51:50"
+    },
+    {
+      "step": "power_yeast_multinomial",
+      "commands": [
+        "/root/miniconda3/bin/python -u -m analysis.recoverability.06_synthetic_power --dataset archer_yeast --noise multinomial --bin 10 --n-sim 50 --n-null-sim 100 --tag n50 --workers 8"
+      ],
+      "exit": 0,
+      "minutes": 40.53,
+      "finished": "2026-10-24T21:14:00"
+    },
+    {
+      "step": "summary_yeast_single_library",
+      "commands": [
+        "/root/miniconda3/bin/python -u -m analysis.recoverability.10_yeast_single_library_summary --power-tag n50"
+      ],
+      "exit": 0,
+      "minutes": 0.0,
+      "finished": "2026-10-24T21:14:00"
+    },
+    {
+      "step": "missing_eval_figures",
+      "commands": [
+        "/root/miniconda3/bin/python -u -m analysis.recoverability.make_missing_figures"
+      ],
+      "exit": 0,
+      "minutes": 0.03,
+      "finished": "2026-10-24T21:14:02"
+    },
+    {
+      "step": "missing_eval_report",
+      "commands": [
+        "/root/miniconda3/bin/python -u -m analysis.recoverability.missing_eval report"
+      ],
+      "exit": 0,
+      "minutes": 0.0,
+      "finished": "2026-10-24T21:14:02"
     }
   ],
   "parameters": {
@@ -168,9 +204,9 @@
   },
   "smoke": false,
   "versions": {
-    "python": "3.12.15",
+    "python": "3.14.7",
     "platform": "Linux-5.15.0-185-generic-x86_64-with-glibc2.35",
-    "git_commit": "398f5e47694ed9d6064389b644ae7f3d30444280-dirty",
+    "git_commit": "9ece41e6524f311e875668cf8c4b05231a506587-dirty",
     "numpy": "2.2.6",
     "scipy": "1.16.3",
     "sklearn": "1.8.0",
@@ -187,5 +223,5 @@
   "workers": 8,
   "backend": "torch",
   "results_dir": "/root/utr-scan/results/recoverability/v1",
-  "started": "2026-10-24T09:31:48"
+  "started": "2026-10-24T20:33:28"
 }
