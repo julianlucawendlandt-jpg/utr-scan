@@ -1,0 +1,23 @@
+$ /root/miniconda3/envs/utrscan/bin/python -u -m analysis.recoverability.10_yeast_single_library_summary --power-tag n50
+SW         b=1   dLL +0.0398 [+0.0051,+0.0687]  null p 0.010  -> dataset_specific_support           power 0.10
+SW         b=5   dLL +0.0312 [+0.0127,+0.0513]  null p 0.010  -> dataset_specific_support           power 0.10
+SW         b=10  dLL +0.0134 [-0.0052,+0.0310]  null p 0.010  -> no_within_library_support          power 0.10
+SW         b=20  dLL +0.0018 [-0.0211,+0.0249]  null p nan  -> no_within_library_support          power 0.10
+ST         b=1   dLL +0.0045 [-0.0005,+0.0096]  null p 0.030  -> no_within_library_support          power 1.00
+ST         b=5   dLL +0.0025 [-0.0015,+0.0068]  null p 0.089  -> no_within_library_support          power 1.00
+ST         b=10  dLL +0.0021 [-0.0014,+0.0059]  null p 0.178  -> no_within_library_support          power 1.00
+ST         b=20  dLL -0.0011 [-0.0041,+0.0018]  null p 0.782  -> no_within_library_support          power 1.00
+AUG        b=1   dLL +0.0161 [+0.0009,+0.0293]  null p 0.010  -> dataset_specific_support           power 1.00
+AUG        b=5   dLL +0.0148 [+0.0000,+0.0279]  null p 0.010  -> dataset_specific_support           power 1.00
+AUG        b=10  dLL +0.0172 [-0.0037,+0.0343]  null p 0.010  -> no_within_library_support          power 1.00
+AUG        b=20  dLL +0.0080 [-0.0126,+0.0260]  null p 0.010  -> no_within_library_support          power 1.00
+UORF       b=1   dLL +0.0167 [+0.0017,+0.0299]  null p 0.198  -> fails_position_matched_null        power n/a
+UORF       b=5   dLL +0.0148 [+0.0003,+0.0279]  null p 0.218  -> fails_position_matched_null        power n/a
+UORF       b=10  dLL +0.0161 [-0.0014,+0.0309]  null p 0.475  -> no_within_library_support          power n/a
+UORF       b=20  dLL +0.0080 [-0.0093,+0.0238]  null p nan  -> no_within_library_support          power n/a
+SW+ST+AUG  b=1   dLL +0.0509 [+0.0220,+0.0767]  null p nan  -> held_out_support_no_null_defined   power n/a
+SW+ST+AUG  b=5   dLL +0.0394 [+0.0250,+0.0555]  null p nan  -> held_out_support_no_null_defined   power n/a
+SW+ST+AUG  b=10  dLL +0.0344 [+0.0094,+0.0571]  null p nan  -> held_out_support_no_null_defined   power n/a
+SW+ST+AUG  b=20  dLL +0.0180 [-0.0016,+0.0382]  null p nan  -> no_within_library_support          power n/a
+yeast has only one independent SSU library; cross-replicate recoverability is untestable. All evidence here is held-out-chromosome, within-library.
+-> /root/utr-scan/results/recoverability/v1/missing_eval/yeast_single_library_summary.tsv

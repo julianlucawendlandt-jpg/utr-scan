@@ -1,0 +1,20 @@
+$ /root/miniconda3/envs/utrscan/bin/python -u -m analysis.recoverability.04_shuffle_nulls --dataset gse139131_unsel --features ST,AUG --bin 20 --n-perm 100 --seed 0 --workers 8
+[null] 20/202 fits-sets (16s)
+[null] 40/202 fits-sets (21s)
+[null] 60/202 fits-sets (27s)
+[null] 80/202 fits-sets (32s)
+[null] 100/202 fits-sets (38s)
+[null] 120/202 fits-sets (42s)
+[null] 140/202 fits-sets (46s)
+[null] 160/202 fits-sets (50s)
+[null] 180/202 fits-sets (55s)
+[null] 200/202 fits-sets (59s)
+[null] AUG rep1->rep1: real 0.00634  null 0.00133 +/- 0.00176  p=0.020
+[null] AUG rep1->rep2: real 0.00990  null 0.00415 +/- 0.00125  p=0.010
+[null] AUG rep2->rep1: real 0.00578  null 0.00055 +/- 0.00159  p=0.010
+[null] AUG rep2->rep2: real 0.01182  null 0.00506 +/- 0.00124  p=0.010
+[null] ST rep1->rep1: real 0.00395  null 0.00534 +/- 0.00098  p=0.931
+[null] ST rep1->rep2: real 0.00258  null 0.00998 +/- 0.00094  p=1.000
+[null] ST rep2->rep1: real 0.00340  null 0.00446 +/- 0.00106  p=0.881
+[null] ST rep2->rep2: real 0.00252  null 0.01032 +/- 0.00103  p=1.000
+[null] -> /root/utr-scan/results/recoverability/v1/nulls/shuffle_nulls.tsv

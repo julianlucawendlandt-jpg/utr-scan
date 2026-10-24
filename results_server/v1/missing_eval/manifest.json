@@ -1,0 +1,191 @@
+{
+  "steps": [
+    {
+      "step": "audit_inputs",
+      "commands": [
+        "/root/miniconda3/envs/utrscan/bin/python -u -m analysis.recoverability.missing_eval audit"
+      ],
+      "exit": 0,
+      "minutes": 0.0,
+      "finished": "2026-10-24T09:31:48"
+    },
+    {
+      "step": "nulls_unselected_b1",
+      "commands": [
+        "/root/miniconda3/envs/utrscan/bin/python -u -m analysis.recoverability.04_shuffle_nulls --dataset gse139131_unsel --features SW,ST,AUG,S3 --bin 1 --n-perm 100 --seed 0 --workers 8"
+      ],
+      "exit": 0,
+      "minutes": 6.09,
+      "finished": "2026-10-24T09:37:54"
+    },
+    {
+      "step": "nulls_unselected_b5",
+      "commands": [
+        "/root/miniconda3/envs/utrscan/bin/python -u -m analysis.recoverability.04_shuffle_nulls --dataset gse139131_unsel --features SW,ST,AUG --bin 5 --n-perm 100 --seed 0 --workers 8"
+      ],
+      "exit": 0,
+      "minutes": 3.58,
+      "finished": "2026-10-24T09:41:29"
+    },
+    {
+      "step": "nulls_unselected_b10",
+      "commands": [
+        "/root/miniconda3/envs/utrscan/bin/python -u -m analysis.recoverability.04_shuffle_nulls --dataset gse139131_unsel --features SW,ST,AUG,S1,S3,S5,ST_paired,ST_dG,UORF --bin 10 --n-perm 100 --seed 0 --workers 8"
+      ],
+      "exit": 0,
+      "minutes": 7.65,
+      "finished": "2026-10-24T09:49:08"
+    },
+    {
+      "step": "nulls_unselected_b20",
+      "commands": [
+        "/root/miniconda3/envs/utrscan/bin/python -u -m analysis.recoverability.04_shuffle_nulls --dataset gse139131_unsel --features ST,AUG --bin 20 --n-perm 100 --seed 0 --workers 8"
+      ],
+      "exit": 0,
+      "minutes": 1.11,
+      "finished": "2026-10-24T09:50:15"
+    },
+    {
+      "step": "power_unselected_dm",
+      "commands": [
+        "/root/miniconda3/envs/utrscan/bin/python -u -m analysis.recoverability.06_synthetic_power --dataset gse139131_unsel --noise dm --bin 10 --n-sim 50 --n-null-sim 100 --tag n50 --workers 8"
+      ],
+      "exit": 0,
+      "minutes": 49.25,
+      "finished": "2026-10-24T10:39:29"
+    },
+    {
+      "step": "summary_unselected",
+      "commands": [
+        "/root/miniconda3/envs/utrscan/bin/python -u -m analysis.recoverability.summary --dataset gse139131_unsel --noise dm --power-tag n50 --out /root/utr-scan/results/recoverability/v1/missing_eval/unselected_summary_raw.tsv",
+        "/root/miniconda3/envs/utrscan/bin/python -u -m analysis.recoverability.missing_eval unselected_table --power-tag n50"
+      ],
+      "exit": 0,
+      "minutes": 0.0,
+      "finished": "2026-10-24T10:39:30"
+    },
+    {
+      "step": "assay_comparison",
+      "commands": [
+        "/root/miniconda3/envs/utrscan/bin/python -u -m analysis.recoverability.09_assay_comparison --mode primary --bin 10 --seeds 0,1,2 --n-boot 2000"
+      ],
+      "exit": 0,
+      "minutes": 1.28,
+      "finished": "2026-10-24T10:40:46"
+    },
+    {
+      "step": "same_study_selection",
+      "commands": [
+        "/root/miniconda3/envs/utrscan/bin/python -u -m analysis.recoverability.09_assay_comparison --mode same_study --bin 10 --seeds 0,1,2 --n-perm 100 --n-boot 2000"
+      ],
+      "exit": 0,
+      "minutes": 24.22,
+      "finished": "2026-10-24T11:05:00"
+    },
+    {
+      "step": "nulls_yeast_b20",
+      "commands": [
+        "/root/miniconda3/envs/utrscan/bin/python -u -m analysis.recoverability.04_shuffle_nulls --dataset archer_yeast --features ST,AUG --bin 20 --n-perm 100 --seed 0 --workers 8"
+      ],
+      "exit": 0,
+      "minutes": 0.57,
+      "finished": "2026-10-24T11:05:34"
+    },
+    {
+      "step": "power_yeast_multinomial",
+      "commands": [
+        "/root/miniconda3/envs/utrscan/bin/python -u -m analysis.recoverability.06_synthetic_power --dataset archer_yeast --noise multinomial --bin 10 --n-sim 50 --n-null-sim 100 --tag n50 --workers 8"
+      ],
+      "exit": 0,
+      "minutes": 42.63,
+      "finished": "2026-10-24T11:48:11"
+    },
+    {
+      "step": "summary_yeast_single_library",
+      "commands": [
+        "/root/miniconda3/envs/utrscan/bin/python -u -m analysis.recoverability.10_yeast_single_library_summary --power-tag n50"
+      ],
+      "exit": 0,
+      "minutes": 0.0,
+      "finished": "2026-10-24T11:48:12"
+    },
+    {
+      "step": "freeze_downstream_model_choice",
+      "commands": [
+        "/root/miniconda3/envs/utrscan/bin/python -u -m analysis.recoverability.08_downstream_utility --stage choose"
+      ],
+      "exit": 0,
+      "minutes": 0.01,
+      "finished": "2026-10-24T11:48:12"
+    },
+    {
+      "step": "prepare_reporter_tables",
+      "commands": [
+        "/root/miniconda3/envs/utrscan/bin/python -u /root/utr-scan/eval/prepare_akirtava_downstream.py"
+      ],
+      "exit": 0,
+      "minutes": 0.04,
+      "finished": "2026-10-24T11:48:14"
+    },
+    {
+      "step": "downstream_reporter_utility",
+      "commands": [
+        "/root/miniconda3/envs/utrscan/bin/python -u -m analysis.recoverability.08_downstream_utility --stage run --n-boot 2000"
+      ],
+      "exit": 0,
+      "minutes": 3.57,
+      "finished": "2026-10-24T11:51:48"
+    },
+    {
+      "step": "missing_eval_figures",
+      "commands": [
+        "/root/miniconda3/envs/utrscan/bin/python -u -m analysis.recoverability.make_missing_figures"
+      ],
+      "exit": 0,
+      "minutes": 0.02,
+      "finished": "2026-10-24T11:51:50"
+    },
+    {
+      "step": "missing_eval_report",
+      "commands": [
+        "/root/miniconda3/envs/utrscan/bin/python -u -m analysis.recoverability.missing_eval report"
+      ],
+      "exit": 0,
+      "minutes": 0.0,
+      "finished": "2026-10-24T11:51:50"
+    }
+  ],
+  "parameters": {
+    "n_perm": 100,
+    "null_seed": 0,
+    "n_sim": 50,
+    "n_null_sim": 100,
+    "n_boot": 2000,
+    "seeds": "0,1,2",
+    "power_tag": "n50",
+    "same_study_n_perm": 100,
+    "power_grid": []
+  },
+  "smoke": false,
+  "versions": {
+    "python": "3.12.15",
+    "platform": "Linux-5.15.0-185-generic-x86_64-with-glibc2.35",
+    "git_commit": "398f5e47694ed9d6064389b644ae7f3d30444280-dirty",
+    "numpy": "2.2.6",
+    "scipy": "1.16.3",
+    "sklearn": "1.8.0",
+    "torch": "2.14.1+cu130",
+    "RNA": "2.7.2",
+    "matplotlib": "3.10.9"
+  },
+  "hardware": {
+    "cpus": 8,
+    "ram_gb": 62.79228210449219,
+    "gpu": true,
+    "gpu_mem_gb": 47.98828125
+  },
+  "workers": 8,
+  "backend": "torch",
+  "results_dir": "/root/utr-scan/results/recoverability/v1",
+  "started": "2026-10-24T09:31:48"
+}

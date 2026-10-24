@@ -216,11 +216,13 @@ def report():
                                                          r["bin_width"], r["selection_metric"], r["value"]))
         L_.append("")
     if dsum:
-        L_ += ["| reporter | target | 40S source | split | stratum | model | n | R² | ΔR² vs seq [95% CI] | P(ΔR²≤0) |",
-               "|---|---|---|---|---|---|---|---|---|---|"]
+        L_ += ["| reporter | target | 40S source | split | bootstrap unit | stratum | model | n | R² | "
+               "ΔR² vs seq [95% CI] | P(ΔR²≤0) |",
+               "|---|---|---|---|---|---|---|---|---|---|---|"]
         for r in dsum:
-            L_.append("| {} | {} | {} | {} | {} | {} | {} | {:.4f} | {} | {} |".format(
-                r["dataset"], r["target"], r["fortyS_source"], r["split_mode"], r["stratum"],
+            L_.append("| {} | {} | {} | {} | {} | {} | {} | {} | {:.4f} | {} | {} |".format(
+                r["dataset"], r["target"], r["fortyS_source"], r["split_mode"],
+                r.get("bootstrap_unit", ""), r["stratum"],
                 r["model"], r["n"], _f(r["r2"]),
                 "" if r["model"] == "seq" else "{:+.4f} [{:+.4f}, {:+.4f}]".format(
                     _f(r["delta_r2"]), _f(r["delta_ci_lo"]), _f(r["delta_ci_hi"])),

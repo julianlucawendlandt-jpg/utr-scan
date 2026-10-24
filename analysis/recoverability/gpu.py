@@ -36,6 +36,8 @@ CENTRE_SLICE_ELEMS = 16 * 2 ** 20
 # CUDA out-of-memory retries (other workers' fits finish and free memory)
 # before one fit falls back to the CPU backend
 OOM_RETRIES = 6
+# floor on bin probability in the float32 information weights (see information())
+Q_FLOOR = 1e-30
 
 
 def _torch():
@@ -191,7 +193,13 @@ def _fit_torch(prob, ybin, prior_sd, init, max_iter, tol, refresh, device):
         semi-definite by construction, in any precision.
         """
         K = tp.K
-        w_bin = N_t[tp.bin_tx] / torch.clamp(q, min=1e-300)
+        # Floor q for the WEIGHT only: sqrt(N/q) is applied in float32, and
+        # for q below ~1e-70 it overflows to inf, turning I into inf/NaN (seen
+        # on a yeast simulation at depth 200 whose early scoring steps sent
+        # some bins to q ~ 1e-300; scipy, all float64, survived).  A bin with
+        # q < Q_FLOOR has d_b of order q, so its true contribution N q x^2 is
+        # nil either way; every bin above the floor is unchanged.
+        w_bin = N_t[tp.bin_tx] / torch.clamp(q, min=Q_FLOOR)
         I = torch.zeros(K, K, dtype=f64, device=device)
         pv = (tp.val * p[tp.row].to(torch.float32))
         # xbar_t = sum_j p_j x_j per transcript, float64 (T x K is small)
@@ -262,7 +270,7 @@ def _fit_torch(prob, ybin, prior_sd, init, max_iter, tol, refresh, device):
             if new_obj <= obj + 1e-14 or t < 1e-6:
                 break
             t *= 0.5
-        if new_obj > obj:
+        if not new_obj <= obj:      # also rejects a NaN objective
             if fresh:
                 converged = True
                 break

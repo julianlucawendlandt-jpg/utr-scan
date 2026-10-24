@@ -1,0 +1,841 @@
+dataset	replicate	split	seed	bin_width	model	n_transcripts	n_reads	metric	value	truth	size_index	effect_s	effect_k	target_median_depth	noise	n_sim	null_threshold	n_null_sims	p_lo	p_hi	n_recovered
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			p_recovered	0	B	0	0.1	0.25	5	dm	50	-0.00543654	100	0	0.07135	0
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_dll	-0.00722065	B	0	0.1	0.25	5	dm	50	-0.00543654	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.0505954	B	0	0.1	0.25	5	dm	50	-0.00543654	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	0	0.1	0.25	5	dm	50	-0.00543654	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			p_recovered	0	B	0	0.1	0.25	10	dm	50	-0.00262036	100	0	0.07135	0
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_dll	-0.00393461	B	0	0.1	0.25	10	dm	50	-0.00262036	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.0663785	B	0	0.1	0.25	10	dm	50	-0.00262036	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	0	0.1	0.25	10	dm	50	-0.00262036	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			p_recovered	0	B	0	0.1	0.25	20	dm	50	-0.00155944	100	0	0.07135	0
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_dll	-0.00249161	B	0	0.1	0.25	20	dm	50	-0.00155944	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.0870527	B	0	0.1	0.25	20	dm	50	-0.00155944	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	0	0.1	0.25	20	dm	50	-0.00155944	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			p_recovered	0	B	0	0.1	0.25	50	dm	50	-0.00151975	100	0	0.07135	0
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_dll	-0.00218369	B	0	0.1	0.25	50	dm	50	-0.00151975	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.123458	B	0	0.1	0.25	50	dm	50	-0.00151975	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	0	0.1	0.25	50	dm	50	-0.00151975	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			p_recovered	0	B	0	0.1	0.25	100	dm	50	-0.00157445	100	0	0.07135	0
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_dll	-0.00208618	B	0	0.1	0.25	100	dm	50	-0.00157445	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.115359	B	0	0.1	0.25	100	dm	50	-0.00157445	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	0	0.1	0.25	100	dm	50	-0.00157445	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			p_recovered	0	B	0	0.1	0.25	200	dm	50	-0.00146849	100	0	0.07135	0
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_dll	-0.00209187	B	0	0.1	0.25	200	dm	50	-0.00146849	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.103666	B	0	0.1	0.25	200	dm	50	-0.00146849	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	0	0.1	0.25	200	dm	50	-0.00146849	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			p_recovered	0	B	0	0.1	0.25	500	dm	50	-0.0014077	100	0	0.07135	0
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_dll	-0.00197475	B	0	0.1	0.25	500	dm	50	-0.0014077	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.0991157	B	0	0.1	0.25	500	dm	50	-0.0014077	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	0	0.1	0.25	500	dm	50	-0.0014077	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			p_recovered	0	B	1	0.25	0.5	5	dm	50	-0.00543654	100	0	0.07135	0
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_dll	-0.0057196	B	1	0.25	0.5	5	dm	50	-0.00543654	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.186821	B	1	0.25	0.5	5	dm	50	-0.00543654	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	1	0.25	0.5	5	dm	50	-0.00543654	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			p_recovered	0	B	1	0.25	0.5	10	dm	50	-0.00262036	100	0	0.07135	0
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_dll	-0.00253904	B	1	0.25	0.5	10	dm	50	-0.00262036	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.244994	B	1	0.25	0.5	10	dm	50	-0.00262036	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	1	0.25	0.5	10	dm	50	-0.00262036	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			p_recovered	0	B	1	0.25	0.5	20	dm	50	-0.00155944	100	0	0.07135	0
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_dll	-0.00131365	B	1	0.25	0.5	20	dm	50	-0.00155944	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.275354	B	1	0.25	0.5	20	dm	50	-0.00155944	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	1	0.25	0.5	20	dm	50	-0.00155944	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			p_recovered	0	B	1	0.25	0.5	50	dm	50	-0.00151975	100	0	0.07135	0
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_dll	-0.00104489	B	1	0.25	0.5	50	dm	50	-0.00151975	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.325167	B	1	0.25	0.5	50	dm	50	-0.00151975	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	1	0.25	0.5	50	dm	50	-0.00151975	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			p_recovered	0	B	1	0.25	0.5	100	dm	50	-0.00157445	100	0	0.07135	0
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_dll	-0.000810759	B	1	0.25	0.5	100	dm	50	-0.00157445	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.313396	B	1	0.25	0.5	100	dm	50	-0.00157445	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	1	0.25	0.5	100	dm	50	-0.00157445	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			p_recovered	0	B	1	0.25	0.5	200	dm	50	-0.00146849	100	0	0.07135	0
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_dll	-0.000758878	B	1	0.25	0.5	200	dm	50	-0.00146849	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.319586	B	1	0.25	0.5	200	dm	50	-0.00146849	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	1	0.25	0.5	200	dm	50	-0.00146849	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			p_recovered	0	B	1	0.25	0.5	500	dm	50	-0.0014077	100	0	0.07135	0
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_dll	-0.000730856	B	1	0.25	0.5	500	dm	50	-0.0014077	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.298773	B	1	0.25	0.5	500	dm	50	-0.0014077	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	1	0.25	0.5	500	dm	50	-0.0014077	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			p_recovered	0	B	2	0.5	1	5	dm	50	-0.00543654	100	0	0.07135	0
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_dll	-0.00115166	B	2	0.5	1	5	dm	50	-0.00543654	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.458636	B	2	0.5	1	5	dm	50	-0.00543654	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	2	0.5	1	5	dm	50	-0.00543654	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			p_recovered	0.74	B	2	0.5	1	10	dm	50	-0.00262036	100	0.604466	0.841286	37
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_dll	0.00289207	B	2	0.5	1	10	dm	50	-0.00262036	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.643161	B	2	0.5	1	10	dm	50	-0.00262036	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	2	0.5	1	10	dm	50	-0.00262036	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			p_recovered	0.98	B	2	0.5	1	20	dm	50	-0.00155944	100	0.895043	0.996461	49
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_dll	0.00405299	B	2	0.5	1	20	dm	50	-0.00155944	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.741433	B	2	0.5	1	20	dm	50	-0.00155944	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	2	0.5	1	20	dm	50	-0.00155944	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			p_recovered	1	B	2	0.5	1	50	dm	50	-0.00151975	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_dll	0.00478753	B	2	0.5	1	50	dm	50	-0.00151975	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.764296	B	2	0.5	1	50	dm	50	-0.00151975	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	2	0.5	1	50	dm	50	-0.00151975	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			p_recovered	1	B	2	0.5	1	100	dm	50	-0.00157445	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_dll	0.00467321	B	2	0.5	1	100	dm	50	-0.00157445	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.768615	B	2	0.5	1	100	dm	50	-0.00157445	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	2	0.5	1	100	dm	50	-0.00157445	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			p_recovered	1	B	2	0.5	1	200	dm	50	-0.00146849	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_dll	0.00477853	B	2	0.5	1	200	dm	50	-0.00146849	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.761057	B	2	0.5	1	200	dm	50	-0.00146849	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	2	0.5	1	200	dm	50	-0.00146849	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			p_recovered	1	B	2	0.5	1	500	dm	50	-0.0014077	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_dll	0.00479831	B	2	0.5	1	500	dm	50	-0.0014077	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.762037	B	2	0.5	1	500	dm	50	-0.0014077	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	2	0.5	1	500	dm	50	-0.0014077	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	0.82	C	0	0.1	0.25	5	dm	50	0.000155357	100	0.692037	0.902299	41
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.00236043	C	0	0.1	0.25	5	dm	50	0.000155357	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.919223	C	0	0.1	0.25	5	dm	50	0.000155357	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	0	0.1	0.25	5	dm	50	0.000155357	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	0.96	C	0	0.1	0.25	10	dm	50	6.05098e-05	100	0.865397	0.988961	48
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.00237356	C	0	0.1	0.25	10	dm	50	6.05098e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.951829	C	0	0.1	0.25	10	dm	50	6.05098e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	0	0.1	0.25	10	dm	50	6.05098e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	0	0.1	0.25	20	dm	50	6.25566e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.00265685	C	0	0.1	0.25	20	dm	50	6.25566e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.961173	C	0	0.1	0.25	20	dm	50	6.25566e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	0	0.1	0.25	20	dm	50	6.25566e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	0	0.1	0.25	50	dm	50	3.9912e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.00262476	C	0	0.1	0.25	50	dm	50	3.9912e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.97335	C	0	0.1	0.25	50	dm	50	3.9912e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	0	0.1	0.25	50	dm	50	3.9912e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	0	0.1	0.25	100	dm	50	5.03392e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.00258341	C	0	0.1	0.25	100	dm	50	5.03392e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.96989	C	0	0.1	0.25	100	dm	50	5.03392e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	0	0.1	0.25	100	dm	50	5.03392e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	0	0.1	0.25	200	dm	50	4.99641e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.00264612	C	0	0.1	0.25	200	dm	50	4.99641e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.972431	C	0	0.1	0.25	200	dm	50	4.99641e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	0	0.1	0.25	200	dm	50	4.99641e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	0	0.1	0.25	500	dm	50	3.36382e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0025996	C	0	0.1	0.25	500	dm	50	3.36382e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.971768	C	0	0.1	0.25	500	dm	50	3.36382e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	0	0.1	0.25	500	dm	50	3.36382e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	1	0.25	0.5	5	dm	50	0.000155357	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.015528	C	1	0.25	0.5	5	dm	50	0.000155357	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.986184	C	1	0.25	0.5	5	dm	50	0.000155357	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	1	0.25	0.5	5	dm	50	0.000155357	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	1	0.25	0.5	10	dm	50	6.05098e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0160891	C	1	0.25	0.5	10	dm	50	6.05098e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.992304	C	1	0.25	0.5	10	dm	50	6.05098e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	1	0.25	0.5	10	dm	50	6.05098e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	1	0.25	0.5	20	dm	50	6.25566e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0160082	C	1	0.25	0.5	20	dm	50	6.25566e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.993351	C	1	0.25	0.5	20	dm	50	6.25566e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	1	0.25	0.5	20	dm	50	6.25566e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	1	0.25	0.5	50	dm	50	3.9912e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0162732	C	1	0.25	0.5	50	dm	50	3.9912e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.992422	C	1	0.25	0.5	50	dm	50	3.9912e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	1	0.25	0.5	50	dm	50	3.9912e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	1	0.25	0.5	100	dm	50	5.03392e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0158709	C	1	0.25	0.5	100	dm	50	5.03392e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.995642	C	1	0.25	0.5	100	dm	50	5.03392e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	1	0.25	0.5	100	dm	50	5.03392e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	1	0.25	0.5	200	dm	50	4.99641e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0159754	C	1	0.25	0.5	200	dm	50	4.99641e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.995302	C	1	0.25	0.5	200	dm	50	4.99641e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	1	0.25	0.5	200	dm	50	4.99641e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	1	0.25	0.5	500	dm	50	3.36382e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0158642	C	1	0.25	0.5	500	dm	50	3.36382e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.994862	C	1	0.25	0.5	500	dm	50	3.36382e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	1	0.25	0.5	500	dm	50	3.36382e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	2	0.5	1	5	dm	50	0.000155357	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0595123	C	2	0.5	1	5	dm	50	0.000155357	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.995887	C	2	0.5	1	5	dm	50	0.000155357	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	2	0.5	1	5	dm	50	0.000155357	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	2	0.5	1	10	dm	50	6.05098e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0591546	C	2	0.5	1	10	dm	50	6.05098e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.997057	C	2	0.5	1	10	dm	50	6.05098e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	2	0.5	1	10	dm	50	6.05098e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	2	0.5	1	20	dm	50	6.25566e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0591808	C	2	0.5	1	20	dm	50	6.25566e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.998041	C	2	0.5	1	20	dm	50	6.25566e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	2	0.5	1	20	dm	50	6.25566e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	2	0.5	1	50	dm	50	3.9912e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0587648	C	2	0.5	1	50	dm	50	3.9912e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.998663	C	2	0.5	1	50	dm	50	3.9912e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	2	0.5	1	50	dm	50	3.9912e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	2	0.5	1	100	dm	50	5.03392e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0594852	C	2	0.5	1	100	dm	50	5.03392e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.998399	C	2	0.5	1	100	dm	50	5.03392e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	2	0.5	1	100	dm	50	5.03392e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	2	0.5	1	200	dm	50	4.99641e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.059442	C	2	0.5	1	200	dm	50	4.99641e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.998584	C	2	0.5	1	200	dm	50	4.99641e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	2	0.5	1	200	dm	50	4.99641e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	2	0.5	1	500	dm	50	3.36382e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.059515	C	2	0.5	1	500	dm	50	3.36382e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.998476	C	2	0.5	1	500	dm	50	3.36382e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	2	0.5	1	500	dm	50	3.36382e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	0.06	D	0	0.1	0.25	5	dm	50	-0.000203846	100	0.0206146	0.162173	3
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	-9.83802e-05	D	0	0.1	0.25	5	dm	50	-0.000203846	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.765301	D	0	0.1	0.25	5	dm	50	-0.000203846	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.944	D	0	0.1	0.25	5	dm	50	-0.000203846	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	0.14	D	0	0.1	0.25	10	dm	50	2.96998e-05	100	0.0695075	0.261865	7
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.000260509	D	0	0.1	0.25	10	dm	50	2.96998e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.57526	D	0	0.1	0.25	10	dm	50	2.96998e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.816	D	0	0.1	0.25	10	dm	50	2.96998e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	0.26	D	0	0.1	0.25	20	dm	50	-0.000120725	100	0.158714	0.395534	13
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.000444149	D	0	0.1	0.25	20	dm	50	-0.000120725	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.610013	D	0	0.1	0.25	20	dm	50	-0.000120725	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.82	D	0	0.1	0.25	20	dm	50	-0.000120725	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	0.44	D	0	0.1	0.25	50	dm	50	-0.000116652	100	0.31162	0.576942	22
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.000454989	D	0	0.1	0.25	50	dm	50	-0.000116652	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.229944	D	0	0.1	0.25	50	dm	50	-0.000116652	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.62	D	0	0.1	0.25	50	dm	50	-0.000116652	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	0.38	D	0	0.1	0.25	100	dm	50	-9.06009e-05	100	0.258626	0.518498	19
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.00050227	D	0	0.1	0.25	100	dm	50	-9.06009e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.310444	D	0	0.1	0.25	100	dm	50	-9.06009e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.66	D	0	0.1	0.25	100	dm	50	-9.06009e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	0.56	D	0	0.1	0.25	200	dm	50	-4.31278e-05	100	0.423058	0.68838	28
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.000539563	D	0	0.1	0.25	200	dm	50	-4.31278e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.350628	D	0	0.1	0.25	200	dm	50	-4.31278e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.676	D	0	0.1	0.25	200	dm	50	-4.31278e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	0.54	D	0	0.1	0.25	500	dm	50	-6.76861e-05	100	0.403986	0.670306	27
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.000629923	D	0	0.1	0.25	500	dm	50	-6.76861e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.288577	D	0	0.1	0.25	500	dm	50	-6.76861e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.64	D	0	0.1	0.25	500	dm	50	-6.76861e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	0.72	D	1	0.25	0.5	5	dm	50	-0.000203846	100	0.583346	0.82526	36
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.00250741	D	1	0.25	0.5	5	dm	50	-0.000203846	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.878939	D	1	0.25	0.5	5	dm	50	-0.000203846	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.988	D	1	0.25	0.5	5	dm	50	-0.000203846	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	0.94	D	1	0.25	0.5	10	dm	50	2.96998e-05	100	0.837827	0.979385	47
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.00293254	D	1	0.25	0.5	10	dm	50	2.96998e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.844739	D	1	0.25	0.5	10	dm	50	2.96998e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.956	D	1	0.25	0.5	10	dm	50	2.96998e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	D	1	0.25	0.5	20	dm	50	-0.000120725	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.00329922	D	1	0.25	0.5	20	dm	50	-0.000120725	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.904072	D	1	0.25	0.5	20	dm	50	-0.000120725	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.96	D	1	0.25	0.5	20	dm	50	-0.000120725	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	D	1	0.25	0.5	50	dm	50	-0.000116652	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.0034387	D	1	0.25	0.5	50	dm	50	-0.000116652	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.823657	D	1	0.25	0.5	50	dm	50	-0.000116652	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.92	D	1	0.25	0.5	50	dm	50	-0.000116652	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	D	1	0.25	0.5	100	dm	50	-9.06009e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.00333968	D	1	0.25	0.5	100	dm	50	-9.06009e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.81633	D	1	0.25	0.5	100	dm	50	-9.06009e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.916	D	1	0.25	0.5	100	dm	50	-9.06009e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	D	1	0.25	0.5	200	dm	50	-4.31278e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.00333641	D	1	0.25	0.5	200	dm	50	-4.31278e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.659069	D	1	0.25	0.5	200	dm	50	-4.31278e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.824	D	1	0.25	0.5	200	dm	50	-4.31278e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	D	1	0.25	0.5	500	dm	50	-6.76861e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.00329918	D	1	0.25	0.5	500	dm	50	-6.76861e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.597844	D	1	0.25	0.5	500	dm	50	-6.76861e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.804	D	1	0.25	0.5	500	dm	50	-6.76861e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	D	2	0.5	1	5	dm	50	-0.000203846	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.0145236	D	2	0.5	1	5	dm	50	-0.000203846	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.950932	D	2	0.5	1	5	dm	50	-0.000203846	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.996	D	2	0.5	1	5	dm	50	-0.000203846	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	D	2	0.5	1	10	dm	50	2.96998e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.0152642	D	2	0.5	1	10	dm	50	2.96998e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.975807	D	2	0.5	1	10	dm	50	2.96998e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	1	D	2	0.5	1	10	dm	50	2.96998e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	D	2	0.5	1	20	dm	50	-0.000120725	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.0158177	D	2	0.5	1	20	dm	50	-0.000120725	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.982002	D	2	0.5	1	20	dm	50	-0.000120725	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	1	D	2	0.5	1	20	dm	50	-0.000120725	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	D	2	0.5	1	50	dm	50	-0.000116652	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.0158899	D	2	0.5	1	50	dm	50	-0.000116652	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.989084	D	2	0.5	1	50	dm	50	-0.000116652	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	1	D	2	0.5	1	50	dm	50	-0.000116652	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	D	2	0.5	1	100	dm	50	-9.06009e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.0163127	D	2	0.5	1	100	dm	50	-9.06009e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.977186	D	2	0.5	1	100	dm	50	-9.06009e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.996	D	2	0.5	1	100	dm	50	-9.06009e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	D	2	0.5	1	200	dm	50	-4.31278e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.0161136	D	2	0.5	1	200	dm	50	-4.31278e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.987666	D	2	0.5	1	200	dm	50	-4.31278e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	1	D	2	0.5	1	200	dm	50	-4.31278e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	D	2	0.5	1	500	dm	50	-6.76861e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.0161764	D	2	0.5	1	500	dm	50	-6.76861e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.969748	D	2	0.5	1	500	dm	50	-6.76861e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.988	D	2	0.5	1	500	dm	50	-6.76861e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	0.02	E	0	0.1	0.25	5	dm	50	-0.000203846	100	0.00353917	0.104957	1
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	-0.00021623	E	0	0.1	0.25	5	dm	50	-0.000203846	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.758332	E	0	0.1	0.25	5	dm	50	-0.000203846	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.936	E	0	0.1	0.25	5	dm	50	-0.000203846	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	0.12	E	0	0.1	0.25	10	dm	50	2.96998e-05	100	0.0561752	0.238051	6
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.000195633	E	0	0.1	0.25	10	dm	50	2.96998e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.66085	E	0	0.1	0.25	10	dm	50	2.96998e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.856	E	0	0.1	0.25	10	dm	50	2.96998e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	0.32	E	0	0.1	0.25	20	dm	50	-0.000120725	100	0.20758	0.458106	16
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.000414181	E	0	0.1	0.25	20	dm	50	-0.000120725	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.411463	E	0	0.1	0.25	20	dm	50	-0.000120725	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.712	E	0	0.1	0.25	20	dm	50	-0.000120725	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	0.4	E	0	0.1	0.25	50	dm	50	-0.000116652	100	0.276082	0.538188	20
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.000498868	E	0	0.1	0.25	50	dm	50	-0.000116652	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.409795	E	0	0.1	0.25	50	dm	50	-0.000116652	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.708	E	0	0.1	0.25	50	dm	50	-0.000116652	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	0.4	E	0	0.1	0.25	100	dm	50	-9.06009e-05	100	0.276082	0.538188	20
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.00047242	E	0	0.1	0.25	100	dm	50	-9.06009e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.527664	E	0	0.1	0.25	100	dm	50	-9.06009e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.768	E	0	0.1	0.25	100	dm	50	-9.06009e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	0.38	E	0	0.1	0.25	200	dm	50	-4.31278e-05	100	0.258626	0.518498	19
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.000463122	E	0	0.1	0.25	200	dm	50	-4.31278e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.469223	E	0	0.1	0.25	200	dm	50	-4.31278e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.736	E	0	0.1	0.25	200	dm	50	-4.31278e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	0.38	E	0	0.1	0.25	500	dm	50	-6.76861e-05	100	0.258626	0.518498	19
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.000473192	E	0	0.1	0.25	500	dm	50	-6.76861e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.465561	E	0	0.1	0.25	500	dm	50	-6.76861e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.736	E	0	0.1	0.25	500	dm	50	-6.76861e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	0.48	E	1	0.25	0.5	5	dm	50	-0.000203846	100	0.347969	0.614885	24
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.00221354	E	1	0.25	0.5	5	dm	50	-0.000203846	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.886521	E	1	0.25	0.5	5	dm	50	-0.000203846	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	1	E	1	0.25	0.5	5	dm	50	-0.000203846	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	0.94	E	1	0.25	0.5	10	dm	50	2.96998e-05	100	0.837827	0.979385	47
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.00274402	E	1	0.25	0.5	10	dm	50	2.96998e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.883305	E	1	0.25	0.5	10	dm	50	2.96998e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.964	E	1	0.25	0.5	10	dm	50	2.96998e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	E	1	0.25	0.5	20	dm	50	-0.000120725	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.00302108	E	1	0.25	0.5	20	dm	50	-0.000120725	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.833028	E	1	0.25	0.5	20	dm	50	-0.000120725	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.924	E	1	0.25	0.5	20	dm	50	-0.000120725	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	E	1	0.25	0.5	50	dm	50	-0.000116652	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.00294206	E	1	0.25	0.5	50	dm	50	-0.000116652	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.784009	E	1	0.25	0.5	50	dm	50	-0.000116652	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.908	E	1	0.25	0.5	50	dm	50	-0.000116652	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	E	1	0.25	0.5	100	dm	50	-9.06009e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.00291756	E	1	0.25	0.5	100	dm	50	-9.06009e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.832156	E	1	0.25	0.5	100	dm	50	-9.06009e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.928	E	1	0.25	0.5	100	dm	50	-9.06009e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	E	1	0.25	0.5	200	dm	50	-4.31278e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.00299767	E	1	0.25	0.5	200	dm	50	-4.31278e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.594465	E	1	0.25	0.5	200	dm	50	-4.31278e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.8	E	1	0.25	0.5	200	dm	50	-4.31278e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	E	1	0.25	0.5	500	dm	50	-6.76861e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.00313746	E	1	0.25	0.5	500	dm	50	-6.76861e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.665127	E	1	0.25	0.5	500	dm	50	-6.76861e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.84	E	1	0.25	0.5	500	dm	50	-6.76861e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	E	2	0.5	1	5	dm	50	-0.000203846	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.0121972	E	2	0.5	1	5	dm	50	-0.000203846	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.954577	E	2	0.5	1	5	dm	50	-0.000203846	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	1	E	2	0.5	1	5	dm	50	-0.000203846	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	E	2	0.5	1	10	dm	50	2.96998e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.01364	E	2	0.5	1	10	dm	50	2.96998e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.958383	E	2	0.5	1	10	dm	50	2.96998e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.996	E	2	0.5	1	10	dm	50	2.96998e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	E	2	0.5	1	20	dm	50	-0.000120725	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.0137094	E	2	0.5	1	20	dm	50	-0.000120725	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.984031	E	2	0.5	1	20	dm	50	-0.000120725	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	1	E	2	0.5	1	20	dm	50	-0.000120725	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	E	2	0.5	1	50	dm	50	-0.000116652	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.014143	E	2	0.5	1	50	dm	50	-0.000116652	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.978667	E	2	0.5	1	50	dm	50	-0.000116652	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.992	E	2	0.5	1	50	dm	50	-0.000116652	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	E	2	0.5	1	100	dm	50	-9.06009e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.0140423	E	2	0.5	1	100	dm	50	-9.06009e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.978642	E	2	0.5	1	100	dm	50	-9.06009e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.996	E	2	0.5	1	100	dm	50	-9.06009e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	E	2	0.5	1	200	dm	50	-4.31278e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.0137396	E	2	0.5	1	200	dm	50	-4.31278e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.982333	E	2	0.5	1	200	dm	50	-4.31278e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.992	E	2	0.5	1	200	dm	50	-4.31278e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	E	2	0.5	1	500	dm	50	-6.76861e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.0142542	E	2	0.5	1	500	dm	50	-6.76861e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.968232	E	2	0.5	1	500	dm	50	-6.76861e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.988	E	2	0.5	1	500	dm	50	-6.76861e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	0.84	E	0	0.1	0.25	5	dm	50	0.000155357	100	0.714855	0.916627	42
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.00246255	E	0	0.1	0.25	5	dm	50	0.000155357	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.920599	E	0	0.1	0.25	5	dm	50	0.000155357	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	0	0.1	0.25	5	dm	50	0.000155357	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	0	0.1	0.25	10	dm	50	6.05098e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.00246742	E	0	0.1	0.25	10	dm	50	6.05098e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.950752	E	0	0.1	0.25	10	dm	50	6.05098e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	0	0.1	0.25	10	dm	50	6.05098e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	0.98	E	0	0.1	0.25	20	dm	50	6.25566e-05	100	0.895043	0.996461	49
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0025672	E	0	0.1	0.25	20	dm	50	6.25566e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.965346	E	0	0.1	0.25	20	dm	50	6.25566e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	0	0.1	0.25	20	dm	50	6.25566e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	0	0.1	0.25	50	dm	50	3.9912e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.00257937	E	0	0.1	0.25	50	dm	50	3.9912e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.964446	E	0	0.1	0.25	50	dm	50	3.9912e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	0	0.1	0.25	50	dm	50	3.9912e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	0	0.1	0.25	100	dm	50	5.03392e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.00260872	E	0	0.1	0.25	100	dm	50	5.03392e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.964393	E	0	0.1	0.25	100	dm	50	5.03392e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	0	0.1	0.25	100	dm	50	5.03392e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	0	0.1	0.25	200	dm	50	4.99641e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.00248865	E	0	0.1	0.25	200	dm	50	4.99641e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.969615	E	0	0.1	0.25	200	dm	50	4.99641e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	0	0.1	0.25	200	dm	50	4.99641e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	0	0.1	0.25	500	dm	50	3.36382e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.00261466	E	0	0.1	0.25	500	dm	50	3.36382e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.968156	E	0	0.1	0.25	500	dm	50	3.36382e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	0	0.1	0.25	500	dm	50	3.36382e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	1	0.25	0.5	5	dm	50	0.000155357	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0153064	E	1	0.25	0.5	5	dm	50	0.000155357	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.981501	E	1	0.25	0.5	5	dm	50	0.000155357	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	1	0.25	0.5	5	dm	50	0.000155357	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	1	0.25	0.5	10	dm	50	6.05098e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0158054	E	1	0.25	0.5	10	dm	50	6.05098e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.989929	E	1	0.25	0.5	10	dm	50	6.05098e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	1	0.25	0.5	10	dm	50	6.05098e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	1	0.25	0.5	20	dm	50	6.25566e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0158593	E	1	0.25	0.5	20	dm	50	6.25566e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.991351	E	1	0.25	0.5	20	dm	50	6.25566e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	1	0.25	0.5	20	dm	50	6.25566e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	1	0.25	0.5	50	dm	50	3.9912e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0157239	E	1	0.25	0.5	50	dm	50	3.9912e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.993364	E	1	0.25	0.5	50	dm	50	3.9912e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	1	0.25	0.5	50	dm	50	3.9912e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	1	0.25	0.5	100	dm	50	5.03392e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0158907	E	1	0.25	0.5	100	dm	50	5.03392e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.993388	E	1	0.25	0.5	100	dm	50	5.03392e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	1	0.25	0.5	100	dm	50	5.03392e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	1	0.25	0.5	200	dm	50	4.99641e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0160653	E	1	0.25	0.5	200	dm	50	4.99641e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.994012	E	1	0.25	0.5	200	dm	50	4.99641e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	1	0.25	0.5	200	dm	50	4.99641e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	1	0.25	0.5	500	dm	50	3.36382e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0156867	E	1	0.25	0.5	500	dm	50	3.36382e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.994144	E	1	0.25	0.5	500	dm	50	3.36382e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	1	0.25	0.5	500	dm	50	3.36382e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	2	0.5	1	5	dm	50	0.000155357	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0580283	E	2	0.5	1	5	dm	50	0.000155357	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.994236	E	2	0.5	1	5	dm	50	0.000155357	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	2	0.5	1	5	dm	50	0.000155357	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	2	0.5	1	10	dm	50	6.05098e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.058236	E	2	0.5	1	10	dm	50	6.05098e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.996203	E	2	0.5	1	10	dm	50	6.05098e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	2	0.5	1	10	dm	50	6.05098e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	2	0.5	1	20	dm	50	6.25566e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0575276	E	2	0.5	1	20	dm	50	6.25566e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.997129	E	2	0.5	1	20	dm	50	6.25566e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	2	0.5	1	20	dm	50	6.25566e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	2	0.5	1	50	dm	50	3.9912e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0580097	E	2	0.5	1	50	dm	50	3.9912e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.996767	E	2	0.5	1	50	dm	50	3.9912e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	2	0.5	1	50	dm	50	3.9912e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	2	0.5	1	100	dm	50	5.03392e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0576526	E	2	0.5	1	100	dm	50	5.03392e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.997274	E	2	0.5	1	100	dm	50	5.03392e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	2	0.5	1	100	dm	50	5.03392e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	2	0.5	1	200	dm	50	4.99641e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0578201	E	2	0.5	1	200	dm	50	4.99641e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.997549	E	2	0.5	1	200	dm	50	4.99641e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	2	0.5	1	200	dm	50	4.99641e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	2	0.5	1	500	dm	50	3.36382e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0572504	E	2	0.5	1	500	dm	50	3.36382e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.997267	E	2	0.5	1	500	dm	50	3.36382e-05	100			
+synthetic:gse139131_unsel	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	2	0.5	1	500	dm	50	3.36382e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	0	B	0	0.1	0.25	5	dm	50	-0.00447938	100	0	0.07135	0
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	-0.00729145	B	0	0.1	0.25	5	dm	50	-0.00447938	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.0505954	B	0	0.1	0.25	5	dm	50	-0.00447938	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	0	0.1	0.25	5	dm	50	-0.00447938	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	0	B	0	0.1	0.25	10	dm	50	-0.00237237	100	0	0.07135	0
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	-0.00403854	B	0	0.1	0.25	10	dm	50	-0.00237237	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.0663785	B	0	0.1	0.25	10	dm	50	-0.00237237	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	0	0.1	0.25	10	dm	50	-0.00237237	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	0	B	0	0.1	0.25	20	dm	50	-0.00179674	100	0	0.07135	0
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	-0.00259971	B	0	0.1	0.25	20	dm	50	-0.00179674	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.0870527	B	0	0.1	0.25	20	dm	50	-0.00179674	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	0	0.1	0.25	20	dm	50	-0.00179674	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	0	B	0	0.1	0.25	50	dm	50	-0.00158802	100	0	0.07135	0
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	-0.00225434	B	0	0.1	0.25	50	dm	50	-0.00158802	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.123458	B	0	0.1	0.25	50	dm	50	-0.00158802	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	0	0.1	0.25	50	dm	50	-0.00158802	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	0	B	0	0.1	0.25	100	dm	50	-0.00142611	100	0	0.07135	0
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	-0.00209242	B	0	0.1	0.25	100	dm	50	-0.00142611	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.115359	B	0	0.1	0.25	100	dm	50	-0.00142611	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	0	0.1	0.25	100	dm	50	-0.00142611	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	0	B	0	0.1	0.25	200	dm	50	-0.00142347	100	0	0.07135	0
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	-0.00212474	B	0	0.1	0.25	200	dm	50	-0.00142347	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.103666	B	0	0.1	0.25	200	dm	50	-0.00142347	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	0	0.1	0.25	200	dm	50	-0.00142347	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	0	B	0	0.1	0.25	500	dm	50	-0.0012865	100	0	0.07135	0
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	-0.00207538	B	0	0.1	0.25	500	dm	50	-0.0012865	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.0991157	B	0	0.1	0.25	500	dm	50	-0.0012865	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	0	0.1	0.25	500	dm	50	-0.0012865	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	0	B	1	0.25	0.5	5	dm	50	-0.00447938	100	0	0.07135	0
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	-0.00648685	B	1	0.25	0.5	5	dm	50	-0.00447938	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.186821	B	1	0.25	0.5	5	dm	50	-0.00447938	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	1	0.25	0.5	5	dm	50	-0.00447938	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	0	B	1	0.25	0.5	10	dm	50	-0.00237237	100	0	0.07135	0
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	-0.00272585	B	1	0.25	0.5	10	dm	50	-0.00237237	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.244994	B	1	0.25	0.5	10	dm	50	-0.00237237	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	1	0.25	0.5	10	dm	50	-0.00237237	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	0	B	1	0.25	0.5	20	dm	50	-0.00179674	100	0	0.07135	0
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	-0.00135483	B	1	0.25	0.5	20	dm	50	-0.00179674	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.275354	B	1	0.25	0.5	20	dm	50	-0.00179674	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	1	0.25	0.5	20	dm	50	-0.00179674	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	0	B	1	0.25	0.5	50	dm	50	-0.00158802	100	0	0.07135	0
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	-0.000893148	B	1	0.25	0.5	50	dm	50	-0.00158802	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.325167	B	1	0.25	0.5	50	dm	50	-0.00158802	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	1	0.25	0.5	50	dm	50	-0.00158802	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	0	B	1	0.25	0.5	100	dm	50	-0.00142611	100	0	0.07135	0
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	-0.000833002	B	1	0.25	0.5	100	dm	50	-0.00142611	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.313396	B	1	0.25	0.5	100	dm	50	-0.00142611	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	1	0.25	0.5	100	dm	50	-0.00142611	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	0	B	1	0.25	0.5	200	dm	50	-0.00142347	100	0	0.07135	0
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	-0.000837752	B	1	0.25	0.5	200	dm	50	-0.00142347	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.319586	B	1	0.25	0.5	200	dm	50	-0.00142347	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	1	0.25	0.5	200	dm	50	-0.00142347	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	0	B	1	0.25	0.5	500	dm	50	-0.0012865	100	0	0.07135	0
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	-0.000813898	B	1	0.25	0.5	500	dm	50	-0.0012865	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.298773	B	1	0.25	0.5	500	dm	50	-0.0012865	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	1	0.25	0.5	500	dm	50	-0.0012865	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	0.06	B	2	0.5	1	5	dm	50	-0.00447938	100	0.0206146	0.162173	3
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	-0.000221005	B	2	0.5	1	5	dm	50	-0.00447938	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.458636	B	2	0.5	1	5	dm	50	-0.00447938	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	2	0.5	1	5	dm	50	-0.00447938	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	0.7	B	2	0.5	1	10	dm	50	-0.00237237	100	0.562494	0.808966	35
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	0.00302492	B	2	0.5	1	10	dm	50	-0.00237237	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.643161	B	2	0.5	1	10	dm	50	-0.00237237	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	2	0.5	1	10	dm	50	-0.00237237	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	1	B	2	0.5	1	20	dm	50	-0.00179674	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	0.00423209	B	2	0.5	1	20	dm	50	-0.00179674	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.741433	B	2	0.5	1	20	dm	50	-0.00179674	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	2	0.5	1	20	dm	50	-0.00179674	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	1	B	2	0.5	1	50	dm	50	-0.00158802	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	0.00484663	B	2	0.5	1	50	dm	50	-0.00158802	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.764296	B	2	0.5	1	50	dm	50	-0.00158802	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	2	0.5	1	50	dm	50	-0.00158802	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	1	B	2	0.5	1	100	dm	50	-0.00142611	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	0.00484183	B	2	0.5	1	100	dm	50	-0.00142611	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.768615	B	2	0.5	1	100	dm	50	-0.00142611	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	2	0.5	1	100	dm	50	-0.00142611	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	1	B	2	0.5	1	200	dm	50	-0.00142347	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	0.00467667	B	2	0.5	1	200	dm	50	-0.00142347	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.761057	B	2	0.5	1	200	dm	50	-0.00142347	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	2	0.5	1	200	dm	50	-0.00142347	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	1	B	2	0.5	1	500	dm	50	-0.0012865	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	0.00487671	B	2	0.5	1	500	dm	50	-0.0012865	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.762037	B	2	0.5	1	500	dm	50	-0.0012865	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	2	0.5	1	500	dm	50	-0.0012865	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	0.88	C	0	0.1	0.25	5	dm	50	6.83196e-06	100	0.761949	0.943825	44
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.00246391	C	0	0.1	0.25	5	dm	50	6.83196e-06	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.919223	C	0	0.1	0.25	5	dm	50	6.83196e-06	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	0	0.1	0.25	5	dm	50	6.83196e-06	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	0.98	C	0	0.1	0.25	10	dm	50	4.65132e-05	100	0.895043	0.996461	49
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.00250814	C	0	0.1	0.25	10	dm	50	4.65132e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.951829	C	0	0.1	0.25	10	dm	50	4.65132e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	0	0.1	0.25	10	dm	50	4.65132e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	0	0.1	0.25	20	dm	50	2.48264e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.00248316	C	0	0.1	0.25	20	dm	50	2.48264e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.961173	C	0	0.1	0.25	20	dm	50	2.48264e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	0	0.1	0.25	20	dm	50	2.48264e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	0	0.1	0.25	50	dm	50	8.61395e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0025623	C	0	0.1	0.25	50	dm	50	8.61395e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.97335	C	0	0.1	0.25	50	dm	50	8.61395e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	0	0.1	0.25	50	dm	50	8.61395e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	0	0.1	0.25	100	dm	50	1.15641e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.00262025	C	0	0.1	0.25	100	dm	50	1.15641e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.96989	C	0	0.1	0.25	100	dm	50	1.15641e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	0	0.1	0.25	100	dm	50	1.15641e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	0	0.1	0.25	200	dm	50	4.06613e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0026219	C	0	0.1	0.25	200	dm	50	4.06613e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.972431	C	0	0.1	0.25	200	dm	50	4.06613e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	0	0.1	0.25	200	dm	50	4.06613e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	0	0.1	0.25	500	dm	50	3.50612e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.00262246	C	0	0.1	0.25	500	dm	50	3.50612e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.971768	C	0	0.1	0.25	500	dm	50	3.50612e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	0	0.1	0.25	500	dm	50	3.50612e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	1	0.25	0.5	5	dm	50	6.83196e-06	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.015847	C	1	0.25	0.5	5	dm	50	6.83196e-06	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.986184	C	1	0.25	0.5	5	dm	50	6.83196e-06	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	1	0.25	0.5	5	dm	50	6.83196e-06	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	1	0.25	0.5	10	dm	50	4.65132e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0159689	C	1	0.25	0.5	10	dm	50	4.65132e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.992304	C	1	0.25	0.5	10	dm	50	4.65132e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	1	0.25	0.5	10	dm	50	4.65132e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	1	0.25	0.5	20	dm	50	2.48264e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0158533	C	1	0.25	0.5	20	dm	50	2.48264e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.993351	C	1	0.25	0.5	20	dm	50	2.48264e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	1	0.25	0.5	20	dm	50	2.48264e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	1	0.25	0.5	50	dm	50	8.61395e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0159778	C	1	0.25	0.5	50	dm	50	8.61395e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.992422	C	1	0.25	0.5	50	dm	50	8.61395e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	1	0.25	0.5	50	dm	50	8.61395e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	1	0.25	0.5	100	dm	50	1.15641e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0163893	C	1	0.25	0.5	100	dm	50	1.15641e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.995642	C	1	0.25	0.5	100	dm	50	1.15641e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	1	0.25	0.5	100	dm	50	1.15641e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	1	0.25	0.5	200	dm	50	4.06613e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0163565	C	1	0.25	0.5	200	dm	50	4.06613e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.995302	C	1	0.25	0.5	200	dm	50	4.06613e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	1	0.25	0.5	200	dm	50	4.06613e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	1	0.25	0.5	500	dm	50	3.50612e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0157658	C	1	0.25	0.5	500	dm	50	3.50612e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.994862	C	1	0.25	0.5	500	dm	50	3.50612e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	1	0.25	0.5	500	dm	50	3.50612e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	2	0.5	1	5	dm	50	6.83196e-06	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0587794	C	2	0.5	1	5	dm	50	6.83196e-06	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.995887	C	2	0.5	1	5	dm	50	6.83196e-06	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	2	0.5	1	5	dm	50	6.83196e-06	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	2	0.5	1	10	dm	50	4.65132e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0599526	C	2	0.5	1	10	dm	50	4.65132e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.997057	C	2	0.5	1	10	dm	50	4.65132e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	2	0.5	1	10	dm	50	4.65132e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	2	0.5	1	20	dm	50	2.48264e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0589606	C	2	0.5	1	20	dm	50	2.48264e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.998041	C	2	0.5	1	20	dm	50	2.48264e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	2	0.5	1	20	dm	50	2.48264e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	2	0.5	1	50	dm	50	8.61395e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0599725	C	2	0.5	1	50	dm	50	8.61395e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.998663	C	2	0.5	1	50	dm	50	8.61395e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	2	0.5	1	50	dm	50	8.61395e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	2	0.5	1	100	dm	50	1.15641e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0596957	C	2	0.5	1	100	dm	50	1.15641e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.998399	C	2	0.5	1	100	dm	50	1.15641e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	2	0.5	1	100	dm	50	1.15641e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	2	0.5	1	200	dm	50	4.06613e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0592422	C	2	0.5	1	200	dm	50	4.06613e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.998584	C	2	0.5	1	200	dm	50	4.06613e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	2	0.5	1	200	dm	50	4.06613e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	2	0.5	1	500	dm	50	3.50612e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0588868	C	2	0.5	1	500	dm	50	3.50612e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.998476	C	2	0.5	1	500	dm	50	3.50612e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	2	0.5	1	500	dm	50	3.50612e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	0.02	D	0	0.1	0.25	5	dm	50	-0.000386147	100	0.00353917	0.104957	1
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	-0.000153788	D	0	0.1	0.25	5	dm	50	-0.000386147	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.765301	D	0	0.1	0.25	5	dm	50	-0.000386147	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.944	D	0	0.1	0.25	5	dm	50	-0.000386147	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	0.14	D	0	0.1	0.25	10	dm	50	-0.000220058	100	0.0695075	0.261865	7
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.000237151	D	0	0.1	0.25	10	dm	50	-0.000220058	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.57526	D	0	0.1	0.25	10	dm	50	-0.000220058	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.816	D	0	0.1	0.25	10	dm	50	-0.000220058	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	0.24	D	0	0.1	0.25	20	dm	50	-0.00010868	100	0.142973	0.374129	12
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.000394975	D	0	0.1	0.25	20	dm	50	-0.00010868	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.610013	D	0	0.1	0.25	20	dm	50	-0.00010868	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.82	D	0	0.1	0.25	20	dm	50	-0.00010868	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	0.42	D	0	0.1	0.25	50	dm	50	-2.90436e-05	100	0.293748	0.557668	21
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.000506814	D	0	0.1	0.25	50	dm	50	-2.90436e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.229944	D	0	0.1	0.25	50	dm	50	-2.90436e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.62	D	0	0.1	0.25	50	dm	50	-2.90436e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	0.48	D	0	0.1	0.25	100	dm	50	-6.8953e-05	100	0.347969	0.614885	24
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.000605603	D	0	0.1	0.25	100	dm	50	-6.8953e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.310444	D	0	0.1	0.25	100	dm	50	-6.8953e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.66	D	0	0.1	0.25	100	dm	50	-6.8953e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	0.48	D	0	0.1	0.25	200	dm	50	-0.00011901	100	0.347969	0.614885	24
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.000521099	D	0	0.1	0.25	200	dm	50	-0.00011901	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.350628	D	0	0.1	0.25	200	dm	50	-0.00011901	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.676	D	0	0.1	0.25	200	dm	50	-0.00011901	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	0.5	D	0	0.1	0.25	500	dm	50	-0.000108601	100	0.366443	0.633557	25
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.000577033	D	0	0.1	0.25	500	dm	50	-0.000108601	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.288577	D	0	0.1	0.25	500	dm	50	-0.000108601	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.64	D	0	0.1	0.25	500	dm	50	-0.000108601	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	0.84	D	1	0.25	0.5	5	dm	50	-0.000386147	100	0.714855	0.916627	42
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.00269534	D	1	0.25	0.5	5	dm	50	-0.000386147	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.878939	D	1	0.25	0.5	5	dm	50	-0.000386147	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.988	D	1	0.25	0.5	5	dm	50	-0.000386147	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	D	1	0.25	0.5	10	dm	50	-0.000220058	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.00298397	D	1	0.25	0.5	10	dm	50	-0.000220058	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.844739	D	1	0.25	0.5	10	dm	50	-0.000220058	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.956	D	1	0.25	0.5	10	dm	50	-0.000220058	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	D	1	0.25	0.5	20	dm	50	-0.00010868	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.00323377	D	1	0.25	0.5	20	dm	50	-0.00010868	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.904072	D	1	0.25	0.5	20	dm	50	-0.00010868	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.96	D	1	0.25	0.5	20	dm	50	-0.00010868	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	D	1	0.25	0.5	50	dm	50	-2.90436e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.00330034	D	1	0.25	0.5	50	dm	50	-2.90436e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.823657	D	1	0.25	0.5	50	dm	50	-2.90436e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.92	D	1	0.25	0.5	50	dm	50	-2.90436e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	D	1	0.25	0.5	100	dm	50	-6.8953e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.0032888	D	1	0.25	0.5	100	dm	50	-6.8953e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.81633	D	1	0.25	0.5	100	dm	50	-6.8953e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.916	D	1	0.25	0.5	100	dm	50	-6.8953e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	D	1	0.25	0.5	200	dm	50	-0.00011901	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.00340656	D	1	0.25	0.5	200	dm	50	-0.00011901	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.659069	D	1	0.25	0.5	200	dm	50	-0.00011901	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.824	D	1	0.25	0.5	200	dm	50	-0.00011901	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	D	1	0.25	0.5	500	dm	50	-0.000108601	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.00334289	D	1	0.25	0.5	500	dm	50	-0.000108601	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.597844	D	1	0.25	0.5	500	dm	50	-0.000108601	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.804	D	1	0.25	0.5	500	dm	50	-0.000108601	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	D	2	0.5	1	5	dm	50	-0.000386147	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.0144887	D	2	0.5	1	5	dm	50	-0.000386147	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.950932	D	2	0.5	1	5	dm	50	-0.000386147	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.996	D	2	0.5	1	5	dm	50	-0.000386147	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	D	2	0.5	1	10	dm	50	-0.000220058	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.0155847	D	2	0.5	1	10	dm	50	-0.000220058	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.975807	D	2	0.5	1	10	dm	50	-0.000220058	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	1	D	2	0.5	1	10	dm	50	-0.000220058	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	D	2	0.5	1	20	dm	50	-0.00010868	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.0157676	D	2	0.5	1	20	dm	50	-0.00010868	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.982002	D	2	0.5	1	20	dm	50	-0.00010868	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	1	D	2	0.5	1	20	dm	50	-0.00010868	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	D	2	0.5	1	50	dm	50	-2.90436e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.0164325	D	2	0.5	1	50	dm	50	-2.90436e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.989084	D	2	0.5	1	50	dm	50	-2.90436e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	1	D	2	0.5	1	50	dm	50	-2.90436e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	D	2	0.5	1	100	dm	50	-6.8953e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.0164004	D	2	0.5	1	100	dm	50	-6.8953e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.977186	D	2	0.5	1	100	dm	50	-6.8953e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.996	D	2	0.5	1	100	dm	50	-6.8953e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	D	2	0.5	1	200	dm	50	-0.00011901	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.0160514	D	2	0.5	1	200	dm	50	-0.00011901	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.987666	D	2	0.5	1	200	dm	50	-0.00011901	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	1	D	2	0.5	1	200	dm	50	-0.00011901	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	D	2	0.5	1	500	dm	50	-0.000108601	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.016217	D	2	0.5	1	500	dm	50	-0.000108601	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.969748	D	2	0.5	1	500	dm	50	-0.000108601	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.988	D	2	0.5	1	500	dm	50	-0.000108601	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	0.02	E	0	0.1	0.25	5	dm	50	-0.000386147	100	0.00353917	0.104957	1
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	-0.000239796	E	0	0.1	0.25	5	dm	50	-0.000386147	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.758332	E	0	0.1	0.25	5	dm	50	-0.000386147	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.936	E	0	0.1	0.25	5	dm	50	-0.000386147	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	0.1	E	0	0.1	0.25	10	dm	50	-0.000220058	100	0.0434751	0.213605	5
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.000222497	E	0	0.1	0.25	10	dm	50	-0.000220058	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.66085	E	0	0.1	0.25	10	dm	50	-0.000220058	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.856	E	0	0.1	0.25	10	dm	50	-0.000220058	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	0.22	E	0	0.1	0.25	20	dm	50	-0.00010868	100	0.127538	0.352418	11
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.000429264	E	0	0.1	0.25	20	dm	50	-0.00010868	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.411463	E	0	0.1	0.25	20	dm	50	-0.00010868	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.712	E	0	0.1	0.25	20	dm	50	-0.00010868	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	0.38	E	0	0.1	0.25	50	dm	50	-2.90436e-05	100	0.258626	0.518498	19
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.000498779	E	0	0.1	0.25	50	dm	50	-2.90436e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.409795	E	0	0.1	0.25	50	dm	50	-2.90436e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.708	E	0	0.1	0.25	50	dm	50	-2.90436e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	0.42	E	0	0.1	0.25	100	dm	50	-6.8953e-05	100	0.293748	0.557668	21
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.00053041	E	0	0.1	0.25	100	dm	50	-6.8953e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.527664	E	0	0.1	0.25	100	dm	50	-6.8953e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.768	E	0	0.1	0.25	100	dm	50	-6.8953e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	0.42	E	0	0.1	0.25	200	dm	50	-0.00011901	100	0.293748	0.557668	21
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.000461374	E	0	0.1	0.25	200	dm	50	-0.00011901	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.469223	E	0	0.1	0.25	200	dm	50	-0.00011901	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.736	E	0	0.1	0.25	200	dm	50	-0.00011901	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	0.5	E	0	0.1	0.25	500	dm	50	-0.000108601	100	0.366443	0.633557	25
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.000571703	E	0	0.1	0.25	500	dm	50	-0.000108601	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.465561	E	0	0.1	0.25	500	dm	50	-0.000108601	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.736	E	0	0.1	0.25	500	dm	50	-0.000108601	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	0.52	E	1	0.25	0.5	5	dm	50	-0.000386147	100	0.385115	0.652031	26
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.00214265	E	1	0.25	0.5	5	dm	50	-0.000386147	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.886521	E	1	0.25	0.5	5	dm	50	-0.000386147	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	1	E	1	0.25	0.5	5	dm	50	-0.000386147	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	0.94	E	1	0.25	0.5	10	dm	50	-0.000220058	100	0.837827	0.979385	47
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.00264516	E	1	0.25	0.5	10	dm	50	-0.000220058	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.883305	E	1	0.25	0.5	10	dm	50	-0.000220058	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.964	E	1	0.25	0.5	10	dm	50	-0.000220058	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	E	1	0.25	0.5	20	dm	50	-0.00010868	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.00295691	E	1	0.25	0.5	20	dm	50	-0.00010868	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.833028	E	1	0.25	0.5	20	dm	50	-0.00010868	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.924	E	1	0.25	0.5	20	dm	50	-0.00010868	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	E	1	0.25	0.5	50	dm	50	-2.90436e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.00299695	E	1	0.25	0.5	50	dm	50	-2.90436e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.784009	E	1	0.25	0.5	50	dm	50	-2.90436e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.908	E	1	0.25	0.5	50	dm	50	-2.90436e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	E	1	0.25	0.5	100	dm	50	-6.8953e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.00300952	E	1	0.25	0.5	100	dm	50	-6.8953e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.832156	E	1	0.25	0.5	100	dm	50	-6.8953e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.928	E	1	0.25	0.5	100	dm	50	-6.8953e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	E	1	0.25	0.5	200	dm	50	-0.00011901	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.00314237	E	1	0.25	0.5	200	dm	50	-0.00011901	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.594465	E	1	0.25	0.5	200	dm	50	-0.00011901	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.8	E	1	0.25	0.5	200	dm	50	-0.00011901	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	E	1	0.25	0.5	500	dm	50	-0.000108601	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.0032118	E	1	0.25	0.5	500	dm	50	-0.000108601	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.665127	E	1	0.25	0.5	500	dm	50	-0.000108601	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.84	E	1	0.25	0.5	500	dm	50	-0.000108601	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	E	2	0.5	1	5	dm	50	-0.000386147	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.0121339	E	2	0.5	1	5	dm	50	-0.000386147	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.954577	E	2	0.5	1	5	dm	50	-0.000386147	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	1	E	2	0.5	1	5	dm	50	-0.000386147	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	E	2	0.5	1	10	dm	50	-0.000220058	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.0134313	E	2	0.5	1	10	dm	50	-0.000220058	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.958383	E	2	0.5	1	10	dm	50	-0.000220058	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.996	E	2	0.5	1	10	dm	50	-0.000220058	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	E	2	0.5	1	20	dm	50	-0.00010868	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.0142767	E	2	0.5	1	20	dm	50	-0.00010868	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.984031	E	2	0.5	1	20	dm	50	-0.00010868	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	1	E	2	0.5	1	20	dm	50	-0.00010868	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	E	2	0.5	1	50	dm	50	-2.90436e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.0139488	E	2	0.5	1	50	dm	50	-2.90436e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.978667	E	2	0.5	1	50	dm	50	-2.90436e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.992	E	2	0.5	1	50	dm	50	-2.90436e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	E	2	0.5	1	100	dm	50	-6.8953e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.0140438	E	2	0.5	1	100	dm	50	-6.8953e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.978642	E	2	0.5	1	100	dm	50	-6.8953e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.996	E	2	0.5	1	100	dm	50	-6.8953e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	E	2	0.5	1	200	dm	50	-0.00011901	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.0142441	E	2	0.5	1	200	dm	50	-0.00011901	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.982333	E	2	0.5	1	200	dm	50	-0.00011901	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.992	E	2	0.5	1	200	dm	50	-0.00011901	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	E	2	0.5	1	500	dm	50	-0.000108601	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.0139291	E	2	0.5	1	500	dm	50	-0.000108601	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.968232	E	2	0.5	1	500	dm	50	-0.000108601	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.988	E	2	0.5	1	500	dm	50	-0.000108601	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	0.84	E	0	0.1	0.25	5	dm	50	6.83196e-06	100	0.714855	0.916627	42
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.00228079	E	0	0.1	0.25	5	dm	50	6.83196e-06	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.920599	E	0	0.1	0.25	5	dm	50	6.83196e-06	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	0	0.1	0.25	5	dm	50	6.83196e-06	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	0	0.1	0.25	10	dm	50	4.65132e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.00246706	E	0	0.1	0.25	10	dm	50	4.65132e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.950752	E	0	0.1	0.25	10	dm	50	4.65132e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	0	0.1	0.25	10	dm	50	4.65132e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	0	0.1	0.25	20	dm	50	2.48264e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.00254324	E	0	0.1	0.25	20	dm	50	2.48264e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.965346	E	0	0.1	0.25	20	dm	50	2.48264e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	0	0.1	0.25	20	dm	50	2.48264e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	0	0.1	0.25	50	dm	50	8.61395e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.00245513	E	0	0.1	0.25	50	dm	50	8.61395e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.964446	E	0	0.1	0.25	50	dm	50	8.61395e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	0	0.1	0.25	50	dm	50	8.61395e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	0	0.1	0.25	100	dm	50	1.15641e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.00249939	E	0	0.1	0.25	100	dm	50	1.15641e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.964393	E	0	0.1	0.25	100	dm	50	1.15641e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	0	0.1	0.25	100	dm	50	1.15641e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	0	0.1	0.25	200	dm	50	4.06613e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.00255694	E	0	0.1	0.25	200	dm	50	4.06613e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.969615	E	0	0.1	0.25	200	dm	50	4.06613e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	0	0.1	0.25	200	dm	50	4.06613e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	0	0.1	0.25	500	dm	50	3.50612e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.00257448	E	0	0.1	0.25	500	dm	50	3.50612e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.968156	E	0	0.1	0.25	500	dm	50	3.50612e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	0	0.1	0.25	500	dm	50	3.50612e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	1	0.25	0.5	5	dm	50	6.83196e-06	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0157663	E	1	0.25	0.5	5	dm	50	6.83196e-06	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.981501	E	1	0.25	0.5	5	dm	50	6.83196e-06	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	1	0.25	0.5	5	dm	50	6.83196e-06	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	1	0.25	0.5	10	dm	50	4.65132e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0158268	E	1	0.25	0.5	10	dm	50	4.65132e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.989929	E	1	0.25	0.5	10	dm	50	4.65132e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	1	0.25	0.5	10	dm	50	4.65132e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	1	0.25	0.5	20	dm	50	2.48264e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.016078	E	1	0.25	0.5	20	dm	50	2.48264e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.991351	E	1	0.25	0.5	20	dm	50	2.48264e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	1	0.25	0.5	20	dm	50	2.48264e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	1	0.25	0.5	50	dm	50	8.61395e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0156334	E	1	0.25	0.5	50	dm	50	8.61395e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.993364	E	1	0.25	0.5	50	dm	50	8.61395e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	1	0.25	0.5	50	dm	50	8.61395e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	1	0.25	0.5	100	dm	50	1.15641e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0157138	E	1	0.25	0.5	100	dm	50	1.15641e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.993388	E	1	0.25	0.5	100	dm	50	1.15641e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	1	0.25	0.5	100	dm	50	1.15641e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	1	0.25	0.5	200	dm	50	4.06613e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0160763	E	1	0.25	0.5	200	dm	50	4.06613e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.994012	E	1	0.25	0.5	200	dm	50	4.06613e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	1	0.25	0.5	200	dm	50	4.06613e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	1	0.25	0.5	500	dm	50	3.50612e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0154682	E	1	0.25	0.5	500	dm	50	3.50612e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.994144	E	1	0.25	0.5	500	dm	50	3.50612e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	1	0.25	0.5	500	dm	50	3.50612e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	2	0.5	1	5	dm	50	6.83196e-06	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.058268	E	2	0.5	1	5	dm	50	6.83196e-06	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.994236	E	2	0.5	1	5	dm	50	6.83196e-06	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	2	0.5	1	5	dm	50	6.83196e-06	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	2	0.5	1	10	dm	50	4.65132e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0575816	E	2	0.5	1	10	dm	50	4.65132e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.996203	E	2	0.5	1	10	dm	50	4.65132e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	2	0.5	1	10	dm	50	4.65132e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	2	0.5	1	20	dm	50	2.48264e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0578598	E	2	0.5	1	20	dm	50	2.48264e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.997129	E	2	0.5	1	20	dm	50	2.48264e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	2	0.5	1	20	dm	50	2.48264e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	2	0.5	1	50	dm	50	8.61395e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0574704	E	2	0.5	1	50	dm	50	8.61395e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.996767	E	2	0.5	1	50	dm	50	8.61395e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	2	0.5	1	50	dm	50	8.61395e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	2	0.5	1	100	dm	50	1.15641e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0581866	E	2	0.5	1	100	dm	50	1.15641e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.997274	E	2	0.5	1	100	dm	50	1.15641e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	2	0.5	1	100	dm	50	1.15641e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	2	0.5	1	200	dm	50	4.06613e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0580086	E	2	0.5	1	200	dm	50	4.06613e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.997549	E	2	0.5	1	200	dm	50	4.06613e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	2	0.5	1	200	dm	50	4.06613e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	2	0.5	1	500	dm	50	3.50612e-05	100	0.92865	1	50
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.057198	E	2	0.5	1	500	dm	50	3.50612e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.997267	E	2	0.5	1	500	dm	50	3.50612e-05	100			
+synthetic:gse139131_unsel	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	2	0.5	1	500	dm	50	3.50612e-05	100			

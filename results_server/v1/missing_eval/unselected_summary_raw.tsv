@@ -1,0 +1,57 @@
+dataset	replicate	split	seed	bin_width	model	n_transcripts	n_reads	metric	value	cross_min_dll	cross_min_ci_lo	within_max_ci_lo	null_ok	power_at_observed_depth	observed_median_depth	power_threshold	reference_size	noise_model
+gse139131_unsel	cross	chrom_heldout	0	1	S1	1225	51280	status	dataset_specific	-0.000267322	-0.00173954	0.00355475		nan	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	5	S1	1225	51280	status	dataset_specific	0.00144706	-0.0021621	0.00249269		nan	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	10	S1	1225	51280	status	dataset_specific	0.00242546	-0.00221081	0.0045459	True	nan	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	20	S1	1225	51280	status	dataset_specific	0.00282123	-0.00382915	0.00621526		nan	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	1	S3	1225	51280	status	dataset_specific	0.00084275	-0.00271962	0.00786795	True	nan	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	5	S3	1225	51280	status	dataset_specific	0.00402268	-0.000512712	0.00736823		nan	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	10	S3	1225	51280	status	coarse_resolution_recoverable	0.00573044	0.00159102	0.0100165	True	nan	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	20	S3	1225	51280	status	null_pending	0.00655837	0.0013612	0.0119822		nan	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	1	S5	1225	51280	status	inconclusive	-0.0194265	-0.0251758	-0.00985741		nan	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	5	S5	1225	51280	status	inconclusive	-0.0198444	-0.0278225	-0.0198452		nan	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	10	S5	1225	51280	status	inconclusive	-0.0173134	-0.0246345	-0.016707	True	nan	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	20	S5	1225	51280	status	inconclusive	-0.0096381	-0.0192728	-0.00435151		nan	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	1	SW	1225	51280	status	dataset_specific	0.00214354	-0.00444066	0.0100061	True	0	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	5	SW	1225	51280	status	dataset_specific	-0.0046724	-0.0117784	0.00342837	False	0	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	10	SW	1225	51280	status	inconclusive	-0.00464013	-0.0136504	-0.00174942	True	0	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	20	SW	1225	51280	status	inconclusive	-0.00360867	-0.0113548	-0.00404503		0	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	1	ST_paired	1225	51280	status	not_recoverable_at_depth	7.67599e-05	-0.000851416	-0.0002069		1	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	5	ST_paired	1225	51280	status	not_recoverable_at_depth	6.50193e-05	-0.00119929	-0.000245275		1	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	10	ST_paired	1225	51280	status	not_recoverable_at_depth	0.000561883	-0.000529107	-0.000106676	False	1	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	20	ST_paired	1225	113848	status	not_recoverable_at_depth	0.000465157	-0.000402688	-0.000298076		1	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	1	ST_dG	1225	113848	status	not_recoverable_at_depth	0.000764163	-0.00237208	-0.000702738		1	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	5	ST_dG	1225	113848	status	not_recoverable_at_depth	0.000528625	-0.00278483	-0.000201557		1	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	10	ST_dG	1225	113848	status	dataset_specific	0.000866372	-0.00207202	0.000342354	False	1	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	20	ST_dG	1225	113848	status	not_recoverable_at_depth	0.00194016	-0.00138233	-0.00081589		1	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	1	ST	1225	113848	status	not_recoverable_at_depth	0.00179548	-0.00135002	-0.000383161	False	1	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	5	ST	1225	113848	status	dataset_specific	0.00182778	-0.00150669	0.000425739	False	1	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	10	ST	1225	113848	status	dataset_specific	0.00227678	-0.00105367	0.00156903	False	1	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	20	ST	1225	113848	status	not_recoverable_at_depth	0.00258444	-0.000676251	-0.000256273	False	1	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	1	AUG	1225	51280	status	recoverable	0.00627491	0.00213704	0.0094536	True	0.94	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	5	AUG	1225	51280	status	recoverable	0.0075469	0.00288722	0.0111482	True	0.94	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	10	AUG	1225	51280	status	recoverable	0.00529493	0.000978415	0.00830966	True	0.94	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	20	AUG	1225	51280	status	recoverable	0.00578377	0.00119604	0.00776655	True	0.94	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	1	UORF	1225	51280	status	null_pending	0.00576706	0.00146108	0.00952456		nan	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	5	UORF	1225	51280	status	null_pending	0.00722767	0.00238998	0.0114117		nan	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	10	UORF	1225	51280	status	fails_position_matched_null	0.00507822	0.000554591	0.00827468	False	nan	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	20	UORF	1225	51280	status	null_pending	0.00526812	0.000711404	0.00799757		nan	11.5	0.8	1	dm
+gse139131_unsel	cross	chrom_heldout	0	1	SW+ST	1225		combined_min_cross_dll	0.00342542		-0.00322974							
+gse139131_unsel	cross	chrom_heldout	0	5	SW+ST	1225		combined_min_cross_dll	-0.00262053		-0.00990803							
+gse139131_unsel	cross	chrom_heldout	0	10	SW+ST	1225		combined_min_cross_dll	-0.00395632		-0.0124344							
+gse139131_unsel	cross	chrom_heldout	0	20	SW+ST	1225		combined_min_cross_dll	-0.00248884		-0.0102166							
+gse139131_unsel	cross	chrom_heldout	0	1	SW+AUG	1225		combined_min_cross_dll	0.00691032		0.000116075							
+gse139131_unsel	cross	chrom_heldout	0	5	SW+AUG	1225		combined_min_cross_dll	0.000531009		-0.0069658							
+gse139131_unsel	cross	chrom_heldout	0	10	SW+AUG	1225		combined_min_cross_dll	-0.00542314		-0.0142134							
+gse139131_unsel	cross	chrom_heldout	0	20	SW+AUG	1225		combined_min_cross_dll	-0.00774054		-0.0168257							
+gse139131_unsel	cross	chrom_heldout	0	1	ST+AUG	1225		combined_min_cross_dll	0.00890707		0.00405842							
+gse139131_unsel	cross	chrom_heldout	0	5	ST+AUG	1225		combined_min_cross_dll	0.0108483		0.0055721							
+gse139131_unsel	cross	chrom_heldout	0	10	ST+AUG	1225		combined_min_cross_dll	0.00932128		0.00389082							
+gse139131_unsel	cross	chrom_heldout	0	20	ST+AUG	1225		combined_min_cross_dll	0.00870532		0.00307109							
+gse139131_unsel	cross	chrom_heldout	0	1	SW+ST+AUG	1225		combined_min_cross_dll	0.00841407		0.00130548							
+gse139131_unsel	cross	chrom_heldout	0	5	SW+ST+AUG	1225		combined_min_cross_dll	0.00243484		-0.005144							
+gse139131_unsel	cross	chrom_heldout	0	10	SW+ST+AUG	1225		combined_min_cross_dll	-0.0053132		-0.0137847							
+gse139131_unsel	cross	chrom_heldout	0	20	SW+ST+AUG	1225		combined_min_cross_dll	-0.00732524		-0.0170018							
+theory				1	E1_commit_vs_drop:occupancy_only			status	structurally_unidentifiable									
+theory				1	E1_commit_vs_drop:occupancy+80S_rho_unknown			status	structurally_unidentifiable									
+theory					E3_reinit_vs_direct:main_AUG_output_only			status	structurally_unidentifiable									
+theory				1	E4_global_loading:conditional_multinomial			status	structurally_unidentifiable									

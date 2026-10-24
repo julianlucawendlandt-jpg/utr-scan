@@ -238,6 +238,11 @@ def power_curve_rows(rows, key, noise, b):
                   relevant qualifier there.  Reported as metric names with a
                   "_within" suffix; never used for the cross-replicate status.
     Every proportion carries a Wilson 95% interval (p_lo, p_hi).
+
+    A simulation whose fit failed (non-finite held-out dLL) is dropped, not
+    scored: from the null it would make the 95th percentile NaN and silently
+    disable the null test; as a planted simulation it would count as "not
+    recovered".  n_null_failed / n_sim_failed record how many were dropped.
     """
     sims = {}
     for r in rows:
@@ -250,16 +255,23 @@ def power_curve_rows(rows, key, noise, b):
         for (truth, fam, _size, depth, _seed, rep), m in sims.items():
             if truth == "A" and rep == direction:
                 null_vals.setdefault((fam, depth), []).append(m["dll"])
+        null_failed = {k: int(np.sum(~np.isfinite(v))) for k, v in null_vals.items()}
+        null_vals = {k: [x for x in v if np.isfinite(x)] for k, v in null_vals.items()}
         groups = {}
         for (truth, fam, size, depth, _seed, rep), m in sims.items():
             if truth == "A" or rep != direction or fam not in PLANTED[truth]:
                 continue
             q = null_vals.get((fam, depth), [])
             thr = float(np.percentile(q, 95)) if q else np.nan
-            ok = m["lo"] > 0 and (np.isnan(thr) or m["dll"] > thr)
             g = groups.setdefault((truth, fam, size, depth),
                                   {"ok": [], "dll": [], "coef_r": [], "sign": [],
-                                   "thr": thr, "n_null": len(q)})
+                                   "thr": thr, "n_null": len(q),
+                                   "n_null_failed": null_failed.get((fam, depth), 0),
+                                   "n_failed": 0})
+            if not (np.isfinite(m["dll"]) and np.isfinite(m["lo"])):
+                g["n_failed"] += 1
+                continue
+            ok = m["lo"] > 0 and (np.isnan(thr) or m["dll"] > thr)
             g["ok"].append(ok)
             g["dll"].append(m["dll"])
             g["coef_r"].append(m["coef_r"])
@@ -271,7 +283,8 @@ def power_curve_rows(rows, key, noise, b):
                     "split": "chrom_heldout", "seed": "", "bin_width": b, "model": fam,
                     "truth": truth, "size_index": size, "effect_s": SIZE_S[size],
                     "effect_k": SIZE_K[size], "target_median_depth": depth, "noise": noise,
-                    "n_sim": n, "null_threshold": g["thr"], "n_null_sims": g["n_null"]}
+                    "n_sim": n, "null_threshold": g["thr"], "n_null_sims": g["n_null"],
+                    "n_sim_failed": g["n_failed"], "n_null_failed": g["n_null_failed"]}
             out += [dict(base, metric="p_recovered" + suffix, value=n_ok / n if n else np.nan,
                          p_lo=lo, p_hi=hi, n_recovered=n_ok),
                     dict(base, metric="mean_dll" + suffix, value=float(np.mean(g["dll"]))),

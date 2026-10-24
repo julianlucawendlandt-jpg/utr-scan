@@ -1,0 +1,20 @@
+check	passed	detail	dataset	replicate	split	seed	bin_width	model	n_transcripts	n_reads	metric	value
+no reporter label used in 40S model selection	True	model_choice.tsv written from effects/nested_effects.tsv before reporters are loaded										
+yeast 40S fit excludes the reporter's chromosome fold	True	training chromosomes never intersect fold k; eligibility reads[rep1] >= 10										
+Akirtava TEff primary rows satisfy combined PoLib depth >= 5000	True	n = 4433										
+no outer-test label used (yeast TEff)	True	label-scramble canary										
+scaling uses training rows only (yeast TEff)	True	feature-locality canary										
+no outer-test label used (yeast MeanYFP)	True	label-scramble canary										
+scaling uses training rows only (yeast MeanYFP)	True	feature-locality canary										
+bootstrap unit for Akirtava is the gene/ORF	True	units = ORF systematic names										
+human 40S fitted separately on rep1 and rep2	True	training transcripts {'rep1': 5905, 'rep2': 6152}										
+identical rows receive deterministic fold assignments	True	re-derived folds identical; identical sequences share a cluster fold										
+no outer-test label used (human, 40S rep1)	True	label-scramble canary										
+scaling uses training rows only (human, 40S rep1)	True	feature-locality canary										
+no outer-test label used (human, 40S rep2)	True	label-scramble canary										
+scaling uses training rows only (human, 40S rep2)	True	feature-locality canary										
+no outer-test label used (human, 40S mean)	True	label-scramble canary										
+scaling uses training rows only (human, 40S mean)	True	feature-locality canary										
+residual training target uses inner out-of-fold sequence predictions	True	oof_final: residual fitted to y_train - inner OOF seq prediction										
+late-fusion stacker uses inner out-of-fold predictions	True	oof_final: stacker fitted on inner OOF [seq, 40S] predictions										
+all prediction rows reproduce the summary R2	True	max |R2(recomputed) - R2(summary)| = 6.07e-11 (predictions stored to 10 significant digits)										

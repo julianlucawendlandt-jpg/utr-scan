@@ -1,0 +1,49 @@
+dataset	required_input	path	exists	checksum	replicate	split	seed	bin_width	model	n_transcripts	n_reads	metric	value
+gse139131_unsel	count_track_rep1	work/human-40s.ssu.reads.npz	True	da35b35e00306438715b482cc639a986									
+gse139131_unsel	count_track_rep2	work/human-40s.ssu_rep2.reads.npz	True	8d52f7656191f19919edb52211e714a6									
+gse139131_unsel	panel_annotation	cache/recoverability/annotation_human.npz	True	6d076f94fdfa62eeb8d0e0b722e97ad0									
+gse139131_unsel	panel_counts	cache/recoverability/counts_gse139131_unsel.npz	True	744266076cd37f283bae79ecbc7c1827									
+gse139131_unsel	heldout_ll_npz	results/recoverability/v1/effects/heldout_ll_gse139131_unsel.npz	True	cc1bb7d0d4ded86e69c991fff927186f									
+gse139131_unsel	fits_table	results/recoverability/v1/effects/fits_gse139131_unsel.tsv	True	cae86b4400cac2112490493ded5f9fc9									
+gse139131_unsel	chromosome_folds	results/recoverability/v1/human_chromosome_folds.json	True	c3c8c21cb9891e53d4f1d554457c7c86									
+gse139131_unsel	nested_effects_table	results/recoverability/v1/effects/nested_effects.tsv	True	5480dfaa0bc73ba7307c9fa07852d84e									
+gse139131_unsel	qc_summary	results/recoverability/v1/qc/qc_summary.tsv	True	4b1e0d528e697d108e101f9ce9497eed									
+gse139131_unsel	nested_effects_rows	results/recoverability/v1/effects/nested_effects.tsv	True	208 of 208 expected rows present									
+gse139131_unsel	qc_rows	results/recoverability/v1/qc/qc_summary.tsv	True										
+gse139131_unsel	psite_rule	manifest.json	True	"[[18, 24, ""3p"", 24], [25, 29, ""5p"", 0], [30, 34, ""5p"", 13], [35, 39, ""5p"", 13], [40, 44, ""3p"", 25], [45, 49, ""3p"", 24], [50, 59, ""3p"", 25], [60, 69, ""3p"", 24], [70, 200, ""5p"", 48]]"									
+gse174329_eif3b	count_track_rep1	work/human-eif3b-replicated.ssu_rep1.reads.npz	True	b7c412c6b7c6e676414af1eb3fd48b5d									
+gse174329_eif3b	count_track_rep2	work/human-eif3b-replicated.ssu_rep2.reads.npz	True	09bda23e98c221208e9b20d5610e9373									
+gse174329_eif3b	panel_annotation	cache/recoverability/annotation_human.npz	True	6d076f94fdfa62eeb8d0e0b722e97ad0									
+gse174329_eif3b	panel_counts	cache/recoverability/counts_gse174329_eif3b.npz	True	d895875eba06f5b9767fa1e2cdf5adbe									
+gse174329_eif3b	heldout_ll_npz	results/recoverability/v1/effects/heldout_ll_gse174329_eif3b.npz	True	efc8ed6b9e6f0b403a1b7a92baba7fb2									
+gse174329_eif3b	fits_table	results/recoverability/v1/effects/fits_gse174329_eif3b.tsv	True	4ae3eaf3f545d9704661260e7cda8615									
+gse174329_eif3b	chromosome_folds	results/recoverability/v1/human_chromosome_folds.json	True	c3c8c21cb9891e53d4f1d554457c7c86									
+gse174329_eif3b	nested_effects_table	results/recoverability/v1/effects/nested_effects.tsv	True	5480dfaa0bc73ba7307c9fa07852d84e									
+gse174329_eif3b	qc_summary	results/recoverability/v1/qc/qc_summary.tsv	True	4b1e0d528e697d108e101f9ce9497eed									
+gse174329_eif3b	nested_effects_rows	results/recoverability/v1/effects/nested_effects.tsv	True	208 of 208 expected rows present									
+gse174329_eif3b	qc_rows	results/recoverability/v1/qc/qc_summary.tsv	True										
+gse174329_eif3b	psite_rule	manifest.json	True	"[[18, 24, ""3p"", 24], [25, 29, ""3p"", 24], [30, 34, ""3p"", 24], [35, 39, ""3p"", 24], [40, 44, ""3p"", 24], [45, 49, ""5p"", 22], [50, 59, ""3p"", 24], [60, 69, ""3p"", 24], [70, 200, ""3p"", 24]]"									
+gse139131_eif3b	count_track_rep1	work/human-eif3b.ssu.reads.npz	True	1c2970ece72eced0cf8734853586ec1e									
+gse139131_eif3b	panel_annotation	cache/recoverability/annotation_human.npz	True	6d076f94fdfa62eeb8d0e0b722e97ad0									
+gse139131_eif3b	panel_counts	cache/recoverability/counts_gse139131_eif3b.npz	True	7c4a5918e48167b704b93c9afe2f9332									
+gse139131_eif3b	heldout_ll_npz	results/recoverability/v1/effects/heldout_ll_gse139131_eif3b.npz	True	4d683cd63bd1dd9e6fa6129941940c62									
+gse139131_eif3b	fits_table	results/recoverability/v1/effects/fits_gse139131_eif3b.tsv	True	9c4e43d73bbbff3526cbe22d54236690									
+gse139131_eif3b	chromosome_folds	results/recoverability/v1/human_chromosome_folds.json	True	c3c8c21cb9891e53d4f1d554457c7c86									
+gse139131_eif3b	nested_effects_table	results/recoverability/v1/effects/nested_effects.tsv	True	5480dfaa0bc73ba7307c9fa07852d84e									
+gse139131_eif3b	qc_summary	results/recoverability/v1/qc/qc_summary.tsv	True	4b1e0d528e697d108e101f9ce9497eed									
+gse139131_eif3b	nested_effects_rows	results/recoverability/v1/effects/nested_effects.tsv	True	52 of 52 expected rows present									
+gse139131_eif3b	qc_rows	results/recoverability/v1/qc/qc_summary.tsv	True										
+gse139131_eif3b	psite_rule	manifest.json	True	"[[18, 24, ""3p"", 23], [25, 29, ""5p"", 0], [30, 34, ""3p"", 23], [35, 39, ""3p"", 23], [40, 44, ""5p"", 19], [45, 49, ""5p"", 22], [50, 59, ""3p"", 24], [60, 69, ""5p"", 40], [70, 200, ""5p"", 45]]"									
+archer_yeast	count_track_rep1	work/ssu.reads.npz	True	6655b4129be97732fc3f2d94feb130da									
+archer_yeast	panel_annotation	cache/recoverability/annotation_yeast.npz	True	aca047c31d092e365b7b68e50a7474dc									
+archer_yeast	panel_counts	cache/recoverability/counts_archer_yeast.npz	True	5303b9f2ae854cb24a0d90c46ea3adac									
+archer_yeast	heldout_ll_npz	results/recoverability/v1/effects/heldout_ll_archer_yeast.npz	True	bf11a8b5d0ca95e4b2c24b831f105c55									
+archer_yeast	fits_table	results/recoverability/v1/effects/fits_archer_yeast.tsv	True	24863f78feee92dd683c902eea2a342b									
+archer_yeast	chromosome_folds	results/recoverability/v1/yeast_chromosome_folds.json	True	b1be3e6082b6c41ccfff8ffea8f2a1b2									
+archer_yeast	nested_effects_table	results/recoverability/v1/effects/nested_effects.tsv	True	5480dfaa0bc73ba7307c9fa07852d84e									
+archer_yeast	qc_summary	results/recoverability/v1/qc/qc_summary.tsv	True	4b1e0d528e697d108e101f9ce9497eed									
+archer_yeast	nested_effects_rows	results/recoverability/v1/effects/nested_effects.tsv	True	52 of 52 expected rows present									
+archer_yeast	qc_rows	results/recoverability/v1/qc/qc_summary.tsv	True										
+archer_yeast	psite_rule	manifest.json	True	"[[18, 24, ""5p"", 12], [25, 29, ""5p"", 12], [30, 34, ""5p"", 13], [35, 39, ""5p"", 13], [40, 44, ""5p"", 13], [45, 49, ""5p"", 29], [50, 59, ""5p"", 32], [60, 69, ""5p"", 38], [70, 200, ""5p"", 65]]"									
+reporter	akirtava_supplement	eval/gkaf165_supplemental_files/Akirtava_et_al_2024_Supp_Data_Rev1.xlsx	True	02553ebb34f6e55ab8c5cd519f07dbe5									
+reporter	sample2019_table	eval/sample2019.tsv	True	996cde60854f49662beb378b3afe7b10									

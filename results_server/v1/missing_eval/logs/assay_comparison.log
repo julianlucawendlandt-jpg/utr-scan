@@ -1,0 +1,23 @@
+$ /root/miniconda3/envs/utrscan/bin/python -u -m analysis.recoverability.09_assay_comparison --mode primary --bin 10 --seeds 0,1,2 --n-boot 2000
+[09] leader totals {('gse174329_eif3b', 'rep1'): 988545, ('gse174329_eif3b', 'rep2'): 1122832, ('gse139131_unsel', 'rep1'): 154065, ('gse139131_unsel', 'rep2'): 66694}  -> matched target 66694
+[09] observed seed None: selected-eligible 5633, unselected-eligible 1225, common 1218
+  SW   sel +0.01034  unsel -0.00158  diff +0.01191 [+0.00454,+0.01959]
+  ST   sel +0.00161  unsel +0.00332  diff -0.00171 [-0.00519,+0.00158]
+  AUG  sel +0.00860  unsel +0.00664  diff +0.00196 [-0.00102,+0.00495]
+[09] observed seed None done (25s)
+[09] matched seed 0: selected-eligible 1223, unselected-eligible 1008, common 790
+  SW   sel +0.01033  unsel -0.00496  diff +0.01529 [+0.00807,+0.02277]
+  ST   sel +0.00162  unsel +0.00274  diff -0.00111 [-0.00484,+0.00249]
+  AUG  sel +0.00808  unsel +0.00742  diff +0.00066 [-0.00278,+0.00413]
+[09] matched seed 0 done (17s)
+[09] matched seed 1: selected-eligible 1224, unselected-eligible 1004, common 794
+  SW   sel +0.00758  unsel -0.00602  diff +0.01360 [+0.00660,+0.02059]
+  ST   sel +0.00175  unsel +0.00267  diff -0.00092 [-0.00468,+0.00257]
+  AUG  sel +0.00742  unsel +0.00690  diff +0.00052 [-0.00288,+0.00413]
+[09] matched seed 1 done (17s)
+[09] matched seed 2: selected-eligible 1204, unselected-eligible 1005, common 778
+  SW   sel +0.00736  unsel -0.00607  diff +0.01342 [+0.00697,+0.01971]
+  ST   sel +0.00139  unsel +0.00299  diff -0.00159 [-0.00543,+0.00234]
+  AUG  sel +0.00804  unsel +0.00665  diff +0.00139 [-0.00197,+0.00482]
+[09] matched seed 2 done (17s)
+[09] -> /root/utr-scan/results/recoverability/v1/missing_eval/assay_comparison.tsv

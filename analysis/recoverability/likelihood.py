@@ -310,7 +310,7 @@ def _fit_scipy(prob, ybin, prior_sd=1.0, init=None, max_iter=200, tol=1e-8, refr
             if new_obj <= obj + 1e-14 or t < 1e-6:
                 break
             t *= 0.5
-        if new_obj > obj:
+        if not new_obj <= obj:      # also rejects a NaN objective
             if fresh:
                 converged = True       # even a fresh step cannot descend
                 break

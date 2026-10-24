@@ -1,0 +1,3 @@
+species	dataset	selected_model	bin_width	selection_metric	value	source_file	replicate	split	seed	model	n_transcripts	n_reads	metric	excluded_candidates	uses_reporter_labels
+yeast	archer_yeast	SW+ST+AUG	1	held-out chromosome dLL/read, rep1->rep1 (single library)	0.0508506	results/recoverability/v1/effects/nested_effects.tsv								S5 (prespecified high-capacity negative control)	False
+human	gse174329_eif3b	SW+ST+AUG	1	min over cross-replicate directions of held-out dLL/read	0.0254727	results/recoverability/v1/effects/nested_effects.tsv								S5 (prespecified high-capacity negative control)	False

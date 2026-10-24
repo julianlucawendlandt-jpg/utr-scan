@@ -1,0 +1,12 @@
+$ /root/miniconda3/envs/utrscan/bin/python -u /root/utr-scan/eval/prepare_akirtava_downstream.py
+[akirtava] 5720 S.cer WT constructs with an assayed sequence
+[akirtava] TEff present 5712, primary (combined depth >= 5000) 4795
+[akirtava] MeanYFP-valid 5677
+[akirtava]   excluded     43  MeanYFP  not_in_published_modelling_table
+[akirtava]   excluded    917  TEff     combined_PoLib_depth_below_5000
+[akirtava]   excluded   5307  Table_1  s_paradoxus
+[akirtava]   excluded   7176  Table_2  s_paradoxus
+[akirtava]   excluded   5267  Table_3  s_paradoxus
+[akirtava]   excluded   2256  all      no_assayed_sequence (PoLib-only construct)
+[akirtava] -> /root/utr-scan/eval/akirtava_scer_wt_downstream.tsv
+[akirtava] -> /root/utr-scan/eval/akirtava_scer_wt_downstream_exclusions.tsv

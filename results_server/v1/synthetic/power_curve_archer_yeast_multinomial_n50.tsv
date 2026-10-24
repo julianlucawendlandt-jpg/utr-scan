@@ -1,0 +1,841 @@
+dataset	replicate	split	seed	bin_width	model	n_transcripts	n_reads	metric	value	truth	size_index	effect_s	effect_k	target_median_depth	noise	n_sim	null_threshold	n_null_sims	p_lo	p_hi	n_recovered
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			p_recovered	0	B	0	0.1	0.25	5	multinomial	50	-0.00273824	100	0	0.07135	0
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_dll	-0.00390901	B	0	0.1	0.25	5	multinomial	50	-0.00273824	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.0778728	B	0	0.1	0.25	5	multinomial	50	-0.00273824	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	0	0.1	0.25	5	multinomial	50	-0.00273824	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			p_recovered	0	B	0	0.1	0.25	10	multinomial	50	-0.00131005	100	0	0.07135	0
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_dll	-0.00184599	B	0	0.1	0.25	10	multinomial	50	-0.00131005	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.122856	B	0	0.1	0.25	10	multinomial	50	-0.00131005	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	0	0.1	0.25	10	multinomial	50	-0.00131005	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			p_recovered	0	B	0	0.1	0.25	20	multinomial	50	-0.000526971	100	0	0.07135	0
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_dll	-0.000854425	B	0	0.1	0.25	20	multinomial	50	-0.000526971	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.142791	B	0	0.1	0.25	20	multinomial	50	-0.000526971	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	0	0.1	0.25	20	multinomial	50	-0.000526971	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			p_recovered	0	B	0	0.1	0.25	50	multinomial	50	-0.000223475	100	0	0.07135	0
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_dll	-0.000360726	B	0	0.1	0.25	50	multinomial	50	-0.000223475	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.191158	B	0	0.1	0.25	50	multinomial	50	-0.000223475	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	0	0.1	0.25	50	multinomial	50	-0.000223475	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			p_recovered	0	B	0	0.1	0.25	100	multinomial	50	-7.19379e-05	100	0	0.07135	0
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_dll	-0.00017774	B	0	0.1	0.25	100	multinomial	50	-7.19379e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.206353	B	0	0.1	0.25	100	multinomial	50	-7.19379e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	0	0.1	0.25	100	multinomial	50	-7.19379e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			p_recovered	0	B	0	0.1	0.25	200	multinomial	50	nan	100	0	0.07135	0
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_dll	nan	B	0	0.1	0.25	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.213983	B	0	0.1	0.25	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	0	0.1	0.25	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			p_recovered	0	B	0	0.1	0.25	500	multinomial	50	nan	100	0	0.07135	0
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_dll	-5.56961e-05	B	0	0.1	0.25	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.228432	B	0	0.1	0.25	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	0	0.1	0.25	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			p_recovered	0	B	1	0.25	0.5	5	multinomial	50	-0.00273824	100	0	0.07135	0
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_dll	-0.00359784	B	1	0.25	0.5	5	multinomial	50	-0.00273824	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.161532	B	1	0.25	0.5	5	multinomial	50	-0.00273824	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	1	0.25	0.5	5	multinomial	50	-0.00273824	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			p_recovered	0	B	1	0.25	0.5	10	multinomial	50	-0.00131005	100	0	0.07135	0
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_dll	-0.00112551	B	1	0.25	0.5	10	multinomial	50	-0.00131005	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.228066	B	1	0.25	0.5	10	multinomial	50	-0.00131005	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	1	0.25	0.5	10	multinomial	50	-0.00131005	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			p_recovered	0	B	1	0.25	0.5	20	multinomial	50	-0.000526971	100	0	0.07135	0
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_dll	-0.000333339	B	1	0.25	0.5	20	multinomial	50	-0.000526971	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.328103	B	1	0.25	0.5	20	multinomial	50	-0.000526971	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	1	0.25	0.5	20	multinomial	50	-0.000526971	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			p_recovered	0.08	B	1	0.25	0.5	50	multinomial	50	-0.000223475	100	0.031549	0.188385	4
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_dll	0.000142696	B	1	0.25	0.5	50	multinomial	50	-0.000223475	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.422721	B	1	0.25	0.5	50	multinomial	50	-0.000223475	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	1	0.25	0.5	50	multinomial	50	-0.000223475	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			p_recovered	0.52	B	1	0.25	0.5	100	multinomial	50	-7.19379e-05	100	0.385115	0.652031	26
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_dll	0.000300793	B	1	0.25	0.5	100	multinomial	50	-7.19379e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.459293	B	1	0.25	0.5	100	multinomial	50	-7.19379e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	1	0.25	0.5	100	multinomial	50	-7.19379e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			p_recovered	0.82	B	1	0.25	0.5	200	multinomial	50	nan	100	0.692037	0.902299	41
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_dll	nan	B	1	0.25	0.5	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.499645	B	1	0.25	0.5	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	1	0.25	0.5	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			p_recovered	0.88	B	1	0.25	0.5	500	multinomial	50	nan	100	0.761949	0.943825	44
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_dll	nan	B	1	0.25	0.5	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.531647	B	1	0.25	0.5	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	1	0.25	0.5	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			p_recovered	0	B	2	0.5	1	5	multinomial	50	-0.00273824	100	0	0.07135	0
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_dll	-0.00114696	B	2	0.5	1	5	multinomial	50	-0.00273824	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.377968	B	2	0.5	1	5	multinomial	50	-0.00273824	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	2	0.5	1	5	multinomial	50	-0.00273824	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			p_recovered	0.52	B	2	0.5	1	10	multinomial	50	-0.00131005	100	0.385115	0.652031	26
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_dll	0.00114274	B	2	0.5	1	10	multinomial	50	-0.00131005	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.541691	B	2	0.5	1	10	multinomial	50	-0.00131005	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	2	0.5	1	10	multinomial	50	-0.00131005	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			p_recovered	1	B	2	0.5	1	20	multinomial	50	-0.000526971	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_dll	0.0021175	B	2	0.5	1	20	multinomial	50	-0.000526971	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.685523	B	2	0.5	1	20	multinomial	50	-0.000526971	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	2	0.5	1	20	multinomial	50	-0.000526971	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			p_recovered	1	B	2	0.5	1	50	multinomial	50	-0.000223475	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_dll	0.00264211	B	2	0.5	1	50	multinomial	50	-0.000223475	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.786958	B	2	0.5	1	50	multinomial	50	-0.000223475	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	2	0.5	1	50	multinomial	50	-0.000223475	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			p_recovered	1	B	2	0.5	1	100	multinomial	50	-7.19379e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_dll	0.00282475	B	2	0.5	1	100	multinomial	50	-7.19379e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.8155	B	2	0.5	1	100	multinomial	50	-7.19379e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	2	0.5	1	100	multinomial	50	-7.19379e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			p_recovered	1	B	2	0.5	1	200	multinomial	50	nan	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_dll	0.00290394	B	2	0.5	1	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.824063	B	2	0.5	1	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	2	0.5	1	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			p_recovered	1	B	2	0.5	1	500	multinomial	50	nan	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_dll	0.00291492	B	2	0.5	1	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			mean_coef_corr	0.829858	B	2	0.5	1	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	SW			sign_recovery	nan	B	2	0.5	1	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	0.64	C	0	0.1	0.25	5	multinomial	50	3.32426e-05	100	0.501408	0.758614	32
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.00099241	C	0	0.1	0.25	5	multinomial	50	3.32426e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.946091	C	0	0.1	0.25	5	multinomial	50	3.32426e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	0	0.1	0.25	5	multinomial	50	3.32426e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	0	0.1	0.25	10	multinomial	50	2.93345e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.00107913	C	0	0.1	0.25	10	multinomial	50	2.93345e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.973597	C	0	0.1	0.25	10	multinomial	50	2.93345e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	0	0.1	0.25	10	multinomial	50	2.93345e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	0	0.1	0.25	20	multinomial	50	9.30355e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.001107	C	0	0.1	0.25	20	multinomial	50	9.30355e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.983511	C	0	0.1	0.25	20	multinomial	50	9.30355e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	0	0.1	0.25	20	multinomial	50	9.30355e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	0	0.1	0.25	50	multinomial	50	7.63279e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.00111116	C	0	0.1	0.25	50	multinomial	50	7.63279e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.991693	C	0	0.1	0.25	50	multinomial	50	7.63279e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	0	0.1	0.25	50	multinomial	50	7.63279e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	0	0.1	0.25	100	multinomial	50	4.84116e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.00113552	C	0	0.1	0.25	100	multinomial	50	4.84116e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.994287	C	0	0.1	0.25	100	multinomial	50	4.84116e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	0	0.1	0.25	100	multinomial	50	4.84116e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	0.96	C	0	0.1	0.25	200	multinomial	50	nan	100	0.865397	0.988961	48
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	nan	C	0	0.1	0.25	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.996109	C	0	0.1	0.25	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	0.99	C	0	0.1	0.25	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	0.94	C	0	0.1	0.25	500	multinomial	50	nan	100	0.837827	0.979385	47
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	nan	C	0	0.1	0.25	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.996435	C	0	0.1	0.25	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	0.985	C	0	0.1	0.25	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	1	0.25	0.5	5	multinomial	50	3.32426e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.00713703	C	1	0.25	0.5	5	multinomial	50	3.32426e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.990567	C	1	0.25	0.5	5	multinomial	50	3.32426e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	1	0.25	0.5	5	multinomial	50	3.32426e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	1	0.25	0.5	10	multinomial	50	2.93345e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.00728023	C	1	0.25	0.5	10	multinomial	50	2.93345e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.995363	C	1	0.25	0.5	10	multinomial	50	2.93345e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	1	0.25	0.5	10	multinomial	50	2.93345e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	1	0.25	0.5	20	multinomial	50	9.30355e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.00734392	C	1	0.25	0.5	20	multinomial	50	9.30355e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.997215	C	1	0.25	0.5	20	multinomial	50	9.30355e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	1	0.25	0.5	20	multinomial	50	9.30355e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	1	0.25	0.5	50	multinomial	50	7.63279e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.00730475	C	1	0.25	0.5	50	multinomial	50	7.63279e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.998402	C	1	0.25	0.5	50	multinomial	50	7.63279e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	1	0.25	0.5	50	multinomial	50	7.63279e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	0.98	C	1	0.25	0.5	100	multinomial	50	4.84116e-06	100	0.895043	0.996461	49
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	nan	C	1	0.25	0.5	100	multinomial	50	4.84116e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.99886	C	1	0.25	0.5	100	multinomial	50	4.84116e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	0.995	C	1	0.25	0.5	100	multinomial	50	4.84116e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	1	0.25	0.5	200	multinomial	50	nan	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0072944	C	1	0.25	0.5	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.999014	C	1	0.25	0.5	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	1	0.25	0.5	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	0.98	C	1	0.25	0.5	500	multinomial	50	nan	100	0.895043	0.996461	49
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	nan	C	1	0.25	0.5	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.999225	C	1	0.25	0.5	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	0.995	C	1	0.25	0.5	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	2	0.5	1	5	multinomial	50	3.32426e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0286893	C	2	0.5	1	5	multinomial	50	3.32426e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.997522	C	2	0.5	1	5	multinomial	50	3.32426e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	2	0.5	1	5	multinomial	50	3.32426e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	2	0.5	1	10	multinomial	50	2.93345e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0291102	C	2	0.5	1	10	multinomial	50	2.93345e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.998778	C	2	0.5	1	10	multinomial	50	2.93345e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	2	0.5	1	10	multinomial	50	2.93345e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	2	0.5	1	20	multinomial	50	9.30355e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0288149	C	2	0.5	1	20	multinomial	50	9.30355e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.999356	C	2	0.5	1	20	multinomial	50	9.30355e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	2	0.5	1	20	multinomial	50	9.30355e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	2	0.5	1	50	multinomial	50	7.63279e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0288015	C	2	0.5	1	50	multinomial	50	7.63279e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.999532	C	2	0.5	1	50	multinomial	50	7.63279e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	2	0.5	1	50	multinomial	50	7.63279e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	2	0.5	1	100	multinomial	50	4.84116e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0287022	C	2	0.5	1	100	multinomial	50	4.84116e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.999689	C	2	0.5	1	100	multinomial	50	4.84116e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	2	0.5	1	100	multinomial	50	4.84116e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	C	2	0.5	1	200	multinomial	50	nan	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0287583	C	2	0.5	1	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.999751	C	2	0.5	1	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	C	2	0.5	1	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	0.96	C	2	0.5	1	500	multinomial	50	nan	100	0.865397	0.988961	48
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	nan	C	2	0.5	1	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.999835	C	2	0.5	1	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	0.99	C	2	0.5	1	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	0.3	D	0	0.1	0.25	5	multinomial	50	-9.2831e-05	100	0.191034	0.437506	15
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.000707163	D	0	0.1	0.25	5	multinomial	50	-9.2831e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.798841	D	0	0.1	0.25	5	multinomial	50	-9.2831e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.985	D	0	0.1	0.25	5	multinomial	50	-9.2831e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	0.86	D	0	0.1	0.25	10	multinomial	50	-7.61973e-05	100	0.738135	0.930493	43
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.000942703	D	0	0.1	0.25	10	multinomial	50	-7.61973e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.882584	D	0	0.1	0.25	10	multinomial	50	-7.61973e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.99	D	0	0.1	0.25	10	multinomial	50	-7.61973e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	D	0	0.1	0.25	20	multinomial	50	-3.95046e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.00108037	D	0	0.1	0.25	20	multinomial	50	-3.95046e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.835932	D	0	0.1	0.25	20	multinomial	50	-3.95046e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.955	D	0	0.1	0.25	20	multinomial	50	-3.95046e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	0.98	D	0	0.1	0.25	50	multinomial	50	-5.9662e-06	100	0.895043	0.996461	49
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	nan	D	0	0.1	0.25	50	multinomial	50	-5.9662e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.90186	D	0	0.1	0.25	50	multinomial	50	-5.9662e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.98	D	0	0.1	0.25	50	multinomial	50	-5.9662e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	D	0	0.1	0.25	100	multinomial	50	-5.06546e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.00115866	D	0	0.1	0.25	100	multinomial	50	-5.06546e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.807681	D	0	0.1	0.25	100	multinomial	50	-5.06546e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.93	D	0	0.1	0.25	100	multinomial	50	-5.06546e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	0.98	D	0	0.1	0.25	200	multinomial	50	nan	100	0.895043	0.996461	49
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	nan	D	0	0.1	0.25	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.854651	D	0	0.1	0.25	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.95	D	0	0.1	0.25	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	D	0	0.1	0.25	500	multinomial	50	nan	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.00118971	D	0	0.1	0.25	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.813244	D	0	0.1	0.25	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.92	D	0	0.1	0.25	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	D	1	0.25	0.5	5	multinomial	50	-9.2831e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.00441299	D	1	0.25	0.5	5	multinomial	50	-9.2831e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.922525	D	1	0.25	0.5	5	multinomial	50	-9.2831e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	1	D	1	0.25	0.5	5	multinomial	50	-9.2831e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	D	1	0.25	0.5	10	multinomial	50	-7.61973e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.00464296	D	1	0.25	0.5	10	multinomial	50	-7.61973e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.944888	D	1	0.25	0.5	10	multinomial	50	-7.61973e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	1	D	1	0.25	0.5	10	multinomial	50	-7.61973e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	D	1	0.25	0.5	20	multinomial	50	-3.95046e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.00469442	D	1	0.25	0.5	20	multinomial	50	-3.95046e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.959323	D	1	0.25	0.5	20	multinomial	50	-3.95046e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	1	D	1	0.25	0.5	20	multinomial	50	-3.95046e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	D	1	0.25	0.5	50	multinomial	50	-5.9662e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.00480048	D	1	0.25	0.5	50	multinomial	50	-5.9662e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.943893	D	1	0.25	0.5	50	multinomial	50	-5.9662e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	1	D	1	0.25	0.5	50	multinomial	50	-5.9662e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	D	1	0.25	0.5	100	multinomial	50	-5.06546e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.00478171	D	1	0.25	0.5	100	multinomial	50	-5.06546e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.965056	D	1	0.25	0.5	100	multinomial	50	-5.06546e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	1	D	1	0.25	0.5	100	multinomial	50	-5.06546e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	D	1	0.25	0.5	200	multinomial	50	nan	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.00482211	D	1	0.25	0.5	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.959071	D	1	0.25	0.5	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	1	D	1	0.25	0.5	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	D	1	0.25	0.5	500	multinomial	50	nan	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.00482298	D	1	0.25	0.5	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.966967	D	1	0.25	0.5	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	1	D	1	0.25	0.5	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	D	2	0.5	1	5	multinomial	50	-9.2831e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.0179042	D	2	0.5	1	5	multinomial	50	-9.2831e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.964508	D	2	0.5	1	5	multinomial	50	-9.2831e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	1	D	2	0.5	1	5	multinomial	50	-9.2831e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	D	2	0.5	1	10	multinomial	50	-7.61973e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.0179421	D	2	0.5	1	10	multinomial	50	-7.61973e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.945208	D	2	0.5	1	10	multinomial	50	-7.61973e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	1	D	2	0.5	1	10	multinomial	50	-7.61973e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	D	2	0.5	1	20	multinomial	50	-3.95046e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.0178839	D	2	0.5	1	20	multinomial	50	-3.95046e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.936122	D	2	0.5	1	20	multinomial	50	-3.95046e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	1	D	2	0.5	1	20	multinomial	50	-3.95046e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	D	2	0.5	1	50	multinomial	50	-5.9662e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.0179072	D	2	0.5	1	50	multinomial	50	-5.9662e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.931875	D	2	0.5	1	50	multinomial	50	-5.9662e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	1	D	2	0.5	1	50	multinomial	50	-5.9662e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	D	2	0.5	1	100	multinomial	50	-5.06546e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.0180058	D	2	0.5	1	100	multinomial	50	-5.06546e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.932412	D	2	0.5	1	100	multinomial	50	-5.06546e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	1	D	2	0.5	1	100	multinomial	50	-5.06546e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	D	2	0.5	1	200	multinomial	50	nan	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.0180261	D	2	0.5	1	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.930077	D	2	0.5	1	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	1	D	2	0.5	1	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	0.94	D	2	0.5	1	500	multinomial	50	nan	100	0.837827	0.979385	47
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	nan	D	2	0.5	1	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.935679	D	2	0.5	1	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.985	D	2	0.5	1	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	0.06	E	0	0.1	0.25	5	multinomial	50	-9.2831e-05	100	0.0206146	0.162173	3
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.000403527	E	0	0.1	0.25	5	multinomial	50	-9.2831e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.831264	E	0	0.1	0.25	5	multinomial	50	-9.2831e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	1	E	0	0.1	0.25	5	multinomial	50	-9.2831e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	0.52	E	0	0.1	0.25	10	multinomial	50	-7.61973e-05	100	0.385115	0.652031	26
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.000660383	E	0	0.1	0.25	10	multinomial	50	-7.61973e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.869109	E	0	0.1	0.25	10	multinomial	50	-7.61973e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.985	E	0	0.1	0.25	10	multinomial	50	-7.61973e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	0.88	E	0	0.1	0.25	20	multinomial	50	-3.95046e-05	100	0.761949	0.943825	44
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.000783951	E	0	0.1	0.25	20	multinomial	50	-3.95046e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.892382	E	0	0.1	0.25	20	multinomial	50	-3.95046e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.975	E	0	0.1	0.25	20	multinomial	50	-3.95046e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	E	0	0.1	0.25	50	multinomial	50	-5.9662e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.000866587	E	0	0.1	0.25	50	multinomial	50	-5.9662e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.931612	E	0	0.1	0.25	50	multinomial	50	-5.9662e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.975	E	0	0.1	0.25	50	multinomial	50	-5.9662e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	E	0	0.1	0.25	100	multinomial	50	-5.06546e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.000906002	E	0	0.1	0.25	100	multinomial	50	-5.06546e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.925388	E	0	0.1	0.25	100	multinomial	50	-5.06546e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.97	E	0	0.1	0.25	100	multinomial	50	-5.06546e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	0.98	E	0	0.1	0.25	200	multinomial	50	nan	100	0.895043	0.996461	49
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	nan	E	0	0.1	0.25	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.826348	E	0	0.1	0.25	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.915	E	0	0.1	0.25	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	0.96	E	0	0.1	0.25	500	multinomial	50	nan	100	0.865397	0.988961	48
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	nan	E	0	0.1	0.25	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.828394	E	0	0.1	0.25	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.915	E	0	0.1	0.25	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	0.9	E	1	0.25	0.5	5	multinomial	50	-9.2831e-05	100	0.786395	0.956525	45
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.0030043	E	1	0.25	0.5	5	multinomial	50	-9.2831e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.889061	E	1	0.25	0.5	5	multinomial	50	-9.2831e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	1	E	1	0.25	0.5	5	multinomial	50	-9.2831e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	E	1	0.25	0.5	10	multinomial	50	-7.61973e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.00330683	E	1	0.25	0.5	10	multinomial	50	-7.61973e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.941906	E	1	0.25	0.5	10	multinomial	50	-7.61973e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	1	E	1	0.25	0.5	10	multinomial	50	-7.61973e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	E	1	0.25	0.5	20	multinomial	50	-3.95046e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.00340816	E	1	0.25	0.5	20	multinomial	50	-3.95046e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.971019	E	1	0.25	0.5	20	multinomial	50	-3.95046e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	1	E	1	0.25	0.5	20	multinomial	50	-3.95046e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	E	1	0.25	0.5	50	multinomial	50	-5.9662e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.00348778	E	1	0.25	0.5	50	multinomial	50	-5.9662e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.96818	E	1	0.25	0.5	50	multinomial	50	-5.9662e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	1	E	1	0.25	0.5	50	multinomial	50	-5.9662e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	E	1	0.25	0.5	100	multinomial	50	-5.06546e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.00348386	E	1	0.25	0.5	100	multinomial	50	-5.06546e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.973255	E	1	0.25	0.5	100	multinomial	50	-5.06546e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	1	E	1	0.25	0.5	100	multinomial	50	-5.06546e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	0.98	E	1	0.25	0.5	200	multinomial	50	nan	100	0.895043	0.996461	49
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	nan	E	1	0.25	0.5	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.930717	E	1	0.25	0.5	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.97	E	1	0.25	0.5	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	0.98	E	1	0.25	0.5	500	multinomial	50	nan	100	0.895043	0.996461	49
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	nan	E	1	0.25	0.5	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.956753	E	1	0.25	0.5	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.98	E	1	0.25	0.5	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	E	2	0.5	1	5	multinomial	50	-9.2831e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.0118043	E	2	0.5	1	5	multinomial	50	-9.2831e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.911364	E	2	0.5	1	5	multinomial	50	-9.2831e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	1	E	2	0.5	1	5	multinomial	50	-9.2831e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	E	2	0.5	1	10	multinomial	50	-7.61973e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.0125679	E	2	0.5	1	10	multinomial	50	-7.61973e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.946173	E	2	0.5	1	10	multinomial	50	-7.61973e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	1	E	2	0.5	1	10	multinomial	50	-7.61973e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	E	2	0.5	1	20	multinomial	50	-3.95046e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.0125483	E	2	0.5	1	20	multinomial	50	-3.95046e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.958519	E	2	0.5	1	20	multinomial	50	-3.95046e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	1	E	2	0.5	1	20	multinomial	50	-3.95046e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	E	2	0.5	1	50	multinomial	50	-5.9662e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.0126764	E	2	0.5	1	50	multinomial	50	-5.9662e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.959809	E	2	0.5	1	50	multinomial	50	-5.9662e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	1	E	2	0.5	1	50	multinomial	50	-5.9662e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	E	2	0.5	1	100	multinomial	50	-5.06546e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.0127635	E	2	0.5	1	100	multinomial	50	-5.06546e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.957126	E	2	0.5	1	100	multinomial	50	-5.06546e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	1	E	2	0.5	1	100	multinomial	50	-5.06546e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	E	2	0.5	1	200	multinomial	50	nan	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.0127723	E	2	0.5	1	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.942126	E	2	0.5	1	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	1	E	2	0.5	1	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			p_recovered	1	E	2	0.5	1	500	multinomial	50	nan	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_dll	0.0127951	E	2	0.5	1	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			mean_coef_corr	0.910488	E	2	0.5	1	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	AUG			sign_recovery	0.99	E	2	0.5	1	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	0.78	E	0	0.1	0.25	5	multinomial	50	3.32426e-05	100	0.647582	0.872462	39
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.00102463	E	0	0.1	0.25	5	multinomial	50	3.32426e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.898105	E	0	0.1	0.25	5	multinomial	50	3.32426e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	0	0.1	0.25	5	multinomial	50	3.32426e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	0	0.1	0.25	10	multinomial	50	2.93345e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.00110177	E	0	0.1	0.25	10	multinomial	50	2.93345e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.92251	E	0	0.1	0.25	10	multinomial	50	2.93345e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	0	0.1	0.25	10	multinomial	50	2.93345e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	0	0.1	0.25	20	multinomial	50	9.30355e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.00114738	E	0	0.1	0.25	20	multinomial	50	9.30355e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.942813	E	0	0.1	0.25	20	multinomial	50	9.30355e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	0	0.1	0.25	20	multinomial	50	9.30355e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	0	0.1	0.25	50	multinomial	50	7.63279e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.00114798	E	0	0.1	0.25	50	multinomial	50	7.63279e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.950946	E	0	0.1	0.25	50	multinomial	50	7.63279e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	0	0.1	0.25	50	multinomial	50	7.63279e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	0	0.1	0.25	100	multinomial	50	4.84116e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.00113999	E	0	0.1	0.25	100	multinomial	50	4.84116e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.952559	E	0	0.1	0.25	100	multinomial	50	4.84116e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	0	0.1	0.25	100	multinomial	50	4.84116e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	0.98	E	0	0.1	0.25	200	multinomial	50	nan	100	0.895043	0.996461	49
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	nan	E	0	0.1	0.25	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.951254	E	0	0.1	0.25	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	0.995	E	0	0.1	0.25	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	0.96	E	0	0.1	0.25	500	multinomial	50	nan	100	0.865397	0.988961	48
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	nan	E	0	0.1	0.25	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.95251	E	0	0.1	0.25	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	0.99	E	0	0.1	0.25	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	1	0.25	0.5	5	multinomial	50	3.32426e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.00698224	E	1	0.25	0.5	5	multinomial	50	3.32426e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.965317	E	1	0.25	0.5	5	multinomial	50	3.32426e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	1	0.25	0.5	5	multinomial	50	3.32426e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	1	0.25	0.5	10	multinomial	50	2.93345e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0069063	E	1	0.25	0.5	10	multinomial	50	2.93345e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.969546	E	1	0.25	0.5	10	multinomial	50	2.93345e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	1	0.25	0.5	10	multinomial	50	2.93345e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	1	0.25	0.5	20	multinomial	50	9.30355e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.00693999	E	1	0.25	0.5	20	multinomial	50	9.30355e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.974388	E	1	0.25	0.5	20	multinomial	50	9.30355e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	1	0.25	0.5	20	multinomial	50	9.30355e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	1	0.25	0.5	50	multinomial	50	7.63279e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0069741	E	1	0.25	0.5	50	multinomial	50	7.63279e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.974423	E	1	0.25	0.5	50	multinomial	50	7.63279e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	1	0.25	0.5	50	multinomial	50	7.63279e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	1	0.25	0.5	100	multinomial	50	4.84116e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.00690654	E	1	0.25	0.5	100	multinomial	50	4.84116e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.975701	E	1	0.25	0.5	100	multinomial	50	4.84116e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	1	0.25	0.5	100	multinomial	50	4.84116e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	0.98	E	1	0.25	0.5	200	multinomial	50	nan	100	0.895043	0.996461	49
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	nan	E	1	0.25	0.5	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.976454	E	1	0.25	0.5	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	0.995	E	1	0.25	0.5	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	0.98	E	1	0.25	0.5	500	multinomial	50	nan	100	0.895043	0.996461	49
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	nan	E	1	0.25	0.5	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.975989	E	1	0.25	0.5	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	0.995	E	1	0.25	0.5	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	2	0.5	1	5	multinomial	50	3.32426e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0251964	E	2	0.5	1	5	multinomial	50	3.32426e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.972526	E	2	0.5	1	5	multinomial	50	3.32426e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	2	0.5	1	5	multinomial	50	3.32426e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	2	0.5	1	10	multinomial	50	2.93345e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.02519	E	2	0.5	1	10	multinomial	50	2.93345e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.976386	E	2	0.5	1	10	multinomial	50	2.93345e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	2	0.5	1	10	multinomial	50	2.93345e-05	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	2	0.5	1	20	multinomial	50	9.30355e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0250694	E	2	0.5	1	20	multinomial	50	9.30355e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.978941	E	2	0.5	1	20	multinomial	50	9.30355e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	2	0.5	1	20	multinomial	50	9.30355e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	2	0.5	1	50	multinomial	50	7.63279e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0251487	E	2	0.5	1	50	multinomial	50	7.63279e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.980063	E	2	0.5	1	50	multinomial	50	7.63279e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	2	0.5	1	50	multinomial	50	7.63279e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	2	0.5	1	100	multinomial	50	4.84116e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.025018	E	2	0.5	1	100	multinomial	50	4.84116e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.980685	E	2	0.5	1	100	multinomial	50	4.84116e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	2	0.5	1	100	multinomial	50	4.84116e-06	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	2	0.5	1	200	multinomial	50	nan	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0249987	E	2	0.5	1	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.980063	E	2	0.5	1	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	2	0.5	1	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			p_recovered	1	E	2	0.5	1	500	multinomial	50	nan	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_dll	0.0250065	E	2	0.5	1	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			mean_coef_corr	0.980519	E	2	0.5	1	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep2	chrom_heldout		10	ST			sign_recovery	1	E	2	0.5	1	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	0	B	0	0.1	0.25	5	multinomial	50	-0.00283936	100	0	0.07135	0
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	-0.0038775	B	0	0.1	0.25	5	multinomial	50	-0.00283936	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.0778728	B	0	0.1	0.25	5	multinomial	50	-0.00283936	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	0	0.1	0.25	5	multinomial	50	-0.00283936	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	0	B	0	0.1	0.25	10	multinomial	50	-0.00115898	100	0	0.07135	0
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	-0.0017397	B	0	0.1	0.25	10	multinomial	50	-0.00115898	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.122856	B	0	0.1	0.25	10	multinomial	50	-0.00115898	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	0	0.1	0.25	10	multinomial	50	-0.00115898	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	0	B	0	0.1	0.25	20	multinomial	50	-0.00048594	100	0	0.07135	0
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	-0.000867615	B	0	0.1	0.25	20	multinomial	50	-0.00048594	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.142791	B	0	0.1	0.25	20	multinomial	50	-0.00048594	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	0	0.1	0.25	20	multinomial	50	-0.00048594	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	0	B	0	0.1	0.25	50	multinomial	50	-0.000165974	100	0	0.07135	0
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	-0.000377347	B	0	0.1	0.25	50	multinomial	50	-0.000165974	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.191158	B	0	0.1	0.25	50	multinomial	50	-0.000165974	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	0	0.1	0.25	50	multinomial	50	-0.000165974	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	0	B	0	0.1	0.25	100	multinomial	50	-4.42499e-05	100	0	0.07135	0
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	-0.000194428	B	0	0.1	0.25	100	multinomial	50	-4.42499e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.206353	B	0	0.1	0.25	100	multinomial	50	-4.42499e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	0	0.1	0.25	100	multinomial	50	-4.42499e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	0	B	0	0.1	0.25	200	multinomial	50	nan	100	0	0.07135	0
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	nan	B	0	0.1	0.25	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.213983	B	0	0.1	0.25	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	0	0.1	0.25	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	0	B	0	0.1	0.25	500	multinomial	50	nan	100	0	0.07135	0
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	-6.20364e-05	B	0	0.1	0.25	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.228432	B	0	0.1	0.25	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	0	0.1	0.25	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	0	B	1	0.25	0.5	5	multinomial	50	-0.00283936	100	0	0.07135	0
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	-0.0033409	B	1	0.25	0.5	5	multinomial	50	-0.00283936	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.161532	B	1	0.25	0.5	5	multinomial	50	-0.00283936	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	1	0.25	0.5	5	multinomial	50	-0.00283936	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	0	B	1	0.25	0.5	10	multinomial	50	-0.00115898	100	0	0.07135	0
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	-0.00119331	B	1	0.25	0.5	10	multinomial	50	-0.00115898	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.228066	B	1	0.25	0.5	10	multinomial	50	-0.00115898	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	1	0.25	0.5	10	multinomial	50	-0.00115898	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	0	B	1	0.25	0.5	20	multinomial	50	-0.00048594	100	0	0.07135	0
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	-0.000353172	B	1	0.25	0.5	20	multinomial	50	-0.00048594	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.328103	B	1	0.25	0.5	20	multinomial	50	-0.00048594	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	1	0.25	0.5	20	multinomial	50	-0.00048594	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	0.1	B	1	0.25	0.5	50	multinomial	50	-0.000165974	100	0.0434751	0.213605	5
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	0.000161609	B	1	0.25	0.5	50	multinomial	50	-0.000165974	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.422721	B	1	0.25	0.5	50	multinomial	50	-0.000165974	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	1	0.25	0.5	50	multinomial	50	-0.000165974	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	0.46	B	1	0.25	0.5	100	multinomial	50	-4.42499e-05	100	0.329694	0.596014	23
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	0.000294528	B	1	0.25	0.5	100	multinomial	50	-4.42499e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.459293	B	1	0.25	0.5	100	multinomial	50	-4.42499e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	1	0.25	0.5	100	multinomial	50	-4.42499e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	0.8	B	1	0.25	0.5	200	multinomial	50	nan	100	0.669626	0.887564	40
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	nan	B	1	0.25	0.5	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.499645	B	1	0.25	0.5	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	1	0.25	0.5	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	0.88	B	1	0.25	0.5	500	multinomial	50	nan	100	0.761949	0.943825	44
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	nan	B	1	0.25	0.5	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.531647	B	1	0.25	0.5	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	1	0.25	0.5	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	0.02	B	2	0.5	1	5	multinomial	50	-0.00283936	100	0.00353917	0.104957	1
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	-0.00123712	B	2	0.5	1	5	multinomial	50	-0.00283936	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.377968	B	2	0.5	1	5	multinomial	50	-0.00283936	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	2	0.5	1	5	multinomial	50	-0.00283936	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	0.42	B	2	0.5	1	10	multinomial	50	-0.00115898	100	0.293748	0.557668	21
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	0.00115417	B	2	0.5	1	10	multinomial	50	-0.00115898	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.541691	B	2	0.5	1	10	multinomial	50	-0.00115898	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	2	0.5	1	10	multinomial	50	-0.00115898	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	1	B	2	0.5	1	20	multinomial	50	-0.00048594	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	0.00213374	B	2	0.5	1	20	multinomial	50	-0.00048594	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.685523	B	2	0.5	1	20	multinomial	50	-0.00048594	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	2	0.5	1	20	multinomial	50	-0.00048594	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	1	B	2	0.5	1	50	multinomial	50	-0.000165974	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	0.00265153	B	2	0.5	1	50	multinomial	50	-0.000165974	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.786958	B	2	0.5	1	50	multinomial	50	-0.000165974	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	2	0.5	1	50	multinomial	50	-0.000165974	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	1	B	2	0.5	1	100	multinomial	50	-4.42499e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	0.00285623	B	2	0.5	1	100	multinomial	50	-4.42499e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.8155	B	2	0.5	1	100	multinomial	50	-4.42499e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	2	0.5	1	100	multinomial	50	-4.42499e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	1	B	2	0.5	1	200	multinomial	50	nan	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	0.0028902	B	2	0.5	1	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.824063	B	2	0.5	1	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	2	0.5	1	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			p_recovered_within	1	B	2	0.5	1	500	multinomial	50	nan	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_dll_within	0.00289822	B	2	0.5	1	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			mean_coef_corr_within	0.829858	B	2	0.5	1	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	SW			sign_recovery_within	nan	B	2	0.5	1	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	0.84	C	0	0.1	0.25	5	multinomial	50	1.74265e-05	100	0.714855	0.916627	42
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.000942898	C	0	0.1	0.25	5	multinomial	50	1.74265e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.946091	C	0	0.1	0.25	5	multinomial	50	1.74265e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	0	0.1	0.25	5	multinomial	50	1.74265e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	0	0.1	0.25	10	multinomial	50	3.67486e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.00110101	C	0	0.1	0.25	10	multinomial	50	3.67486e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.973597	C	0	0.1	0.25	10	multinomial	50	3.67486e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	0	0.1	0.25	10	multinomial	50	3.67486e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	0	0.1	0.25	20	multinomial	50	1.2675e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.00111861	C	0	0.1	0.25	20	multinomial	50	1.2675e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.983511	C	0	0.1	0.25	20	multinomial	50	1.2675e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	0	0.1	0.25	20	multinomial	50	1.2675e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	0	0.1	0.25	50	multinomial	50	1.20691e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.00112764	C	0	0.1	0.25	50	multinomial	50	1.20691e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.991693	C	0	0.1	0.25	50	multinomial	50	1.20691e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	0	0.1	0.25	50	multinomial	50	1.20691e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	0	0.1	0.25	100	multinomial	50	1.03299e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.00113033	C	0	0.1	0.25	100	multinomial	50	1.03299e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.994287	C	0	0.1	0.25	100	multinomial	50	1.03299e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	0	0.1	0.25	100	multinomial	50	1.03299e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	0.96	C	0	0.1	0.25	200	multinomial	50	nan	100	0.865397	0.988961	48
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	nan	C	0	0.1	0.25	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.996109	C	0	0.1	0.25	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	0.99	C	0	0.1	0.25	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	0.94	C	0	0.1	0.25	500	multinomial	50	nan	100	0.837827	0.979385	47
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	nan	C	0	0.1	0.25	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.996435	C	0	0.1	0.25	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	0.985	C	0	0.1	0.25	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	1	0.25	0.5	5	multinomial	50	1.74265e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.00730685	C	1	0.25	0.5	5	multinomial	50	1.74265e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.990567	C	1	0.25	0.5	5	multinomial	50	1.74265e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	1	0.25	0.5	5	multinomial	50	1.74265e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	1	0.25	0.5	10	multinomial	50	3.67486e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.00741814	C	1	0.25	0.5	10	multinomial	50	3.67486e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.995363	C	1	0.25	0.5	10	multinomial	50	3.67486e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	1	0.25	0.5	10	multinomial	50	3.67486e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	1	0.25	0.5	20	multinomial	50	1.2675e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.00738027	C	1	0.25	0.5	20	multinomial	50	1.2675e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.997215	C	1	0.25	0.5	20	multinomial	50	1.2675e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	1	0.25	0.5	20	multinomial	50	1.2675e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	1	0.25	0.5	50	multinomial	50	1.20691e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.00739576	C	1	0.25	0.5	50	multinomial	50	1.20691e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.998402	C	1	0.25	0.5	50	multinomial	50	1.20691e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	1	0.25	0.5	50	multinomial	50	1.20691e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	0.98	C	1	0.25	0.5	100	multinomial	50	1.03299e-05	100	0.895043	0.996461	49
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	nan	C	1	0.25	0.5	100	multinomial	50	1.03299e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.99886	C	1	0.25	0.5	100	multinomial	50	1.03299e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	0.995	C	1	0.25	0.5	100	multinomial	50	1.03299e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	1	0.25	0.5	200	multinomial	50	nan	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.00731899	C	1	0.25	0.5	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.999014	C	1	0.25	0.5	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	1	0.25	0.5	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	0.98	C	1	0.25	0.5	500	multinomial	50	nan	100	0.895043	0.996461	49
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	nan	C	1	0.25	0.5	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.999225	C	1	0.25	0.5	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	0.995	C	1	0.25	0.5	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	2	0.5	1	5	multinomial	50	1.74265e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0286979	C	2	0.5	1	5	multinomial	50	1.74265e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.997522	C	2	0.5	1	5	multinomial	50	1.74265e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	2	0.5	1	5	multinomial	50	1.74265e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	2	0.5	1	10	multinomial	50	3.67486e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0289792	C	2	0.5	1	10	multinomial	50	3.67486e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.998778	C	2	0.5	1	10	multinomial	50	3.67486e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	2	0.5	1	10	multinomial	50	3.67486e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	2	0.5	1	20	multinomial	50	1.2675e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0289559	C	2	0.5	1	20	multinomial	50	1.2675e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.999356	C	2	0.5	1	20	multinomial	50	1.2675e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	2	0.5	1	20	multinomial	50	1.2675e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	2	0.5	1	50	multinomial	50	1.20691e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0285563	C	2	0.5	1	50	multinomial	50	1.20691e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.999532	C	2	0.5	1	50	multinomial	50	1.20691e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	2	0.5	1	50	multinomial	50	1.20691e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	2	0.5	1	100	multinomial	50	1.03299e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0287545	C	2	0.5	1	100	multinomial	50	1.03299e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.999689	C	2	0.5	1	100	multinomial	50	1.03299e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	2	0.5	1	100	multinomial	50	1.03299e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	C	2	0.5	1	200	multinomial	50	nan	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0287678	C	2	0.5	1	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.999751	C	2	0.5	1	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	C	2	0.5	1	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	0.96	C	2	0.5	1	500	multinomial	50	nan	100	0.865397	0.988961	48
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	nan	C	2	0.5	1	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.999835	C	2	0.5	1	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	0.99	C	2	0.5	1	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	0.3	D	0	0.1	0.25	5	multinomial	50	-0.000203391	100	0.191034	0.437506	15
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.00065921	D	0	0.1	0.25	5	multinomial	50	-0.000203391	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.798841	D	0	0.1	0.25	5	multinomial	50	-0.000203391	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.985	D	0	0.1	0.25	5	multinomial	50	-0.000203391	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	0.9	D	0	0.1	0.25	10	multinomial	50	-0.000103553	100	0.786395	0.956525	45
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.000989211	D	0	0.1	0.25	10	multinomial	50	-0.000103553	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.882584	D	0	0.1	0.25	10	multinomial	50	-0.000103553	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.99	D	0	0.1	0.25	10	multinomial	50	-0.000103553	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	D	0	0.1	0.25	20	multinomial	50	1.22516e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.00107404	D	0	0.1	0.25	20	multinomial	50	1.22516e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.835932	D	0	0.1	0.25	20	multinomial	50	1.22516e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.955	D	0	0.1	0.25	20	multinomial	50	1.22516e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	0.98	D	0	0.1	0.25	50	multinomial	50	-5.47297e-06	100	0.895043	0.996461	49
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	nan	D	0	0.1	0.25	50	multinomial	50	-5.47297e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.90186	D	0	0.1	0.25	50	multinomial	50	-5.47297e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.98	D	0	0.1	0.25	50	multinomial	50	-5.47297e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	D	0	0.1	0.25	100	multinomial	50	-5.11211e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.00116101	D	0	0.1	0.25	100	multinomial	50	-5.11211e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.807681	D	0	0.1	0.25	100	multinomial	50	-5.11211e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.93	D	0	0.1	0.25	100	multinomial	50	-5.11211e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	0.98	D	0	0.1	0.25	200	multinomial	50	nan	100	0.895043	0.996461	49
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	nan	D	0	0.1	0.25	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.854651	D	0	0.1	0.25	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.95	D	0	0.1	0.25	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	D	0	0.1	0.25	500	multinomial	50	nan	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.00118105	D	0	0.1	0.25	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.813244	D	0	0.1	0.25	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.92	D	0	0.1	0.25	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	D	1	0.25	0.5	5	multinomial	50	-0.000203391	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.0044371	D	1	0.25	0.5	5	multinomial	50	-0.000203391	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.922525	D	1	0.25	0.5	5	multinomial	50	-0.000203391	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	1	D	1	0.25	0.5	5	multinomial	50	-0.000203391	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	D	1	0.25	0.5	10	multinomial	50	-0.000103553	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.0046165	D	1	0.25	0.5	10	multinomial	50	-0.000103553	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.944888	D	1	0.25	0.5	10	multinomial	50	-0.000103553	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	1	D	1	0.25	0.5	10	multinomial	50	-0.000103553	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	D	1	0.25	0.5	20	multinomial	50	1.22516e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.00477545	D	1	0.25	0.5	20	multinomial	50	1.22516e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.959323	D	1	0.25	0.5	20	multinomial	50	1.22516e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	1	D	1	0.25	0.5	20	multinomial	50	1.22516e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	D	1	0.25	0.5	50	multinomial	50	-5.47297e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.00477144	D	1	0.25	0.5	50	multinomial	50	-5.47297e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.943893	D	1	0.25	0.5	50	multinomial	50	-5.47297e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	1	D	1	0.25	0.5	50	multinomial	50	-5.47297e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	D	1	0.25	0.5	100	multinomial	50	-5.11211e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.00478411	D	1	0.25	0.5	100	multinomial	50	-5.11211e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.965056	D	1	0.25	0.5	100	multinomial	50	-5.11211e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	1	D	1	0.25	0.5	100	multinomial	50	-5.11211e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	D	1	0.25	0.5	200	multinomial	50	nan	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.00481	D	1	0.25	0.5	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.959071	D	1	0.25	0.5	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	1	D	1	0.25	0.5	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	D	1	0.25	0.5	500	multinomial	50	nan	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.00483284	D	1	0.25	0.5	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.966967	D	1	0.25	0.5	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	1	D	1	0.25	0.5	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	D	2	0.5	1	5	multinomial	50	-0.000203391	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.0179976	D	2	0.5	1	5	multinomial	50	-0.000203391	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.964508	D	2	0.5	1	5	multinomial	50	-0.000203391	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	1	D	2	0.5	1	5	multinomial	50	-0.000203391	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	D	2	0.5	1	10	multinomial	50	-0.000103553	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.0178932	D	2	0.5	1	10	multinomial	50	-0.000103553	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.945208	D	2	0.5	1	10	multinomial	50	-0.000103553	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	1	D	2	0.5	1	10	multinomial	50	-0.000103553	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	D	2	0.5	1	20	multinomial	50	1.22516e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.0178677	D	2	0.5	1	20	multinomial	50	1.22516e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.936122	D	2	0.5	1	20	multinomial	50	1.22516e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	1	D	2	0.5	1	20	multinomial	50	1.22516e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	D	2	0.5	1	50	multinomial	50	-5.47297e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.0179276	D	2	0.5	1	50	multinomial	50	-5.47297e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.931875	D	2	0.5	1	50	multinomial	50	-5.47297e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	1	D	2	0.5	1	50	multinomial	50	-5.47297e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	D	2	0.5	1	100	multinomial	50	-5.11211e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.0179725	D	2	0.5	1	100	multinomial	50	-5.11211e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.932412	D	2	0.5	1	100	multinomial	50	-5.11211e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	1	D	2	0.5	1	100	multinomial	50	-5.11211e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	D	2	0.5	1	200	multinomial	50	nan	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.0180062	D	2	0.5	1	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.930077	D	2	0.5	1	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	1	D	2	0.5	1	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	0.94	D	2	0.5	1	500	multinomial	50	nan	100	0.837827	0.979385	47
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	nan	D	2	0.5	1	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.935679	D	2	0.5	1	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.985	D	2	0.5	1	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	0.14	E	0	0.1	0.25	5	multinomial	50	-0.000203391	100	0.0695075	0.261865	7
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.000411967	E	0	0.1	0.25	5	multinomial	50	-0.000203391	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.831264	E	0	0.1	0.25	5	multinomial	50	-0.000203391	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	1	E	0	0.1	0.25	5	multinomial	50	-0.000203391	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	0.52	E	0	0.1	0.25	10	multinomial	50	-0.000103553	100	0.385115	0.652031	26
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.000653042	E	0	0.1	0.25	10	multinomial	50	-0.000103553	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.869109	E	0	0.1	0.25	10	multinomial	50	-0.000103553	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.985	E	0	0.1	0.25	10	multinomial	50	-0.000103553	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	0.96	E	0	0.1	0.25	20	multinomial	50	1.22516e-06	100	0.865397	0.988961	48
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.000816842	E	0	0.1	0.25	20	multinomial	50	1.22516e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.892382	E	0	0.1	0.25	20	multinomial	50	1.22516e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.975	E	0	0.1	0.25	20	multinomial	50	1.22516e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	E	0	0.1	0.25	50	multinomial	50	-5.47297e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.00088527	E	0	0.1	0.25	50	multinomial	50	-5.47297e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.931612	E	0	0.1	0.25	50	multinomial	50	-5.47297e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.975	E	0	0.1	0.25	50	multinomial	50	-5.47297e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	E	0	0.1	0.25	100	multinomial	50	-5.11211e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.000902925	E	0	0.1	0.25	100	multinomial	50	-5.11211e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.925388	E	0	0.1	0.25	100	multinomial	50	-5.11211e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.97	E	0	0.1	0.25	100	multinomial	50	-5.11211e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	0.98	E	0	0.1	0.25	200	multinomial	50	nan	100	0.895043	0.996461	49
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	nan	E	0	0.1	0.25	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.826348	E	0	0.1	0.25	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.915	E	0	0.1	0.25	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	0.96	E	0	0.1	0.25	500	multinomial	50	nan	100	0.865397	0.988961	48
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	nan	E	0	0.1	0.25	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.828394	E	0	0.1	0.25	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.915	E	0	0.1	0.25	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	0.92	E	1	0.25	0.5	5	multinomial	50	-0.000203391	100	0.811615	0.968451	46
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.00312012	E	1	0.25	0.5	5	multinomial	50	-0.000203391	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.889061	E	1	0.25	0.5	5	multinomial	50	-0.000203391	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	1	E	1	0.25	0.5	5	multinomial	50	-0.000203391	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	E	1	0.25	0.5	10	multinomial	50	-0.000103553	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.00329899	E	1	0.25	0.5	10	multinomial	50	-0.000103553	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.941906	E	1	0.25	0.5	10	multinomial	50	-0.000103553	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	1	E	1	0.25	0.5	10	multinomial	50	-0.000103553	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	E	1	0.25	0.5	20	multinomial	50	1.22516e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.00340465	E	1	0.25	0.5	20	multinomial	50	1.22516e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.971019	E	1	0.25	0.5	20	multinomial	50	1.22516e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	1	E	1	0.25	0.5	20	multinomial	50	1.22516e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	E	1	0.25	0.5	50	multinomial	50	-5.47297e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.00344601	E	1	0.25	0.5	50	multinomial	50	-5.47297e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.96818	E	1	0.25	0.5	50	multinomial	50	-5.47297e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	1	E	1	0.25	0.5	50	multinomial	50	-5.47297e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	E	1	0.25	0.5	100	multinomial	50	-5.11211e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.00349093	E	1	0.25	0.5	100	multinomial	50	-5.11211e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.973255	E	1	0.25	0.5	100	multinomial	50	-5.11211e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	1	E	1	0.25	0.5	100	multinomial	50	-5.11211e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	0.98	E	1	0.25	0.5	200	multinomial	50	nan	100	0.895043	0.996461	49
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	nan	E	1	0.25	0.5	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.930717	E	1	0.25	0.5	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.97	E	1	0.25	0.5	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	0.98	E	1	0.25	0.5	500	multinomial	50	nan	100	0.895043	0.996461	49
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	nan	E	1	0.25	0.5	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.956753	E	1	0.25	0.5	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.98	E	1	0.25	0.5	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	E	2	0.5	1	5	multinomial	50	-0.000203391	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.0119187	E	2	0.5	1	5	multinomial	50	-0.000203391	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.911364	E	2	0.5	1	5	multinomial	50	-0.000203391	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	1	E	2	0.5	1	5	multinomial	50	-0.000203391	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	E	2	0.5	1	10	multinomial	50	-0.000103553	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.0126303	E	2	0.5	1	10	multinomial	50	-0.000103553	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.946173	E	2	0.5	1	10	multinomial	50	-0.000103553	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	1	E	2	0.5	1	10	multinomial	50	-0.000103553	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	E	2	0.5	1	20	multinomial	50	1.22516e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.0124905	E	2	0.5	1	20	multinomial	50	1.22516e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.958519	E	2	0.5	1	20	multinomial	50	1.22516e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	1	E	2	0.5	1	20	multinomial	50	1.22516e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	E	2	0.5	1	50	multinomial	50	-5.47297e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.0128258	E	2	0.5	1	50	multinomial	50	-5.47297e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.959809	E	2	0.5	1	50	multinomial	50	-5.47297e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	1	E	2	0.5	1	50	multinomial	50	-5.47297e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	E	2	0.5	1	100	multinomial	50	-5.11211e-06	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.0127654	E	2	0.5	1	100	multinomial	50	-5.11211e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.957126	E	2	0.5	1	100	multinomial	50	-5.11211e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	1	E	2	0.5	1	100	multinomial	50	-5.11211e-06	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	E	2	0.5	1	200	multinomial	50	nan	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.0127473	E	2	0.5	1	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.942126	E	2	0.5	1	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	1	E	2	0.5	1	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			p_recovered_within	1	E	2	0.5	1	500	multinomial	50	nan	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_dll_within	0.0127856	E	2	0.5	1	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			mean_coef_corr_within	0.910488	E	2	0.5	1	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	AUG			sign_recovery_within	0.99	E	2	0.5	1	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	0.8	E	0	0.1	0.25	5	multinomial	50	1.74265e-05	100	0.669626	0.887564	40
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.00108651	E	0	0.1	0.25	5	multinomial	50	1.74265e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.898105	E	0	0.1	0.25	5	multinomial	50	1.74265e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	0	0.1	0.25	5	multinomial	50	1.74265e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	0	0.1	0.25	10	multinomial	50	3.67486e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.00109847	E	0	0.1	0.25	10	multinomial	50	3.67486e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.92251	E	0	0.1	0.25	10	multinomial	50	3.67486e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	0	0.1	0.25	10	multinomial	50	3.67486e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	0	0.1	0.25	20	multinomial	50	1.2675e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.00116321	E	0	0.1	0.25	20	multinomial	50	1.2675e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.942813	E	0	0.1	0.25	20	multinomial	50	1.2675e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	0	0.1	0.25	20	multinomial	50	1.2675e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	0	0.1	0.25	50	multinomial	50	1.20691e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.00116173	E	0	0.1	0.25	50	multinomial	50	1.20691e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.950946	E	0	0.1	0.25	50	multinomial	50	1.20691e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	0	0.1	0.25	50	multinomial	50	1.20691e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	0	0.1	0.25	100	multinomial	50	1.03299e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.00115101	E	0	0.1	0.25	100	multinomial	50	1.03299e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.952559	E	0	0.1	0.25	100	multinomial	50	1.03299e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	0	0.1	0.25	100	multinomial	50	1.03299e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	0.98	E	0	0.1	0.25	200	multinomial	50	nan	100	0.895043	0.996461	49
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	nan	E	0	0.1	0.25	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.951254	E	0	0.1	0.25	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	0.995	E	0	0.1	0.25	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	0.96	E	0	0.1	0.25	500	multinomial	50	nan	100	0.865397	0.988961	48
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	nan	E	0	0.1	0.25	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.95251	E	0	0.1	0.25	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	0.99	E	0	0.1	0.25	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	1	0.25	0.5	5	multinomial	50	1.74265e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.00679302	E	1	0.25	0.5	5	multinomial	50	1.74265e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.965317	E	1	0.25	0.5	5	multinomial	50	1.74265e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	1	0.25	0.5	5	multinomial	50	1.74265e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	1	0.25	0.5	10	multinomial	50	3.67486e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.00692172	E	1	0.25	0.5	10	multinomial	50	3.67486e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.969546	E	1	0.25	0.5	10	multinomial	50	3.67486e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	1	0.25	0.5	10	multinomial	50	3.67486e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	1	0.25	0.5	20	multinomial	50	1.2675e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.00691958	E	1	0.25	0.5	20	multinomial	50	1.2675e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.974388	E	1	0.25	0.5	20	multinomial	50	1.2675e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	1	0.25	0.5	20	multinomial	50	1.2675e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	1	0.25	0.5	50	multinomial	50	1.20691e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.00692279	E	1	0.25	0.5	50	multinomial	50	1.20691e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.974423	E	1	0.25	0.5	50	multinomial	50	1.20691e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	1	0.25	0.5	50	multinomial	50	1.20691e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	1	0.25	0.5	100	multinomial	50	1.03299e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.00692074	E	1	0.25	0.5	100	multinomial	50	1.03299e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.975701	E	1	0.25	0.5	100	multinomial	50	1.03299e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	1	0.25	0.5	100	multinomial	50	1.03299e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	0.98	E	1	0.25	0.5	200	multinomial	50	nan	100	0.895043	0.996461	49
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	nan	E	1	0.25	0.5	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.976454	E	1	0.25	0.5	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	0.995	E	1	0.25	0.5	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	0.98	E	1	0.25	0.5	500	multinomial	50	nan	100	0.895043	0.996461	49
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	nan	E	1	0.25	0.5	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.975989	E	1	0.25	0.5	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	0.995	E	1	0.25	0.5	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	2	0.5	1	5	multinomial	50	1.74265e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0249232	E	2	0.5	1	5	multinomial	50	1.74265e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.972526	E	2	0.5	1	5	multinomial	50	1.74265e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	2	0.5	1	5	multinomial	50	1.74265e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	2	0.5	1	10	multinomial	50	3.67486e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0252807	E	2	0.5	1	10	multinomial	50	3.67486e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.976386	E	2	0.5	1	10	multinomial	50	3.67486e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	2	0.5	1	10	multinomial	50	3.67486e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	2	0.5	1	20	multinomial	50	1.2675e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0249826	E	2	0.5	1	20	multinomial	50	1.2675e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.978941	E	2	0.5	1	20	multinomial	50	1.2675e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	2	0.5	1	20	multinomial	50	1.2675e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	2	0.5	1	50	multinomial	50	1.20691e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0251477	E	2	0.5	1	50	multinomial	50	1.20691e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.980063	E	2	0.5	1	50	multinomial	50	1.20691e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	2	0.5	1	50	multinomial	50	1.20691e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	2	0.5	1	100	multinomial	50	1.03299e-05	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0249963	E	2	0.5	1	100	multinomial	50	1.03299e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.980685	E	2	0.5	1	100	multinomial	50	1.03299e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	2	0.5	1	100	multinomial	50	1.03299e-05	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	2	0.5	1	200	multinomial	50	nan	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0250395	E	2	0.5	1	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.980063	E	2	0.5	1	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	2	0.5	1	200	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			p_recovered_within	1	E	2	0.5	1	500	multinomial	50	nan	100	0.92865	1	50
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_dll_within	0.0250325	E	2	0.5	1	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			mean_coef_corr_within	0.980519	E	2	0.5	1	500	multinomial	50	nan	100			
+synthetic:archer_yeast	rep1->rep1	chrom_heldout		10	ST			sign_recovery_within	1	E	2	0.5	1	500	multinomial	50	nan	100			

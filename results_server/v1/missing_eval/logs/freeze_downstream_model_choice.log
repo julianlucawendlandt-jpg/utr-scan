@@ -1,0 +1,3 @@
+$ /root/miniconda3/envs/utrscan/bin/python -u -m analysis.recoverability.08_downstream_utility --stage choose
+[final] yeast 40S model: SW+ST+AUG at 1 nt (0.0509)
+[final] human 40S model: SW+ST+AUG at 1 nt (0.0255)

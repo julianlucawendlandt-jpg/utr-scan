@@ -1,0 +1,61 @@
+comparison	depth_mode	seed	family	dataset	direction	replicate	split	bin_width	model	n_transcripts	n_reads	metric	value	within_library	common_n	dll	ci_lo	ci_hi	evidence	matched_leader_target	null_mean	null_sd	n_perm	null_p	null_z
+same_study_selection	observed		SW	gse139131_eif3b	rep1->rep1			10						True	1225	0.00714641	0.00373815	0.0108132	within-library / dataset-specific		-0.00563198	0.00107428	100	0.00990099	11.8948
+same_study_selection	observed		SW	gse139131_unsel	rep1->rep1			10						True	1225	-0.00589799	-0.0132941	0.00152227	within-library / dataset-specific		-0.0130063	0.00363496	100	0.049505	1.95554
+same_study_selection	observed		SW	gse139131_unsel	rep2->rep2			10						True	1225	0.00531385	-0.00249547	0.0128531	within-library / dataset-specific		-0.00980565	0.00216715	100	0.00990099	6.97666
+same_study_selection	observed		SW	gse139131_unsel	rep1->rep2			10						False	1225	-0.00176364	-0.00765044	0.00444513	cross-replicate (reference only)						
+same_study_selection	observed		SW	gse139131_unsel	rep2->rep1			10						False	1225	-0.00475433	-0.0144243	0.00577579	cross-replicate (reference only)						
+same_study_selection	observed		ST	gse139131_eif3b	rep1->rep1			10						True	1225	0.00345707	0.0011645	0.00580195	within-library / dataset-specific		0.000183378	0.000354642	100	0.00990099	9.23097
+same_study_selection	observed		ST	gse139131_unsel	rep1->rep1			10						True	1225	0.00546526	0.00146716	0.00944181	within-library / dataset-specific		0.00508011	0.00110528	100	0.386139	0.348462
+same_study_selection	observed		ST	gse139131_unsel	rep2->rep2			10						True	1225	0.0026902	-0.000120206	0.00556745	within-library / dataset-specific		0.00744416	0.000851107	100	1	-5.58562
+same_study_selection	observed		ST	gse139131_unsel	rep1->rep2			10						False	1225	0.00221599	-0.00100231	0.00543276	cross-replicate (reference only)						
+same_study_selection	observed		ST	gse139131_unsel	rep2->rep1			10						False	1225	0.00406048	0.000665163	0.00744394	cross-replicate (reference only)						
+same_study_selection	observed		AUG	gse139131_eif3b	rep1->rep1			10						True	1225	0.00360865	0.00161846	0.00579137	within-library / dataset-specific		0.00111984	0.000777427	100	0.00990099	3.20134
+same_study_selection	observed		AUG	gse139131_unsel	rep1->rep1			10						True	1225	0.00445377	0.00128852	0.00811293	within-library / dataset-specific		0.000918333	0.0018827	100	0.029703	1.87786
+same_study_selection	observed		AUG	gse139131_unsel	rep2->rep2			10						True	1225	0.0119506	0.00811226	0.0157753	within-library / dataset-specific		0.00477305	0.001119	100	0.00990099	6.41428
+same_study_selection	observed		AUG	gse139131_unsel	rep1->rep2			10						False	1225	0.00979514	0.00641543	0.0132365	cross-replicate (reference only)						
+same_study_selection	observed		AUG	gse139131_unsel	rep2->rep1			10						False	1225	0.00528086	0.00109411	0.00968995	cross-replicate (reference only)						
+same_study_selection	matched	0	SW	gse139131_eif3b	rep1->rep1			10						True	905	0.00509575	-5.05874e-05	0.0100066	within-library / dataset-specific	66694					
+same_study_selection	matched	0	SW	gse139131_unsel	rep1->rep1			10						True	905	-0.0107334	-0.0197111	-0.00224387	within-library / dataset-specific	66694					
+same_study_selection	matched	0	SW	gse139131_unsel	rep2->rep2			10						True	905	0.00388537	-0.00405196	0.0127898	within-library / dataset-specific	66694					
+same_study_selection	matched	0	SW	gse139131_unsel	rep1->rep2			10						False	905	-0.00608927	-0.0137579	0.00153043	cross-replicate (reference only)	66694					
+same_study_selection	matched	0	SW	gse139131_unsel	rep2->rep1			10						False	905	-0.00307612	-0.0133039	0.00975254	cross-replicate (reference only)	66694					
+same_study_selection	matched	0	ST	gse139131_eif3b	rep1->rep1			10						True	905	0.00294759	0.000306149	0.00541858	within-library / dataset-specific	66694					
+same_study_selection	matched	0	ST	gse139131_unsel	rep1->rep1			10						True	905	0.00583193	0.00127867	0.0103136	within-library / dataset-specific	66694					
+same_study_selection	matched	0	ST	gse139131_unsel	rep2->rep2			10						True	905	0.00267209	-0.000548047	0.00583931	within-library / dataset-specific	66694					
+same_study_selection	matched	0	ST	gse139131_unsel	rep1->rep2			10						False	905	0.00212374	-0.00148259	0.00600803	cross-replicate (reference only)	66694					
+same_study_selection	matched	0	ST	gse139131_unsel	rep2->rep1			10						False	905	0.00443415	0.000609188	0.008341	cross-replicate (reference only)	66694					
+same_study_selection	matched	0	AUG	gse139131_eif3b	rep1->rep1			10						True	905	0.00198203	-0.000535847	0.00458087	within-library / dataset-specific	66694					
+same_study_selection	matched	0	AUG	gse139131_unsel	rep1->rep1			10						True	905	0.00422006	0.000338205	0.00819501	within-library / dataset-specific	66694					
+same_study_selection	matched	0	AUG	gse139131_unsel	rep2->rep2			10						True	905	0.0111412	0.00722043	0.0153301	within-library / dataset-specific	66694					
+same_study_selection	matched	0	AUG	gse139131_unsel	rep1->rep2			10						False	905	0.00878461	0.00515284	0.0124409	cross-replicate (reference only)	66694					
+same_study_selection	matched	0	AUG	gse139131_unsel	rep2->rep1			10						False	905	0.00542725	0.000707706	0.0102967	cross-replicate (reference only)	66694					
+same_study_selection	matched	1	SW	gse139131_eif3b	rep1->rep1			10						True	908	0.0038406	-0.000744805	0.0087882	within-library / dataset-specific	66694					
+same_study_selection	matched	1	SW	gse139131_unsel	rep1->rep1			10						True	908	-0.0110049	-0.0190368	-0.00361452	within-library / dataset-specific	66694					
+same_study_selection	matched	1	SW	gse139131_unsel	rep2->rep2			10						True	908	0.0028964	-0.00613482	0.014321	within-library / dataset-specific	66694					
+same_study_selection	matched	1	SW	gse139131_unsel	rep1->rep2			10						False	908	-0.00651113	-0.0136723	0.000397176	cross-replicate (reference only)	66694					
+same_study_selection	matched	1	SW	gse139131_unsel	rep2->rep1			10						False	908	-0.00305457	-0.0154447	0.0109995	cross-replicate (reference only)	66694					
+same_study_selection	matched	1	ST	gse139131_eif3b	rep1->rep1			10						True	908	0.00330832	0.00102627	0.00580139	within-library / dataset-specific	66694					
+same_study_selection	matched	1	ST	gse139131_unsel	rep1->rep1			10						True	908	0.005601	0.0013977	0.00978157	within-library / dataset-specific	66694					
+same_study_selection	matched	1	ST	gse139131_unsel	rep2->rep2			10						True	908	0.00240326	-0.00048432	0.00536707	within-library / dataset-specific	66694					
+same_study_selection	matched	1	ST	gse139131_unsel	rep1->rep2			10						False	908	0.00180553	-0.00162833	0.00513446	cross-replicate (reference only)	66694					
+same_study_selection	matched	1	ST	gse139131_unsel	rep2->rep1			10						False	908	0.00392776	0.000115617	0.00774746	cross-replicate (reference only)	66694					
+same_study_selection	matched	1	AUG	gse139131_eif3b	rep1->rep1			10						True	908	0.00310932	0.000641274	0.00578641	within-library / dataset-specific	66694					
+same_study_selection	matched	1	AUG	gse139131_unsel	rep1->rep1			10						True	908	0.00367901	0.00011807	0.00756137	within-library / dataset-specific	66694					
+same_study_selection	matched	1	AUG	gse139131_unsel	rep2->rep2			10						True	908	0.0113997	0.00740034	0.0153707	within-library / dataset-specific	66694					
+same_study_selection	matched	1	AUG	gse139131_unsel	rep1->rep2			10						False	908	0.00914091	0.00567786	0.0125768	cross-replicate (reference only)	66694					
+same_study_selection	matched	1	AUG	gse139131_unsel	rep2->rep1			10						False	908	0.0044141	-1.57809e-05	0.00894283	cross-replicate (reference only)	66694					
+same_study_selection	matched	2	SW	gse139131_eif3b	rep1->rep1			10						True	914	0.00423056	-0.00056878	0.00906667	within-library / dataset-specific	66694					
+same_study_selection	matched	2	SW	gse139131_unsel	rep1->rep1			10						True	914	-0.00404967	-0.0112095	0.00363758	within-library / dataset-specific	66694					
+same_study_selection	matched	2	SW	gse139131_unsel	rep2->rep2			10						True	914	0.00365067	-0.005642	0.0141485	within-library / dataset-specific	66694					
+same_study_selection	matched	2	SW	gse139131_unsel	rep1->rep2			10						False	914	0.00169879	-0.00461687	0.0086169	cross-replicate (reference only)	66694					
+same_study_selection	matched	2	SW	gse139131_unsel	rep2->rep1			10						False	914	-0.0035591	-0.0154861	0.0106792	cross-replicate (reference only)	66694					
+same_study_selection	matched	2	ST	gse139131_eif3b	rep1->rep1			10						True	914	0.00317335	0.000622979	0.0056409	within-library / dataset-specific	66694					
+same_study_selection	matched	2	ST	gse139131_unsel	rep1->rep1			10						True	914	0.00608333	0.00145494	0.0109089	within-library / dataset-specific	66694					
+same_study_selection	matched	2	ST	gse139131_unsel	rep2->rep2			10						True	914	0.00251688	-0.000705383	0.00544568	within-library / dataset-specific	66694					
+same_study_selection	matched	2	ST	gse139131_unsel	rep1->rep2			10						False	914	0.00193118	-0.00181734	0.00561532	cross-replicate (reference only)	66694					
+same_study_selection	matched	2	ST	gse139131_unsel	rep2->rep1			10						False	914	0.0044893	0.000659765	0.00858542	cross-replicate (reference only)	66694					
+same_study_selection	matched	2	AUG	gse139131_eif3b	rep1->rep1			10						True	914	0.00442086	0.00186028	0.00707338	within-library / dataset-specific	66694					
+same_study_selection	matched	2	AUG	gse139131_unsel	rep1->rep1			10						True	914	0.00300615	-0.000670326	0.0069049	within-library / dataset-specific	66694					
+same_study_selection	matched	2	AUG	gse139131_unsel	rep2->rep2			10						True	914	0.0118518	0.00789022	0.0159314	within-library / dataset-specific	66694					
+same_study_selection	matched	2	AUG	gse139131_unsel	rep1->rep2			10						False	914	0.00870434	0.00495721	0.012671	cross-replicate (reference only)	66694					
+same_study_selection	matched	2	AUG	gse139131_unsel	rep2->rep1			10						False	914	0.0044447	-1.21061e-05	0.00922336	cross-replicate (reference only)	66694					

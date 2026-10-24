@@ -1,0 +1,14 @@
+$ /root/miniconda3/envs/utrscan/bin/python -u -m analysis.recoverability.04_shuffle_nulls --dataset archer_yeast --features ST,AUG --bin 20 --n-perm 100 --seed 0 --workers 8
+[null] 20/202 fits-sets (7s)
+[null] 40/202 fits-sets (9s)
+[null] 60/202 fits-sets (11s)
+[null] 80/202 fits-sets (13s)
+[null] 100/202 fits-sets (15s)
+[null] 120/202 fits-sets (18s)
+[null] 140/202 fits-sets (22s)
+[null] 160/202 fits-sets (26s)
+[null] 180/202 fits-sets (29s)
+[null] 200/202 fits-sets (32s)
+[null] AUG rep1->rep1: real 0.00795  null -0.00597 +/- 0.00516  p=0.010
+[null] ST rep1->rep1: real -0.00114  null 0.00020 +/- 0.00174  p=0.782
+[null] -> /root/utr-scan/results/recoverability/v1/nulls/shuffle_nulls.tsv

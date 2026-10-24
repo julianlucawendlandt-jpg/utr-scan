@@ -1,0 +1,83 @@
+$ /root/miniconda3/envs/utrscan/bin/python -u -m analysis.recoverability.04_shuffle_nulls --dataset gse139131_unsel --features SW,ST,AUG,S1,S3,S5,ST_paired,ST_dG,UORF --bin 10 --n-perm 100 --seed 0 --workers 8
+[null] 20/909 fits-sets (45s)
+[null] 40/909 fits-sets (71s)
+[null] 60/909 fits-sets (105s)
+[null] 80/909 fits-sets (131s)
+[null] 100/909 fits-sets (157s)
+[null] 120/909 fits-sets (166s)
+[null] 140/909 fits-sets (172s)
+[null] 160/909 fits-sets (178s)
+[null] 180/909 fits-sets (183s)
+[null] 200/909 fits-sets (189s)
+[null] 220/909 fits-sets (193s)
+[null] 240/909 fits-sets (197s)
+[null] 260/909 fits-sets (201s)
+[null] 280/909 fits-sets (205s)
+[null] 300/909 fits-sets (209s)
+[null] 320/909 fits-sets (212s)
+[null] 340/909 fits-sets (216s)
+[null] 360/909 fits-sets (219s)
+[null] 380/909 fits-sets (223s)
+[null] 400/909 fits-sets (226s)
+[null] 420/909 fits-sets (231s)
+[null] 440/909 fits-sets (236s)
+[null] 460/909 fits-sets (241s)
+[null] 480/909 fits-sets (246s)
+[null] 500/909 fits-sets (250s)
+[null] 520/909 fits-sets (273s)
+[null] 540/909 fits-sets (301s)
+[null] 560/909 fits-sets (325s)
+[null] 580/909 fits-sets (353s)
+[null] 600/909 fits-sets (375s)
+[null] 620/909 fits-sets (383s)
+[null] 640/909 fits-sets (387s)
+[null] 660/909 fits-sets (391s)
+[null] 680/909 fits-sets (395s)
+[null] 700/909 fits-sets (399s)
+[null] 720/909 fits-sets (403s)
+[null] 740/909 fits-sets (407s)
+[null] 760/909 fits-sets (411s)
+[null] 780/909 fits-sets (415s)
+[null] 800/909 fits-sets (420s)
+[null] 820/909 fits-sets (425s)
+[null] 840/909 fits-sets (431s)
+[null] 860/909 fits-sets (438s)
+[null] 880/909 fits-sets (444s)
+[null] 900/909 fits-sets (450s)
+[null] AUG rep1->rep1: real 0.00539  null 0.00194 +/- 0.00161  p=0.020
+[null] AUG rep1->rep2: real 0.01086  null 0.00413 +/- 0.00125  p=0.010
+[null] AUG rep2->rep1: real 0.00529  null 0.00183 +/- 0.00147  p=0.020
+[null] AUG rep2->rep2: real 0.01196  null 0.00498 +/- 0.00122  p=0.010
+[null] S1 rep1->rep1: real 0.00332  null -0.00030 +/- 0.00045  p=0.010
+[null] S1 rep1->rep2: real 0.00655  null -0.00037 +/- 0.00029  p=0.010
+[null] S1 rep2->rep1: real 0.00243  null -0.00036 +/- 0.00039  p=0.010
+[null] S1 rep2->rep2: real 0.00781  null -0.00036 +/- 0.00029  p=0.010
+[null] S3 rep1->rep1: real 0.00833  null -0.00537 +/- 0.00225  p=0.010
+[null] S3 rep1->rep2: real 0.01237  null -0.00503 +/- 0.00173  p=0.010
+[null] S3 rep2->rep1: real 0.00573  null -0.00569 +/- 0.00213  p=0.010
+[null] S3 rep2->rep2: real 0.01370  null -0.00560 +/- 0.00162  p=0.010
+[null] S5 rep1->rep1: real -0.01076  null -0.03087 +/- 0.00560  p=0.010
+[null] S5 rep1->rep2: real -0.00629  null -0.02849 +/- 0.00461  p=0.010
+[null] S5 rep2->rep1: real -0.01731  null -0.03058 +/- 0.00549  p=0.030
+[null] S5 rep2->rep2: real -0.00891  null -0.02917 +/- 0.00429  p=0.010
+[null] ST rep1->rep1: real 0.00550  null 0.00529 +/- 0.00104  p=0.376
+[null] ST rep1->rep2: real 0.00228  null 0.00831 +/- 0.00101  p=1.000
+[null] ST rep2->rep1: real 0.00409  null 0.00462 +/- 0.00118  p=0.634
+[null] ST rep2->rep2: real 0.00270  null 0.00845 +/- 0.00104  p=1.000
+[null] ST_dG rep1->rep1: real 0.00374  null 0.00519 +/- 0.00085  p=0.970
+[null] ST_dG rep1->rep2: real 0.00087  null 0.00822 +/- 0.00082  p=1.000
+[null] ST_dG rep2->rep1: real 0.00242  null 0.00447 +/- 0.00092  p=1.000
+[null] ST_dG rep2->rep2: real 0.00131  null 0.00839 +/- 0.00087  p=1.000
+[null] ST_paired rep1->rep1: real 0.00068  null 0.00017 +/- 0.00059  p=0.178
+[null] ST_paired rep1->rep2: real 0.00082  null 0.00048 +/- 0.00052  p=0.238
+[null] ST_paired rep2->rep1: real 0.00056  null -0.00006 +/- 0.00062  p=0.168
+[null] ST_paired rep2->rep2: real 0.00080  null 0.00044 +/- 0.00058  p=0.257
+[null] SW rep1->rep1: real -0.00176  null -0.00950 +/- 0.00287  p=0.010
+[null] SW rep1->rep2: real 0.00340  null -0.00888 +/- 0.00233  p=0.010
+[null] SW rep2->rep1: real -0.00464  null -0.01004 +/- 0.00272  p=0.030
+[null] SW rep2->rep2: real 0.00542  null -0.00972 +/- 0.00194  p=0.010
+[null] UORF rep1->rep1: real 0.00609  null 0.00490 +/- 0.00061  p=0.040
+[null] UORF rep1->rep2: real 0.01075  null 0.01041 +/- 0.00041  p=0.188
+[null] UORF rep2->rep1: real 0.00508  null 0.00471 +/- 0.00062  p=0.238
+[null] UORF rep2->rep2: real 0.01213  null 0.01142 +/- 0.00048  p=0.059
+[null] -> /root/utr-scan/results/recoverability/v1/nulls/shuffle_nulls.tsv

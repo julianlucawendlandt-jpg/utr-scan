@@ -1,0 +1,29 @@
+$ /root/miniconda3/envs/utrscan/bin/python -u -m analysis.recoverability.04_shuffle_nulls --dataset gse139131_unsel --features SW,ST,AUG --bin 5 --n-perm 100 --seed 0 --workers 8
+[null] 20/303 fits-sets (45s)
+[null] 40/303 fits-sets (69s)
+[null] 60/303 fits-sets (102s)
+[null] 80/303 fits-sets (128s)
+[null] 100/303 fits-sets (154s)
+[null] 120/303 fits-sets (162s)
+[null] 140/303 fits-sets (168s)
+[null] 160/303 fits-sets (175s)
+[null] 180/303 fits-sets (181s)
+[null] 200/303 fits-sets (187s)
+[null] 220/303 fits-sets (191s)
+[null] 240/303 fits-sets (195s)
+[null] 260/303 fits-sets (199s)
+[null] 280/303 fits-sets (204s)
+[null] 300/303 fits-sets (208s)
+[null] AUG rep1->rep1: real 0.00826  null 0.00350 +/- 0.00114  p=0.010
+[null] AUG rep1->rep2: real 0.01408  null 0.00654 +/- 0.00078  p=0.010
+[null] AUG rep2->rep1: real 0.00755  null 0.00342 +/- 0.00099  p=0.010
+[null] AUG rep2->rep2: real 0.01467  null 0.00681 +/- 0.00083  p=0.010
+[null] ST rep1->rep1: real 0.00432  null 0.00395 +/- 0.00087  p=0.317
+[null] ST rep1->rep2: real 0.00183  null 0.00643 +/- 0.00085  p=1.000
+[null] ST rep2->rep1: real 0.00278  null 0.00330 +/- 0.00094  p=0.693
+[null] ST rep2->rep2: real 0.00216  null 0.00638 +/- 0.00085  p=1.000
+[null] SW rep1->rep1: real 0.00301  null -0.00509 +/- 0.00154  p=0.010
+[null] SW rep1->rep2: real 0.00915  null -0.00475 +/- 0.00109  p=0.010
+[null] SW rep2->rep1: real -0.00467  null -0.00543 +/- 0.00154  p=0.307
+[null] SW rep2->rep2: real 0.00905  null -0.00514 +/- 0.00121  p=0.010
+[null] -> /root/utr-scan/results/recoverability/v1/nulls/shuffle_nulls.tsv

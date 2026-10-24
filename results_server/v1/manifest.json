@@ -1679,6 +1679,51 @@
       "section": "chain_ablation_gse174329_eif3b",
       "git_commit": "16f9f187bb292fbefd1c3ed0ce2aa88a8546cc12-dirty",
       "time": "2026-10-12T20:07:56"
+    },
+    {
+      "section": "nulls_gse139131_unsel_b1",
+      "git_commit": "398f5e47694ed9d6064389b644ae7f3d30444280-dirty",
+      "time": "2026-10-24T09:37:54"
+    },
+    {
+      "section": "nulls_gse139131_unsel_b5",
+      "git_commit": "398f5e47694ed9d6064389b644ae7f3d30444280-dirty",
+      "time": "2026-10-24T09:41:29"
+    },
+    {
+      "section": "nulls_gse139131_unsel_b10",
+      "git_commit": "398f5e47694ed9d6064389b644ae7f3d30444280-dirty",
+      "time": "2026-10-24T09:49:08"
+    },
+    {
+      "section": "nulls_gse139131_unsel_b20",
+      "git_commit": "398f5e47694ed9d6064389b644ae7f3d30444280-dirty",
+      "time": "2026-10-24T09:50:14"
+    },
+    {
+      "section": "synthetic_dm_alpha_gse139131_unsel",
+      "git_commit": "398f5e47694ed9d6064389b644ae7f3d30444280-dirty",
+      "time": "2026-10-24T09:50:23"
+    },
+    {
+      "section": "synthetic_gse139131_unsel_dm_n50",
+      "git_commit": "398f5e47694ed9d6064389b644ae7f3d30444280-dirty",
+      "time": "2026-10-24T10:39:29"
+    },
+    {
+      "section": "nulls_archer_yeast_b20",
+      "git_commit": "398f5e47694ed9d6064389b644ae7f3d30444280-dirty",
+      "time": "2026-10-24T11:05:34"
+    },
+    {
+      "section": "synthetic_archer_yeast_multinomial_n50",
+      "git_commit": "398f5e47694ed9d6064389b644ae7f3d30444280-dirty",
+      "time": "2026-10-24T11:48:11"
+    },
+    {
+      "section": "downstream_final",
+      "git_commit": "398f5e47694ed9d6064389b644ae7f3d30444280-dirty",
+      "time": "2026-10-24T11:51:48"
     }
   ],
   "panels": {
@@ -2507,5 +2552,160 @@
     "obs_bins": 6,
     "train_reps": "rep1",
     "early_stopping": "15% of training transcripts, every 10 epochs, patience 50"
+  },
+  "nulls_gse139131_unsel_b1": {
+    "n_perm": 100,
+    "features": [
+      "SW",
+      "ST",
+      "AUG",
+      "S3"
+    ],
+    "seed": 0,
+    "workers": 8,
+    "stratum_bin": 10,
+    "start_distance_bin": 25
+  },
+  "nulls_gse139131_unsel_b5": {
+    "n_perm": 100,
+    "features": [
+      "SW",
+      "ST",
+      "AUG"
+    ],
+    "seed": 0,
+    "workers": 8,
+    "stratum_bin": 10,
+    "start_distance_bin": 25
+  },
+  "nulls_gse139131_unsel_b10": {
+    "n_perm": 100,
+    "features": [
+      "SW",
+      "ST",
+      "AUG",
+      "S1",
+      "S3",
+      "S5",
+      "ST_paired",
+      "ST_dG",
+      "UORF"
+    ],
+    "seed": 0,
+    "workers": 8,
+    "stratum_bin": 10,
+    "start_distance_bin": 25
+  },
+  "nulls_gse139131_unsel_b20": {
+    "n_perm": 100,
+    "features": [
+      "ST",
+      "AUG"
+    ],
+    "seed": 0,
+    "workers": 8,
+    "stratum_bin": 10,
+    "start_distance_bin": 25
+  },
+  "synthetic_dm_alpha_gse139131_unsel": {
+    "alpha": 69.11689685668692,
+    "observed_ratio": 1.5379256447750786,
+    "simulated_ratio": 1.5532920831227,
+    "resolution": "1 nt, leader through main AUG"
+  },
+  "synthetic_gse139131_unsel_dm_n50": {
+    "truths": "A,B,C,D,E",
+    "depths": "5,10,20,50,100,200,500",
+    "sizes": "0,1,2",
+    "SIZE_S": [
+      0.1,
+      0.25,
+      0.5
+    ],
+    "SIZE_K": [
+      0.25,
+      0.5,
+      1.0
+    ],
+    "n_sim": 50,
+    "n_null_sim": 100,
+    "bin": 10,
+    "folds": "all",
+    "null": "95th percentile of truth-A held-out dLL at the same depth",
+    "training_direction": "rep1 only, scored in rep1 and rep2",
+    "dm_alpha": 69.11689685668692,
+    "binomial_ci": "Wilson 95%",
+    "command": "/root/utr-scan/analysis/recoverability/06_synthetic_power.py --dataset gse139131_unsel --noise dm --bin 10 --n-sim 50 --n-null-sim 100 --tag n50 --workers 8"
+  },
+  "nulls_archer_yeast_b20": {
+    "n_perm": 100,
+    "features": [
+      "ST",
+      "AUG"
+    ],
+    "seed": 0,
+    "workers": 8,
+    "stratum_bin": 10,
+    "start_distance_bin": 25
+  },
+  "synthetic_archer_yeast_multinomial_n50": {
+    "truths": "A,B,C,D,E",
+    "depths": "5,10,20,50,100,200,500",
+    "sizes": "0,1,2",
+    "SIZE_S": [
+      0.1,
+      0.25,
+      0.5
+    ],
+    "SIZE_K": [
+      0.25,
+      0.5,
+      1.0
+    ],
+    "n_sim": 50,
+    "n_null_sim": 100,
+    "bin": 10,
+    "folds": "all",
+    "null": "95th percentile of truth-A held-out dLL at the same depth",
+    "training_direction": "rep1 only, scored in rep1 and rep2",
+    "dm_alpha": null,
+    "binomial_ci": "Wilson 95%",
+    "command": "/root/utr-scan/analysis/recoverability/06_synthetic_power.py --dataset archer_yeast --noise multinomial --bin 10 --n-sim 50 --n-null-sim 100 --tag n50 --workers 8"
+  },
+  "downstream_final": {
+    "model_choice": {
+      "yeast": {
+        "model": "SW+ST+AUG",
+        "bin": "1"
+      },
+      "human": {
+        "model": "SW+ST+AUG",
+        "bin": "1"
+      }
+    },
+    "n_boot": 2000,
+    "inner_k": 5,
+    "alphas": [
+      0.001,
+      0.0031622776601683794,
+      0.01,
+      0.03162277660168379,
+      0.1,
+      0.31622776601683794,
+      1.0,
+      3.1622776601683795,
+      10.0,
+      31.622776601683793,
+      100.0,
+      316.2277660168379,
+      1000.0,
+      3162.2776601683795,
+      10000.0
+    ],
+    "min_stratum_human": 300,
+    "teff_min_combined_depth": 5000,
+    "human_folds": "downstream/sample2019_folds.tsv (seed 0)",
+    "yeast_folds": "frozen yeast chromosome folds",
+    "seconds": 213
   }
 }

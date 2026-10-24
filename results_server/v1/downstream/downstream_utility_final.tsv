@@ -1,0 +1,151 @@
+dataset	target	fortyS_source	split_mode	bootstrap_unit	stratum	model	n	r2	replicate	split	seed	bin_width	n_transcripts	n_reads	metric	value	fortyS_model	n_units	n_boot	pearson	spearman	rmse	delta_r2	delta_ci_lo	delta_ci_hi	p_delta_le_0	primary_test
+akirtava_yeast	TEff	rep1	chrom_folds	gene	all	seq	4433	0.544715				1					SW+ST+AUG	3363	2000	0.738115	0.654472	7.09888					
+akirtava_yeast	TEff	rep1	chrom_folds	gene	all	40S	4433	0.159987				1					SW+ST+AUG	3363	2000	0.400096	0.269874	9.64254	-0.384729	-0.415028	-0.35565	1	False
+akirtava_yeast	TEff	rep1	chrom_folds	gene	all	seq+40S	4433	0.561143				1					SW+ST+AUG	3363	2000	0.749221	0.669947	6.96963	0.0164273	0.0110584	0.02218	0	True
+akirtava_yeast	TEff	rep1	chrom_folds	gene	all	late_fusion	4433	0.549177				1					SW+ST+AUG	3363	2000	0.74113	0.650292	7.064	0.00446217	0.000641703	0.00797725	0.0105	False
+akirtava_yeast	TEff	rep1	chrom_folds	gene	all	residual	4433	0.555844				1					SW+ST+AUG	3363	2000	0.745885	0.667932	7.01158	0.0111285	0.00660183	0.0155731	0	False
+akirtava_yeast	TEff	rep1	chrom_folds	gene	no_uAUG	seq	3701	0.243489				1					SW+ST+AUG	2868	2000	0.499072	0.501738	6.31182					
+akirtava_yeast	TEff	rep1	chrom_folds	gene	no_uAUG	40S	3701	-0.163953				1					SW+ST+AUG	2868	2000	0.188758	0.111953	7.82916	-0.407442	-0.463849	-0.353133	1	False
+akirtava_yeast	TEff	rep1	chrom_folds	gene	no_uAUG	seq+40S	3701	0.281387				1					SW+ST+AUG	2868	2000	0.534272	0.526154	6.1517	0.0378982	0.0274751	0.0486742	0	True
+akirtava_yeast	TEff	rep1	chrom_folds	gene	no_uAUG	late_fusion	3701	0.247029				1					SW+ST+AUG	2868	2000	0.502222	0.493083	6.29704	0.00353972	-0.00287337	0.0100805	0.1445	False
+akirtava_yeast	TEff	rep1	chrom_folds	gene	no_uAUG	residual	3701	0.267798				1					SW+ST+AUG	2868	2000	0.522504	0.523699	6.20959	0.024309	0.016987	0.0322794	0	False
+akirtava_yeast	TEff	rep1	chrom_folds	gene	>=1_uAUG	seq	732	0.213474				1					SW+ST+AUG	598	2000	0.530383	0.557297	10.1863					
+akirtava_yeast	TEff	rep1	chrom_folds	gene	>=1_uAUG	40S	732	-0.91907				1					SW+ST+AUG	598	2000	0.33439	0.340292	15.9112	-1.13254	-1.34159	-0.951716	1	False
+akirtava_yeast	TEff	rep1	chrom_folds	gene	>=1_uAUG	seq+40S	732	0.220455				1					SW+ST+AUG	598	2000	0.540344	0.558833	10.141	0.00698067	-0.0112471	0.0253506	0.2225	True
+akirtava_yeast	TEff	rep1	chrom_folds	gene	>=1_uAUG	late_fusion	732	0.229003				1					SW+ST+AUG	598	2000	0.54284	0.575561	10.0852	0.015529	0.00166815	0.0289336	0.015	False
+akirtava_yeast	TEff	rep1	chrom_folds	gene	>=1_uAUG	residual	732	0.220957				1					SW+ST+AUG	598	2000	0.540881	0.564802	10.1377	0.0074834	-0.00768421	0.0235827	0.175	False
+akirtava_yeast	MeanYFP	rep1	chrom_folds	gene	all	seq	5179	0.660706				1					SW+ST+AUG	3698	2000	0.812868	0.800309	0.178955					
+akirtava_yeast	MeanYFP	rep1	chrom_folds	gene	all	40S	5179	0.307255				1					SW+ST+AUG	3698	2000	0.554322	0.453843	0.255707	-0.353451	-0.382837	-0.326007	1	False
+akirtava_yeast	MeanYFP	rep1	chrom_folds	gene	all	seq+40S	5179	0.662191				1					SW+ST+AUG	3698	2000	0.813791	0.800053	0.178563	0.00148522	-0.000279443	0.00328651	0.0415	True
+akirtava_yeast	MeanYFP	rep1	chrom_folds	gene	all	late_fusion	5179	0.661427				1					SW+ST+AUG	3698	2000	0.813296	0.795994	0.178765	0.000721752	-0.000767534	0.00228192	0.178	False
+akirtava_yeast	MeanYFP	rep1	chrom_folds	gene	all	residual	5179	0.661774				1					SW+ST+AUG	3698	2000	0.813596	0.801647	0.178673	0.00106843	-6.30318e-05	0.00215607	0.031	False
+akirtava_yeast	MeanYFP	rep1	chrom_folds	gene	no_uAUG	seq	4156	0.425771				1					SW+ST+AUG	3089	2000	0.661189	0.682339	0.145975					
+akirtava_yeast	MeanYFP	rep1	chrom_folds	gene	no_uAUG	40S	4156	-0.153172				1					SW+ST+AUG	3089	2000	0.350188	0.266916	0.206862	-0.578944	-0.645739	-0.514747	1	False
+akirtava_yeast	MeanYFP	rep1	chrom_folds	gene	no_uAUG	seq+40S	4156	0.431864				1					SW+ST+AUG	3089	2000	0.665187	0.682391	0.145198	0.00609274	0.00220094	0.00980495	0	True
+akirtava_yeast	MeanYFP	rep1	chrom_folds	gene	no_uAUG	late_fusion	4156	0.42108				1					SW+ST+AUG	3089	2000	0.658807	0.67374	0.14657	-0.0046917	-0.00745355	-0.00194686	0.9985	False
+akirtava_yeast	MeanYFP	rep1	chrom_folds	gene	no_uAUG	residual	4156	0.43385				1					SW+ST+AUG	3089	2000	0.66619	0.685044	0.144944	0.00807879	0.00602911	0.010313	0	False
+akirtava_yeast	MeanYFP	rep1	chrom_folds	gene	>=1_uAUG	seq	1023	-0.210484				1					SW+ST+AUG	774	2000	0.435319	0.566354	0.274884					
+akirtava_yeast	MeanYFP	rep1	chrom_folds	gene	>=1_uAUG	40S	1023	-1.51795				1					SW+ST+AUG	774	2000	0.382827	0.504894	0.396454	-1.30747	-1.62884	-1.0501	1	False
+akirtava_yeast	MeanYFP	rep1	chrom_folds	gene	>=1_uAUG	seq+40S	1023	-0.213829				1					SW+ST+AUG	774	2000	0.437176	0.570197	0.275263	-0.00334506	-0.0129606	0.0060253	0.743	True
+akirtava_yeast	MeanYFP	rep1	chrom_folds	gene	>=1_uAUG	late_fusion	1023	-0.193628				1					SW+ST+AUG	774	2000	0.44446	0.579489	0.272963	0.0168558	0.00785903	0.0260439	0.0005	False
+akirtava_yeast	MeanYFP	rep1	chrom_folds	gene	>=1_uAUG	residual	1023	-0.221816				1					SW+ST+AUG	774	2000	0.435687	0.568295	0.276168	-0.0113321	-0.0175878	-0.00510526	1	False
+sample2019_human	rl	rep1	random_balanced	leader	all	seq	9486	0.554188				1					SW+ST+AUG	9486	2000	0.744458	0.787763	0.698172					
+sample2019_human	rl	rep1	random_balanced	leader	all	40S	9486	0.219234				1					SW+ST+AUG	9486	2000	0.468226	0.287657	0.923946	-0.334953	-0.356157	-0.31308	1	False
+sample2019_human	rl	rep1	random_balanced	leader	all	seq+40S	9486	0.572215				1					SW+ST+AUG	9486	2000	0.756465	0.785108	0.68391	0.0180269	0.0127305	0.0235325	0	True
+sample2019_human	rl	rep1	random_balanced	leader	all	late_fusion	9486	0.56656				1					SW+ST+AUG	9486	2000	0.752712	0.785212	0.688416	0.0123722	0.00811702	0.0167991	0	False
+sample2019_human	rl	rep1	random_balanced	leader	all	residual	9486	0.563912				1					SW+ST+AUG	9486	2000	0.752419	0.788297	0.690515	0.00972467	0.00554525	0.0138721	0	False
+sample2019_human	rl	rep1	random_balanced	leader	no_uAUG	seq	7557	0.515645				1					SW+ST+AUG	7557	2000	0.722862	0.748761	0.478806					
+sample2019_human	rl	rep1	random_balanced	leader	no_uAUG	40S	7557	-0.183971				1					SW+ST+AUG	7557	2000	0.0736391	0.0716893	0.748597	-0.699616	-0.731306	-0.670075	1	False
+sample2019_human	rl	rep1	random_balanced	leader	no_uAUG	seq+40S	7557	0.502797				1					SW+ST+AUG	7557	2000	0.713	0.736787	0.485114	-0.0128475	-0.0170778	-0.00847675	1	True
+sample2019_human	rl	rep1	random_balanced	leader	no_uAUG	late_fusion	7557	0.50051				1					SW+ST+AUG	7557	2000	0.713753	0.738728	0.486229	-0.0151343	-0.0193986	-0.011228	1	False
+sample2019_human	rl	rep1	random_balanced	leader	no_uAUG	residual	7557	0.514608				1					SW+ST+AUG	7557	2000	0.718701	0.745161	0.479318	-0.0010368	-0.00457555	0.00249732	0.731	False
+sample2019_human	rl	rep1	random_balanced	leader	>=1_uAUG	seq	1929	-0.0222301				1					SW+ST+AUG	1929	2000	0.349723	0.374716	1.2243					
+sample2019_human	rl	rep1	random_balanced	leader	>=1_uAUG	40S	1929	-0.365743				1					SW+ST+AUG	1929	2000	0.341234	0.347624	1.41514	-0.343513	-0.423752	-0.264933	1	False
+sample2019_human	rl	rep1	random_balanced	leader	>=1_uAUG	seq+40S	1929	0.0601185				1					SW+ST+AUG	1929	2000	0.416094	0.447876	1.17395	0.0823486	0.0633742	0.100503	0	True
+sample2019_human	rl	rep1	random_balanced	leader	>=1_uAUG	late_fusion	1929	0.0422755				1					SW+ST+AUG	1929	2000	0.394062	0.429702	1.18504	0.0645056	0.049501	0.0786993	0	False
+sample2019_human	rl	rep1	random_balanced	leader	>=1_uAUG	residual	1929	0.01474				1					SW+ST+AUG	1929	2000	0.384534	0.420998	1.20196	0.0369701	0.0223893	0.0505139	0	False
+sample2019_human	rl	rep1	random_balanced	sequence_cluster	all	seq	9486	0.554188				1					SW+ST+AUG	9486	2000	0.744458	0.787763	0.698172					
+sample2019_human	rl	rep1	random_balanced	sequence_cluster	all	40S	9486	0.219234				1					SW+ST+AUG	9486	2000	0.468226	0.287657	0.923946	-0.334953	-0.358061	-0.313345	1	False
+sample2019_human	rl	rep1	random_balanced	sequence_cluster	all	seq+40S	9486	0.572215				1					SW+ST+AUG	9486	2000	0.756465	0.785108	0.68391	0.0180269	0.0128307	0.0235023	0	True
+sample2019_human	rl	rep1	random_balanced	sequence_cluster	all	late_fusion	9486	0.56656				1					SW+ST+AUG	9486	2000	0.752712	0.785212	0.688416	0.0123722	0.00787733	0.016723	0	False
+sample2019_human	rl	rep1	random_balanced	sequence_cluster	all	residual	9486	0.563912				1					SW+ST+AUG	9486	2000	0.752419	0.788297	0.690515	0.00972467	0.00553998	0.0134976	0	False
+sample2019_human	rl	rep1	random_balanced	sequence_cluster	no_uAUG	seq	7557	0.515645				1					SW+ST+AUG	7557	2000	0.722862	0.748761	0.478806					
+sample2019_human	rl	rep1	random_balanced	sequence_cluster	no_uAUG	40S	7557	-0.183971				1					SW+ST+AUG	7557	2000	0.0736391	0.0716893	0.748597	-0.699616	-0.73038	-0.670502	1	False
+sample2019_human	rl	rep1	random_balanced	sequence_cluster	no_uAUG	seq+40S	7557	0.502797				1					SW+ST+AUG	7557	2000	0.713	0.736787	0.485114	-0.0128475	-0.0170828	-0.00841525	1	True
+sample2019_human	rl	rep1	random_balanced	sequence_cluster	no_uAUG	late_fusion	7557	0.50051				1					SW+ST+AUG	7557	2000	0.713753	0.738728	0.486229	-0.0151343	-0.0191849	-0.0112242	1	False
+sample2019_human	rl	rep1	random_balanced	sequence_cluster	no_uAUG	residual	7557	0.514608				1					SW+ST+AUG	7557	2000	0.718701	0.745161	0.479318	-0.0010368	-0.0045449	0.0024044	0.7205	False
+sample2019_human	rl	rep1	random_balanced	sequence_cluster	>=1_uAUG	seq	1929	-0.0222301				1					SW+ST+AUG	1929	2000	0.349723	0.374716	1.2243					
+sample2019_human	rl	rep1	random_balanced	sequence_cluster	>=1_uAUG	40S	1929	-0.365743				1					SW+ST+AUG	1929	2000	0.341234	0.347624	1.41514	-0.343513	-0.425227	-0.26529	1	False
+sample2019_human	rl	rep1	random_balanced	sequence_cluster	>=1_uAUG	seq+40S	1929	0.0601185				1					SW+ST+AUG	1929	2000	0.416094	0.447876	1.17395	0.0823486	0.0638569	0.102422	0	True
+sample2019_human	rl	rep1	random_balanced	sequence_cluster	>=1_uAUG	late_fusion	1929	0.0422755				1					SW+ST+AUG	1929	2000	0.394062	0.429702	1.18504	0.0645056	0.0502937	0.0798132	0	False
+sample2019_human	rl	rep1	random_balanced	sequence_cluster	>=1_uAUG	residual	1929	0.01474				1					SW+ST+AUG	1929	2000	0.384534	0.420998	1.20196	0.0369701	0.0229874	0.0510526	0	False
+sample2019_human	rl	rep1	sequence_cluster	sequence_cluster	all	seq	9486	0.553773				1					SW+ST+AUG	9486	2000	0.744187	0.786889	0.698496					
+sample2019_human	rl	rep1	sequence_cluster	sequence_cluster	all	40S	9486	0.219129				1					SW+ST+AUG	9486	2000	0.468113	0.287764	0.924008	-0.334644	-0.357573	-0.31305	1	False
+sample2019_human	rl	rep1	sequence_cluster	sequence_cluster	all	seq+40S	9486	0.571476				1					SW+ST+AUG	9486	2000	0.755984	0.78399	0.684501	0.0177026	0.0124618	0.0231353	0	True
+sample2019_human	rl	rep1	sequence_cluster	sequence_cluster	all	late_fusion	9486	0.565922				1					SW+ST+AUG	9486	2000	0.752282	0.784391	0.688922	0.0121487	0.00773995	0.0164256	0	False
+sample2019_human	rl	rep1	sequence_cluster	sequence_cluster	all	residual	9486	0.563386				1					SW+ST+AUG	9486	2000	0.752127	0.787504	0.690932	0.00961274	0.00543624	0.0134033	0	False
+sample2019_human	rl	rep1	sequence_cluster	sequence_cluster	no_uAUG	seq	7557	0.514119				1					SW+ST+AUG	7557	2000	0.721749	0.747447	0.47956					
+sample2019_human	rl	rep1	sequence_cluster	sequence_cluster	no_uAUG	40S	7557	-0.183888				1					SW+ST+AUG	7557	2000	0.073866	0.0720606	0.748571	-0.698007	-0.728479	-0.668278	1	False
+sample2019_human	rl	rep1	sequence_cluster	sequence_cluster	no_uAUG	seq+40S	7557	0.501011				1					SW+ST+AUG	7557	2000	0.711697	0.735035	0.485985	-0.0131083	-0.0175403	-0.00868706	1	True
+sample2019_human	rl	rep1	sequence_cluster	sequence_cluster	no_uAUG	late_fusion	7557	0.499341				1					SW+ST+AUG	7557	2000	0.712784	0.737635	0.486798	-0.0147781	-0.0188397	-0.0108167	1	False
+sample2019_human	rl	rep1	sequence_cluster	sequence_cluster	no_uAUG	residual	7557	0.513382				1					SW+ST+AUG	7557	2000	0.717799	0.744077	0.479923	-0.000737336	-0.00417859	0.00272327	0.656	False
+sample2019_human	rl	rep1	sequence_cluster	sequence_cluster	>=1_uAUG	seq	1929	-0.0218215				1					SW+ST+AUG	1929	2000	0.349587	0.374619	1.22406					
+sample2019_human	rl	rep1	sequence_cluster	sequence_cluster	>=1_uAUG	40S	1929	-0.366234				1					SW+ST+AUG	1929	2000	0.341055	0.347419	1.41539	-0.344413	-0.424961	-0.266732	1	False
+sample2019_human	rl	rep1	sequence_cluster	sequence_cluster	>=1_uAUG	seq+40S	1929	0.0596679				1					SW+ST+AUG	1929	2000	0.415463	0.448098	1.17424	0.0814894	0.0631097	0.101378	0	True
+sample2019_human	rl	rep1	sequence_cluster	sequence_cluster	>=1_uAUG	late_fusion	1929	0.0414142				1					SW+ST+AUG	1929	2000	0.393342	0.42964	1.18558	0.0632357	0.0490652	0.0780885	0	False
+sample2019_human	rl	rep1	sequence_cluster	sequence_cluster	>=1_uAUG	residual	1929	0.0143595				1					SW+ST+AUG	1929	2000	0.384047	0.42124	1.20219	0.036181	0.0223597	0.0502574	0	False
+sample2019_human	rl	rep2	random_balanced	leader	all	seq	9486	0.554188				1					SW+ST+AUG	9486	2000	0.744458	0.787763	0.698172					
+sample2019_human	rl	rep2	random_balanced	leader	all	40S	9486	0.188062				1					SW+ST+AUG	9486	2000	0.433663	0.262827	0.94221	-0.366126	-0.387509	-0.34459	1	False
+sample2019_human	rl	rep2	random_balanced	leader	all	seq+40S	9486	0.569099				1					SW+ST+AUG	9486	2000	0.754404	0.784979	0.686396	0.0149117	0.0102124	0.0197321	0	True
+sample2019_human	rl	rep2	random_balanced	leader	all	late_fusion	9486	0.563677				1					SW+ST+AUG	9486	2000	0.750795	0.785001	0.690701	0.00948912	0.00580746	0.0132791	0	False
+sample2019_human	rl	rep2	random_balanced	leader	all	residual	9486	0.562192				1					SW+ST+AUG	9486	2000	0.75088	0.787773	0.691876	0.00800385	0.00437904	0.0115941	0	False
+sample2019_human	rl	rep2	random_balanced	leader	no_uAUG	seq	7557	0.515645				1					SW+ST+AUG	7557	2000	0.722862	0.748761	0.478806					
+sample2019_human	rl	rep2	random_balanced	leader	no_uAUG	40S	7557	-0.21958				1					SW+ST+AUG	7557	2000	0.0512341	0.0494179	0.759771	-0.735225	-0.768434	-0.704559	1	False
+sample2019_human	rl	rep2	random_balanced	leader	no_uAUG	seq+40S	7557	0.504072				1					SW+ST+AUG	7557	2000	0.714009	0.737306	0.484492	-0.011573	-0.0157727	-0.00734969	1	True
+sample2019_human	rl	rep2	random_balanced	leader	no_uAUG	late_fusion	7557	0.502108				1					SW+ST+AUG	7557	2000	0.714603	0.739107	0.485451	-0.0135373	-0.0172742	-0.00995204	1	False
+sample2019_human	rl	rep2	random_balanced	leader	no_uAUG	residual	7557	0.51457				1					SW+ST+AUG	7557	2000	0.719079	0.74483	0.479337	-0.00107503	-0.004436	0.00219702	0.7495	False
+sample2019_human	rl	rep2	random_balanced	leader	>=1_uAUG	seq	1929	-0.0222301				1					SW+ST+AUG	1929	2000	0.349723	0.374716	1.2243					
+sample2019_human	rl	rep2	random_balanced	leader	>=1_uAUG	40S	1929	-0.435018				1					SW+ST+AUG	1929	2000	0.318958	0.320634	1.45058	-0.412787	-0.494403	-0.332572	1	False
+sample2019_human	rl	rep2	random_balanced	leader	>=1_uAUG	seq+40S	1929	0.0470841				1					SW+ST+AUG	1929	2000	0.405563	0.43663	1.18207	0.0693142	0.0526283	0.0856023	0	True
+sample2019_human	rl	rep2	random_balanced	leader	>=1_uAUG	late_fusion	1929	0.029684				1					SW+ST+AUG	1929	2000	0.384668	0.417767	1.19281	0.0519141	0.0393167	0.0639621	0	False
+sample2019_human	rl	rep2	random_balanced	leader	>=1_uAUG	residual	1929	0.00847837				1					SW+ST+AUG	1929	2000	0.378121	0.412006	1.20577	0.0307085	0.0179836	0.0425997	0	False
+sample2019_human	rl	rep2	random_balanced	sequence_cluster	all	seq	9486	0.554188				1					SW+ST+AUG	9486	2000	0.744458	0.787763	0.698172					
+sample2019_human	rl	rep2	random_balanced	sequence_cluster	all	40S	9486	0.188062				1					SW+ST+AUG	9486	2000	0.433663	0.262827	0.94221	-0.366126	-0.38901	-0.344862	1	False
+sample2019_human	rl	rep2	random_balanced	sequence_cluster	all	seq+40S	9486	0.569099				1					SW+ST+AUG	9486	2000	0.754404	0.784979	0.686396	0.0149117	0.0103056	0.0195145	0	True
+sample2019_human	rl	rep2	random_balanced	sequence_cluster	all	late_fusion	9486	0.563677				1					SW+ST+AUG	9486	2000	0.750795	0.785001	0.690701	0.00948912	0.00572554	0.013093	0	False
+sample2019_human	rl	rep2	random_balanced	sequence_cluster	all	residual	9486	0.562192				1					SW+ST+AUG	9486	2000	0.75088	0.787773	0.691876	0.00800385	0.00436708	0.0112938	0	False
+sample2019_human	rl	rep2	random_balanced	sequence_cluster	no_uAUG	seq	7557	0.515645				1					SW+ST+AUG	7557	2000	0.722862	0.748761	0.478806					
+sample2019_human	rl	rep2	random_balanced	sequence_cluster	no_uAUG	40S	7557	-0.21958				1					SW+ST+AUG	7557	2000	0.0512341	0.0494179	0.759771	-0.735225	-0.767399	-0.704147	1	False
+sample2019_human	rl	rep2	random_balanced	sequence_cluster	no_uAUG	seq+40S	7557	0.504072				1					SW+ST+AUG	7557	2000	0.714009	0.737306	0.484492	-0.011573	-0.0157957	-0.0072869	1	True
+sample2019_human	rl	rep2	random_balanced	sequence_cluster	no_uAUG	late_fusion	7557	0.502108				1					SW+ST+AUG	7557	2000	0.714603	0.739107	0.485451	-0.0135373	-0.0172375	-0.00988372	1	False
+sample2019_human	rl	rep2	random_balanced	sequence_cluster	no_uAUG	residual	7557	0.51457				1					SW+ST+AUG	7557	2000	0.719079	0.74483	0.479337	-0.00107503	-0.00437841	0.00203818	0.7375	False
+sample2019_human	rl	rep2	random_balanced	sequence_cluster	>=1_uAUG	seq	1929	-0.0222301				1					SW+ST+AUG	1929	2000	0.349723	0.374716	1.2243					
+sample2019_human	rl	rep2	random_balanced	sequence_cluster	>=1_uAUG	40S	1929	-0.435018				1					SW+ST+AUG	1929	2000	0.318958	0.320634	1.45058	-0.412787	-0.497106	-0.332409	1	False
+sample2019_human	rl	rep2	random_balanced	sequence_cluster	>=1_uAUG	seq+40S	1929	0.0470841				1					SW+ST+AUG	1929	2000	0.405563	0.43663	1.18207	0.0693142	0.0532048	0.0865421	0	True
+sample2019_human	rl	rep2	random_balanced	sequence_cluster	>=1_uAUG	late_fusion	1929	0.029684				1					SW+ST+AUG	1929	2000	0.384668	0.417767	1.19281	0.0519141	0.0399599	0.0650914	0	False
+sample2019_human	rl	rep2	random_balanced	sequence_cluster	>=1_uAUG	residual	1929	0.00847837				1					SW+ST+AUG	1929	2000	0.378121	0.412006	1.20577	0.0307085	0.018622	0.0428607	0	False
+sample2019_human	rl	rep2	sequence_cluster	sequence_cluster	all	seq	9486	0.553773				1					SW+ST+AUG	9486	2000	0.744187	0.786889	0.698496					
+sample2019_human	rl	rep2	sequence_cluster	sequence_cluster	all	40S	9486	0.18774				1					SW+ST+AUG	9486	2000	0.433291	0.262884	0.942397	-0.366033	-0.388765	-0.34446	1	False
+sample2019_human	rl	rep2	sequence_cluster	sequence_cluster	all	seq+40S	9486	0.568353				1					SW+ST+AUG	9486	2000	0.753917	0.783861	0.68699	0.0145803	0.0100248	0.0192556	0	True
+sample2019_human	rl	rep2	sequence_cluster	sequence_cluster	all	late_fusion	9486	0.563052				1					SW+ST+AUG	9486	2000	0.750373	0.784176	0.691196	0.0092794	0.00544945	0.0128678	0	False
+sample2019_human	rl	rep2	sequence_cluster	sequence_cluster	all	residual	9486	0.561668				1					SW+ST+AUG	9486	2000	0.750585	0.786958	0.692289	0.00789545	0.00427708	0.0111897	0	False
+sample2019_human	rl	rep2	sequence_cluster	sequence_cluster	no_uAUG	seq	7557	0.514119				1					SW+ST+AUG	7557	2000	0.721749	0.747447	0.47956					
+sample2019_human	rl	rep2	sequence_cluster	sequence_cluster	no_uAUG	40S	7557	-0.219891				1					SW+ST+AUG	7557	2000	0.0510584	0.0496763	0.759868	-0.73401	-0.766329	-0.702493	1	False
+sample2019_human	rl	rep2	sequence_cluster	sequence_cluster	no_uAUG	seq+40S	7557	0.502201				1					SW+ST+AUG	7557	2000	0.712649	0.735527	0.485405	-0.0119176	-0.0162457	-0.00759934	1	True
+sample2019_human	rl	rep2	sequence_cluster	sequence_cluster	no_uAUG	late_fusion	7557	0.500864				1					SW+ST+AUG	7557	2000	0.713594	0.738001	0.486057	-0.0132551	-0.0169082	-0.00965665	1	False
+sample2019_human	rl	rep2	sequence_cluster	sequence_cluster	no_uAUG	residual	7557	0.513177				1					SW+ST+AUG	7557	2000	0.718051	0.743645	0.480024	-0.000941646	-0.0042421	0.00229242	0.712	False
+sample2019_human	rl	rep2	sequence_cluster	sequence_cluster	>=1_uAUG	seq	1929	-0.0218215				1					SW+ST+AUG	1929	2000	0.349587	0.374619	1.22406					
+sample2019_human	rl	rep2	sequence_cluster	sequence_cluster	>=1_uAUG	40S	1929	-0.435806				1					SW+ST+AUG	1929	2000	0.318585	0.320158	1.45098	-0.413984	-0.498114	-0.33356	1	False
+sample2019_human	rl	rep2	sequence_cluster	sequence_cluster	>=1_uAUG	seq+40S	1929	0.0467129				1					SW+ST+AUG	1929	2000	0.404964	0.436851	1.1823	0.0685344	0.0524201	0.0857598	0	True
+sample2019_human	rl	rep2	sequence_cluster	sequence_cluster	>=1_uAUG	late_fusion	1929	0.0289668				1					SW+ST+AUG	1929	2000	0.384041	0.417882	1.19325	0.0507883	0.0388014	0.0635345	0	False
+sample2019_human	rl	rep2	sequence_cluster	sequence_cluster	>=1_uAUG	residual	1929	0.00832079				1					SW+ST+AUG	1929	2000	0.377762	0.412344	1.20587	0.0301423	0.0182456	0.0423025	0	False
+sample2019_human	rl	mean	random_balanced	leader	all	seq	9486	0.554188				1					SW+ST+AUG	9486	2000	0.744458	0.787763	0.698172					
+sample2019_human	rl	mean	random_balanced	leader	all	40S	9486	0.204731				1					SW+ST+AUG	9486	2000	0.452473	0.275669	0.932488	-0.349457	-0.370614	-0.328029	1	False
+sample2019_human	rl	mean	random_balanced	leader	all	seq+40S	9486	0.570759				1					SW+ST+AUG	9486	2000	0.755503	0.78503	0.685073	0.016571	0.0116005	0.0217595	0	True
+sample2019_human	rl	mean	random_balanced	leader	all	late_fusion	9486	0.565206				1					SW+ST+AUG	9486	2000	0.751812	0.785091	0.68949	0.0110184	0.00699495	0.0151508	0	False
+sample2019_human	rl	mean	random_balanced	leader	all	residual	9486	0.563137				1					SW+ST+AUG	9486	2000	0.751716	0.788055	0.691129	0.00894903	0.00504218	0.0128877	0	False
+sample2019_human	rl	mean	random_balanced	leader	no_uAUG	seq	7557	0.515645				1					SW+ST+AUG	7557	2000	0.722862	0.748761	0.478806					
+sample2019_human	rl	mean	random_balanced	leader	no_uAUG	40S	7557	-0.20111				1					SW+ST+AUG	7557	2000	0.0634589	0.0603772	0.753996	-0.716755	-0.749344	-0.686574	1	False
+sample2019_human	rl	mean	random_balanced	leader	no_uAUG	seq+40S	7557	0.503399				1					SW+ST+AUG	7557	2000	0.713478	0.736974	0.484821	-0.0122459	-0.016502	-0.00788783	1	True
+sample2019_human	rl	mean	random_balanced	leader	no_uAUG	late_fusion	7557	0.501277				1					SW+ST+AUG	7557	2000	0.714148	0.738837	0.485855	-0.0143677	-0.0183779	-0.0106295	1	False
+sample2019_human	rl	mean	random_balanced	leader	no_uAUG	residual	7557	0.514624				1					SW+ST+AUG	7557	2000	0.718891	0.744993	0.47931	-0.0010206	-0.00447333	0.0023986	0.732	False
+sample2019_human	rl	mean	random_balanced	leader	>=1_uAUG	seq	1929	-0.0222301				1					SW+ST+AUG	1929	2000	0.349723	0.374716	1.2243					
+sample2019_human	rl	mean	random_balanced	leader	>=1_uAUG	40S	1929	-0.397253				1					SW+ST+AUG	1929	2000	0.331096	0.335277	1.43137	-0.375023	-0.456559	-0.294552	1	False
+sample2019_human	rl	mean	random_balanced	leader	>=1_uAUG	seq+40S	1929	0.0540192				1					SW+ST+AUG	1929	2000	0.411168	0.442781	1.17776	0.0762493	0.0583782	0.0934507	0	True
+sample2019_human	rl	mean	random_balanced	leader	>=1_uAUG	late_fusion	1929	0.0363419				1					SW+ST+AUG	1929	2000	0.38963	0.424102	1.18871	0.058572	0.0447406	0.0719245	0	False
+sample2019_human	rl	mean	random_balanced	leader	>=1_uAUG	residual	1929	0.0118754				1					SW+ST+AUG	1929	2000	0.381586	0.416843	1.20371	0.0341055	0.0204063	0.0470114	0	False
+sample2019_human	rl	mean	sequence_cluster	sequence_cluster	all	seq	9486	0.553773				1					SW+ST+AUG	9486	2000	0.744187	0.786889	0.698496					
+sample2019_human	rl	mean	sequence_cluster	sequence_cluster	all	40S	9486	0.204516				1					SW+ST+AUG	9486	2000	0.452235	0.275753	0.932614	-0.349257	-0.372141	-0.327671	1	False
+sample2019_human	rl	mean	sequence_cluster	sequence_cluster	all	seq+40S	9486	0.570011				1					SW+ST+AUG	9486	2000	0.755015	0.783911	0.685669	0.0162384	0.0113293	0.0212625	0	True
+sample2019_human	rl	mean	sequence_cluster	sequence_cluster	all	late_fusion	9486	0.56457				1					SW+ST+AUG	9486	2000	0.751383	0.784255	0.689994	0.0107974	0.00668442	0.0147426	0	False
+sample2019_human	rl	mean	sequence_cluster	sequence_cluster	all	residual	9486	0.562616				1					SW+ST+AUG	9486	2000	0.751422	0.787252	0.691541	0.00884304	0.0048978	0.0124599	0	False
+sample2019_human	rl	mean	sequence_cluster	sequence_cluster	no_uAUG	seq	7557	0.514119				1					SW+ST+AUG	7557	2000	0.721749	0.747447	0.47956					
+sample2019_human	rl	mean	sequence_cluster	sequence_cluster	no_uAUG	40S	7557	-0.201207				1					SW+ST+AUG	7557	2000	0.0634867	0.0606594	0.754026	-0.715326	-0.746493	-0.684687	1	False
+sample2019_human	rl	mean	sequence_cluster	sequence_cluster	no_uAUG	seq+40S	7557	0.501574				1					SW+ST+AUG	7557	2000	0.712148	0.735222	0.485711	-0.0125453	-0.0169701	-0.00817963	1	True
+sample2019_human	rl	mean	sequence_cluster	sequence_cluster	no_uAUG	late_fusion	7557	0.500071				1					SW+ST+AUG	7557	2000	0.713159	0.737745	0.486443	-0.014048	-0.0178914	-0.0102469	1	False
+sample2019_human	rl	mean	sequence_cluster	sequence_cluster	no_uAUG	residual	7557	0.51334				1					SW+ST+AUG	7557	2000	0.717945	0.743864	0.479944	-0.000779192	-0.00417876	0.00260495	0.6685	False
+sample2019_human	rl	mean	sequence_cluster	sequence_cluster	>=1_uAUG	seq	1929	-0.0218215				1					SW+ST+AUG	1929	2000	0.349587	0.374619	1.22406					
+sample2019_human	rl	mean	sequence_cluster	sequence_cluster	>=1_uAUG	40S	1929	-0.397918				1					SW+ST+AUG	1929	2000	0.33082	0.334937	1.43171	-0.376096	-0.45983	-0.296848	1	False
+sample2019_human	rl	mean	sequence_cluster	sequence_cluster	>=1_uAUG	seq+40S	1929	0.0535868				1					SW+ST+AUG	1929	2000	0.410541	0.442796	1.17803	0.0754084	0.0581069	0.0941846	0	True
+sample2019_human	rl	mean	sequence_cluster	sequence_cluster	>=1_uAUG	late_fusion	1929	0.0355357				1					SW+ST+AUG	1929	2000	0.388947	0.42396	1.18921	0.0573572	0.0442938	0.071111	0	False
+sample2019_human	rl	mean	sequence_cluster	sequence_cluster	>=1_uAUG	residual	1929	0.01159				1					SW+ST+AUG	1929	2000	0.381136	0.417186	1.20388	0.0334115	0.0204151	0.0466937	0	False
