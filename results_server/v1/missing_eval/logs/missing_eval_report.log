@@ -1,2 +1,2 @@
-$ /root/miniconda3/bin/python -u -m analysis.recoverability.missing_eval report
+$ /root/miniconda3/envs/utrscan/bin/python -u -m analysis.recoverability.missing_eval report
 -> /root/utr-scan/results/recoverability/v1/missing_eval/report.md

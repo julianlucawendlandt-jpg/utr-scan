@@ -384,3 +384,19 @@ def update_manifest(section, value, merge=False):
 def measured(name, default=None):
     """A value written by a QC script, e.g. measured('psite_offsets')."""
     return load_manifest().get(name, default)
+
+
+def require_env():
+    """Refuse to run in conda's `base` environment.  A yeast power rerun
+    started from base (Python 3.14, same numpy/scipy/torch versions) gave
+    held-out dLL of -0.05 where the utrscan env (Python 3.12) and a local
+    Python 3.13 run give +0.0045 for the identical simulation; the cause was
+    not traced, so the pipeline refuses the one environment known to be wrong.
+    UTR_ALLOW_ANY_ENV=1 overrides."""
+    import sys
+    if os.environ.get("UTR_ALLOW_ANY_ENV") == "1":
+        return
+    prefix = sys.prefix.rstrip("/\\")
+    if os.environ.get("CONDA_DEFAULT_ENV") == "base" or prefix.endswith(("miniconda3", "anaconda3")):
+        sys.exit("\nRunning in conda's base environment ({}).  Results from base were shown to "
+                 "be wrong.\nRun `conda activate utrscan` first.\n".format(sys.executable))

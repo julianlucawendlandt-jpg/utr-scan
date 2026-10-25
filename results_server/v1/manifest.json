@@ -1729,6 +1729,11 @@
       "section": "synthetic_archer_yeast_multinomial_n50",
       "git_commit": "9ece41e6524f311e875668cf8c4b05231a506587-dirty",
       "time": "2026-10-24T21:13:58"
+    },
+    {
+      "section": "synthetic_archer_yeast_multinomial_n50",
+      "git_commit": "9ece41e6524f311e875668cf8c4b05231a506587-dirty",
+      "time": "2026-10-25T11:31:52"
     }
   ],
   "panels": {
@@ -2675,7 +2680,7 @@
     "training_direction": "rep1 only, scored in rep1 and rep2",
     "dm_alpha": null,
     "binomial_ci": "Wilson 95%",
-    "command": "/root/utr-scan/analysis/recoverability/06_synthetic_power.py --dataset archer_yeast --noise multinomial --bin 10 --n-sim 50 --n-null-sim 100 --tag n50 --workers 8"
+    "command": "/root/utr-scan/analysis/recoverability/06_synthetic_power.py --dataset archer_yeast --noise multinomial --bin 10 --n-sim 50 --n-null-sim 100 --tag n50 --workers 15"
   },
   "downstream_final": {
     "model_choice": {

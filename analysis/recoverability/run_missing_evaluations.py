@@ -130,6 +130,7 @@ def main():
     ap.add_argument("--force", action="store_true", help="re-run steps already marked done")
     ap.add_argument("--smoke", action="store_true", help="tiny counts, for testing the wiring")
     args = ap.parse_args()
+    C.require_env()
     if not os.path.exists(os.path.join(C.RESULTS, "effects", "nested_effects.tsv")):
         sys.exit("\nNo frozen results at {} -- this runner only adds to a completed run.\n".format(C.RESULTS))
     os.makedirs(DONE, exist_ok=True)

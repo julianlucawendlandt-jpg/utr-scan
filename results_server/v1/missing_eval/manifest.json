@@ -189,6 +189,42 @@
       "exit": 0,
       "minutes": 0.0,
       "finished": "2026-10-24T21:14:02"
+    },
+    {
+      "step": "power_yeast_multinomial",
+      "commands": [
+        "/root/miniconda3/envs/utrscan/bin/python -u -m analysis.recoverability.06_synthetic_power --dataset archer_yeast --noise multinomial --bin 10 --n-sim 50 --n-null-sim 100 --tag n50 --workers 15"
+      ],
+      "exit": 0,
+      "minutes": 62.41,
+      "finished": "2026-10-25T11:31:53"
+    },
+    {
+      "step": "summary_yeast_single_library",
+      "commands": [
+        "/root/miniconda3/envs/utrscan/bin/python -u -m analysis.recoverability.10_yeast_single_library_summary --power-tag n50"
+      ],
+      "exit": 0,
+      "minutes": 0.0,
+      "finished": "2026-10-25T11:31:53"
+    },
+    {
+      "step": "missing_eval_figures",
+      "commands": [
+        "/root/miniconda3/envs/utrscan/bin/python -u -m analysis.recoverability.make_missing_figures"
+      ],
+      "exit": 0,
+      "minutes": 0.03,
+      "finished": "2026-10-25T11:31:55"
+    },
+    {
+      "step": "missing_eval_report",
+      "commands": [
+        "/root/miniconda3/envs/utrscan/bin/python -u -m analysis.recoverability.missing_eval report"
+      ],
+      "exit": 0,
+      "minutes": 0.0,
+      "finished": "2026-10-25T11:31:55"
     }
   ],
   "parameters": {
@@ -204,8 +240,8 @@
   },
   "smoke": false,
   "versions": {
-    "python": "3.14.7",
-    "platform": "Linux-5.15.0-185-generic-x86_64-with-glibc2.35",
+    "python": "3.12.15",
+    "platform": "Linux-5.15.0-198-generic-x86_64-with-glibc2.35",
     "git_commit": "9ece41e6524f311e875668cf8c4b05231a506587-dirty",
     "numpy": "2.2.6",
     "scipy": "1.16.3",
@@ -215,13 +251,13 @@
     "matplotlib": "3.10.9"
   },
   "hardware": {
-    "cpus": 8,
-    "ram_gb": 62.79228210449219,
+    "cpus": 20,
+    "ram_gb": 235.94548797607422,
     "gpu": true,
-    "gpu_mem_gb": 47.98828125
+    "gpu_mem_gb": 79.6474609375
   },
-  "workers": 8,
+  "workers": 15,
   "backend": "torch",
   "results_dir": "/root/utr-scan/results/recoverability/v1",
-  "started": "2026-10-24T20:33:28"
+  "started": "2026-10-25T10:29:28"
 }

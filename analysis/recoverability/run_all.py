@@ -180,6 +180,7 @@ def main():
     ap.add_argument("--skip-align", action="store_true",
                     help="alignment outputs already exist (work/*.npz); skip it")
     args = ap.parse_args()
+    C.require_env()
     C.ensure_layout()
     os.makedirs(DONE, exist_ok=True)
     os.makedirs(LOGS, exist_ok=True)

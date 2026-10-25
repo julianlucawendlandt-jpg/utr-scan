@@ -5,6 +5,7 @@
   d1  figures/missing_eval_selected_vs_unselected.{png,svg}
   d2  figures/missing_eval_yeast_single_library.{png,svg}
   d3  figures/missing_eval_reporter_utility.{png,svg}
+  fig9  figures/fig9_assay_reporter.{png,svg}   (compact main-paper figure)
 
 Same visual conventions as make_figures.py (palette slots by entity, one
 y-axis per panel, legends + direct labels).
@@ -38,7 +39,8 @@ def d1():
     if not (res and eff and cmp_):
         print("[mfig] d1 skipped: inputs missing")
         return
-    fig, ax = plt.subplots(1, 3, figsize=(13, 3.6))
+    fig, ax = plt.subplots(1, 3, figsize=(13, 4.2))
+    fig.subplots_adjust(wspace=0.32, bottom=0.3)
     for k in (SEL, UNS):
         pts = sorted((int(r["bin_width"]), f(r["value"]), f(r["ci_lo"]), f(r["ci_hi"])) for r in res
                      if r["dataset"] == k and r["metric"] == "pooled_posadj_r" and r["depth_stratum"] == "all")
@@ -75,7 +77,7 @@ def d1():
     ax[1].invert_yaxis()
     ax[1].set_xlabel("cross-replicate held-out ΔLL / read (10 nt)")
     ax[1].set_title("b  feature effects, all transcripts", loc="left", color=INK)
-    ax[1].legend(fontsize=7, loc="lower right")
+    ax[1].legend(fontsize=7, loc="upper center", bbox_to_anchor=(0.5, -0.17), ncol=2, frameon=False)
     core = ["SW", "ST", "AUG"]
     for i, fam in enumerate(core):
         for mode, off, c_, lab in (("observed", -0.15, GREY, "observed depth"),
@@ -90,10 +92,10 @@ def d1():
     ax[2].set_yticks(range(len(core)))
     ax[2].set_yticklabels(core)
     ax[2].invert_yaxis()
-    ax[2].set_xlabel("selected − unselected ΔLL / read (common transcripts)")
+    ax[2].set_xlabel("selected − unselected ΔLL / read")
     n = cmp_[0]["common_n"] if cmp_ else ""
-    ax[2].set_title("c  same transcripts, same folds", loc="left", color=INK)
-    ax[2].legend(fontsize=7, loc="lower right")
+    ax[2].set_title("c  same {} transcripts, same folds".format(n), loc="left", color=INK)
+    ax[2].legend(fontsize=7, loc="upper center", bbox_to_anchor=(0.5, -0.17), ncol=2, frameon=False)
     save(fig, "missing_eval_selected_vs_unselected")
 
 
@@ -108,7 +110,8 @@ def d2():
     if not (mg and ys):
         print("[mfig] d2 skipped: inputs missing")
         return
-    fig, ax = plt.subplots(1, 3, figsize=(13, 3.8))
+    fig, ax = plt.subplots(1, 3, figsize=(13, 4.4))
+    fig.subplots_adjust(wspace=0.38, bottom=0.3)
     fig.suptitle("Yeast TCP-seq: single SSU library — within-library evidence only",
                  color=ORANGE, fontsize=10, y=1.02)
     for k in ("archer_yeast", SEL):
@@ -146,15 +149,21 @@ def d2():
     ax[1].invert_yaxis()
     ax[1].set_xlabel("held-out chromosome ΔLL / read (rep1→rep1)")
     ax[1].set_title("b  within-library effects", loc="left", color=INK)
-    ax[1].legend(fontsize=6.5, loc="lower right")
+    ax[1].legend(fontsize=7, loc="upper center", bbox_to_anchor=(0.5, -0.17), ncol=5,
+                 frameon=False, columnspacing=1.0, handletextpad=0.3)
     if pw:
+        # ST and AUG both sit at 1.0: different line style and marker so
+        # neither hides the other
+        styles = {"SW": ("-", "o", 3), "ST": ("--", "s", 5), "AUG": (":", "o", 3)}
         for fam, truth, col in (("SW", "B", AQUA), ("ST", "C", BLUE), ("AUG", "D", ORANGE)):
             pts = sorted((int(f(r["target_median_depth"])), f(r["value"]), f(r.get("p_lo")), f(r.get("p_hi")))
                          for r in pw if r["model"] == fam and r["truth"] == truth
                          and r["metric"] == "p_recovered_within" and int(f(r["size_index"])) == 1)
             if pts:
                 x, v, lo, hi = map(np.array, zip(*pts))
-                ax[2].plot(x, v, marker="o", ms=3, color=col, label=fam)
+                ls, mk, ms = styles[fam]
+                ax[2].plot(x, v, ls=ls, marker=mk, ms=ms, color=col, label=fam,
+                           mfc="none" if fam == "ST" else col, zorder=3 if fam == "ST" else 2)
                 if np.isfinite(lo).all():
                     ax[2].fill_between(x, lo, hi, color=col, alpha=0.15, lw=0)
         d = [f(r["observed_median_depth"]) for r in ys]
@@ -162,7 +171,8 @@ def d2():
             ax[2].axvline(d[0], color=INK2, ls=":", lw=1, label="observed median depth")
         ax[2].axhline(0.8, color=INK2, lw=0.6, ls="--")
         ax[2].set_xscale("log")
-        ax[2].legend(fontsize=7, loc="lower right")
+        ax[2].set_ylim(-0.03, 1.05)
+        ax[2].legend(fontsize=7, loc="center left")
     ax[2].set_xlabel("median reads per leader")
     ax[2].set_ylabel("P(recovered), within library")
     ax[2].set_title("c  multinomial (sampling-only) power", loc="left", color=INK)
@@ -180,6 +190,11 @@ def d3():
               ("sample2019_human", "rl", "rep2", "Sample MRL (40S rep2)")]
     models = ["seq", "40S", "seq+40S", "late_fusion", "residual"]
     fig, ax = plt.subplots(2, len(panels), figsize=(14, 6.2))
+    fig.subplots_adjust(hspace=0.55, wspace=0.25)
+    # The 40S-only model is far below sequence (dR2 ~ -0.35); plotting it in
+    # the delta row would squash the comparisons that matter onto zero, so
+    # its delta is given in the bar row's title instead.
+    combos = ["seq+40S", "late_fusion", "residual"]
     for j, (ds, tgt, src, title) in enumerate(panels):
         split = "chrom_folds" if ds.startswith("akirtava") else "random_balanced"
         unit = "gene" if ds.startswith("akirtava") else "leader"
@@ -195,25 +210,101 @@ def d3():
         ax[0, j].set_xticks(range(len(models)))
         ax[0, j].set_xticklabels(models, fontsize=7, rotation=30, ha="right")
         ax[0, j].set_title("{}  n={}".format(title, rs["seq"]["n"]), loc="left", color=INK, fontsize=8.5)
-        for i, m in enumerate(models[1:]):
+        ax[0, j].set_ylim(0, max(v) * 1.12)
+        for i, m in enumerate(combos):
             r = rs[m]
             ax[1, j].plot([f(r["delta_ci_lo"]), f(r["delta_ci_hi"])], [i, i], color=BLUE, lw=1.6)
             ax[1, j].plot(f(r["delta_r2"]), i, "o", color=BLUE, ms=4)
         ax[1, j].axvline(0, color=INK2, lw=0.8)
-        ax[1, j].set_yticks(range(len(models) - 1))
-        ax[1, j].set_yticklabels(models[1:], fontsize=7)
-        ax[1, j].invert_yaxis()
+        ax[1, j].set_yticks(range(len(combos)))
+        ax[1, j].set_yticklabels(combos if j == 0 else [], fontsize=7)
+        ax[1, j].set_ylim(len(combos) - 0.5, -0.5)
+        ax[1, j].set_xlim(-0.012, 0.03)
         ax[1, j].set_xlabel("ΔR² vs sequence (95% CI)", fontsize=8)
+        ax[1, j].set_title("40S alone: ΔR² {:+.3f}".format(f(rs["40S"]["delta_r2"])),
+                           loc="left", color=INK2, fontsize=7.5)
     ax[0, 0].set_ylabel("held-out R²")
     save(fig, "missing_eval_reporter_utility")
 
 
+def fig9():
+    """Main-paper Fig. 9: assay dependence (a) and reporter utility (b).
+
+    a  selected - unselected held-out dLL/read on common transcripts at 10 nt:
+       observed depth (grey) and the three matched-depth seeds (blue).
+    b  dR2 of seq+40S over sequence alone, primary split per reporter
+       (Akirtava: chromosome folds, gene bootstrap; Sample: balanced folds,
+       leader bootstrap), all leaders.
+    """
+    cmp_ = table("missing_eval", "assay_comparison.tsv")
+    s = table("downstream", "downstream_utility_final.tsv")
+    if not (cmp_ and s):
+        print("[mfig] fig9 skipped: inputs missing")
+        return
+    fig, ax = plt.subplots(1, 2, figsize=(9, 2.7), gridspec_kw={"width_ratios": [1, 1.25]})
+    fig.subplots_adjust(wspace=0.75)
+
+    core = ["SW", "ST", "AUG"]
+    for i, fam in enumerate(core):
+        obs = [r for r in cmp_ if r["family"] == fam and r["depth_mode"] == "observed"]
+        mat = sorted((r for r in cmp_ if r["family"] == fam and r["depth_mode"] == "matched"),
+                     key=lambda r: int(r["seed"]))
+        for r in obs:
+            y = i - 0.22
+            ax[0].plot([f(r["ci_lo"]), f(r["ci_hi"])], [y, y], color=GREY, lw=1.5)
+            ax[0].plot(f(r["difference"]), y, "o", ms=4.5, color=GREY,
+                       label="observed depth" if i == 0 else None)
+        for q, r in enumerate(mat):
+            y = i + 0.02 + q * 0.13
+            ax[0].plot([f(r["ci_lo"]), f(r["ci_hi"])], [y, y], color=BLUE, lw=1.2)
+            ax[0].plot(f(r["difference"]), y, "o", ms=3.5, color=BLUE,
+                       label="matched depth (3 seeds)" if (i == 0 and q == 0) else None)
+    ax[0].axvline(0, color=INK2, lw=0.8)
+    ax[0].set_yticks(range(len(core)))
+    ax[0].set_yticklabels(core)
+    ax[0].set_ylim(len(core) - 0.45, -0.5)
+    ax[0].set_xlabel("selected − unselected ΔLL / read")
+    ax[0].set_title("a  assay dependence", loc="left", color=INK)
+    ax[0].legend(fontsize=7, loc="upper center", bbox_to_anchor=(0.5, -0.24), ncol=2, frameon=False)
+
+    rows = [("akirtava_yeast", "TEff", "rep1", "chrom_folds", "gene", "Akirtava TEff"),
+            ("akirtava_yeast", "MeanYFP", "rep1", "chrom_folds", "gene", "Akirtava MeanYFP"),
+            ("sample2019_human", "rl", "rep1", "random_balanced", "leader", "Sample MRL — 40S rep1"),
+            ("sample2019_human", "rl", "rep2", "random_balanced", "leader", "Sample MRL — 40S rep2")]
+    labels = []
+    for i, (ds, tgt, src, split, unit, lab) in enumerate(rows):
+        r = next((x for x in s if x["dataset"] == ds and x["target"] == tgt
+                  and x["fortyS_source"] == src and x["split_mode"] == split
+                  and x["bootstrap_unit"] == unit and x["stratum"] == "all"
+                  and x["model"] == "seq+40S"), None)
+        if r is None:
+            labels.append(lab)
+            continue
+        d, lo, hi = f(r["delta_r2"]), f(r["delta_ci_lo"]), f(r["delta_ci_hi"])
+        ax[1].plot([lo, hi], [i, i], color=BLUE, lw=1.6)
+        ax[1].plot(d, i, "o", ms=4.5, color=BLUE)
+        labels.append(lab)
+        ax[1].annotate("{:+.4f} [{:.4f}, {:.4f}]".format(d, lo, hi) if abs(d) < 0.005
+                       else "{:+.3f} [{:.3f}, {:.3f}]".format(d, lo, hi),
+                       xy=(1.02, i), xycoords=("axes fraction", "data"),
+                       va="center", fontsize=7, color=INK2)
+    ax[1].axvline(0, color=INK2, lw=0.8)
+    ax[1].set_yticks(range(len(rows)))
+    ax[1].set_yticklabels(labels, fontsize=8)
+    ax[1].set_ylim(len(rows) - 0.5, -0.5)
+    ax[1].set_xlim(-0.005, 0.03)
+    ax[1].set_xticks([0, 0.01, 0.02, 0.03])
+    ax[1].set_xlabel(r"$\Delta R^2 = R^2_{\mathrm{seq+40S}} - R^2_{\mathrm{seq}}$")
+    ax[1].set_title("b  reporter utility", loc="left", color=INK)
+    save(fig, "fig9_assay_reporter")
+
+
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--only", default="d1,d2,d3")
+    ap.add_argument("--only", default="d1,d2,d3,fig9")
     args = ap.parse_args()
     for k in args.only.split(","):
-        {"d1": d1, "d2": d2, "d3": d3}[k]()
+        {"d1": d1, "d2": d2, "d3": d3, "fig9": fig9}[k]()
 
 
 if __name__ == "__main__":
