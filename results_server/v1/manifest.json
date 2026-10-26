@@ -1734,6 +1734,21 @@
       "section": "synthetic_archer_yeast_multinomial_n50",
       "git_commit": "9ece41e6524f311e875668cf8c4b05231a506587-dirty",
       "time": "2026-10-25T11:31:52"
+    },
+    {
+      "section": "recoverability_theory",
+      "git_commit": "fda599eb7a0f031dbc2aa89d1cb6b127aa58641f-dirty",
+      "time": "2026-10-25T19:37:58"
+    },
+    {
+      "section": "recoverability_theory",
+      "git_commit": "fda599eb7a0f031dbc2aa89d1cb6b127aa58641f-dirty",
+      "time": "2026-10-25T21:12:30"
+    },
+    {
+      "section": "recoverability_theory",
+      "git_commit": "fda599eb7a0f031dbc2aa89d1cb6b127aa58641f-dirty",
+      "time": "2026-10-25T22:18:50"
     }
   ],
   "panels": {
@@ -2717,5 +2732,68 @@
     "human_folds": "downstream/sample2019_folds.tsv (seed 0)",
     "yeast_folds": "frozen yeast chromosome folds",
     "seconds": 213
+  },
+  "recoverability_theory": {
+    "bin_width": 10,
+    "anchors": [
+      5,
+      10,
+      20,
+      50,
+      100,
+      200,
+      500,
+      2000,
+      10000,
+      50000
+    ],
+    "criterion": "CI excludes 0 AND > truth-A 95th percentile (as 06)",
+    "simulations": [
+      [
+        "archer_yeast",
+        "multinomial",
+        "n50"
+      ],
+      [
+        "gse139131_unsel",
+        "dm",
+        "n50"
+      ],
+      [
+        "gse174329_eif3b",
+        "dm",
+        ""
+      ]
+    ],
+    "calibration": [
+      {
+        "dataset": "archer_yeast",
+        "n_cells": 105,
+        "n_informative": 15,
+        "power_mae": 0.014581710701818695,
+        "power_bias": -0.00015487306837853334,
+        "power_mae_informative": 0.0979991144674636,
+        "power_max_abs_err": 0.31106720664094334,
+        "power_mae_closed_form": 0.023329227438884645,
+        "frac_within_wilson_ci": 0.9333333333333333,
+        "null_mean_median_rel_err": 0.1227713227583751,
+        "null_sd_median_rel_err": 0.15030120357304078,
+        "mean_median_abs_err_over_sim_sd": 0.129052214217485
+      },
+      {
+        "dataset": "all",
+        "n_cells": 105,
+        "n_informative": 15,
+        "power_mae": 0.014581710701818695,
+        "power_bias": -0.00015487306837853334,
+        "power_mae_informative": 0.0979991144674636,
+        "power_max_abs_err": 0.31106720664094334,
+        "power_mae_closed_form": 0.023329227438884645,
+        "frac_within_wilson_ci": 0.9333333333333333,
+        "null_mean_median_rel_err": 0.1227713227583751,
+        "null_sd_median_rel_err": 0.15030120357304078,
+        "mean_median_abs_err_over_sim_sd": 0.129052214217485
+      }
+    ]
   }
 }

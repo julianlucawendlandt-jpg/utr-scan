@@ -1,0 +1,16 @@
+dataset	truth	size_index	family	pred_d80	pred_d80_op	pred_d80_sim_grid	pred_d80_sim_grid_op	sim_d80	sim_d80_op	n_sim
+archer_yeast	B	0	SW	50000	>	500	>	500	>	50
+archer_yeast	B	1	SW	474.144	=	472.735	=	176.973	=	50
+archer_yeast	B	2	SW	10.8468	=	11.7875	=	14.9831	=	50
+archer_yeast	C	0	ST	5.39539	=	5.60583	=	6.80395	=	50
+archer_yeast	C	1	ST	5	<=	5	<=	5	<=	50
+archer_yeast	C	2	ST	5	<=	5	<=	5	<=	50
+archer_yeast	D	0	AUG	9.44806	=	9.407	=	9.28425	=	50
+archer_yeast	D	1	AUG	5	<=	5	<=	5	<=	50
+archer_yeast	D	2	AUG	5	<=	5	<=	5	<=	50
+archer_yeast	E	0	AUG	14.3916	=	15.0043	=	17.1449	=	50
+archer_yeast	E	0	ST	5	<=	5	<=	5.32521	=	50
+archer_yeast	E	1	AUG	5	<=	5	<=	5	<=	50
+archer_yeast	E	1	ST	5	<=	5	<=	5	<=	50
+archer_yeast	E	2	AUG	5	<=	5	<=	5	<=	50
+archer_yeast	E	2	ST	5	<=	5	<=	5	<=	50
